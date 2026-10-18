@@ -1,0 +1,30 @@
+{
+  "chain_ray_comparisons": 30,
+  "coincident_stop_chain_physical_clip_status": "aperture_blocked",
+  "max_position_difference_mm": 6.106226635438361e-16,
+  "max_direction_difference": 2.7755575615628914e-17,
+  "max_opl_difference_mm": 3.122502256758253e-17,
+  "convex_area_controls": [
+    {
+      "shift_mm": 0.0,
+      "convex": true,
+      "represented_rectangle_area": 0.0001,
+      "legacy_global_shoelace_area": 0.0001,
+      "corrected_area": 0.0001
+    },
+    {
+      "shift_mm": 5.0,
+      "convex": true,
+      "represented_rectangle_area": 9.999999999999574e-05,
+      "legacy_global_shoelace_area": 9.999999999976694e-05,
+      "corrected_area": 9.999999999999574e-05
+    },
+    {
+      "shift_mm": 1000.0,
+      "convex": true,
+      "represented_rectangle_area": 9.99999999998181e-05,
+      "legacy_global_shoelace_area": 9.999983012676239e-05,
+      "corrected_area": 9.99999999998181e-05
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "review_role": "independent_scientific_software_developer",
+  "archive_sha256": "d854cbaba525581088fe7b890ee54e2f1fb663c8ef8c6fb562b06a66a65284ef",
+  "module_loaded_from": "/workspace/scratch/e8215b7f31f6/optics_review_round2/input/optical_engine/src/sequential_optics/__init__.py",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "SW-01": {
+    "configured_direction_tol": 1e-15,
+    "default_direction_tol": 1e-12,
+    "chief_dz": 9.998130455622147e-14,
+    "successful_rays": 16,
+    "total_rays": 16,
+    "direct_spot_status": "ok",
+    "batch_spot": {
+      "status": "not_applicable",
+      "error_type": "ModelApplicabilityError",
+      "message": "Ray is parallel to the image plane"
+    },
+    "direct_common_focus_status": "no_unique_finite_focus",
+    "batch_common_focus": {
+      "status": "not_applicable",
+      "error_type": "ModelApplicabilityError",
+      "message": "Ray is parallel to the image plane"
+    }
+  },
+  "SW-02": {
+    "caller_in_place_mutation_required": true,
+    "writable": {
+      "grid_edges": true,
+      "kernel_mass": true
+    },
+    "before_mutation": {
+      "collected": 1.0,
+      "detected": 1.0
+    },
+    "after_mass_mutation": {
+      "collected": 1.0,
+      "detected": 2.0,
+      "outside": 0.0
+    },
+    "after_edge_mutation_irradiance": [
+      [
+        -2.0
+      ]
+    ]
+  },
+  "SW-03": {
+    "request_construction_accepted": true,
+    "fail_fast": false,
+    "exception_type": "TypeError",
+    "message": "tuple indices must be integers or slices, not float",
+    "classification": "malformed-input validation defect, not missing-data defect"
+  },
+  "positive_optional_data_control": [
+    {
+      "requested_temperature": null,
+      "state_status": "ok",
+      "wavelengths": [
+        {
+          "nm": 550.0,
+          "first_order": "ok",
+          "spot_or_rays": "ok"
+        },
+        {
+          "nm": 450.0,
+          "first_order": "missing_data",
+          "spot_or_rays": "missing_data"
+        }
+      ]
+    },
+    {
+      "requested_temperature": 20.0,
+      "state_status": "ok",
+      "wavelengths": [
+        {
+          "nm": 550.0,
+          "first_order": "ok",
+          "spot_or_rays": "ok"
+        },
+        {
+          "nm": 450.0,
+          "first_order": "missing_data",
+          "spot_or_rays": "missing_data"
+        }
+      ]
+    },
+    {
+      "requested_temperature": 40.0,
+      "state_status": "missing_data",
+      "wavelengths": []
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "lens_wave": {
+    "frequencies_lp_mm": [
+      0.0,
+      10.0,
+      30.0,
+      60.0,
+      100.0
+    ],
+    "nominal_mtf_s": [
+      1.0,
+      0.9159538546517697,
+      0.7330989754458971,
+      0.5081472574216039,
+      0.275508350373541
+    ],
+    "stale_changed_system_mtf_s": [
+      1.0,
+      0.9159538546517697,
+      0.7330989754458971,
+      0.5081472574216039,
+      0.275508350373541
+    ],
+    "retrace_changed_system_mtf_s": [
+      1.0000000000000002,
+      0.8649993248425786,
+      0.42955276100175444,
+      0.053243840962924664,
+      0.016530510543274066
+    ],
+    "stale_status": "conditional",
+    "fresh_status": "conditional",
+    "stale_exactly_matches_nominal": true
+  },
+  "source_wave": {
+    "stale_bundle_accepted": true,
+    "status": "underresolved",
+    "source_cell_collected_power": 1.0150715111785797e-06
+  },
+  "cached_stop_radius": {
+    "old_radius": 4.0,
+    "new_radius": 2.0,
+    "cached_state_accepted": true,
+    "cached_mtf_s": [
+      1.0,
+      0.9159538546517697,
+      0.7330989754458971,
+      0.5081472574216039,
+      0.275508350373541
+    ],
+    "fresh_mtf_s": [
+      1.0,
+      0.8590794431439703,
+      0.5883644092860649,
+      0.22659502788189764,
+      0.0
+    ],
+    "cached_status": "conditional",
+    "fresh_status": "conditional",
+    "fingerprints_identical": true
+  }
+}

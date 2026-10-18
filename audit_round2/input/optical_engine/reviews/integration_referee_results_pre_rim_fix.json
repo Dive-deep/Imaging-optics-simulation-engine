@@ -1,0 +1,853 @@
+{
+  "kind": "independent numerical integration, no vendor reference",
+  "cases": [
+    {
+      "type": "focal_sampling",
+      "rings": 6,
+      "arms": 24,
+      "grid": 64,
+      "fixed_rms_mm": [
+        0.004556286081100088,
+        0.008551181830440669
+      ],
+      "common_z": 91.75516124961021,
+      "common_rms_mm": [
+        0.0022916776799961143,
+        0.003936536330432926
+      ],
+      "fixed_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0000000000000002,
+          0.8658398238836839,
+          0.5281954310731165,
+          0.24806417364854771,
+          0.06521304697822634
+        ],
+        "mtf_t": [
+          1.0000000000000002,
+          0.8968043953982121,
+          0.6447413407767987,
+          0.3802456442011202,
+          0.12703469313845708
+        ],
+        "grid_phase_step": 0.4798227007110708,
+        "triangle_phase_span": 2.305639631589124,
+        "mask_count": 2925,
+        "edge_fraction": 0.00021995780692019105,
+        "local": {
+          "full_window_phase_residual_rad": 4.171592509977875,
+          "full_window_relative_amplitude_residual": 0.00030510003949857367,
+          "not_an_mtf_error_bound": true
+        }
+      },
+      "common_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0,
+          0.9146563438188763,
+          0.7314807261029077,
+          0.5157889251874551,
+          0.1923619725757951
+        ],
+        "mtf_t": [
+          1.0,
+          0.9246217320468794,
+          0.7649369537999892,
+          0.5457501210367286,
+          0.21055209364738334
+        ],
+        "grid_phase_step": 0.3110465136369786,
+        "triangle_phase_span": 1.4645748378732935,
+        "mask_count": 2925,
+        "edge_fraction": 0.00021731133739293077,
+        "local": {
+          "full_window_phase_residual_rad": 4.162788237238082,
+          "full_window_relative_amplitude_residual": 0.00030572740713130653,
+          "not_an_mtf_error_bound": true
+        }
+      }
+    },
+    {
+      "type": "focal_sampling",
+      "rings": 10,
+      "arms": 36,
+      "grid": 64,
+      "fixed_rms_mm": [
+        0.00455628608093487,
+        0.008551181830439845
+      ],
+      "common_z": 91.75516124961156,
+      "common_rms_mm": [
+        0.002291677679994749,
+        0.003936536330485585
+      ],
+      "fixed_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0,
+          0.863508625915208,
+          0.5190107068649987,
+          0.24135519640195646,
+          0.058774972061449826
+        ],
+        "mtf_t": [
+          1.0,
+          0.8956618569751646,
+          0.6381758144798906,
+          0.37062330573398494,
+          0.126189787199952
+        ],
+        "grid_phase_step": 0.47213865291784135,
+        "triangle_phase_span": 1.4724189025162322,
+        "mask_count": 2923,
+        "edge_fraction": 0.00020887605789920673,
+        "local": {
+          "full_window_phase_residual_rad": 4.045978674248324,
+          "full_window_relative_amplitude_residual": 0.0003048135270115049,
+          "not_an_mtf_error_bound": true
+        }
+      },
+      "common_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0,
+          0.914468378672415,
+          0.7293039157896393,
+          0.5141905488012932,
+          0.1978297145597284
+        ],
+        "mtf_t": [
+          1.0,
+          0.9252480776094295,
+          0.7662875514410826,
+          0.5477723012402708,
+          0.21986152805414577
+        ],
+        "grid_phase_step": 0.3125261583886022,
+        "triangle_phase_span": 0.949535260173434,
+        "mask_count": 2923,
+        "edge_fraction": 0.0002056668549691688,
+        "local": {
+          "full_window_phase_residual_rad": 4.03744040528346,
+          "full_window_relative_amplitude_residual": 0.0003054408236081718,
+          "not_an_mtf_error_bound": true
+        }
+      }
+    },
+    {
+      "type": "focal_sampling",
+      "rings": 14,
+      "arms": 44,
+      "grid": 64,
+      "fixed_rms_mm": [
+        0.00455628608085408,
+        0.008551181830418544
+      ],
+      "common_z": 91.75516124961277,
+      "common_rms_mm": [
+        0.0022916776799693423,
+        0.0039365363305000544
+      ],
+      "fixed_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0,
+          0.8631211375503731,
+          0.5177799387726186,
+          0.2413370523570696,
+          0.057512255733327466
+        ],
+        "mtf_t": [
+          1.0,
+          0.895430756125267,
+          0.6369113727536891,
+          0.3697205194250046,
+          0.12543075549195248
+        ],
+        "grid_phase_step": 0.4786936636346385,
+        "triangle_phase_span": 1.2001014817991762,
+        "mask_count": 2917,
+        "edge_fraction": 0.0002173581340985478,
+        "local": {
+          "full_window_phase_residual_rad": 4.0108920619383985,
+          "full_window_relative_amplitude_residual": 0.00030473337428948977,
+          "not_an_mtf_error_bound": true
+        }
+      },
+      "common_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0000000000000002,
+          0.914457430992939,
+          0.7288874481214069,
+          0.5139395491842875,
+          0.19909065155400751
+        ],
+        "mtf_t": [
+          1.0000000000000002,
+          0.925347843401421,
+          0.7663619670044188,
+          0.5485073096944874,
+          0.2214465614354207
+        ],
+        "grid_phase_step": 0.3166284841235299,
+        "triangle_phase_span": 0.7534771233787698,
+        "mask_count": 2917,
+        "edge_fraction": 0.00021364211153332917,
+        "local": {
+          "full_window_phase_residual_rad": 4.002428100289512,
+          "full_window_relative_amplitude_residual": 0.0003053606502716466,
+          "not_an_mtf_error_bound": true
+        }
+      }
+    },
+    {
+      "type": "focal_sampling",
+      "rings": 14,
+      "arms": 44,
+      "grid": 80,
+      "fixed_rms_mm": [
+        0.00455628608085408,
+        0.008551181830418544
+      ],
+      "common_z": 91.75516124961277,
+      "common_rms_mm": [
+        0.0022916776799693423,
+        0.0039365363305000544
+      ],
+      "fixed_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0,
+          0.8632417783426453,
+          0.5193258915152046,
+          0.2408027165258255,
+          0.057596263603629724
+        ],
+        "mtf_t": [
+          1.0,
+          0.8956247531737241,
+          0.6377264443051747,
+          0.36907254107466786,
+          0.12458788730640402
+        ],
+        "grid_phase_step": 0.3702360591862969,
+        "triangle_phase_span": 1.2001014817991762,
+        "mask_count": 4556,
+        "edge_fraction": 0.0001362567392850972,
+        "local": {
+          "full_window_phase_residual_rad": 6.267017174968868,
+          "full_window_relative_amplitude_residual": 0.00038534446894455954,
+          "not_an_mtf_error_bound": true
+        }
+      },
+      "common_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0000000000000004,
+          0.9141600936938169,
+          0.7298637979459146,
+          0.5141990304077703,
+          0.19867935773190734
+        ],
+        "mtf_t": [
+          1.0000000000000004,
+          0.9255501906893485,
+          0.7677370786043956,
+          0.5488444256147827,
+          0.22127946087515948
+        ],
+        "grid_phase_step": 0.24765912343310015,
+        "triangle_phase_span": 0.7534771233787698,
+        "mask_count": 4556,
+        "edge_fraction": 0.00013386075236593607,
+        "local": {
+          "full_window_phase_residual_rad": 6.253792264195653,
+          "full_window_relative_amplitude_residual": 0.000386132056336419,
+          "not_an_mtf_error_bound": true
+        }
+      }
+    },
+    {
+      "type": "high_field",
+      "field_rad": 0.15,
+      "status_counts": {
+        "ok": 256
+      },
+      "chief_status": "ok",
+      "spot_rms_mm": 0.09997660149947335,
+      "wave": {
+        "status": "underresolved",
+        "mtf_s": [
+          1.0,
+          0.038198270027312936,
+          0.009531347249080767,
+          0.005042889136889492,
+          0.0017232290471316043
+        ],
+        "mtf_t": [
+          1.0,
+          0.026013223223071893,
+          0.01585201496753936,
+          0.002040328380395119,
+          0.002562813551114939
+        ],
+        "grid_phase_step": 4.3068403313947226,
+        "triangle_phase_span": 13.534905717721452,
+        "mask_count": 2894,
+        "edge_fraction": 0.00542397075138902,
+        "local": {
+          "full_window_phase_residual_rad": 4.1482019249518345,
+          "full_window_relative_amplitude_residual": 0.00030407341121074793,
+          "not_an_mtf_error_bound": true
+        }
+      }
+    },
+    {
+      "type": "high_field",
+      "field_rad": 0.45,
+      "status_counts": {
+        "escaped": 21,
+        "ok": 226,
+        "aim_unresolved": 9
+      },
+      "chief_status": "ok",
+      "analysis_exception": {
+        "type": "NumericalError",
+        "message": "Unresolved ray cannot be counted as vignetting: aim_unresolved: aim_unresolved: damped Newton made no progress"
+      }
+    },
+    {
+      "type": "high_field",
+      "field_rad": 0.6,
+      "status_counts": {
+        "escaped": 56,
+        "ok": 162,
+        "aim_unresolved": 38
+      },
+      "chief_status": "ok",
+      "analysis_exception": {
+        "type": "NumericalError",
+        "message": "Unresolved ray cannot be counted as vignetting: aim_unresolved: aim_unresolved: damped Newton made no progress"
+      }
+    },
+    {
+      "type": "all_asphere_terms",
+      "coefficients": [
+        8.333333333333333e-05,
+        -2.3148148148148148e-06,
+        6.430041152263375e-08,
+        -1.786122542295382e-09,
+        4.9614515063760606e-11,
+        -1.3781809739933501e-12
+      ],
+      "trace_success": 256,
+      "trace_total": 256,
+      "wave": {
+        "status": "conditional",
+        "mtf_s": [
+          0.9999999999999997,
+          0.6290645977780023,
+          0.1545731342271312,
+          0.04443669632640627,
+          0.009172619132669644
+        ],
+        "mtf_t": [
+          0.9999999999999997,
+          0.6898989742020546,
+          0.02170639471787909,
+          0.013888445797514902,
+          0.004028376576089153
+        ],
+        "grid_phase_step": 0.756197241647201,
+        "triangle_phase_span": 2.4095305132096816,
+        "mask_count": 2919,
+        "edge_fraction": 0.00023586914234131955,
+        "local": {
+          "full_window_phase_residual_rad": 4.082595888950345,
+          "full_window_relative_amplitude_residual": 0.00030489700691882504,
+          "not_an_mtf_error_bound": true
+        }
+      }
+    },
+    {
+      "type": "finite_collimator",
+      "source_x_mm": 0.0,
+      "trace_success": 360,
+      "angular_rms_rad": 7.60300452518338e-05,
+      "chief_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0000000000000002,
+          0.998500364276187,
+          0.9943312574851352,
+          0.9816733250956754
+        ],
+        "mtf_t": [
+          1.0000000000000002,
+          0.998500364276187,
+          0.994331257485135,
+          0.9816733250956754
+        ],
+        "grid_phase_step": 0.2002671532455362,
+        "triangle_phase_span": 0.6669984425779868,
+        "mask_count": 4581,
+        "edge_fraction": 0.00017925581567719044,
+        "local": null
+      }
+    },
+    {
+      "type": "finite_collimator",
+      "source_x_mm": 3.2,
+      "trace_success": 360,
+      "angular_rms_rad": 0.0001599713959629917,
+      "chief_direction": [
+        -0.037998780919564414,
+        0.0,
+        0.9992777855274413
+      ],
+      "wave": {
+        "status": "conditional",
+        "mtf_s": [
+          0.9999999999999998,
+          0.9978186509715744,
+          0.9916281046944685,
+          0.9711921104544864
+        ],
+        "mtf_t": [
+          0.9999999999999998,
+          0.9982679647121142,
+          0.9934057752830834,
+          0.9780336087312365
+        ],
+        "grid_phase_step": 0.6739720645685542,
+        "triangle_phase_span": 2.4820585023097603,
+        "mask_count": 4564,
+        "edge_fraction": 0.000153289509911955,
+        "local": null
+      }
+    },
+    {
+      "type": "finite_collimator",
+      "source_x_mm": 6.4,
+      "trace_success": 360,
+      "angular_rms_rad": 0.00039342116767158915,
+      "chief_direction": [
+        -0.07582434047179967,
+        0.0,
+        0.9971211909251637
+      ],
+      "wave": {
+        "status": "underresolved",
+        "mtf_s": [
+          1.0,
+          0.993083752880157,
+          0.9729566006548298,
+          0.9004570410598738
+        ],
+        "mtf_t": [
+          1.0,
+          0.9969365257854557,
+          0.9881267049361849,
+          0.9575941078351303
+        ],
+        "grid_phase_step": 1.512702452461216,
+        "triangle_phase_span": 5.779821410391272,
+        "mask_count": 4560,
+        "edge_fraction": 0.0001686435719562057,
+        "local": null
+      }
+    },
+    {
+      "type": "thermal",
+      "temperature_c": 20.0,
+      "fixed_image_z": 91.92430937348901,
+      "common_z": 91.75516124961156,
+      "fixed_rms_mm": [
+        0.00455628608093487,
+        0.008551181830439845
+      ],
+      "common_rms_mm": [
+        0.002291677679994749,
+        0.003936536330485585
+      ],
+      "chief_map": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          2.5251576293577687,
+          0.0
+        ]
+      ],
+      "fixed_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0,
+          0.8638932125032243,
+          0.521610407576418,
+          0.24168533864530284,
+          0.05940789799843904
+        ],
+        "mtf_t": [
+          1.0,
+          0.8958663194334069,
+          0.6392109751751054,
+          0.3708939243102309,
+          0.12500880159588484
+        ],
+        "grid_phase_step": 0.38479663275125703,
+        "triangle_phase_span": 1.4724189025162322,
+        "mask_count": 4560,
+        "edge_fraction": 0.0001331995516294653,
+        "local": {
+          "full_window_phase_residual_rad": 6.3218399924647235,
+          "full_window_relative_amplitude_residual": 0.000385468739305006,
+          "not_an_mtf_error_bound": true
+        }
+      },
+      "common_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0,
+          0.914211881417736,
+          0.7306578131668442,
+          0.5147991837866819,
+          0.1972004368803574
+        ],
+        "mtf_t": [
+          1.0,
+          0.92538853578588,
+          0.767518176751765,
+          0.548452426049413,
+          0.21910708199027573
+        ],
+        "grid_phase_step": 0.25362851061991276,
+        "triangle_phase_span": 0.949535260173434,
+        "mask_count": 4560,
+        "edge_fraction": 0.00013103519440943464,
+        "local": {
+          "full_window_phase_residual_rad": 6.308498930911803,
+          "full_window_relative_amplitude_residual": 0.0003862563528175267,
+          "not_an_mtf_error_bound": true
+        }
+      }
+    },
+    {
+      "type": "thermal",
+      "temperature_c": 80.0,
+      "fixed_image_z": 91.92430937348901,
+      "common_z": 96.57325206128776,
+      "fixed_rms_mm": [
+        0.1588136976069904,
+        0.15554327985196473
+      ],
+      "common_rms_mm": [
+        0.001960927089805274,
+        0.003629613350702155
+      ],
+      "chief_map": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          2.5266029662505187,
+          0.0
+        ]
+      ],
+      "fixed_wave": {
+        "status": "underresolved",
+        "mtf_s": [
+          1.0,
+          0.02024377039839073,
+          0.004281656749121559,
+          0.0012556705079459292,
+          0.0014370470500983466
+        ],
+        "mtf_t": [
+          1.0,
+          0.015512672742839339,
+          0.004276742808049797,
+          0.0011622827615411651,
+          0.001160929340591313
+        ],
+        "grid_phase_step": 3.722076325408328,
+        "triangle_phase_span": 14.074564621125894,
+        "mask_count": 4560,
+        "edge_fraction": 0.004202254135417274,
+        "local": {
+          "full_window_phase_residual_rad": 6.286697045665379,
+          "full_window_relative_amplitude_residual": 0.00038542334376567844,
+          "not_an_mtf_error_bound": true
+        }
+      },
+      "common_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0000000000000002,
+          0.9113244525387194,
+          0.7213803595817598,
+          0.4932604810792585,
+          0.16748654852212233
+        ],
+        "mtf_t": [
+          1.0000000000000002,
+          0.9226375435621167,
+          0.7628616862791879,
+          0.5413312503481681,
+          0.18731259721841026
+        ],
+        "grid_phase_step": 0.21750011175640016,
+        "triangle_phase_span": 0.8355253579975317,
+        "mask_count": 4560,
+        "edge_fraction": 0.00012933490016989922,
+        "local": {
+          "full_window_phase_residual_rad": 6.651405389342191,
+          "full_window_relative_amplitude_residual": 0.0003650041063456566,
+          "not_an_mtf_error_bound": true
+        }
+      }
+    },
+    {
+      "type": "thermal",
+      "temperature_c": 0.0,
+      "fixed_image_z": 91.92430937348901,
+      "common_z": 90.25644011561316,
+      "fixed_rms_mm": [
+        0.058964438119419836,
+        0.06259103944160584
+      ],
+      "common_rms_mm": [
+        0.002420652396456839,
+        0.004052297749007328
+      ],
+      "chief_map": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          2.5246738194050367,
+          0.0
+        ]
+      ],
+      "fixed_wave": {
+        "status": "underresolved",
+        "mtf_s": [
+          1.0,
+          0.09754674703666463,
+          0.01344610840088781,
+          0.004166993161615317,
+          0.0006033137456946006
+        ],
+        "mtf_t": [
+          1.0,
+          0.0815289841589351,
+          0.006504030296267636,
+          0.006801810767117714,
+          0.0009234269071046306
+        ],
+        "grid_phase_step": 1.5821460946421755,
+        "triangle_phase_span": 6.232476816459654,
+        "mask_count": 4560,
+        "edge_fraction": 0.00021158479748819485,
+        "local": {
+          "full_window_phase_residual_rad": 6.333642703088501,
+          "full_window_relative_amplitude_residual": 0.00038548406322425066,
+          "not_an_mtf_error_bound": true
+        }
+      },
+      "common_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0,
+          0.9149784180354186,
+          0.7326031736508505,
+          0.5198804159705688,
+          0.20692554882908543
+        ],
+        "mtf_t": [
+          1.0,
+          0.9261104315217338,
+          0.76806298985459,
+          0.5484366086701868,
+          0.22846963476619683
+        ],
+        "grid_phase_step": 0.2660889217678832,
+        "triangle_phase_span": 0.9887519368393706,
+        "mask_count": 4560,
+        "edge_fraction": 0.0001318803757983673,
+        "local": {
+          "full_window_phase_residual_rad": 6.201858150769031,
+          "full_window_relative_amplitude_residual": 0.0003933982654420465,
+          "not_an_mtf_error_bound": true
+        }
+      }
+    },
+    {
+      "type": "thermal",
+      "temperature_c": 20.0,
+      "fixed_image_z": 91.92430937348901,
+      "common_z": 91.75516124961156,
+      "fixed_rms_mm": [
+        0.00455628608093487,
+        0.008551181830439845
+      ],
+      "common_rms_mm": [
+        0.002291677679994749,
+        0.003936536330485585
+      ],
+      "chief_map": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          2.5251576293577687,
+          0.0
+        ]
+      ],
+      "fixed_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0,
+          0.8638932125032243,
+          0.521610407576418,
+          0.24168533864530284,
+          0.05940789799843904
+        ],
+        "mtf_t": [
+          1.0,
+          0.8958663194334069,
+          0.6392109751751054,
+          0.3708939243102309,
+          0.12500880159588484
+        ],
+        "grid_phase_step": 0.38479663275125703,
+        "triangle_phase_span": 1.4724189025162322,
+        "mask_count": 4560,
+        "edge_fraction": 0.0001331995516294653,
+        "local": {
+          "full_window_phase_residual_rad": 6.3218399924647235,
+          "full_window_relative_amplitude_residual": 0.000385468739305006,
+          "not_an_mtf_error_bound": true
+        }
+      },
+      "common_wave": {
+        "status": "conditional",
+        "mtf_s": [
+          1.0,
+          0.914211881417736,
+          0.7306578131668442,
+          0.5147991837866819,
+          0.1972004368803574
+        ],
+        "mtf_t": [
+          1.0,
+          0.92538853578588,
+          0.767518176751765,
+          0.548452426049413,
+          0.21910708199027573
+        ],
+        "grid_phase_step": 0.25362851061991276,
+        "triangle_phase_span": 0.949535260173434,
+        "mask_count": 4560,
+        "edge_fraction": 0.00013103519440943464,
+        "local": {
+          "full_window_phase_residual_rad": 6.308498930911803,
+          "full_window_relative_amplitude_residual": 0.0003862563528175267,
+          "not_an_mtf_error_bound": true
+        }
+      }
+    },
+    {
+      "type": "finite_source_far_field",
+      "source_power": 82.35496645826429,
+      "exit_power": 0.16351717735815952,
+      "efficiency": 0.0019855168958271205,
+      "outside_roi": 0.0,
+      "status_counts": {
+        "aperture_blocked": 209,
+        "escaped": 437,
+        "ok": 378
+      },
+      "assumptions": [
+        "absorption_missing_assumed_zero:air",
+        "absorption_missing_assumed_zero:negative",
+        "absorption_missing_assumed_zero:positive",
+        "entrance_plane_importance_complete_clear_aperture_coverage"
+      ]
+    },
+    {
+      "type": "near_focus_direct_RS",
+      "points_xy_mm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.005,
+          0.0
+        ],
+        [
+          0.02,
+          0.0
+        ],
+        [
+          0.04,
+          0.0
+        ]
+      ],
+      "exact_intensity": [
+        84.86936410332163,
+        51.40575159989025,
+        1.1414396639542634,
+        0.1389462945802856
+      ],
+      "local_intensity": [
+        84.8693641425116,
+        51.406015201154176,
+        1.1414404514355483,
+        0.13894174954484273
+      ],
+      "relative_intensity_difference": [
+        4.617681632712951e-10,
+        5.127855458199191e-06,
+        6.899018053388374e-07,
+        -3.271073515558453e-05
+      ],
+      "shared_boundary": true
+    },
+    {
+      "type": "pure_asphere_c0",
+      "first_vertex_curvature": 0.02,
+      "success": 616,
+      "total": 616,
+      "spot_rms_mm": 0.008274573314305141,
+      "wave_status": "conditional",
+      "mtf_s": [
+        1.0,
+        0.8662839870573276,
+        0.5270845671823388,
+        0.24602567084961285,
+        0.06200673634423908
+      ],
+      "mtf_t": [
+        1.0,
+        0.8979593678134528,
+        0.6454927495854886,
+        0.3776032425486171,
+        0.12961872290210116
+      ]
+    }
+  ],
+  "seconds": 107.17136258900427
+}

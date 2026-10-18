@@ -1,0 +1,1112 @@
+{
+  "scope": "Analytic invariants, adversarial cases and independent synthetic specimens; not Zemax/measurement correlation",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "tests_run": 183,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "seconds": 32.49408550999942,
+  "cases": [
+    {
+      "test": "test_adversarial.IndependentInvalidGeometryTests.test_midradius_overlap_is_rejected_despite_positive_center_and_rim",
+      "status": "passed",
+      "seconds": 0.007393656000203919,
+      "detail": null
+    },
+    {
+      "test": "test_adversarial.IndependentInvalidGeometryTests.test_paraboloid_two_positive_roots_chooses_first",
+      "status": "passed",
+      "seconds": 0.0011134020023746416,
+      "detail": null
+    },
+    {
+      "test": "test_adversarial.IndependentTripletTests.test_actual_triplet_source_diffraction_global_bins_preserve_cell_power",
+      "status": "passed",
+      "seconds": 1.0306418039981509,
+      "detail": null
+    },
+    {
+      "test": "test_adversarial.IndependentTripletTests.test_afocal_api_returns_angular_mtf_and_finite_vergence_reference",
+      "status": "passed",
+      "seconds": 1.0346942479955032,
+      "detail": null
+    },
+    {
+      "test": "test_adversarial.IndependentTripletTests.test_coordinate_translation_keeps_geometry_and_opd_differences",
+      "status": "passed",
+      "seconds": 0.049379313000827096,
+      "detail": null
+    },
+    {
+      "test": "test_adversarial.IndependentTripletTests.test_custom_green_only_data_has_no_thermal_or_rgb_dependency",
+      "status": "passed",
+      "seconds": 0.04026304800208891,
+      "detail": null
+    },
+    {
+      "test": "test_adversarial.IndependentTripletTests.test_exact_stop_rim_is_not_lost_to_looser_aim_tolerance",
+      "status": "passed",
+      "seconds": 1.6602997000009054,
+      "detail": null
+    },
+    {
+      "test": "test_adversarial.IndependentTripletTests.test_finite_collimator_is_not_zero_power_system",
+      "status": "passed",
+      "seconds": 0.008617915002105292,
+      "detail": null
+    },
+    {
+      "test": "test_adversarial.IndependentTripletTests.test_full_geometry_scaling_and_wavelength_scaling_preserve_ray_directions",
+      "status": "passed",
+      "seconds": 0.017677182993793394,
+      "detail": null
+    },
+    {
+      "test": "test_adversarial.IndependentTripletTests.test_independent_first_order_constants",
+      "status": "passed",
+      "seconds": 0.0001725510010146536,
+      "detail": null
+    },
+    {
+      "test": "test_adversarial.IndependentTripletTests.test_nominal_lens_mtf_api_needs_only_requested_green_material_data",
+      "status": "passed",
+      "seconds": 1.0145960719964933,
+      "detail": null
+    },
+    {
+      "test": "test_adversarial.IndependentTripletTests.test_rotated_field_and_pupil_rotate_actual_six_surface_path",
+      "status": "passed",
+      "seconds": 0.01567932499892777,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.AimFirstOrderTests.test_finite_collimator_exact_STOP_rim_not_false_clipped_by_aim_tolerance",
+      "status": "passed",
+      "seconds": 4.5095470329979435,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.AimFirstOrderTests.test_finite_object_angle_is_not_silently_infinite_illumination",
+      "status": "passed",
+      "seconds": 0.0002757050024229102,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.AimFirstOrderTests.test_first_order_real_ray_limit_and_epd",
+      "status": "passed",
+      "seconds": 0.0018216649987152778,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.AimFirstOrderTests.test_plane_wave_launch_phase_and_bundle_weights",
+      "status": "passed",
+      "seconds": 0.03396018999774242,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.AimFirstOrderTests.test_primary_wavelength_is_configured_and_no_thermal_required",
+      "status": "passed",
+      "seconds": 0.19915987499553012,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.AimFirstOrderTests.test_report_reference_explicit_unused_material_independence",
+      "status": "passed",
+      "seconds": 0.0002897910017054528,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.AimFirstOrderTests.test_stop_TIR_is_physical_not_aim_solver_failure",
+      "status": "passed",
+      "seconds": 0.0004957290002494119,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.AimFirstOrderTests.test_stop_actual_sag_finite_and_infinite",
+      "status": "passed",
+      "seconds": 0.023518598994996864,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.AimFirstOrderTests.test_stop_inside_glass_dummy",
+      "status": "passed",
+      "seconds": 0.004519444999459665,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.IntersectionTests.test_first_opaque_hit_not_later_active_hit",
+      "status": "passed",
+      "seconds": 0.0007257070028572343,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.IntersectionTests.test_no_hit_and_sphere_original_branch",
+      "status": "passed",
+      "seconds": 0.0007298420023289509,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.IntersectionTests.test_tangent_not_silently_skipped",
+      "status": "passed",
+      "seconds": 0.004698346005170606,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.IntersectionTests.test_two_positive_roots_first_hit",
+      "status": "passed",
+      "seconds": 0.0008752919966354966,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.IntersectionTests.test_zero_thickness_dummy_surface",
+      "status": "passed",
+      "seconds": 0.0006616030004806817,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.SagTests.test_domain_fault_and_vectorized_shapes",
+      "status": "passed",
+      "seconds": 0.00023814800078980625,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.SagTests.test_gradient_hessian_independent_differences",
+      "status": "passed",
+      "seconds": 0.0009442819937248714,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.SagTests.test_interior_overlap_not_axis_or_rim",
+      "status": "passed",
+      "seconds": 0.0005167880008229986,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.SagTests.test_zero_curvature_a2_is_not_plane",
+      "status": "passed",
+      "seconds": 0.00044622299901675433,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.SnellTraceTests.test_aperture_tolerance",
+      "status": "passed",
+      "seconds": 0.0008125169988488778,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.SnellTraceTests.test_plate_restores_angle_and_correct_lateral_shift_opl",
+      "status": "passed",
+      "seconds": 0.0012821339987567626,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.SnellTraceTests.test_vector_snell_invariants_and_orientation",
+      "status": "passed",
+      "seconds": 0.00022600200463784859,
+      "detail": null
+    },
+    {
+      "test": "test_geometry.SnellTraceTests.test_vector_snell_normalization_accepts_large_finite_scales",
+      "status": "passed",
+      "seconds": 0.0003267069987487048,
+      "detail": null
+    },
+    {
+      "test": "test_integration.IntegrationTests.test_afocal_request_keeps_finite_efl",
+      "status": "passed",
+      "seconds": 1.438735445997736,
+      "detail": null
+    },
+    {
+      "test": "test_integration.IntegrationTests.test_nominal_g_no_thermal_no_rgb_requirements",
+      "status": "passed",
+      "seconds": 1.4895896739981254,
+      "detail": null
+    },
+    {
+      "test": "test_integration.IntegrationTests.test_nominal_then_hot_failure_is_local",
+      "status": "passed",
+      "seconds": 0.032348931999877095,
+      "detail": null
+    },
+    {
+      "test": "test_integration.IntegrationTests.test_optional_data_failure_does_not_poison_other_wavelength",
+      "status": "passed",
+      "seconds": 1.5181548920008936,
+      "detail": null
+    },
+    {
+      "test": "test_integration.IntegrationTests.test_prescription_json_roundtrip",
+      "status": "passed",
+      "seconds": 3.5408691670018015,
+      "detail": null
+    },
+    {
+      "test": "test_integration.IntegrationTests.test_triplet_independent_abcd",
+      "status": "passed",
+      "seconds": 1.5413488520061946,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.MaterialDataTests.test_absolute_dn_dT_not_multiplied_by_reference_air_again",
+      "status": "passed",
+      "seconds": 5.9763995523098856e-05,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.MaterialDataTests.test_constant_index_is_explicit_achromatic_not_thermal",
+      "status": "passed",
+      "seconds": 8.581300062360242e-05,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.MaterialDataTests.test_index_and_geometry_require_only_relevant_thermal_data",
+      "status": "passed",
+      "seconds": 0.0003180679996148683,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.MaterialDataTests.test_missing_reference_air_and_relative_thermal_table_rejected",
+      "status": "passed",
+      "seconds": 6.209700222825631e-05,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.MaterialDataTests.test_model_ranges_and_bad_inputs",
+      "status": "passed",
+      "seconds": 0.000137233997520525,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.MaterialDataTests.test_sellmeier_known_synthetic_identity_and_pole",
+      "status": "passed",
+      "seconds": 0.00021641100465785712,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.MaterialDataTests.test_serialization_retains_conventions",
+      "status": "passed",
+      "seconds": 0.0005040819960413501,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.MaterialDataTests.test_single_green_index_needs_no_other_data",
+      "status": "passed",
+      "seconds": 0.00015243200323311612,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.MaterialDataTests.test_spectral_dn_dT_table",
+      "status": "passed",
+      "seconds": 0.0001536170020699501,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.MaterialDataTests.test_temperature_wavelength_bilinear_table",
+      "status": "passed",
+      "seconds": 0.00017814299644669518,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.MaterialDataTests.test_transmission_uses_power_optical_path_length",
+      "status": "passed",
+      "seconds": 0.0002919249964179471,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.MaterialDataTests.test_vacuum_wavelength_and_relative_index_independent",
+      "status": "passed",
+      "seconds": 0.0001988950025406666,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_all_asphere_terms_obey_exact_similarity",
+      "status": "passed",
+      "seconds": 0.0005683010022039525,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_baseline_sweep_order_and_no_cumulative_drift",
+      "status": "passed",
+      "seconds": 0.026235905999783427,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_cte_definitions_and_piecewise_integral",
+      "status": "passed",
+      "seconds": 0.0005300080010783859,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_cte_honors_declared_model_temperature_validity",
+      "status": "passed",
+      "seconds": 5.6325996411032975e-05,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_cte_nonpositive_length_and_bad_grouping",
+      "status": "passed",
+      "seconds": 0.0001193429998238571,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_cte_reference_distinct_from_geometry_reference",
+      "status": "passed",
+      "seconds": 4.098100180272013e-05,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_different_materials_and_anchor_gap_drift",
+      "status": "passed",
+      "seconds": 0.040928526999778114,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_fixed_gaps_not_fixed_independent_anchors",
+      "status": "passed",
+      "seconds": 0.018464568005583715,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_geometry_only_thermal_does_not_require_spectrum_or_dn_dT",
+      "status": "passed",
+      "seconds": 0.006713039998430759,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_internal_collision_missed_by_center_and_edge_is_rejected",
+      "status": "passed",
+      "seconds": 0.009775250000529923,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_reference_noop_needs_no_cte_or_dn_dT",
+      "status": "passed",
+      "seconds": 0.009475208004005253,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_stop_object_and_image_policies",
+      "status": "passed",
+      "seconds": 0.014965700996981468,
+      "detail": null
+    },
+    {
+      "test": "test_materials_thermal.ThermalGeometryTests.test_thermal_focal_similarity_with_invariant_index",
+      "status": "passed",
+      "seconds": 0.007726349002041388,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.FocusTests.test_bounds_and_collimated_degenerate_case",
+      "status": "passed",
+      "seconds": 0.00034586700348882005,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.FocusTests.test_common_api_evaluates_every_field_same_plane",
+      "status": "passed",
+      "seconds": 0.0016128409988596104,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.FocusTests.test_one_common_focus_not_individual_envelope",
+      "status": "passed",
+      "seconds": 0.00034570099523989484,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.FocusTests.test_unequal_pupil_and_field_weights_match_direct_minimum",
+      "status": "passed",
+      "seconds": 0.0007093559979693964,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.MappingFanTests.test_chief_mapping_small_field_jacobian_real_intercepts",
+      "status": "passed",
+      "seconds": 0.0029235449983389117,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.MappingFanTests.test_even_odd_coma_descriptor_preserves_cross_component",
+      "status": "passed",
+      "seconds": 0.0003683359973365441,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.MappingFanTests.test_parabasal_curvature_rotated_analytic_family",
+      "status": "passed",
+      "seconds": 0.002029545998084359,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.MappingFanTests.test_radial_cubic_distortion_reference_and_axis_limit",
+      "status": "passed",
+      "seconds": 0.00027437900280347094,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.MappingFanTests.test_refitted_distortion_cannot_hide_nominal_scale_drift",
+      "status": "passed",
+      "seconds": 0.00033755799813661724,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.RealLensRegressionTests.test_axis_field_curvature_at_exact_paraxial_focus_is_well_conditioned",
+      "status": "passed",
+      "seconds": 0.03987492799933534,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.RealLensRegressionTests.test_finite_object_collimator_angular_fan_needs_no_image_plane",
+      "status": "passed",
+      "seconds": 0.27590503999817884,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.RealLensRegressionTests.test_grid_uses_original_fields_and_same_image_plane",
+      "status": "passed",
+      "seconds": 0.06807833800121443,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.RealLensRegressionTests.test_real_axis_LSA_not_conflated_with_parabasal_focus",
+      "status": "passed",
+      "seconds": 0.025900358996295836,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.RealLensRegressionTests.test_real_axis_fan_odd_and_offaxis_coma_even",
+      "status": "passed",
+      "seconds": 0.4305349739952362,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.RealLensRegressionTests.test_real_offaxis_curvature_rotates_with_field_meridian",
+      "status": "passed",
+      "seconds": 0.2025666409972473,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.SpotTests.test_angular_spot_uses_directions_not_output_position",
+      "status": "passed",
+      "seconds": 0.0012310300007811747,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.SpotTests.test_physical_blocking_differs_from_unresolved",
+      "status": "passed",
+      "seconds": 0.0004627899979823269,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.SpotTests.test_rotating_field_and_rays_preserves_TS",
+      "status": "passed",
+      "seconds": 0.0014584639939130284,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.SpotTests.test_virtual_and_grazing_intercepts_explicit",
+      "status": "passed",
+      "seconds": 0.000644365994958207,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.SpotTests.test_weighted_spot_chief_centroid_distinction",
+      "status": "passed",
+      "seconds": 0.0006606120005017146,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.ZernikeTests.test_clipped_nonuniform_pupil_exact_fit_immutable_OPD",
+      "status": "passed",
+      "seconds": 0.0014407169946935028,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.ZernikeTests.test_full_disk_normalization_and_known_polynomials",
+      "status": "passed",
+      "seconds": 0.002078258999972604,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.ZernikeTests.test_invalid_chart_not_silently_rescaled",
+      "status": "passed",
+      "seconds": 0.00020212699746480212,
+      "detail": null
+    },
+    {
+      "test": "test_metrics.ZernikeTests.test_rank_deficiency_explicit_and_wave_units_configurable",
+      "status": "passed",
+      "seconds": 0.0005749150004703552,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestImaging.test_end_to_end_bitmap_scales_and_keeps_roi_loss",
+      "status": "passed",
+      "seconds": 0.1404273279986228,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestImaging.test_end_to_end_geometric_kernel_independent_reference",
+      "status": "passed",
+      "seconds": 0.5039025590012898,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestImaging.test_flux_q_kernel_and_crop_no_extra_jacobian",
+      "status": "passed",
+      "seconds": 0.0004631359988707118,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestImaging.test_reject_lens_metric_and_bad_mass",
+      "status": "passed",
+      "seconds": 0.00018124299822375178,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestImaging.test_spectral_registration_and_complex_otf",
+      "status": "passed",
+      "seconds": 0.0006671719966107048,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_absorbing_output_medium_rejects_infinite_far_field",
+      "status": "passed",
+      "seconds": 0.0003193299999111332,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_absorption_uses_oblique_length",
+      "status": "passed",
+      "seconds": 0.0014858349968562834,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_entrance_sampling_measure_and_coverage_guard",
+      "status": "passed",
+      "seconds": 0.0010211720000370406,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_fill_applied_once_and_normalization_cancels",
+      "status": "passed",
+      "seconds": 0.006843262999609578,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_fresnel_normal_and_brewster_and_tir",
+      "status": "passed",
+      "seconds": 7.47439989936538e-05,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_missing_absorption_is_lazy_and_explicit",
+      "status": "passed",
+      "seconds": 0.0017447580030420795,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_normal_plate_direct_power_no_etalon",
+      "status": "passed",
+      "seconds": 0.0019653219933388755,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_oblique_jones_not_repeated_unpolarized_average",
+      "status": "passed",
+      "seconds": 0.0018521919992053881,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_panel_flux_and_bin_average_cosine",
+      "status": "passed",
+      "seconds": 0.027157810996868648,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_projected_solid_angle_and_limited_cos4",
+      "status": "passed",
+      "seconds": 0.002613737997307908,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_reverse_actual_ray_ri_raw_integral",
+      "status": "passed",
+      "seconds": 1.7366946519978228,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_solid_angle_jacobians",
+      "status": "passed",
+      "seconds": 0.0008217909999075346,
+      "detail": null
+    },
+    {
+      "test": "test_radiometry.TestRadiometry.test_source_packet_no_index_square_energy_gain",
+      "status": "passed",
+      "seconds": 0.07005701399612008,
+      "detail": null
+    },
+    {
+      "test": "test_review_geometry.IndependentGeometryPhysicsReview.test_exact_reversed_asphere_path_recovers_original_ray",
+      "status": "passed",
+      "seconds": 0.008443591999821365,
+      "detail": null
+    },
+    {
+      "test": "test_review_geometry.IndependentGeometryPhysicsReview.test_oblique_plate_output_eikonal_with_absolute_nonunit_ambient",
+      "status": "passed",
+      "seconds": 0.002536241001507733,
+      "detail": null
+    },
+    {
+      "test": "test_review_geometry.IndependentGeometryPhysicsReview.test_reduced_index_EFL_and_nominal_aperture_are_distinct",
+      "status": "passed",
+      "seconds": 0.0007559489968116395,
+      "detail": null
+    },
+    {
+      "test": "test_review_geometry.IndependentThermalPhysicsReview.test_expansion_obeys_generic_model_validity_range",
+      "status": "passed",
+      "seconds": 7.145100244088098e-05,
+      "detail": null
+    },
+    {
+      "test": "test_review_geometry.IndependentThermalPhysicsReview.test_scaled_asphere_gradient_and_curvature_transform",
+      "status": "passed",
+      "seconds": 0.0016371059973607771,
+      "detail": null
+    },
+    {
+      "test": "test_review_geometry.IndependentThermalPhysicsReview.test_thermal_whole_system_similarity_under_explicit_anchor_motion",
+      "status": "passed",
+      "seconds": 0.03836193099414231,
+      "detail": null
+    },
+    {
+      "test": "test_review_metrics.IndependentCameraReviewTests.test_batch_api_focal_and_angular_ray_fans_supported",
+      "status": "passed",
+      "seconds": 0.22533253500296269,
+      "detail": null
+    },
+    {
+      "test": "test_review_metrics.IndependentCameraReviewTests.test_coddington_plane_refraction_foci_and_signs",
+      "status": "passed",
+      "seconds": 0.007439631001034286,
+      "detail": null
+    },
+    {
+      "test": "test_review_metrics.IndependentCameraReviewTests.test_finite_angular_fans_use_three_dimensional_meridians",
+      "status": "passed",
+      "seconds": 0.004221543000312522,
+      "detail": null
+    },
+    {
+      "test": "test_review_metrics.IndependentCameraReviewTests.test_plane_refraction_foci_rotate_covariantly",
+      "status": "passed",
+      "seconds": 0.013091799002722837,
+      "detail": null
+    },
+    {
+      "test": "test_review_radiometry.IndependentRadiometryPhysicsReview.test_absorbing_infinite_output_needs_explicit_model",
+      "status": "passed",
+      "seconds": 0.0035961470057372935,
+      "detail": null
+    },
+    {
+      "test": "test_review_radiometry.IndependentRadiometryPhysicsReview.test_crop_and_nonuniform_pixel_measure_preserve_raw_power",
+      "status": "passed",
+      "seconds": 0.000336081997375004,
+      "detail": null
+    },
+    {
+      "test": "test_review_radiometry.IndependentRadiometryPhysicsReview.test_grazing_equal_media_are_not_tir",
+      "status": "passed",
+      "seconds": 6.160499469842762e-05,
+      "detail": null
+    },
+    {
+      "test": "test_review_radiometry.IndependentRadiometryPhysicsReview.test_nonmeridional_jones_direct_path_reciprocity",
+      "status": "passed",
+      "seconds": 0.0030601749967900105,
+      "detail": null
+    },
+    {
+      "test": "test_review_radiometry.IndependentRadiometryPhysicsReview.test_reverse_ri_high_index_escape_cone_and_index_factor",
+      "status": "passed",
+      "seconds": 1.9135750489949714,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_caller_mutation_cannot_change_settings_snapshot",
+      "status": "passed",
+      "seconds": 0.0001572539986227639,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_caller_mutation_cannot_replace_system_materials",
+      "status": "passed",
+      "seconds": 0.00035368000681046396,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_g_only_first_order_does_not_require_loss_or_thermal",
+      "status": "passed",
+      "seconds": 0.0006820420021540485,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_invalid_request_schema_rejected_at_boundary",
+      "status": "passed",
+      "seconds": 0.00013463699724525213,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_json_thermal_lens_groups_roundtrip",
+      "status": "passed",
+      "seconds": 0.006893448000482749,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_missing_blue_is_local_to_blue_analysis",
+      "status": "passed",
+      "seconds": 0.0006478009963757358,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_missing_thermal_is_local_to_hot_state",
+      "status": "passed",
+      "seconds": 0.006474960995547008,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_non_default_green_settings_propagate",
+      "status": "passed",
+      "seconds": 0.0007501459986087866,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_noninteger_count_settings_are_rejected_before_execution",
+      "status": "passed",
+      "seconds": 0.0002102530052070506,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_noninteger_stop_index_rejected_before_execution",
+      "status": "passed",
+      "seconds": 0.00014218899741536006,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_prescription_json_retains_single_sample_and_defaults",
+      "status": "passed",
+      "seconds": 0.0012064539987477474,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_ray_extreme_direction_does_not_silently_become_zero",
+      "status": "passed",
+      "seconds": 0.00010520400246605277,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_result_complex_nonfinite_values_remain_explicit",
+      "status": "passed",
+      "seconds": 8.611199882579967e-05,
+      "detail": null
+    },
+    {
+      "test": "test_review_software.SoftwareReviewTests.test_unused_material_name_cannot_change_report_efl",
+      "status": "passed",
+      "seconds": 0.00043499899766175076,
+      "detail": null
+    },
+    {
+      "test": "test_review_source_wave.IndependentSourceWaveReviewTests.test_absolute_n_changes_electric_amplitude_not_collected_packet_power",
+      "status": "passed",
+      "seconds": 0.5255543820021558,
+      "detail": null
+    },
+    {
+      "test": "test_review_source_wave.IndependentSourceWaveReviewTests.test_absorbing_index_matched_plate_is_applied_once",
+      "status": "passed",
+      "seconds": 1.5949943239975255,
+      "detail": null
+    },
+    {
+      "test": "test_review_source_wave.IndependentSourceWaveReviewTests.test_chief_parallel_projection_registers_global_detector_position",
+      "status": "passed",
+      "seconds": 0.029116903002432082,
+      "detail": null
+    },
+    {
+      "test": "test_review_source_wave.IndependentSourceWaveReviewTests.test_same_field_old_bundle_cannot_change_physical_source_z",
+      "status": "passed",
+      "seconds": 0.123499756999081,
+      "detail": null
+    },
+    {
+      "test": "test_review_wave.IndependentDiffractionReviewTests.test_RS_uniform_disk_axis_closed_form_complex_field",
+      "status": "passed",
+      "seconds": 0.007530795002821833,
+      "detail": null
+    },
+    {
+      "test": "test_review_wave.IndependentDiffractionReviewTests.test_afocal_raw_power_has_actual_oblique_cosine",
+      "status": "passed",
+      "seconds": 0.003553884002030827,
+      "detail": null
+    },
+    {
+      "test": "test_review_wave.IndependentDiffractionReviewTests.test_focal_frequency_scale_uses_medium_wavelength",
+      "status": "passed",
+      "seconds": 0.02879000100074336,
+      "detail": null
+    },
+    {
+      "test": "test_review_wave.IndependentDiffractionReviewTests.test_refracted_OPL_gradient_matches_ray_direction_on_boundary",
+      "status": "passed",
+      "seconds": 0.6666681080023409,
+      "detail": null
+    },
+    {
+      "test": "test_settings_io.ConfigurationTests.test_complex_otf_not_discarded",
+      "status": "passed",
+      "seconds": 7.857399759814143e-05,
+      "detail": null
+    },
+    {
+      "test": "test_settings_io.ConfigurationTests.test_default_and_user_green",
+      "status": "passed",
+      "seconds": 0.0010783039979287423,
+      "detail": null
+    },
+    {
+      "test": "test_settings_io.ConfigurationTests.test_inactive_height_preserved_and_scaled_as_metadata",
+      "status": "passed",
+      "seconds": 0.00016969599528238177,
+      "detail": null
+    },
+    {
+      "test": "test_settings_io.ConfigurationTests.test_invalid_physics_inputs",
+      "status": "passed",
+      "seconds": 0.00016165299894055352,
+      "detail": null
+    },
+    {
+      "test": "test_settings_io.ConfigurationTests.test_sequential_rows_radius_thickness_and_diameter",
+      "status": "passed",
+      "seconds": 0.0001521619997220114,
+      "detail": null
+    },
+    {
+      "test": "test_source_wave.SourceWaveTests.test_angular_bin_rotation_retains_cell_power",
+      "status": "passed",
+      "seconds": 0.15619869999500224,
+      "detail": null
+    },
+    {
+      "test": "test_source_wave.SourceWaveTests.test_lambertian_aperture_Q_converges_with_boundary_polygon",
+      "status": "passed",
+      "seconds": 0.30378833199938526,
+      "detail": null
+    },
+    {
+      "test": "test_source_wave.SourceWaveTests.test_matched_Q_kernel_image_power_and_crop",
+      "status": "passed",
+      "seconds": 0.5614660220016958,
+      "detail": null
+    },
+    {
+      "test": "test_source_wave.SourceWaveTests.test_offaxis_projection_requires_explicit_model_choice",
+      "status": "passed",
+      "seconds": 0.5243890970014036,
+      "detail": null
+    },
+    {
+      "test": "test_source_wave.SourceWaveTests.test_radiance_fill_and_source_area_do_not_change_normalized_psf",
+      "status": "passed",
+      "seconds": 0.2880746540031396,
+      "detail": null
+    },
+    {
+      "test": "test_source_wave.SourceWaveTests.test_source_bundle_mismatch_and_absorbing_output_rejected",
+      "status": "passed",
+      "seconds": 0.1644406780033023,
+      "detail": null
+    },
+    {
+      "test": "test_source_wave.SourceWaveTests.test_spherical_projected_measure_independent_surface_integral",
+      "status": "passed",
+      "seconds": 0.0017246269999304786,
+      "detail": null
+    },
+    {
+      "test": "test_wave.AfocalTests.test_chart_jacobian_against_direction_derivatives",
+      "status": "passed",
+      "seconds": 0.0002917340025305748,
+      "detail": null
+    },
+    {
+      "test": "test_wave.AfocalTests.test_raw_electric_power_scaling_not_only_normalized_psf",
+      "status": "passed",
+      "seconds": 0.019138135998218786,
+      "detail": null
+    },
+    {
+      "test": "test_wave.AfocalTests.test_solid_angle_and_angle_density_jacobian",
+      "status": "passed",
+      "seconds": 0.011952912995184306,
+      "detail": null
+    },
+    {
+      "test": "test_wave.FourierTests.test_bad_inputs_are_explicit",
+      "status": "passed",
+      "seconds": 0.0006579870023415424,
+      "detail": null
+    },
+    {
+      "test": "test_wave.FourierTests.test_circle_analytic_mtf_and_physical_scale",
+      "status": "passed",
+      "seconds": 0.05015533299592789,
+      "detail": null
+    },
+    {
+      "test": "test_wave.FourierTests.test_clipped_and_annular_diffraction_keep_actual_pupil",
+      "status": "passed",
+      "seconds": 0.03873129100247752,
+      "detail": null
+    },
+    {
+      "test": "test_wave.FourierTests.test_direct_rs_grid_and_nonuniform_weights_agree",
+      "status": "passed",
+      "seconds": 0.000835193000966683,
+      "detail": null
+    },
+    {
+      "test": "test_wave.FourierTests.test_direct_rs_reference_same_boundary_near_focus",
+      "status": "passed",
+      "seconds": 0.0022926070014364086,
+      "detail": null
+    },
+    {
+      "test": "test_wave.FourierTests.test_negative_otf_is_not_erased",
+      "status": "passed",
+      "seconds": 0.0004180129981250502,
+      "detail": null
+    },
+    {
+      "test": "test_wave.FourierTests.test_padding_is_not_pupil_sampling_or_larger_window",
+      "status": "passed",
+      "seconds": 0.005834993004100397,
+      "detail": null
+    },
+    {
+      "test": "test_wave.FourierTests.test_piston_amplitude_and_defocus",
+      "status": "passed",
+      "seconds": 0.029224033998616505,
+      "detail": null
+    },
+    {
+      "test": "test_wave.FourierTests.test_rectangular_pupil_separable_otf_axes",
+      "status": "passed",
+      "seconds": 0.04185129300458357,
+      "detail": null
+    },
+    {
+      "test": "test_wave.FourierTests.test_tilt_translation_and_complex_otf_sign",
+      "status": "passed",
+      "seconds": 0.029466976004187018,
+      "detail": null
+    },
+    {
+      "test": "test_wave.RayBoundaryTests.test_actual_refracting_lens_single_G_index_only",
+      "status": "passed",
+      "seconds": 0.20775918899744283,
+      "detail": null
+    },
+    {
+      "test": "test_wave.RayBoundaryTests.test_actual_trace_oblique_plane_wave_preserves_incident_phase",
+      "status": "passed",
+      "seconds": 0.14761601899954258,
+      "detail": null
+    },
+    {
+      "test": "test_wave.RayBoundaryTests.test_afocal_uniform_plane_and_no_ima",
+      "status": "passed",
+      "seconds": 0.0630863539990969,
+      "detail": null
+    },
+    {
+      "test": "test_wave.RayBoundaryTests.test_clipped_triangle_preserves_hole_in_original_topology",
+      "status": "passed",
+      "seconds": 0.14091724700119812,
+      "detail": null
+    },
+    {
+      "test": "test_wave.RayBoundaryTests.test_exact_spherical_eikonal_zero_opd_on_canonical_plane",
+      "status": "passed",
+      "seconds": 0.2597199010051554,
+      "detail": null
+    },
+    {
+      "test": "test_wave.RayBoundaryTests.test_fixed_boundary_amplitude_focus_sweep",
+      "status": "passed",
+      "seconds": 0.37933017400064273,
+      "detail": null
+    },
+    {
+      "test": "test_wave.RayBoundaryTests.test_folded_boundary_map_rejected",
+      "status": "passed",
+      "seconds": 0.003677786997286603,
+      "detail": null
+    },
+    {
+      "test": "test_wave.RayBoundaryTests.test_full_surface_bound_does_not_use_sparse_ray_max",
+      "status": "passed",
+      "seconds": 0.015491903999645729,
+      "detail": null
+    },
+    {
+      "test": "test_wave.RayBoundaryTests.test_image_before_full_surface_boundary_is_rejected",
+      "status": "passed",
+      "seconds": 0.011399989001802169,
+      "detail": null
+    },
+    {
+      "test": "test_wave.RayBoundaryTests.test_numerical_failure_not_clipping",
+      "status": "passed",
+      "seconds": 0.00608057199860923,
+      "detail": null
+    },
+    {
+      "test": "test_wave_adversarial.IndependentWaveTests.test_commensurate_refinement_can_hide_phase_alias",
+      "status": "passed",
+      "seconds": 0.0032460370057378896,
+      "detail": null
+    },
+    {
+      "test": "test_wave_adversarial.IndependentWaveTests.test_raw_parseval_scale_and_amplitude_squared_before_normalization",
+      "status": "passed",
+      "seconds": 0.008333356003277004,
+      "detail": null
+    },
+    {
+      "test": "test_wave_adversarial.IndependentWaveTests.test_rectangular_pupil_exact_discrete_triangular_otf_both_axes",
+      "status": "passed",
+      "seconds": 0.0016934079976635985,
+      "detail": null
+    },
+    {
+      "test": "test_wave_adversarial.IndependentWaveTests.test_single_dft_direction_uses_exact_angle_not_direction_cosine",
+      "status": "passed",
+      "seconds": 0.0024318340001627803,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "engine_path": "/workspace/scratch/e8215b7f31f6/optics_v0_2_independent_review/input/engine/src/sequential_optics/__init__.py",
+  "note": "Assertions confirm two existing defects plus independent positive controls; no engine edits.",
+  "LD01_f_theta_definition": {
+    "fields_xy_rad": [
+      [
+        9.254363051676417e-18,
+        0.15
+      ],
+      [
+        0.10646465627572703,
+        0.10646465627572702
+      ]
+    ],
+    "true_polar_angles_rad": [
+      0.15,
+      0.15
+    ],
+    "chief_radii_mm": [
+      12.708843304909514,
+      12.70884330490951
+    ],
+    "reported_f_theta_percent": [
+      0.6852198935656716,
+      0.3082209286634375
+    ],
+    "expected_radial_f_theta_percent": [
+      0.6852198935656716,
+      0.6852198935656435
+    ],
+    "rectilinear_control_percent": [
+      -0.07105439685840156,
+      -0.07105439685842625
+    ],
+    "reference_jacobian": [
+      [
+        84.14901623326,
+        0.0
+      ],
+      [
+        0.0,
+        84.14901623326
+      ]
+    ],
+    "status": "ok"
+  },
+  "LD02_coincident_curved_dummy": {
+    "geometry_validation": [
+      "valid",
+      "valid"
+    ],
+    "cases": [
+      {
+        "field_xy_rad": [
+          0.0,
+          0.0
+        ],
+        "base": {
+          "counts": {
+            "ok": 217
+          },
+          "spot_status": "ok",
+          "rms_mm": 0.04059858628047327,
+          "transmitted_quadrature_fraction": 1.0
+        },
+        "duplicate": {
+          "counts": {
+            "ok": 217
+          },
+          "spot_status": "ok",
+          "rms_mm": 0.04059858628047327,
+          "transmitted_quadrature_fraction": 1.0
+        }
+      },
+      {
+        "field_xy_rad": [
+          0.01,
+          0.02
+        ],
+        "base": {
+          "counts": {
+            "ok": 217
+          },
+          "spot_status": "ok",
+          "rms_mm": 0.04312536723603562,
+          "transmitted_quadrature_fraction": 1.0
+        },
+        "duplicate": {
+          "counts": {
+            "escaped": 217
+          },
+          "error_type": "ModelApplicabilityError",
+          "message": "No successful positive-weight rays for this metric"
+        }
+      },
+      {
+        "field_xy_rad": [
+          0.0,
+          0.1
+        ],
+        "base": {
+          "counts": {
+            "ok": 217
+          },
+          "spot_status": "ok",
+          "rms_mm": 0.09044853455719173,
+          "transmitted_quadrature_fraction": 1.0
+        },
+        "duplicate": {
+          "counts": {
+            "escaped": 102,
+            "ok": 115
+          },
+          "spot_status": "ok",
+          "rms_mm": 0.08936669979161653,
+          "transmitted_quadrature_fraction": 0.6082827156417662
+        }
+      }
+    ],
+    "example_first_hit_mm": [
+      4.000000000000016,
+      1.1061030563697116e-14,
+      0.16025682249210343
+    ],
+    "positive_sag_residual_mm": 5.512812428776215e-13,
+    "planar_dummy_control_max_rms_change_mm": 0.0
+  },
+  "control_parabasal_sphere": {
+    "expected_z_TS_mm": [
+      128.0489504847748,
+      137.30296565592562
+    ],
+    "cases": [
+      {
+        "azimuth_rad": 0.0,
+        "computed_z_TS_mm": [
+          128.04895050203152,
+          137.30296565592374
+        ],
+        "error_mm": [
+          1.725672404973011e-08,
+          -1.8758328224066645e-12
+        ]
+      },
+      {
+        "azimuth_rad": 0.7853981633974483,
+        "computed_z_TS_mm": [
+          128.0489505153207,
+          137.30296570611412
+        ],
+        "error_mm": [
+          3.054591957152297e-08,
+          5.018850401938835e-08
+        ]
+      },
+      {
+        "azimuth_rad": 1.5707963267948966,
+        "computed_z_TS_mm": [
+          128.04895050203152,
+          137.30296565592374
+        ],
+        "error_mm": [
+          1.725672404973011e-08,
+          -1.8758328224066645e-12
+        ]
+      }
+    ]
+  }
+}

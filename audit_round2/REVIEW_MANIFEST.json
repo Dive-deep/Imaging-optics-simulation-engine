@@ -1,0 +1,488 @@
+{
+  "review_date": "2026-10-18",
+  "original_archive_sha256": "d854cbaba525581088fe7b890ee54e2f1fb663c8ef8c6fb562b06a66a65284ef",
+  "engine_modified": false,
+  "counts": {
+    "P1": 4,
+    "P2": 4,
+    "P3": 1
+  },
+  "baseline_tests_passed": 183,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "bb3ed81dc7ae9e37b1f24abf910bc5411c0ab59904a0f0bee0c04a7db396115c",
+      "bytes": 1928
+    },
+    {
+      "path": "CODE_REVIEW.md",
+      "sha256": "6d31627ff6f35a5c1a084c6e0272616b3676fba3a923cd7c7a4b52cfca1912bf",
+      "bytes": 15589
+    },
+    {
+      "path": "physics/repro_angular_otf_alias.json",
+      "sha256": "ae111d7e74b3a65128b6a077c92e3716526b2b61bf4584744c298de2e2ee8a73",
+      "bytes": 2664
+    },
+    {
+      "path": "physics/repro_angular_otf_alias.py",
+      "sha256": "70156f6ef1208bbe15ebd88b6a0142f722c1d0c4a5005ebefec04691ea1375ad",
+      "bytes": 2563
+    },
+    {
+      "path": "physics/repro_stale_bundle.json",
+      "sha256": "05d849c5f776965ca8f6cfb4c76e1e59fb2f8767af4b442d32e4ae0343f1940c",
+      "bytes": 1344
+    },
+    {
+      "path": "physics/repro_stale_bundle.py",
+      "sha256": "3714aefcf8b90d4164e7a974bb5ffe7eb83a51bbeb58ceaed9d0ad950259023f",
+      "bytes": 2683
+    },
+    {
+      "path": "physics/review.md",
+      "sha256": "77d3cf9a1fba011babc066faa962255fe79877d109ac394f14b1fffa8bb227bc",
+      "bytes": 17886
+    },
+    {
+      "path": "lens_design/findings.json",
+      "sha256": "d3e7fca1d22fb446c6564ac4bb4cecd68078166f652bc92f25daf4438846a529",
+      "bytes": 3636
+    },
+    {
+      "path": "lens_design/reproduce_lens_findings.py",
+      "sha256": "d4fe8a25add514ea3c0fc9f991d63503fb364c6a14895015974a02ebbd0b2fe5",
+      "bytes": 7011
+    },
+    {
+      "path": "lens_design/review.md",
+      "sha256": "b0676fd1712b8fb24f6441fc1413f2e1825226b60abe2593f91da74e8568bfd6",
+      "bytes": 14862
+    },
+    {
+      "path": "software/baseline_tests.log",
+      "sha256": "43424838de9ee5793d133c5eef629eff8081da649667643fe931438879cf5d15",
+      "bytes": 26500
+    },
+    {
+      "path": "software/reproduce_software_findings.py",
+      "sha256": "4b03b55c5e3889df9cca33b536904a9581a590750f5889d89b17795f029038bc",
+      "bytes": 6635
+    },
+    {
+      "path": "software/reproduction_results.json",
+      "sha256": "6baeaa55aef16941a10e218c9b9afc05676269702b1e08695fbc7a53b8bfa897",
+      "bytes": 2487
+    },
+    {
+      "path": "software/review.md",
+      "sha256": "6546737340b11e311ed352c6e2f9c9781cbdfbcb4463fbdc7531ccd2121fdcf8",
+      "bytes": 11658
+    },
+    {
+      "path": "reproductions/root_angular_confirmation.json",
+      "sha256": "ae111d7e74b3a65128b6a077c92e3716526b2b61bf4584744c298de2e2ee8a73",
+      "bytes": 2664
+    },
+    {
+      "path": "reproductions/root_lens_confirmation.json",
+      "sha256": "d3e7fca1d22fb446c6564ac4bb4cecd68078166f652bc92f25daf4438846a529",
+      "bytes": 3636
+    },
+    {
+      "path": "reproductions/root_provenance_confirmation.json",
+      "sha256": "05d849c5f776965ca8f6cfb4c76e1e59fb2f8767af4b442d32e4ae0343f1940c",
+      "bytes": 1344
+    },
+    {
+      "path": "reproductions/root_software_confirmation.json",
+      "sha256": "6baeaa55aef16941a10e218c9b9afc05676269702b1e08695fbc7a53b8bfa897",
+      "bytes": 2487
+    },
+    {
+      "path": "reproductions/verification.json",
+      "sha256": "812e257580108b26b5ea6d4c693a158485d7e4d3ded8f39bf1fda9e502417c0a",
+      "bytes": 928
+    },
+    {
+      "path": "input/optical_engine/README.md",
+      "sha256": "ca18b78d8d0a5c620f0e41d43a3e4942a0917f7fa837d4f96281221bff2cb2ff",
+      "bytes": 13161
+    },
+    {
+      "path": "input/optical_engine/VALIDATION.md",
+      "sha256": "32a82b8396f96a80e5c38643e71a76286f6887a0801fad180d8e9d6ced9578f3",
+      "bytes": 8238
+    },
+    {
+      "path": "input/optical_engine/docs/calculation_spec_ko.md",
+      "sha256": "6bbe485e37025f7cafdfa40f7147a53a8e555885c21c50960e7b6700ca40c53e",
+      "bytes": 186078
+    },
+    {
+      "path": "input/optical_engine/examples/quick_request.json",
+      "sha256": "8505ed729f20badc40d1717ed0156fcfacf8e774950bfe0a64cf52df346496f1",
+      "bytes": 126
+    },
+    {
+      "path": "input/optical_engine/examples/run_demo.py",
+      "sha256": "faa11c1648e2345c6f7a5a923d921deddf775ddaaa2b74f313839859b43ec544",
+      "bytes": 6287
+    },
+    {
+      "path": "input/optical_engine/examples/run_source_wave.py",
+      "sha256": "86f0f19d1cdd1d85bdf609fcc27ee4c0d1510f7dc1baaa766c4bab69a094f78a",
+      "bytes": 2618
+    },
+    {
+      "path": "input/optical_engine/examples/sample_systems.py",
+      "sha256": "71fbd60aafa03612d96e0d1521f1ae28c7e03b9d37b870fef62e685bd82c5ae5",
+      "bytes": 2319
+    },
+    {
+      "path": "input/optical_engine/examples/settings.json",
+      "sha256": "3680014bcff693dd02dd3c51073072438aa3164e9ca5a7d3292fea26c4e20a23",
+      "bytes": 745
+    },
+    {
+      "path": "input/optical_engine/examples/triplet.json",
+      "sha256": "6783f80f506799e469d30c11a4e5dba129b0d442e29972801680ebd22a283562",
+      "bytes": 5170
+    },
+    {
+      "path": "input/optical_engine/examples/triplet_G_only.json",
+      "sha256": "36919df89a9aa481453625e899ddff3000f31acf55ad0285124f67c9683eaa03",
+      "bytes": 5033
+    },
+    {
+      "path": "input/optical_engine/pyproject.toml",
+      "sha256": "772d4912436987123be83ac53772618c456ebe4200301795b31082c6526e8646",
+      "bytes": 342
+    },
+    {
+      "path": "input/optical_engine/results/cli_quick.json",
+      "sha256": "c08d95c4689b3ddadc0d34c771fc38cee0a0292be341ae33835bf639fd65f114",
+      "bytes": 105502
+    },
+    {
+      "path": "input/optical_engine/results/demo/source_bitmap.npy",
+      "sha256": "0a25a24e553460f3a7dbd7c2c31b8f3840d8a48c0258f46c820a5fe281678542",
+      "bytes": 384
+    },
+    {
+      "path": "input/optical_engine/results/demo/summary.json",
+      "sha256": "afc6a52fdee3bc4849afedf8e92b106498364b384b9877a83bc419c873bae05c",
+      "bytes": 1538020
+    },
+    {
+      "path": "input/optical_engine/results/demo/wave_T20_field0.npz",
+      "sha256": "9fb7f1a1bbf1dc1aa202b8e297c780d688ac7dfad0bcb66c7df967e02d152e7d",
+      "bytes": 1340278
+    },
+    {
+      "path": "input/optical_engine/results/demo/wave_T20_field1.npz",
+      "sha256": "8c6bd6e8865ee0fe06134a15f634acb1b62e2c92fa778d0ad96606c3e71c22bd",
+      "bytes": 1244070
+    },
+    {
+      "path": "input/optical_engine/results/demo/wave_T20_field2.npz",
+      "sha256": "43d43f520f30091fe3a228835aa8ce4de0a336b09b2f1bb2bfa9536a89e883d7",
+      "bytes": 1249449
+    },
+    {
+      "path": "input/optical_engine/results/demo/wave_T60_field0.npz",
+      "sha256": "438de75e5741c8c2583dd7b14d032164aed2342a77a55608a67b7be6eef9ec98",
+      "bytes": 1333828
+    },
+    {
+      "path": "input/optical_engine/results/demo/wave_T60_field1.npz",
+      "sha256": "7c52ac22e75a75999c32ba9e2d1ff16079fd91fd9c19e445f2a904881a4f95a5",
+      "bytes": 1250431
+    },
+    {
+      "path": "input/optical_engine/results/demo/wave_T60_field2.npz",
+      "sha256": "d77a9c7993da5de587424a86eaae550d3f71acae7663bdeae9f05fac115526b8",
+      "bytes": 1245435
+    },
+    {
+      "path": "input/optical_engine/results/demo/wave_T85_field0.npz",
+      "sha256": "056ae45a3f548bb1cae4fc4007c90913552e9a4059ca87935965845acaa95ba2",
+      "bytes": 1331475
+    },
+    {
+      "path": "input/optical_engine/results/demo/wave_T85_field1.npz",
+      "sha256": "26076b582335cff44445fd666083b489e35ab864f3d3967dfc481358bee6af5f",
+      "bytes": 1247754
+    },
+    {
+      "path": "input/optical_engine/results/demo/wave_T85_field2.npz",
+      "sha256": "0bc94ab0ce8c942819b08c60645d211602b215a26a83b3b029e32bccd2fd0ef7",
+      "bytes": 1246651
+    },
+    {
+      "path": "input/optical_engine/results/demo_run.log",
+      "sha256": "abe608abf63f1b4d9da5a739351c49601a8fe3f60ab43467c269b2180320300e",
+      "bytes": 94
+    },
+    {
+      "path": "input/optical_engine/results/release_summary.json",
+      "sha256": "cb19d4e0af12fb1331fdf21382fdf0d692690963edbef022d882faa08d92177c",
+      "bytes": 2016
+    },
+    {
+      "path": "input/optical_engine/results/source_wave_demo.json",
+      "sha256": "ccdeb83f8e4d2af97bcdad600a3c8b432bb1369189f7ef1c3df4d47b9ec0bbcb",
+      "bytes": 90739
+    },
+    {
+      "path": "input/optical_engine/results/source_wave_run.log",
+      "sha256": "57c12b3a9701c534046735c63c17a9080757251a47732ddba81f1da43baef39e",
+      "bytes": 77
+    },
+    {
+      "path": "input/optical_engine/results/test_results.json",
+      "sha256": "7646ced869e257af4d6b157236b6a1a92ff9a41537e2ae8f80b8496404ffb134",
+      "bytes": 37328
+    },
+    {
+      "path": "input/optical_engine/results/test_run.log",
+      "sha256": "361d1dc515e3b6fa7a08824e4a4328da636c9c43a0e21847c0947833000ccb0c",
+      "bytes": 19585
+    },
+    {
+      "path": "input/optical_engine/reviews/diffraction_physics_review.md",
+      "sha256": "816a51ae4e4384b67badc8e9954ef5b4903f680728ff36e399f2fbbb6f8bc23c",
+      "bytes": 10783
+    },
+    {
+      "path": "input/optical_engine/reviews/geometry_thermal_physics_review.md",
+      "sha256": "abc3d8611cae7ea40cf4d372724d42bde077293fcefd7cbb9c95729e86da2220",
+      "bytes": 8751
+    },
+    {
+      "path": "input/optical_engine/reviews/integration_camera_review.md",
+      "sha256": "c9b4f8915023c77a072cb1deea43432add8b36f1c62b9e419d427eaf89d43c54",
+      "bytes": 16936
+    },
+    {
+      "path": "input/optical_engine/reviews/integration_referee_results.json",
+      "sha256": "ff65269964c2bd0f8e5c9b44025442812c095411c751babe58d579b986cc8e8b",
+      "bytes": 23346
+    },
+    {
+      "path": "input/optical_engine/reviews/integration_referee_results_pre_rim_fix.json",
+      "sha256": "04b9d2fb41f9f79c118f38cdf4e45426eb31c2a47e130526a4d32b6c485312c7",
+      "bytes": 23004
+    },
+    {
+      "path": "input/optical_engine/reviews/metrics_camera_review.md",
+      "sha256": "ea88d6f70f6bb01213f8f0b051e667885bdd76ff06576ed6caf65e93b203a3b1",
+      "bytes": 5055
+    },
+    {
+      "path": "input/optical_engine/reviews/radiometry_physics_review.md",
+      "sha256": "7dd589d1a8ee8726da3ecfea65592420523247dc96b6a055e49960e35efee9fd",
+      "bytes": 8818
+    },
+    {
+      "path": "input/optical_engine/reviews/run_integration_referee.py",
+      "sha256": "8431b7b650000ba9d7c50643f47acef6f66dfb083001d4d83018e934df11c472",
+      "bytes": 7260
+    },
+    {
+      "path": "input/optical_engine/reviews/run_source_wave_camera_check.py",
+      "sha256": "f9cab26d9651b2c08831766b4a2b9843d5356b13a2b12db90c5679fd1de557ba",
+      "bytes": 1743
+    },
+    {
+      "path": "input/optical_engine/reviews/sample_plan.md",
+      "sha256": "96257bbe7a85c145342ba9177cb694f01e99589c4770d1eeb55e08de6a827cbd",
+      "bytes": 17938
+    },
+    {
+      "path": "input/optical_engine/reviews/software_review.md",
+      "sha256": "6e35f3822e241c0985000d805123b562e3b65dbb5f200504c5a568601af6a15e",
+      "bytes": 5899
+    },
+    {
+      "path": "input/optical_engine/reviews/source_wave_camera_check.json",
+      "sha256": "586208d0ea7f35840cd04c473a9985e89198d1be98a71449192ebe2605e8db21",
+      "bytes": 1475
+    },
+    {
+      "path": "input/optical_engine/run_tests.py",
+      "sha256": "65086ba891dfcebea2747f6360c8f9d075f969d05ae7e31429affae8e6082716",
+      "bytes": 2971
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/__init__.py",
+      "sha256": "75d6f1d977152c53b4975920c55e02b095199a37691bbcb94bda5aa06ce83371",
+      "bytes": 334
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/__main__.py",
+      "sha256": "b9695e980cb7aa818216940b589b4ac50543da383a1f31e440a423daedf46ae8",
+      "bytes": 996
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/api.py",
+      "sha256": "86709a0413aa88700cbc5f6ad7269f074e10ac2d9f4ee6504522f9ca414b319e",
+      "bytes": 9575
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/errors.py",
+      "sha256": "3d7dc20d5fcc85b37cd0d9863573da17fcb611ab805a91354aeb32232f4f3cd5",
+      "bytes": 428
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/geometry.py",
+      "sha256": "fee90e235d80d9a605f8401a236465a3b6af6e87b76b2d21571f92d1e0274874",
+      "bytes": 25253
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/imaging.py",
+      "sha256": "0f3bfb3d6291c06741752380f7822f38f3a93856993d6b53a6824da881d8bb19",
+      "bytes": 13365
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/io.py",
+      "sha256": "5440b4d53b74cb693609eefc25fba4571e90db28b8d559df3b53aefa48bccad9",
+      "bytes": 5889
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/materials.py",
+      "sha256": "515b823bf74d59ad8b1c3278df0bb7667d32abf5acaed5042ba7c0f56481639f",
+      "bytes": 16216
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/metrics.py",
+      "sha256": "48395a401bcde2a356bc76066f9b6492effe69d666c3399a12980b5daca15a13",
+      "bytes": 36057
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/models.py",
+      "sha256": "8f38cb458ffedee20802a0f4451a1b8b6c7b6e12aeb17ff7a02478b37086f41b",
+      "bytes": 6077
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/paraxial.py",
+      "sha256": "3e2f885a04bb0b1cb41e8e184533a464c2cf593a585cd312d9a89068c5247248",
+      "bytes": 4408
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/radiometry.py",
+      "sha256": "12be196c379268c9d527bd438bd8b4b585ce21987e059d81e9c1922044e3c1ab",
+      "bytes": 23844
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/settings.py",
+      "sha256": "8f5ac04867d5e6b2c83e9fbe7bcf548d7807be97da1508f41a4b46bcd1f2c0c8",
+      "bytes": 4572
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/source_wave.py",
+      "sha256": "0141ab350ffc30698cbf03f1ca7b0254d26adabdff91f7a5b3296e831c4aa03c",
+      "bytes": 23935
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/thermal.py",
+      "sha256": "734bea39e8384680471e914299a60c5a424f210e8d1cfe5d262c99836144cab2",
+      "bytes": 11135
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/values.py",
+      "sha256": "170f2cb25aeaa83380fc5f9e0ad06c99004c2a6fa8fcddcb2ed60c7b7b933d92",
+      "bytes": 513
+    },
+    {
+      "path": "input/optical_engine/src/sequential_optics/wave.py",
+      "sha256": "37b51da291d75cebde662aa3973318d410ca754e0aef6da555816332d050a528",
+      "bytes": 33064
+    },
+    {
+      "path": "input/optical_engine/tests/test_adversarial.py",
+      "sha256": "71dea61035a5995604c8e896c641c8b6a7d754a98f5d840bfb17ac4eac133cbc",
+      "bytes": 12712
+    },
+    {
+      "path": "input/optical_engine/tests/test_geometry.py",
+      "sha256": "7b88c767e1719389d187c31694e91e5949dbe5bbeaa78a55ff72b04e94cf3558",
+      "bytes": 11054
+    },
+    {
+      "path": "input/optical_engine/tests/test_integration.py",
+      "sha256": "6466918aaf12fa0b9bf98d7508cf41d9de37faa928a2eba0f7480328b83d19a8",
+      "bytes": 4232
+    },
+    {
+      "path": "input/optical_engine/tests/test_materials_thermal.py",
+      "sha256": "78884e4628cb3958effe1698c830867318633f6e46af69ecb0eafdd2eeed3b41",
+      "bytes": 14360
+    },
+    {
+      "path": "input/optical_engine/tests/test_metrics.py",
+      "sha256": "17f3715a7f90b86ca3d0681618ccbb88b5c835f12b7d4459764f596e45080999",
+      "bytes": 17098
+    },
+    {
+      "path": "input/optical_engine/tests/test_radiometry.py",
+      "sha256": "e952475caba4d64fc07c4e7c4ea874731bf3f61f2fff5658e1246330f12d5843",
+      "bytes": 11728
+    },
+    {
+      "path": "input/optical_engine/tests/test_review_geometry.py",
+      "sha256": "754bcf507db9c9e422cc2e63b983b9029f654c12eeb2ffebcdad6eb010161f19",
+      "bytes": 6787
+    },
+    {
+      "path": "input/optical_engine/tests/test_review_metrics.py",
+      "sha256": "6db6bc7c0d8a3c87223e54221dccc1cc1add4ba0ba4d11897710381a32ec6897",
+      "bytes": 3409
+    },
+    {
+      "path": "input/optical_engine/tests/test_review_radiometry.py",
+      "sha256": "c7f8d4efe68f0cc8206eca0e1205a98c83f3b669f5e81f1685f4b76c326936ef",
+      "bytes": 4673
+    },
+    {
+      "path": "input/optical_engine/tests/test_review_software.py",
+      "sha256": "83dec9c253acca4cab104b215b69c251b33bf9ef14b4cef13c2e96168c8522ce",
+      "bytes": 6732
+    },
+    {
+      "path": "input/optical_engine/tests/test_review_source_wave.py",
+      "sha256": "da6f32de6e99f44986c12a336741ecd25a3699f20faf07193a0eccc32e9db097",
+      "bytes": 5375
+    },
+    {
+      "path": "input/optical_engine/tests/test_review_wave.py",
+      "sha256": "88eb8b6b6645cf75dfc95d0b0bb713a3cc1bdadc57e21d349f1cc7b5a6b1627e",
+      "bytes": 4644
+    },
+    {
+      "path": "input/optical_engine/tests/test_settings_io.py",
+      "sha256": "65819998b975f52f1cd405a9027fa4ae5c8e3a5d47989285577b2508085413a3",
+      "bytes": 2591
+    },
+    {
+      "path": "input/optical_engine/tests/test_source_wave.py",
+      "sha256": "97637ec134d426842a24482ba112629cbc667aa53f76ee93ca94ca47f19c1258",
+      "bytes": 6648
+    },
+    {
+      "path": "input/optical_engine/tests/test_wave.py",
+      "sha256": "e3d229b6efe20229b74e92555c8a667f99192a781e9923b90306f3196eba4dbd",
+      "bytes": 15904
+    },
+    {
+      "path": "input/optical_engine/tests/test_wave_adversarial.py",
+      "sha256": "7456e8a6387234cdd1646a98be9252d1c0ad36aaa19ce91c18ed51ce69a7e78d",
+      "bytes": 4793
+    },
+    {
+      "path": "input/optical_engine/SOURCE_MANIFEST.json",
+      "sha256": "aee59458cc6556a0449e4510801c7269b9cee553589f3f7e25f252f8fd04f5ab",
+      "bytes": 12624
+    }
+  ]
+}

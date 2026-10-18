@@ -1,0 +1,16 @@
+{
+  "illustrative_polar_angle_degrees": 10.0,
+  "A": {
+    "azimuth_degrees": 90.0,
+    "field_x_degrees": 0.0,
+    "field_y_degrees": 10.0
+  },
+  "B": {
+    "azimuth_degrees": 45.0,
+    "field_x_degrees": 7.107076110446534,
+    "field_y_degrees": 7.107076110446534,
+    "component_angle_euclidean_norm_degrees": 10.050923424211314
+  },
+  "reference_radius_fractional_difference": 0.005092342421131324,
+  "note": "The diagram uses theta=10 degrees for explanation. The original engine review used theta=0.15 rad."
+}

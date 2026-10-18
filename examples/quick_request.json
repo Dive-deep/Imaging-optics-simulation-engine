@@ -1,0 +1,5 @@
+{
+  "fields": [{"x": 0.0, "y": 0.0, "kind": "angle"}],
+  "metrics": ["first_order", "spot"],
+  "include_ray_history": false
+}

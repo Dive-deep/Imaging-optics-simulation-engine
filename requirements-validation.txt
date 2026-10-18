@@ -1,0 +1,4 @@
+# Dependency versions from the observed Python 3.12.14 validation environment.
+# Optional constraints, not a change to the engine's minimum dependencies.
+numpy==2.3.5
+scipy==1.17.0

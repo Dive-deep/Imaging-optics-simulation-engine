@@ -1,0 +1,272 @@
+{
+  "source": "/workspace/scratch/e8215b7f31f6/optics_core_v0_3/src",
+  "detector_controls": [
+    {
+      "theta_rad": 0.8875442694243684,
+      "phi_rad": -1.1100163308600575,
+      "reference_captured": 0.4655089634364129,
+      "actual_captured": 0.4655089634364129,
+      "max_pixel_error": 3.903127820947816e-18,
+      "convex": true,
+      "projection_determinant": 0.6313184056364294
+    },
+    {
+      "theta_rad": 0.9312061044409868,
+      "phi_rad": -1.5916504494694887,
+      "reference_captured": 0.402107145125587,
+      "actual_captured": 0.4021071451255869,
+      "max_pixel_error": 4.119968255444917e-18,
+      "convex": true,
+      "projection_determinant": 0.5968667103201382
+    },
+    {
+      "theta_rad": 0.6227158766559335,
+      "phi_rad": 0.9688029262573545,
+      "reference_captured": 0.5174521696406498,
+      "actual_captured": 0.51745216964065,
+      "max_pixel_error": 5.854691731421724e-18,
+      "convex": true,
+      "projection_determinant": 0.812297437197452
+    },
+    {
+      "theta_rad": 0.3433704766596952,
+      "phi_rad": -2.56339477434301,
+      "reference_captured": 0.5443180647917014,
+      "actual_captured": 0.5443180647917014,
+      "max_pixel_error": 3.0357660829594124e-18,
+      "convex": true,
+      "projection_determinant": 0.9416253023014666
+    },
+    {
+      "theta_rad": 1.045246419246,
+      "phi_rad": 1.9566395301023958,
+      "reference_captured": 0.3709149342732908,
+      "actual_captured": 0.37091493427329075,
+      "max_pixel_error": 8.673617379884035e-18,
+      "convex": true,
+      "projection_determinant": 0.5016887770345732
+    },
+    {
+      "theta_rad": 0.5497266314396017,
+      "phi_rad": 2.3993135381866892,
+      "reference_captured": 0.5402454988335362,
+      "actual_captured": 0.5402454988335363,
+      "max_pixel_error": 6.5052130349130266e-18,
+      "convex": true,
+      "projection_determinant": 0.8526673764583013
+    },
+    {
+      "theta_rad": 1.0030128859744427,
+      "phi_rad": -1.8317658758585789,
+      "reference_captured": 0.3625443433545924,
+      "actual_captured": 0.3625443433545924,
+      "max_pixel_error": 1.3010426069826053e-18,
+      "convex": true,
+      "projection_determinant": 0.5377646012853886
+    },
+    {
+      "theta_rad": 0.11579840654473243,
+      "phi_rad": 1.2587589378070154,
+      "reference_captured": 0.5576746234034351,
+      "actual_captured": 0.5576746234034351,
+      "max_pixel_error": 4.9873299934333204e-18,
+      "convex": true,
+      "projection_determinant": 0.993302853195718
+    },
+    {
+      "theta_rad": 0.25606617629786615,
+      "phi_rad": 1.2694671355608254,
+      "reference_captured": 0.5514903341648941,
+      "actual_captured": 0.5514903341648941,
+      "max_pixel_error": 5.204170427930421e-18,
+      "convex": true,
+      "projection_determinant": 0.9673938076767806
+    },
+    {
+      "theta_rad": 0.7722127254972325,
+      "phi_rad": -1.8815791995941198,
+      "reference_captured": 0.3988993718780607,
+      "actual_captured": 0.3988993718780606,
+      "max_pixel_error": 5.637851296924623e-18,
+      "convex": true,
+      "projection_determinant": 0.7163685571759539
+    },
+    {
+      "theta_rad": 0.31239100494968436,
+      "phi_rad": -0.22272931976603383,
+      "reference_captured": 0.5518476903339673,
+      "actual_captured": 0.5518476903339672,
+      "max_pixel_error": 1.0408340855860843e-17,
+      "convex": true,
+      "projection_determinant": 0.9516014516721952
+    },
+    {
+      "theta_rad": 0.3315358000153025,
+      "phi_rad": -0.780736127407788,
+      "reference_captured": 0.5510597981914052,
+      "actual_captured": 0.5510597981914052,
+      "max_pixel_error": 6.071532165918825e-18,
+      "convex": true,
+      "projection_determinant": 0.9455435627299025
+    }
+  ],
+  "coincident_power_controls": [
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "pupil": [
+        0.0,
+        0.0
+      ],
+      "mode": "unpolarized_jones_power",
+      "max_power_delta": 0.0,
+      "transmission": 0.8498937060353505
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "pupil": [
+        0.0,
+        0.0
+      ],
+      "mode": "scalar_interface_average",
+      "max_power_delta": 0.0,
+      "transmission": 0.8498937060353507
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "pupil": [
+        0.7,
+        0.1
+      ],
+      "mode": "unpolarized_jones_power",
+      "max_power_delta": 3.3306690738754696e-16,
+      "transmission": 0.8555281101170993
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "pupil": [
+        0.7,
+        0.1
+      ],
+      "mode": "scalar_interface_average",
+      "max_power_delta": 0.0,
+      "transmission": 0.8555278489069653
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "pupil": [
+        -0.3,
+        0.8
+      ],
+      "mode": "unpolarized_jones_power",
+      "max_power_delta": 5.551115123125783e-16,
+      "transmission": 0.8581403470190956
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "pupil": [
+        -0.3,
+        0.8
+      ],
+      "mode": "scalar_interface_average",
+      "max_power_delta": 0.0,
+      "transmission": 0.8581397834614742
+    },
+    {
+      "field": [
+        0.03,
+        0.07
+      ],
+      "pupil": [
+        0.0,
+        0.0
+      ],
+      "mode": "unpolarized_jones_power",
+      "max_power_delta": 2.220446049250313e-16,
+      "transmission": 0.84980961105642
+    },
+    {
+      "field": [
+        0.03,
+        0.07
+      ],
+      "pupil": [
+        0.0,
+        0.0
+      ],
+      "mode": "scalar_interface_average",
+      "max_power_delta": 0.0,
+      "transmission": 0.8498095329376002
+    },
+    {
+      "field": [
+        0.03,
+        0.07
+      ],
+      "pupil": [
+        0.7,
+        0.1
+      ],
+      "mode": "unpolarized_jones_power",
+      "max_power_delta": 1.1102230246251565e-16,
+      "transmission": 0.8556051448159254
+    },
+    {
+      "field": [
+        0.03,
+        0.07
+      ],
+      "pupil": [
+        0.7,
+        0.1
+      ],
+      "mode": "scalar_interface_average",
+      "max_power_delta": 0.0,
+      "transmission": 0.8556054840280902
+    },
+    {
+      "field": [
+        0.03,
+        0.07
+      ],
+      "pupil": [
+        -0.3,
+        0.8
+      ],
+      "mode": "unpolarized_jones_power",
+      "max_power_delta": 5.551115123125783e-16,
+      "transmission": 0.8583191976224599
+    },
+    {
+      "field": [
+        0.03,
+        0.07
+      ],
+      "pupil": [
+        -0.3,
+        0.8
+      ],
+      "mode": "scalar_interface_average",
+      "max_power_delta": 0.0,
+      "transmission": 0.8583191461417042
+    }
+  ],
+  "status": "passed"
+}

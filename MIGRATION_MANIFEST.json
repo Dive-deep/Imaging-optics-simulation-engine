@@ -1,0 +1,147 @@
+{
+  "source_release": "0.2.1",
+  "source_zip": "sequential_optics_core_v0.2.1.zip",
+  "source_zip_sha256": "95f3f94a807e685fd2b66b02a7306d14bab63b8208ad8dea24a0fddaa46346fb",
+  "repository": "Dive-deep/Imaging-optics-simulation-engine",
+  "base_commit": "80b91533b1dc1ff78fbe82350125ca90c38c0f88",
+  "source_files_modified": false,
+  "changed_existing_files": [
+    ".gitignore",
+    "AGENTS.md",
+    "HANDOFF.md",
+    "README.md",
+    "VALIDATION.md",
+    "results/test_results.json",
+    "results/test_run.log"
+  ],
+  "omitted_generated_files": [
+    {
+      "path": "audit_round2/input/optical_engine/results/demo/source_bitmap.npy",
+      "bytes": 384,
+      "sha256": "0a25a24e553460f3a7dbd7c2c31b8f3840d8a48c0258f46c820a5fe281678542"
+    },
+    {
+      "path": "audit_round2/input/optical_engine/results/demo/summary.json",
+      "bytes": 1538020,
+      "sha256": "afc6a52fdee3bc4849afedf8e92b106498364b384b9877a83bc419c873bae05c"
+    },
+    {
+      "path": "audit_round2/input/optical_engine/results/demo/wave_T20_field0.npz",
+      "bytes": 1340278,
+      "sha256": "9fb7f1a1bbf1dc1aa202b8e297c780d688ac7dfad0bcb66c7df967e02d152e7d"
+    },
+    {
+      "path": "audit_round2/input/optical_engine/results/demo/wave_T20_field1.npz",
+      "bytes": 1244070,
+      "sha256": "8c6bd6e8865ee0fe06134a15f634acb1b62e2c92fa778d0ad96606c3e71c22bd"
+    },
+    {
+      "path": "audit_round2/input/optical_engine/results/demo/wave_T20_field2.npz",
+      "bytes": 1249449,
+      "sha256": "43d43f520f30091fe3a228835aa8ce4de0a336b09b2f1bb2bfa9536a89e883d7"
+    },
+    {
+      "path": "audit_round2/input/optical_engine/results/demo/wave_T60_field0.npz",
+      "bytes": 1333828,
+      "sha256": "438de75e5741c8c2583dd7b14d032164aed2342a77a55608a67b7be6eef9ec98"
+    },
+    {
+      "path": "audit_round2/input/optical_engine/results/demo/wave_T60_field1.npz",
+      "bytes": 1250431,
+      "sha256": "7c52ac22e75a75999c32ba9e2d1ff16079fd91fd9c19e445f2a904881a4f95a5"
+    },
+    {
+      "path": "audit_round2/input/optical_engine/results/demo/wave_T60_field2.npz",
+      "bytes": 1245435,
+      "sha256": "d77a9c7993da5de587424a86eaae550d3f71acae7663bdeae9f05fac115526b8"
+    },
+    {
+      "path": "audit_round2/input/optical_engine/results/demo/wave_T85_field0.npz",
+      "bytes": 1331475,
+      "sha256": "056ae45a3f548bb1cae4fc4007c90913552e9a4059ca87935965845acaa95ba2"
+    },
+    {
+      "path": "audit_round2/input/optical_engine/results/demo/wave_T85_field1.npz",
+      "bytes": 1247754,
+      "sha256": "26076b582335cff44445fd666083b489e35ab864f3d3967dfc481358bee6af5f"
+    },
+    {
+      "path": "audit_round2/input/optical_engine/results/demo/wave_T85_field2.npz",
+      "bytes": 1246651,
+      "sha256": "0bc94ab0ce8c942819b08c60645d211602b215a26a83b3b029e32bccd2fd0ef7"
+    },
+    {
+      "path": "results/demo/source_bitmap.npy",
+      "bytes": 384,
+      "sha256": "0a25a24e553460f3a7dbd7c2c31b8f3840d8a48c0258f46c820a5fe281678542"
+    },
+    {
+      "path": "results/demo/summary.json",
+      "bytes": 1789083,
+      "sha256": "b18d54622b5f4d37a607735695cecd11b83051526d1f34fc578e87edd1528092"
+    },
+    {
+      "path": "results/demo/wave_T20_field0.npz",
+      "bytes": 1344083,
+      "sha256": "869ee94acda90eb1b08d2151e4460e84a1845adf40cf9fb29f7e185d3fe11314"
+    },
+    {
+      "path": "results/demo/wave_T20_field1.npz",
+      "bytes": 1247168,
+      "sha256": "d6afcfb4cff1334cff526435d8a149268732856b8dbc06a63aefba69c50f5135"
+    },
+    {
+      "path": "results/demo/wave_T20_field2.npz",
+      "bytes": 1246650,
+      "sha256": "d0bba5af6707542135dbe1e26dc1bac4094ec8b36f8632ccd1a50f11aff5ba17"
+    },
+    {
+      "path": "results/demo/wave_T60_field0.npz",
+      "bytes": 1343570,
+      "sha256": "e46bbd7410617351bfad4dcbcae6c4d847f7a3c942edda5ccdcf854d2b0c8d2d"
+    },
+    {
+      "path": "results/demo/wave_T60_field1.npz",
+      "bytes": 1250388,
+      "sha256": "9fe735b9b3fa425ed3f631cb25983fc753cd0f9633557155c7585daeb3c36a63"
+    },
+    {
+      "path": "results/demo/wave_T60_field2.npz",
+      "bytes": 1244087,
+      "sha256": "3fb23b8c04f0aa3f9f8b686d955c11ca34c04816a392d8d56b9ce87de2c5af56"
+    },
+    {
+      "path": "results/demo/wave_T85_field0.npz",
+      "bytes": 1342079,
+      "sha256": "b632def33e67224ece6566a189dd14296785c391cb105c3b316997f0d2ae8749"
+    },
+    {
+      "path": "results/demo/wave_T85_field1.npz",
+      "bytes": 1245461,
+      "sha256": "74125296b09b6659452764f8924a5053951eb4e8b631c18203a32dea702bdb9a"
+    },
+    {
+      "path": "results/demo/wave_T85_field2.npz",
+      "bytes": 1242983,
+      "sha256": "f98ebc02bdfdf73d962c60f60d755791c350c6d6333e769c97f34c53c2b6a41d"
+    },
+    {
+      "path": "results/fix_c_G_only_cli.json",
+      "bytes": 22912331,
+      "sha256": "bd66746e28809a226e3f92570393db7b84c6c1cd2e967b12a7383f32d56c4f75"
+    }
+  ],
+  "notes": "Original ZIP is retained unchanged. Source/tests/all review prose retained; omitted bulk outputs are not test fixtures. Existing GitHub README preserved in history/README_github_initial.md.",
+  "migration_validation": {
+    "tests_run": 277,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "seconds": 90.86788085800072,
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "independent_migration_review": "No runtime blocker; retained project-relative execution paths. Audit omissions and separate release/migration test provenance clarified."
+}

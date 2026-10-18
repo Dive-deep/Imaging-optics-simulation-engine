@@ -1,0 +1,111 @@
+{
+  "engine_root": "/workspace/scratch/e8215b7f31f6/optics_review_round2/input/optical_engine",
+  "LD1_pre_stop_vignetting": {
+    "prescription": "air planes (z=0,r=2),(z=10,r=2 STOP), IMA20; infinite angle(.1,0)rad",
+    "rim_samples_disabled_to_isolate_cause": true,
+    "actual_counts": {
+      "ok": 134,
+      "aim_unresolved": 58
+    },
+    "actual_spot": {
+      "status": "exception",
+      "type": "NumericalError",
+      "message": "Unresolved ray cannot be counted as vignetting: aim_unresolved: aim_unresolved: geometry-only trace ended escaped"
+    },
+    "expected_sample_count": 134,
+    "expected_sample_fraction": 0.6882578210274447,
+    "expected_sample_rms_mm": 1.1857335813007739,
+    "continuous_disk_overlap_fraction": 0.68400629087508,
+    "control_only_front_mechanical_radius_to_4": {
+      "counts": {
+        "ok": 134,
+        "aperture_blocked": 58
+      },
+      "spot": {
+        "status": "ok",
+        "rms_radius_mm": 1.1857335813007739,
+        "transmitted_quadrature_fraction": 0.6882578210274447
+      }
+    }
+  },
+  "LD2_false_boundary_miss": {
+    "counts": {
+      "ok": 146,
+      "aperture_blocked": 70,
+      "aim_unresolved": 1
+    },
+    "spot": {
+      "status": "exception",
+      "type": "NumericalError",
+      "message": "Unresolved ray cannot be counted as vignetting: aim_unresolved: aim_unresolved: STOP incidence escaped: ray misses physical surface cylinder"
+    },
+    "unresolved_samples": [
+      {
+        "pupil": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "weight": 0.0,
+        "status": "aim_unresolved",
+        "message": "aim_unresolved: STOP incidence escaped: ray misses physical surface cylinder"
+      }
+    ],
+    "analytic_plane_hit_mm": [
+      -4.440892098500626e-16,
+      -2.0,
+      10.0
+    ],
+    "analytic_hit_radius_mm": 2.0,
+    "plane_normal_dot_direction": 0.9950041652780257,
+    "cylinder_discriminant": -1.3877787807814457e-17,
+    "b_squared": 0.040134137246281794,
+    "four_ac": 0.04013413724628181
+  },
+  "LD3_lsa_custom_reference": {
+    "actual_paraxial_focus_mm": 91.92430937348901,
+    "requested_reference_mm": 101.92430937348901,
+    "reported_axis_crossings_mm": [
+      101.92430937348901,
+      91.92430918701965,
+      91.92244542681115
+    ],
+    "reported_lsa_mm": [
+      0.0,
+      -10.000000186469364,
+      -10.001863946677858
+    ],
+    "expected_q_zero_axis_crossing_mm": 91.92430937348901,
+    "expected_q_zero_lsa_mm": -10.0
+  },
+  "LD4_geo_radius_omits_traced_rim": [
+    {
+      "rings": 1,
+      "arms": 24,
+      "reported_geo_radius_sampled_mm": 0.003263840733411777,
+      "max_all_transmitted_sample_rays_mm": 0.009032283705502442,
+      "reported_coordinate_count": 24,
+      "transmitted_trace_count": 49,
+      "understatement_percent": 63.86472303318534
+    },
+    {
+      "rings": 8,
+      "arms": 24,
+      "reported_geo_radius_sampled_mm": 0.008772395414859193,
+      "max_all_transmitted_sample_rays_mm": 0.009032283705502447,
+      "reported_coordinate_count": 192,
+      "transmitted_trace_count": 217,
+      "understatement_percent": 2.8773264781854713
+    }
+  ],
+  "positive_analytic_controls": {
+    "thick_lens_efl_expected_mm": 50.847457627118644,
+    "thick_lens_efl_actual_mm": 50.847457627118644,
+    "thick_lens_bfl_expected_mm": 49.152542372881356,
+    "thick_lens_bfl_actual_mm": 49.152542372881356,
+    "uniform_thermal_efl_ratio": 1.01,
+    "expected_thermal_ratio": 1.01,
+    "snell_transmitted_sin_actual": 0.19701347110755968,
+    "snell_transmitted_sin_expected": 0.1970134711075597,
+    "all_A2_A12_thermal_sag_identity_error_mm": 2.7755575615628914e-17
+  }
+}

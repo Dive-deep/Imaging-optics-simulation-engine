@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+build/
+dist/
+result.json
+
+# Reproducible bulk output; original release ZIP retains prior evidence.
+/results/demo/
+/results/fix_c_G_only_cli.json
+/audit_round2/input/optical_engine/results/demo/

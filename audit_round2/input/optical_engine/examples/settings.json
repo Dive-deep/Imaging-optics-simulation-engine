@@ -1,0 +1,31 @@
+{
+  "primary_wavelength": "G",
+  "report_reference_material": null,
+  "inactive_rim_policy": "analytic_sag_opaque",
+  "wavelengths_nm": {
+    "R": 650.0,
+    "G": 550.0,
+    "B": 450.0
+  },
+  "ray": {
+    "intersection_tol_mm": 1e-10,
+    "direction_tol": 1e-12,
+    "root_samples": 128,
+    "max_iterations": 80,
+    "aim_tolerance_mm": 1e-09,
+    "aim_max_iterations": 30,
+    "derivative_step": 1e-05
+  },
+  "sampling": {
+    "pupil_rings": 8,
+    "pupil_arms": 24,
+    "include_pupil_boundary": true,
+    "wave_grid_size": 64,
+    "fft_padding": 4,
+    "boundary_clearance_mm": 0.001,
+    "max_frequency_lp_mm": 120.0,
+    "frequency_samples": 121,
+    "max_angular_frequency_cycles_rad": 10000.0,
+    "angular_frequency_samples": 121
+  }
+}

@@ -1,0 +1,1074 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  a4paper,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=22mm]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{kotex}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{sequential-uxad11uxd559-uxacc4uxc0b0-uxc5d4uxc9c4uxc758-uxd575uxc2ec-uxc6d0uxb9acuxc640-uxc218uxc2dd}{%
+\section{Sequential 광학 계산 엔진의 핵심 원리와
+수식}\label{sequential-uxad11uxd559-uxacc4uxc0b0-uxc5d4uxc9c4uxc758-uxd575uxc2ec-uxc6d0uxb9acuxc640-uxc218uxc2dd}}
+
+작성일: 2026-10-18 · 대상: \texttt{src/sequential\_optics/}의 독립
+Sequential 계산 모델
+
+이 문서는 \textbf{사용자 처방이 광선, 파면, 광량을 거쳐 시뮬레이션
+결과가 되는 과정}을 설명한다. 실제 구현의 좌표·단위·정규화에 맞춘 원리
+문서다. 세부 오류 사례와 수정 이력은 별도 검증 문서에 둔다. 수식은 UTF-8
+Markdown 안에 LaTeX 원문으로 보존했다.
+
+계산의 중심은 실제 비구면 교점과 벡터 Snell 법칙이다. 회절은 그 광선에서
+얻은 위상과 명시적인 진폭 모델을 연결한 \textbf{scalar FFT 모델}이다.
+EFL/BFL의 근축 정의, chief 주변의 미분적 field curvature, scalar 회절
+근사는 각각 다른 목적을 갖는다. 이 구성은 공개 광학 이론에 기반하며,
+Zemax의 모든 내부 규약이나 수치 결과와의 일치를 뜻하지 않는다.
+
+\hypertarget{uxc804uxccb4-uxad6cuxc870-uxd558uxb098uxc758-uxcc98uxbc29uxc5d0uxc11c-uxc138-uxc885uxb958uxc758-uxc815uxbcf4uxb97c-uxb9ccuxb4e0uxb2e4}{%
+\subsection{1. 전체 구조: 하나의 처방에서 세 종류의 정보를
+만든다}\label{uxc804uxccb4-uxad6cuxc870-uxd558uxb098uxc758-uxcc98uxbc29uxc5d0uxc11c-uxc138-uxc885uxb958uxc758-uxc815uxbcf4uxb97c-uxb9ccuxb4e0uxb2e4}}
+
+처방으로부터 다음 세 가지를 연결해 계산한다.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{광선의 위치와 방향:} spot, chief mapping, distortion, grid,
+  기하 수차.
+\item
+  \textbf{광선의 위상과 경계장:} OPD, diffraction PSF, complex OTF, MTF.
+\item
+  \textbf{광선이 운반하는 전력:} 투과율, RI, 원거리 광도, 실제 광원
+  영상.
+\end{enumerate}
+
+광선의 적분 가중치, 광선 패킷의 전력, 전기장 진폭은 서로 다른 값이다.
+기하 spot에서 사용한 pupil 가중치를 그대로 LED 방출 전력으로 해석하거나,
+전력의 제곱근을 면적 변환 없이 FFT 진폭으로 사용하지 않는다.
+
+처리 순서는 \textbf{입력 정규화 → 재료·형상 상태 생성 → STOP 설정 →
+real-ray 추적 → 기하 분석/회절 분석/광량 분석 → 영상 합성 또는 온도별
+반복}이다. 각 분석은 실제로 필요한 데이터만 읽는다.
+
+\hypertarget{uxb2e8uxc704uxc640-uxc88cuxd45c}{%
+\subsubsection{1.1 단위와 좌표}\label{uxb2e8uxc704uxc640-uxc88cuxd45c}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+기호·입력
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+내부 의미
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(x,y,z,R,t,S,W\) & mm. \(S\)는 optical path/eikonal, \(W\)는 OPD \\
+\(\lambda_0\) & 진공 파장. 입력 nm를 \(10^{-6}\)배하여 mm로 변환 \\
+\(n\) & 절대 \textbf{위상} 굴절률; 매질 내 파장은
+\(\lambda_m=\lambda_0/n\) \\
+\(\mathbf d\) & 단위 진행 방향 \\
+field angle & rad; 유한 물체의 field height는 mm \\
+focal spatial frequency & cycles/mm = lp/mm \\
+angular spatial frequency & cycles/rad; focal 주파수와 별도 설정 \\
+\(A_{2m}\) & \(\mathrm{mm}^{1-2m}\) \\
+\(\Phi,E,I,L_s\) & 복사 전력, 복사조도, 복사강도, radiance. 절대
+입력이면 각각 W, W/mm², W/sr, W/(mm²·sr) \\
+\end{longtable}
+
+여기서 광량은 radiometric 양으로 계산한다. W/mm²와 W/sr를 lux와 cd로
+해석하지 않는다. Photometric 값에는 파장별 전력과 시감도 가중이 추가로
+필요하다.
+
+광축은 \(+z\)이고 각 면의 vertex 위치는 \(z_j\)다. 입력 행의 thickness를
+누적해 \(z_{j+1}=z_j+t_j\)로 바꾼다. 렌즈 앞면의 thickness는 중심 두께,
+뒷면의 thickness는 다음 면까지의 vertex 간격이다. Active diameter의
+절반이 clear radius이며 mechanical radius와 구별한다.
+
+G를 기본 파장으로 선택하되 실제 수치는 \texttt{EngineSettings}에서
+관리한다. 배포 예제의 G=550 nm는 변경 가능한 기본값이다. G 단색의
+nominal spot/MTF에는 R/B 굴절률, CTE, \(dn/dT\), 흡수율을 요구하지
+않는다. 온도나 다른 파장을 요청했을 때만 해당 물성을 사용한다.
+
+\hypertarget{uxc7acuxb8ccuxb97c-uxd568uxc218uxb85c-uxd45cuxd604}{%
+\subsubsection{1.2 재료를 함수로
+표현}\label{uxc7acuxb8ccuxb97c-uxd568uxc218uxb85c-uxd45cuxd604}}
+
+엔진에 필요한 기본 물성은 \(n(\lambda_0,T)\)이며, 광량에는 전력 흡수계수
+\(\mu(\lambda_0,T)\), 열 형상에는 치수 배율 \(s(T;T_0)\)가 추가된다.
+굴절률은 공급된 표의 보간 또는 명시된 분산식으로 평가한다. 지원하는
+Sellmeier 형식은 다음과 같다. 식 평가 시 파장 단위는 제공 계수와
+일치시킨다. {[}R10{]}
+
+\[
+n^2(\lambda)-1=\sum_j\frac{B_j\lambda^2}{\lambda^2-C_j}.
+\]
+
+Abbe 수 \(V_d=(n_d-1)/(n_F-n_C)\)는 분산의 요약량이다. 이것만으로 임의
+RGB 굴절률을 유일하게 복원하지 않는다. 재료의 이름도 수치 물성의
+대체물이 아니다.
+
+공기 기준 데이터는 같은 물리 파장과 기준 상태에서
+\(n_{\rm abs}=n_{\rm rel}n_{\rm air}\)로 변환한다. 파장도 공기 중
+파장으로 주어졌다면 \(\lambda_0=n_{\rm air}\lambda_{\rm air}\)다. 두
+변환의 필요 여부를 각각 지정한다. 엔진의 Snell과 OPL에는 동일한 absolute
+convention을 사용한다. {[}R11{]}
+
+\hypertarget{uxd615uxc0c1uxc5d0uxc11c-uxc2e4uxc81c-uxad11uxc120uxc744-uxad6cuxd55cuxb2e4}{%
+\subsection{2. 형상에서 실제 광선을
+구한다}\label{uxd615uxc0c1uxc5d0uxc11c-uxc2e4uxc81c-uxad11uxc120uxc744-uxad6cuxd55cuxb2e4}}
+
+\hypertarget{standarduxc640-even-asphere}{%
+\subsubsection{2.1 Standard와 Even
+Asphere}\label{standarduxc640-even-asphere}}
+
+\(r^2=x^2+y^2\), curvature \(c=1/R\), conic constant \(k\)일 때 local
+sag는 다음과 같다. Standard는 모든 \(A_{2m}=0\)인 경우다. {[}R1{]}
+
+\[
+z_s(x,y)=\frac{cr^2}{1+\sqrt{1-(1+k)c^2r^2}}
+ +\sum_{m=1}^{6}A_{2m}r^{2m}.
+\tag{1}
+\]
+
+전역 표면은 \(F(x,y,z)=z-z_j-z_s(x,y)=0\)이다. 법선은 sag 미분으로
+구한다.
+
+\[
+\mathbf N=\frac{(-\partial_xz_s,-\partial_yz_s,1)}
+ {\sqrt{1+(\partial_xz_s)^2+(\partial_yz_s)^2}}.
+\tag{2}
+\]
+
+구현은 \(q=r^2\)의 다항식으로 sag와 미분을 평가한다. 특히 \(A_2\)도
+vertex curvature에 기여한다.
+
+\[
+b(q)=\frac{c}{\sqrt{1-(1+k)c^2q}}
+ +\sum_{m=1}^{6}2mA_{2m}q^{m-1},\qquad
+\nabla z_s=b(q)(x,y),\qquad c_v=c+2A_2.
+\tag{3}
+\]
+
+\hypertarget{uxc2e4uxc81c-uxad50uxc810uxacfc-uxad74uxc808}{%
+\subsubsection{2.2 실제 교점과
+굴절}\label{uxc2e4uxc81c-uxad50uxc810uxacfc-uxad74uxc808}}
+
+입사 광선을 \(\mathbf r(t)=\mathbf o+t\mathbf d\), \(\|\mathbf d\|=1\)로
+쓴다. 다음 면의 교점은 다음 일변수 방정식의 순방향 첫 유효근이다.
+
+\[
+g(t)=o_z+td_z-z_j-z_s(o_x+td_x,o_y+td_y)=0,
+\qquad t\ge0.
+\tag{4}
+\]
+
+해당 면의 실제 sag로 교점을 구한 뒤 clear aperture와 STOP을 적용한다.
+기하학적 구간 제한·근 분리·수치 근 찾기는 식 (4)를 푸는 방법이며, 표면을
+근축 구면이나 얇은 렌즈로 바꾸는 과정이 아니다.
+
+법선 \(\mathbf N\)을 입사 방향과 반대로 향하게 정렬하고,
+\(c_i=-\mathbf d\cdot\mathbf N\ge0\), \(\eta=n_1/n_2\)로 두면 벡터 Snell
+식은 다음과 같다. {[}R2{]}
+
+\[
+c_t=\sqrt{1-\eta^2(1-c_i^2)},\qquad
+\mathbf d'=\eta\mathbf d+(\eta c_i-c_t)\mathbf N.
+\tag{5}
+\]
+
+균질 구간에서 광선은 직선이고 구간 길이 \(\ell_j\)의 optical path 기여는
+\(n_j\ell_j\)다. 굴절 후 위치·방향·누적 OPL을 저장한다.
+
+\[
+S=S_{\rm in}+\sum_jn_j\ell_j.
+\tag{6}
+\]
+
+\hypertarget{stop-aiminguxacfc-uxacf5uxd1b5-uxc785uxc0ac-uxc704uxc0c1}{%
+\subsubsection{2.3 STOP aiming과 공통 입사
+위상}\label{stop-aiminguxacfc-uxacf5uxd1b5-uxc785uxc0ac-uxc704uxc0c1}}
+
+정규화 pupil 좌표 \(\boldsymbol\rho=(\rho_x,\rho_y)\)의 목표점은 STOP
+위의 \((a_{\rm stop}\rho_x,a_{\rm stop}\rho_y)\)다. 발사 위치 또는 방향
+\(\boldsymbol\xi\)를 조절하여 실제 STOP 교점이 이 목표에 도달하도록
+잔차를 푼다. 초기값에는 근축 행렬을 쓸 수 있으나 최종 잔차는 실제
+광선으로 계산한다. {[}R3{]}
+
+\[
+\mathbf r_{\rm aim}(\boldsymbol\xi)
+ =\mathbf x_{\rm stop}(\boldsymbol\xi)-a_{\rm stop}\boldsymbol\rho=\mathbf0.
+\tag{7}
+\]
+
+Chief ray는 STOP 중심, marginal ray는 STOP rim을 목표로 한다. EPD 또는
+명목 F-number는 기준 상태에서 물리 STOP 반경으로 변환한다. 명목
+\(F/\#=|f_{\rm report}|/\mathrm{EPD}\)이며 유한 공액의 working
+F-number와 구별한다.
+
+위상은 모든 광선이 같은 입사 파면에서 출발하도록 정의한다. 유한 물점
+\(\mathbf o_s\)에서 직접 출발하면 \(S_{\rm in}=0\)이고 첫 구간 길이를
+실제로 더한다. 무한 물체 평면파의 고정 발사면에서는
+
+\[
+S_{\rm in}(\mathbf a)=n_0\mathbf d_0\cdot(\mathbf a-\mathbf a_{\rm ref}).
+\tag{8}
+\]
+
+이 입사 위상 항이 서로 다른 발사점의 위상을 연결한다. 발사면이
+등위상면이 아닐 때 모든 광선의 초기 OPL을 같게 두면 비축 OPD가 달라진다.
+
+기본 bundle은 STOP 면적의 Gauss 적분을 \(\rho^2\) 방향, 주기적 표본을
+방위각 방향에 사용한다. 정규화 가중치 합은 1이다. Chief/rim을 추가 기하
+표본으로 저장하되 적분 가중치는 0으로 두어, 통계 적분과 pupil 경계
+표현을 함께 유지한다.
+
+\hypertarget{uxad11uxc120uxc73cuxb85cuxbd80uxd130-uxae30uxd558uxd559uxc801-uxc131uxb2a5uxc744-uxad6cuxd55cuxb2e4}{%
+\subsection{3. 광선으로부터 기하학적 성능을
+구한다}\label{uxad11uxc120uxc73cuxb85cuxbd80uxd130-uxae30uxd558uxd559uxc801-uxc131uxb2a5uxc744-uxad6cuxd55cuxb2e4}}
+
+\hypertarget{spotuxacfc-uxbc29uxd5a5-spot}{%
+\subsubsection{3.1 Spot과 방향
+spot}\label{spotuxacfc-uxbc29uxd5a5-spot}}
+
+마지막 광선의 위치·방향을 \((\mathbf p_i,\mathbf d_i)\)라 하면 지정된
+global-\(z\) 영상면의 교점은 다음과 같다.
+
+\[
+\mathbf x_i=\left[\mathbf p_i+
+ \frac{z_{\rm IMA}-p_{i,z}}{d_{i,z}}\mathbf d_i\right]_{xy}.
+\tag{9}
+\]
+
+통과 광선의 pupil 적분 가중치 \(w_i\)를 정규화한
+\(\widehat w_i=w_i/\sum_iw_i\)로 centroid와 RMS를 계산한다. 기준점
+\(\mathbf x_{\rm ref}\)는 centroid 또는 chief 교점이다.
+
+\[
+\overline{\mathbf x}=\sum_i\widehat w_i\mathbf x_i,\qquad
+\sigma_{\rm RMS}=\sqrt{\sum_i\widehat w_i
+ \|\mathbf x_i-\mathbf x_{\rm ref}\|^2}.
+\tag{10}
+\]
+
+최대 기하 반경은 성공적으로 추적된 \textbf{모든 기하 표본}에서
+\(\max_i\|\mathbf x_i-\mathbf x_{\rm ref}\|\)를 구한다. 이 값은 표본
+최대값이고 연속 pupil의 전역 극값 보증은 아니다. 무한대 출력의 spot은
+위치 대신 chief-local 기저 \((\mathbf e_1,\mathbf e_2,\mathbf e_3)\)의
+방향각을 사용한다.
+
+\[
+\alpha_i=\operatorname{atan2}(\mathbf d_i\cdot\mathbf e_1,
+ \mathbf d_i\cdot\mathbf e_3),\qquad
+\beta_i=\operatorname{atan2}(\mathbf d_i\cdot\mathbf e_2,
+ \mathbf d_i\cdot\mathbf e_3).
+\tag{11}
+\]
+
+\hypertarget{eflbfluxc740-1uxcc28-uxad11uxd559uxb7c9uxc774uxb2e4}{%
+\subsubsection{3.2 EFL/BFL은 1차
+광학량이다}\label{eflbfluxc740-1uxcc28-uxad11uxd559uxb7c9uxc774uxb2e4}}
+
+이 엔진은 reduced ray \((y,n\theta)\)를 사용한다. 거리 \(t\)의 전파와
+vertex 굴절은 다음 행렬이다. {[}R4{]}
+
+\[
+T(t,n)=\begin{pmatrix}1&t/n\\0&1\end{pmatrix},\qquad
+R(n_1,n_2,c_v)=\begin{pmatrix}1&0\\-(n_2-n_1)c_v&1\end{pmatrix}.
+\tag{12}
+\]
+
+첫 면 직전에서 마지막 면 직후까지 순서대로 곱한
+\(M=\begin{pmatrix}A&B\\C&D\end{pmatrix}\)에 대해 출력 매질 굴절률이
+\(n_i\)이면
+
+\[
+f'=-\frac{n_i}{C},\qquad
+\mathrm{BFL}=-\frac{n_iA}{C},\qquad
+f_{\rm report}=-\frac{n_{\rm ref}}{C}.
+\tag{13}
+\]
+
+BFL의 원점은 마지막 물리면 vertex다. \(n_{\rm ref}\)는 설정한 보고 기준
+매질이다. 유한 물체에서는 OBJ→마지막 면의 행렬을 \(M_o\)로 만든 뒤
+영상까지의 추가 거리 \(d\)를 포함한 \(T(d,n_i)M_o\)의 \(B=0\) 조건으로
+근축 공액을 구한다. 따라서 \(d=-n_iB_o/D_o\), 배율은 \(A_o+dC_o/n_i\)다.
+이 정의로 EFL/BFL을 구하는 것이 실제 spot 광선을 근축으로 계산한다는
+뜻은 아니다.
+
+\hypertarget{distortion-griduxc640-uxc218uxcc28}{%
+\subsubsection{3.3 Distortion, grid와
+수차}\label{distortion-griduxc640-uxc218uxcc28}}
+
+물체 좌표 또는 field chart \(\mathbf q\)를 실제 chief-ray 영상 위치로
+보내는 함수를 \(\mathbf g(\mathbf q)\)라 한다. 무한대 출력이면
+\(\mathbf g\)는 global 방향각이다. 기준 field \(\mathbf q_0\) 주변 실제
+chief trace의 미분 \(J_0\)로 기준 mapping을 만든다. {[}R5{]}
+
+\[
+\mathbf g_{\rm ref}(\mathbf q)=\mathbf g(\mathbf q_0)+J_0(\mathbf q-\mathbf q_0),
+\qquad\Delta\mathbf g=\mathbf g-\mathbf g_{\rm ref}.
+\tag{14}
+\]
+
+무한 물체의 rectilinear chart는 \((\tan\theta_x,\tan\theta_y)\)이고, 현재 구현의
+\texttt{f\_theta}는 성분별 각도 chart \((\theta_x,\theta_y)\)를 사용한다.
+이 성분별 chart는 실제 광축각을 사용하는 방사 방향 F-θ와 일반적인 2D field에서 같지 않다.
+두 정의를 구별하며, 현재 코드를 방사 방향 F-θ로 해석하지 않는다.
+유한 물체의 chart는 object height다. 한
+meridian의 distortion은 \(100(h-h_{\rm ref})/h_{\rm ref}\)다. Grid는 각
+물체 격자점의 chief mapping을 연결하고, 같은 영상면에 해당 점의
+spot/PSF를 배치한다. 온도별 배율 변화도 보려면 기준 온도에 대한 raw
+mapping 차이를 보존한다.
+
+기하 T 방향은 field의 방사 방향, S는 그 수직 방향이다. 축상에서는 T=Y,
+S=X로 정한다. Ray fan은 각 STOP 직경을 따라 pupil 좌표를 바꾸어 chief에
+대한 영상 교점 차이를 표시한다. 축상 구면수차의 longitudinal 표현은
+
+\[
+z_{\rm cross}(\rho)=p_z-p_y\frac{d_z}{d_y},\qquad
+\mathrm{LSA}(\rho)=z_{\rm cross}(\rho)-z_{\rm ref}.
+\tag{15}
+\]
+
+\(\rho=0\)의 축 교점은 실제 근축 공액의 극한으로 정의한다. 보고 기준면
+\(z_{\rm ref}\)를 이동해도 그 물리적 극한은 바뀌지 않는다. Coma 진단에는
+fan \(\Delta(\rho)\)의 짝 성분 \([\Delta(\rho)+\Delta(-\rho)]/2\)를
+사용한다. 이는 고차 영향을 포함한 real-ray descriptor이며 Seidel coma
+계수와 동일한 정의가 아니다.
+
+Field curvature는 chief 주변 실제 광선을 미분하여 구한다. 기준면
+\(z_0\)의 위치와 slope를 \(\mathbf X(\boldsymbol\rho)\),
+\(\mathbf b(\boldsymbol\rho)=\mathbf d_{xy}/d_z\)로 두면
+
+\[
+J_X=\left.\frac{\partial\mathbf X}{\partial\boldsymbol\rho}\right|_0,
+\quad J_b=\left.\frac{\partial\mathbf b}{\partial\boldsymbol\rho}\right|_0,
+\quad z_a=z_0-\frac{(J_X)_{aa}}{(J_b)_{aa}},
+\quad FC_a=z_a-z_{\rm IMA}\quad(a=T,S).
+\tag{16}
+\]
+
+마지막 비는 T/S 기저의 해당 대각성분에 적용한다. 이는 chief 주변의
+parabasal 초점이며 full-pupil RMS 최소 초점과 다르다. \(z_T-z_S\)는 이
+정의의 astigmatic focus separation이다. {[}R5{]}
+
+파면 수차는 뒤에서 정의하는 OPD \(W\)를 Zernike basis에 가중
+최소제곱으로 분해한다.
+
+\[
+W_i\simeq\sum_j a_jZ_j(\rho_i,\varphi_i),\qquad
+\underset{\{a_j\}}{\operatorname{minimize}}
+ \sum_iw_i\left(W_i-\sum_ja_jZ_j\right)^2.
+\tag{17}
+\]
+
+기본 chart는 정규화한 물리 STOP이고, basis는 전체 단위원판에서 RMS=1로
+정규화한다. \(m>0\)에서
+\(Z_{n,m,c/s}=\sqrt{2(n+1)}R_n^m(\rho)\{\cos m\varphi,\sin m\varphi\}\),
+\(m=0\)에서 \(Z_{n,0}=\sqrt{n+1}R_n^0\)다. 구현은 안정적인 Jacobi
+다항식으로 같은 \(R_n^m\)을 평가한다. 수차 분해는 진단이며, 이를 이유로
+실제 MTF 입력에서 defocus나 tilt를 자동 제거하지 않는다. {[}R6{]}
+
+\hypertarget{opluxc744-uxd68cuxc808-uxacc4uxc0b0uxc6a9-uxd30cuxba74uxc73cuxb85c-uxc5f0uxacb0uxd55cuxb2e4}{%
+\subsection{4. OPL을 회절 계산용 파면으로
+연결한다}\label{opluxc744-uxd68cuxc808-uxacc4uxc0b0uxc6a9-uxd30cuxba74uxc73cuxb85c-uxc5f0uxacb0uxd55cuxb2e4}}
+
+\hypertarget{uxc2e4uxc81c-uxcd9cuxb825-uxacbduxacc4uxba74uxacfc-eikonal}{%
+\subsubsection{4.1 실제 출력 경계면과
+eikonal}\label{uxc2e4uxc81c-uxcd9cuxb825-uxacbduxacc4uxba74uxacfc-eikonal}}
+
+모든 렌즈를 통과한 광선들을 마지막 면 이후의 공통 균질 매질 내 평면
+\(\Pi\)로 옮긴다. 평면의 법선 \(\mathbf e_3\)는 chief 진행 방향이다.
+\(\mathbf e_1\)은 global X를 chief-normal 평면에 투영한 방향,
+\(\mathbf e_2=\mathbf e_3\times\mathbf e_1\)로 잡는다.
+
+\[
+\mathbf r(u,v)=\mathbf r_0+u\mathbf e_1+v\mathbf e_2,\qquad
+t_\Pi=\frac{(\mathbf r_0-\mathbf p)\cdot\mathbf e_3}
+ {\mathbf d\cdot\mathbf e_3},\qquad
+S_\Pi=S_{\rm last}+n_it_\Pi.
+\tag{18}
+\]
+
+이 경계면은 실제 출사동공의 근축 위치를 그대로 사용하는 면이 아니다.
+실제 전파가 끝난 균질 영역에 두는 계산용 물리 평면이다. 이 위의
+\(S_\Pi\)와 전기장 진폭 \(a_\Pi\)가 회절 계산의 입력이다. 기본 경계장은
+실제 광선 eikonal을 연결한 단일 scalar 장으로 표현한다. 시간 의존성을
+\(e^{-i\omega t}\)로 택하고 진행 위상을 \(e^{+i2\pi S/\lambda_0}\)로
+쓴다.
+
+\hypertarget{uxc774uxc0c1-uxc218uxb834-uxad6cuxba74uxd30cuxc640uxc758-uxcc28uxc774uxac00-opduxb2e4}{%
+\subsubsection{4.2 이상 수렴 구면파와의 차이가
+OPD다}\label{uxc774uxc0c1-uxc218uxb834-uxad6cuxba74uxd30cuxc640uxc758-uxcc28uxc774uxac00-opduxb2e4}}
+
+Chief가 사용자 IMA와 만나는 점을 \(\mathbf q_0\)로 하고
+\(\mathbf q_0=\mathbf r_0+L\mathbf e_3\)로 쓴다. \(S_c\)는 경계면에서
+chief의 eikonal이다. 이상적으로 \(\mathbf q_0\)에 수렴하는 파와 비교하면
+
+\[
+R=\sqrt{L^2+u^2+v^2},\qquad
+W(u,v)=S_\Pi(u,v)-S_c+n_i(R-L).
+\tag{19}
+\]
+
+이상 수렴파는 \(S_\Pi=S_c-n_i(R-L)\)이므로 \(W=0\)이다. 실제 계산은
+\(R-L=(u^2+v^2)/(R+L)\)로 평가한다. 위상은 진공 파장 기준
+\(\phi=2\pi W/\lambda_0\)다. \(W\)에는 이미 굴절률이 포함되어 있으므로
+위상 변환에서 \(n_i\)를 한 번 더 곱하지 않는다.
+
+입사 위상, 실제 OPL, 공통 경계면, reference sphere가 모두 갖추어져야
+OPD가 된다. 서로 다른 영상 교점까지의 raw OPL 차이만으로 대체하지
+않는다. 기본 계산에서 제거되는 것은 상수 위상인 piston뿐이다.
+
+\hypertarget{scalar-fftuxb85c-psf-otf-mtfuxb97c-uxacc4uxc0b0uxd55cuxb2e4}{%
+\subsection{5. Scalar FFT로 PSF, OTF, MTF를
+계산한다}\label{scalar-fftuxb85c-psf-otf-mtfuxb97c-uxacc4uxc0b0uxd55cuxb2e4}}
+
+\hypertarget{uxc774-uxad6cuxd604uxc758-fourier-pupil}{%
+\subsubsection{5.1 이 구현의 Fourier
+pupil}\label{uxc774-uxad6cuxd604uxc758-fourier-pupil}}
+
+일반적인 설명은 복소 pupil \(P=a\exp(i2\pi W/\lambda_0)\)를 Fourier
+변환한다고 요약한다. 구현에서는 \textbf{어떤 좌표의 진폭과 어떤 면적
+측도인지}까지 지정해야 한다. 본 엔진은 scalar Rayleigh--Sommerfeld
+전파를 초점 주변에서 전개하고, 다음 reference-direction-cosine 좌표를
+사용한다. 이는 광선 굴절의 근축 근사와 별개인 회절 전파 근사다. {[}R7{]}
+
+\[
+\chi=\frac{u}{R},\qquad\eta=\frac{v}{R},\qquad
+\gamma=\sqrt{1-\chi^2-\eta^2}=\frac{L}{R},\qquad
+du\,dv=\frac{L^2}{\gamma^4}\,d\chi\,d\eta.
+\tag{20}
+\]
+
+여기서 \((\chi,\eta)\)는 \textbf{reference point를 향하는 기하로 정의한
+좌표}다. 수차가 있는 실제 ray의 출사 방향 코사인과 항상 같은 것은
+아니다. Boundary 진폭을 \(a_\Pi\)라 할 때 obliquity와 Jacobian을 합친
+Fourier 진폭 \(B\)는
+
+\[
+B(\chi,\eta)=a_\Pi(u,v)\frac{L}{\gamma^2},\qquad
+P(\chi,\eta)=B(\chi,\eta)
+ \exp\left(i\frac{2\pi}{\lambda_0}W\right).
+\tag{21}
+\]
+
+식 (20)--(21)은 본 구현의 좌표변환 유도다. 공개 RS 이론을 사용하는
+방식이며 Zemax 내부 mapping을 복제했다는 의미는 아니다. Lens-only 기본
+분석은 최초 기준면에서 \textbf{통과 Fourier pupil의 \(B=1\)}을 정의한다.
+실제 LED 조명 계산은 7절의 전력 수송으로 \(a_\Pi\)를 얻는다. 두 분석의
+진폭은 목적이 다르다.
+
+\hypertarget{uxcd08uxc810-uxc8fcuxbcc0-scalar-uxc804uxd30cuxc640-psf}{%
+\subsubsection{5.2 초점 주변 scalar 전파와
+PSF}\label{uxcd08uxc810-uxc8fcuxbcc0-scalar-uxc804uxd30cuxc640-psf}}
+
+출력 좌표 \((x,y)\)는 \(\mathbf q_0\)를 중심으로 chief에 수직인 가상
+평면의 mm 좌표다. 파장 \(\lambda_m=\lambda_0/n_i\)에서 국소 회절장은
+전체 상수 위상을 제외하면
+
+\[
+U(x,y)\simeq\frac{1}{i\lambda_m}
+ \iint P(\chi,\eta)
+ \exp\left[-i\frac{2\pi}{\lambda_m}(x\chi+y\eta)\right]
+ \,d\chi\,d\eta.
+\tag{22}
+\]
+
+입력 적분의 uniform grid를 FFT로 계산하고, 출력의 intensity PSF를 면적
+적분 1로 정규화한다.
+
+\[
+h(x,y)=\frac{|U(x,y)|^2}{\iint|U|^2\,dx\,dy},\qquad
+\iint h\,dx\,dy=1.
+\tag{23}
+\]
+
+주파수 축은 DFT 축을 실제 길이로 바꾼다. 예를 들어 padded 표본 수
+\(N_p\)와 pupil 간격 \(\Delta\chi\)이면
+
+\[
+\Delta x=\frac{\lambda_m}{N_p\Delta\chi},\qquad
+X_{\rm period}=\frac{\lambda_m}{\Delta\chi}.
+\tag{24}
+\]
+
+따라서 zero padding은 PSF 표본 간격을 줄이지만 원래 파면의 정보를
+추가하지 않는다. Ray 표본, 파면 grid, padding은 서로 독립적인 해상도
+설정이다.
+
+Zemax FFT PSF도 chief-normal 계산면을 명시한다. 따라서 위 \((x,y)\)는
+일반적으로 global-\(z\) 센서의 spot 좌표와 같은 면이 아니다. 현재 엔진의
+비축 센서 변환은 명시적으로 선택하는 국소 투영 근사이며, FFT 지표와 실제
+센서면 영상은 구분한다. {[}R9{]}
+
+\hypertarget{otfuxc640-mtf}{%
+\subsubsection{5.3 OTF와 MTF}\label{otfuxc640-mtf}}
+
+비간섭 결상의 complex OTF는 intensity PSF의 Fourier 변환이며 MTF는 그
+절댓값이다. {[}R8{]}
+
+\[
+H(f_x,f_y)=\iint h(x,y)e^{-i2\pi(f_xx+f_yy)}\,dx\,dy,
+\qquad \mathrm{MTF}=|H|,\qquad H(0,0)=1.
+\tag{25}
+\]
+
+Focal 주파수는 image-space lp/mm로 보고한다. 요청 구간 0--120 lp/mm는
+설정값이며 물리 cutoff를 뜻하지 않는다. 본 구현의 FFT S 곡선은 \(f_x\)
+절단, T 곡선은 \(f_y\) 절단이다. 이 이름은 3절의 field-meridional 기하
+T/S와 항상 일치하지 않는다. {[}R12{]}
+
+각 field에서 T/S와 동일 pupil의 diffraction reference를 각각 반환한다.
+주파수 방향과 줄무늬가 뻗는 방향은 수직이다. Zemax FFT의 T는 object-X
+방향 줄무늬, S는 object-Y 방향 줄무늬에 대한 고정 이름이며 field 방위각에
+따라 자동으로 radial 축을 선택하는 규약이 아니다. 본 엔진은 4.1절의
+chief-normal 직교 frame을 사용하고, 실제 방향은
+\texttt{mtf\_frequency\_axes\_global} 및
+\texttt{mtf\_target\_line\_axes\_global}에 보존한다. 임의 2D field에서
+제품의 pupil mapping까지 동일하다는 뜻은 아니다. {[}R12{]}
+
+주파수 보간과 파장 합성은 complex \(H\)에 적용하고 마지막에 절댓값을
+취한다. PSF의 위치 변화는 OTF 위상에 들어가므로, 파장별 MTF 절댓값을
+단순 평균하면 횡색수차의 영향을 잃는다.
+
+\hypertarget{uxac19uxc740-pupiluxc758-diffraction-reference}{%
+\subsubsection{5.4 같은 pupil의 diffraction
+reference}\label{uxac19uxc740-pupiluxc758-diffraction-reference}}
+
+실제 계산과 \textbf{동일한 support·진폭·sampling}에서 \(W=0\)으로 놓아
+\(P_{\rm DL}=|P|\)를 만든 뒤 같은 FFT를 반복한다. 이는 수차 위상만
+제거한 비교 기준이다. 모든 field에 하나의 원형 aperture 공식을 적용하는
+방식과 구별한다.
+
+균일한 무차폐 원형 Fourier pupil은 독립 해석 기준을 갖는다. Radius가
+\(a_\chi\)이면 \(f_c=2a_\chi/\lambda_m=2\mathrm{NA}/\lambda_0\)이고
+
+\[
+\mathrm{MTF}_{\rm circ}(f)=
+\begin{cases}
+\displaystyle\frac{2}{\pi}\left[\cos^{-1}\nu-\nu\sqrt{1-\nu^2}\right],&0\le\nu<1,\\
+0,&\nu\ge1,
+\end{cases}
+\qquad\nu=\frac{|f|}{f_c}.
+\tag{26}
+\]
+
+이 식은 원형 pupil의 정규화 자기상관으로 직접 얻는다. 실제 pupil이
+다르면 같은-pupil FFT reference를 사용한다. 제품의 reference-field
+선택과 이 엔진의 field별 비교 규약은 별도다. {[}R8, R12{]}
+
+\hypertarget{uxbb34uxd55cuxb300-uxcd9cuxb825-uxac01uxb3c4-uxbd84uxd3ecuxc640-angular-mtf}{%
+\subsubsection{5.5 무한대 출력: 각도 분포와 angular
+MTF}\label{uxbb34uxd55cuxb300-uxcd9cuxb825-uxac01uxb3c4-uxbd84uxd3ecuxc640-angular-mtf}}
+
+Afocal에서는 경계면의 실제 \((u,v)\)와
+\(a_\Pi\exp[i2\pi(S_\Pi-S_c)/\lambda_0]\)를 Fourier 변환한다. 변환
+주파수 \((\nu_u,\nu_v)\)가 주는 출력 방향 코사인은 \(l=\lambda_m\nu_u\),
+\(m=\lambda_m\nu_v\)다. \(\gamma=\sqrt{1-l^2-m^2}\)일 때 {[}R7{]}
+
+\[
+F(l,m)=\iint U_\Pi(u,v)
+ e^{-i2\pi(lu+mv)/\lambda_m}\,du\,dv,\qquad
+d\Omega=\frac{dl\,dm}{\gamma}.
+\tag{27}
+\]
+
+Scalar far-field obliquity를 포함한 정규화는 다음과 같다.
+\(\mathcal D\)는 계산에서 표현한 propagating 방향 영역이다.
+
+\[
+\mathcal N=\iint_{\mathcal D}\gamma|F|^2\,dl\,dm,\qquad
+h_\Omega(l,m)=\frac{\gamma^2|F|^2}{\mathcal N},\qquad
+\iint_{\mathcal D}h_\Omega\,d\Omega=1.
+\tag{28}
+\]
+
+Angular MTF는 \(l,m\)의 DFT 주파수를 이름만 바꾼 값이 아니다. 실제 각도
+\(\alpha=\operatorname{atan2}(l,\gamma)\),
+\(\beta=\operatorname{atan2}(m,\gamma)\)를 사용한다.
+
+\[
+H_\alpha(f)=\int h_\Omega(\Omega)e^{-i2\pi f\alpha(\Omega)}\,d\Omega
+ \simeq\sum_kp_k e^{-i2\pi f\alpha_k},\qquad
+p_k\simeq\frac{\gamma_k|F_k|^2\Delta l\Delta m}{\mathcal N}.
+\tag{29}
+\]
+
+\(f\)의 단위는 cycles/rad다. FFT 방향 표본과 요청 \(f\)가 만드는 적분
+위상을 함께 해상해야 한다. Focal과 angular 주파수를 연결하려면 지정한
+물체--영상 또는 물체--각도 mapping의 국소 Jacobian이 필요하다. 단위만
+바꿔 같은 숫자를 사용할 수 없다.
+
+\hypertarget{uxad11uxb7c9uxacfc-riuxb294-radiance-uxbc0f-uxc804uxb825-uxbcf4uxc874uxc73cuxb85c-uxacc4uxc0b0uxd55cuxb2e4}{%
+\subsection{6. 광량과 RI는 radiance 및 전력 보존으로
+계산한다}\label{uxad11uxb7c9uxacfc-riuxb294-radiance-uxbc0f-uxc804uxb825-uxbcf4uxc874uxc73cuxb85c-uxacc4uxc0b0uxd55cuxb2e4}}
+
+\hypertarget{lambertian-uxad11uxc6d0uxacfc-uxd22cuxacfcuxc728}{%
+\subsubsection{6.1 Lambertian 광원과
+투과율}\label{lambertian-uxad11uxc6d0uxacfc-uxd22cuxacfcuxc728}}
+
+Lambertian은 방출 방향에 대한 radiance \(L_s\)가 일정하다는 뜻이다. 면적
+\(dA_s\)가 방향 \(d\Omega_s\)로 보내는 전력은
+
+\[
+d\Phi=L_s\cos\theta_s\,dA_s\,d\Omega_s,
+\qquad\Phi_{\rm hemi}=\pi L_s A_s.
+\tag{30}
+\]
+
+본 광원의 연속 근사는 12.8×3.2 mm, fill factor 0.64다. \(L_s\)가 발광
+active-area radiance이면 면적 평균은 \(0.64L_s\)다. 이미 panel-average
+radiance이면 fill을 다시 곱하지 않는다. 320×80 픽셀 정보를 가지고 모든
+발광 픽셀을 개별 추적할 필요는 없다. {[}R13{]}
+
+실제 전력 투과율은 경로의 계면 투과와 내부 흡수를 결합한다. 무코팅·실수
+굴절률 계면의 Fresnel 전력 반사율은
+
+\[
+R_s=\left(\frac{n_1c_i-n_2c_t}{n_1c_i+n_2c_t}\right)^2,
+\quad R_p=\left(\frac{n_2c_i-n_1c_t}{n_2c_i+n_1c_t}\right)^2,
+\quad T_s=1-R_s,\quad T_p=1-R_p.
+\tag{31}
+\]
+
+단일 계면의 비편광 전력은 \((T_s+T_p)/2\)다. 기본 다면 계산은 서로
+비간섭인 두 입력 편광 상태를 각 면의 s/p basis로 수송해 전력을 평균한다.
+면마다 비편광으로 재설정한 단순 투과율 곱은 별도 scalar 옵션이다. 이
+전력 계산 자체가 vector diffraction이나 코팅 위상 모델인 것은 아니다.
+{[}R2, R14{]}
+
+내부 전력 감쇠는 \(\tau_{\rm bulk}=\exp(-\mu\ell)\)다. 기준 두께
+\(\ell_0\)의 내부 투과율 \(T_{\rm int}\)가 주어지면
+\(\mu=-\ln T_{\rm int}/\ell_0\)로 환산한다. 이 값에는 계면 Fresnel
+반사를 중복 포함하지 않는다.
+
+\hypertarget{uxc77cuxbc18-uxacb0uxc0c1-ri}{%
+\subsubsection{6.2 일반 결상 RI}\label{uxc77cuxbc18-uxacb0uxc0c1-ri}}
+
+균일 장면의 각 영상점에서 유효 입사 방향을 역추적한다. Radiance의
+\(L/n^2\) 불변성과 전력 투과율 \(\tau\)를 이용하면 {[}R13, R14{]}
+
+\[
+E(\mathbf x)=\left(\frac{n_i}{n_s}\right)^2L_s
+ \int_{\Omega_{\rm accepted}}\tau\cos\theta_i\,d\Omega_i.
+\tag{32}
+\]
+
+평면 영상의 direction cosines \((l,m)\)에서는
+\(\cos\theta_i\,d\Omega_i=dl\,dm\)이므로 구현은 이 면적 측도에서
+적분한다. 추가 cosine 또는 \(\cos^4\) 보정을 또 곱하지 않는다.
+
+\[
+E(\mathbf x)=\left(\frac{n_i}{n_s}\right)^2L_s
+ \iint_{\mathcal P(\mathbf x)}\tau(l,m)\,dl\,dm,
+\qquad RI(\mathbf x)=\frac{E(\mathbf x)}{\max_{\mathbf x\in\mathcal F}E(\mathbf x)}.
+\tag{33}
+\]
+
+\(\mathcal F\)는 평가한 field 집합이므로 구현의 분모는 sampled peak다.
+축상 대비 값도 별도로 구할 수 있다. 이 정의는 균일 Lambertian 장면과
+최대 조도 정규화를 사용하는 Zemax RI의 해석 목적을 따른다. {[}R15{]}
+
+\hypertarget{uxbb34uxd55cuxb300-uxcd9cuxb825uxc758-uxc0c1uxb300-uxbd84uxd3ec}{%
+\subsubsection{6.3 무한대 출력의 상대
+분포}\label{uxbb34uxd55cuxb300-uxcd9cuxb825uxc758-uxc0c1uxb300-uxbd84uxd3ec}}
+
+실제 유한 발광면에서는 source 위치·방향에 식 (30)의 전력을 부여하고,
+real-ray 경로의 투과율을 곱해 출사 방향 bin에 누적한다. 각 bin의 광도는
+
+\[
+\Phi_b=\sum_{k\in b}\Phi_k\tau_k,\qquad
+I_b=\frac{\Phi_b}{\Delta\Omega_b},\qquad
+I_{{\rm rel},b}=\frac{I_b}{\max_b I_b}.
+\tag{34}
+\]
+
+이는 W/sr 또는 상대 광도이며, 영상면의 W/mm² RI와 다르다. 방출 전력 대비
+총 통과 전력은 별도의 효율이다. 절대 radiance가 없으면 상대량으로
+저장한다. 순수 real-ray 방향 histogram에는 회절이 없으며, 회절 angular
+kernel을 원하면 다음 절의 광원--경계장 연결을 사용한다.
+
+\hypertarget{uxc2e4uxc81c-uxad11uxc6d0uxc758-uxd68cuxc808uxacfc-uxc601uxc0c1-uxd569uxc131}{%
+\subsection{7. 실제 광원의 회절과 영상
+합성}\label{uxc2e4uxc81c-uxad11uxc6d0uxc758-uxd68cuxc808uxacfc-uxc601uxc0c1-uxd569uxc131}}
+
+\hypertarget{uxc218uxc9d1-uxc804uxb825uxc5d0uxc11c-uxacbduxacc4uxc7a5-uxc9c4uxd3eduxc73cuxb85c}{%
+\subsubsection{7.1 수집 전력에서 경계장
+진폭으로}\label{uxc218uxc9d1-uxc804uxb825uxc5d0uxc11c-uxacbduxacc4uxc7a5-uxc9c4uxd3eduxc73cuxb85c}}
+
+Source 점 \(\mathbf q\)의 단위 면적당 수집 전력을 \(Q(\mathbf q)\)라
+한다. 이것은 입사 방향에 대한 적분이다.
+
+\[
+Q(\mathbf q)=L_{\rm panel}(\mathbf q)
+ \int_{\Omega_{\rm accepted}(\mathbf q)}\tau(\mathbf q,\Omega_s)
+ \cos\theta_s\,d\Omega_s.
+\tag{35}
+\]
+
+실제 구현은 STOP 표본의 삼각형들을 source 방향 구면과 출력 경계면에 각각
+mapping한다. Source에서의 projected solid angle을
+\(\Delta\Omega_{p,j}=\int_j\cos\theta_s d\Omega_s\), 삼각형의 평균
+투과율을 \(\overline\tau_j\)라 하면, source macro-cell 면적
+\(\Delta A_s\)가 경계 삼각형으로 보내는 전력은
+
+\[
+P_j\simeq L_{\rm panel}\,\Delta A_s\,
+ \overline\tau_j\,\Delta\Omega_{p,j},\qquad
+Q\simeq\frac{\sum_jP_j}{\Delta A_s}.
+\tag{36}
+\]
+
+경계 삼각형 면적을 \(\Delta A_{\Pi,j}\), 실제 ray와 경계 법선의 평균
+cosine을 \(\overline c_j\)라 하면 전기장 진폭은 flux 관계로 정한다. SI
+면적을 사용할 때
+
+\[
+P_j\simeq\frac{n_i}{2Z_0}|a_{\Pi,j}|^2\overline c_j\Delta A_{\Pi,j},
+\qquad
+|a_{\Pi,j}|\simeq
+ \sqrt{\frac{2Z_0P_j}{n_i\overline c_j\Delta A_{\Pi,j}}}.
+\tag{37}
+\]
+
+\(Z_0\)는 진공 임피던스다. 면적이 mm²이면 \(10^{-6}\)을 곱해 m²로
+바꾼다. 이렇게 얻은 \(a_\Pi\)를 식 (21)에 연결한다. Source projected
+solid angle, 경계면 면적, 실제 ray cosine을 모두 거치므로
+\(\sqrt{P_j}\)를 그대로 pupil에 넣는 방식과 다르다. 이 삼각형 유한체적
+근사는 본 엔진의 수송--회절 연결 규약이다.
+
+PSF를 정규화하기 전의 ray 수집 전력, 경계장 flux, propagating wave
+power를 따로 보존한다. 정규화 후 에너지 합이 맞는다는 사실만으로 경계
+진폭의 정확성이 검증되지는 않는다.
+
+\hypertarget{uxbe44uxac04uxc12d-uxd569uxc131uxacfc-uxacf5uxd1b5-uxc601uxc0c1-uxc88cuxd45c}{%
+\subsubsection{7.2 비간섭 합성과 공통 영상
+좌표}\label{uxbe44uxac04uxc12d-uxd569uxc131uxacfc-uxacf5uxd1b5-uxc601uxc0c1-uxc88cuxd45c}}
+
+한 물점·한 파장은 pupil 내에서 복소장으로 전파한다. 서로 다른 LED 물점과
+서로 다른 파장은 intensity를 합한다. Source별 정규화 intensity kernel을
+\(h(\mathbf x;\mathbf q)\)라 하면
+
+\[
+E_{\rm image}(\mathbf x)=\int Q(\mathbf q)h(\mathbf x;\mathbf q)
+ B_{\rm image}(\mathbf q)\,dA_s.
+\tag{38}
+\]
+
+\(B_{\rm image}\)는 샘플 이미지의 \textbf{선형 방출량 modulation}이다.
+sRGB 입력은 먼저 선형값으로 변환한다. Source cell별 \(Q\)에는 fill, 방향
+수집률과 투과가 이미 들어 있으므로 합성 단계에서 다시 적용하지 않는다.
+
+출력 pixel \(b\)의 kernel 확률질량
+\(h_{jb}=\int_bh(\mathbf x;\mathbf q_j)dA_i\)로 이산화하면
+
+\[
+\Phi_b=\sum_jQ_j\Delta A_{s,j}B_{{\rm image},j}h_{jb},
+\qquad E_b=\frac{\Phi_b}{\Delta A_{i,b}}.
+\tag{39}
+\]
+
+모든 kernel은 같은 물리 detector grid에 등록한다. Crop 밖으로 나간 PSF
+tail은 누락 전력으로 보존하며 저장된 부분만 재정규화하지 않는다. 공간에
+따라 mapping과 PSF가 달라지므로 일반적으로 전체 이미지를 한 PSF로
+convolution하는 것으로 충분하지 않다.
+
+RGB도 같은 global grid에서 합한다. Local OTF 비교가 필요하면 공통
+주파수와 registration 위상을 유지한 상태로
+
+\[
+H_{\rm poly}=\frac{\sum_\lambda w_\lambda H_\lambda}{\sum_\lambda w_\lambda},
+\qquad\mathrm{MTF}_{\rm poly}=|H_{\rm poly}|.
+\tag{40}
+\]
+
+G 단색 대표 MTF에는 이 합성이 필요 없다. 광원 pixel pitch나 fill의
+전달함수도 lens-only MTF에 자동 결합하지 않는다.
+
+\hypertarget{uxade0uxc77c-uxc628uxb3c4-uxbcc0uxd654uxb294-uxc0c8-uxcc98uxbc29uxc73cuxb85c-uxac19uxc740-uxc5d4uxc9c4uxc744-uxbc18uxbcf5uxd55cuxb2e4}{%
+\subsection{8. 균일 온도 변화는 새 처방으로 같은 엔진을
+반복한다}\label{uxade0uxc77c-uxc628uxb3c4-uxbcc0uxd654uxb294-uxc0c8-uxcc98uxbc29uxc73cuxb85c-uxac19uxc740-uxc5d4uxc9c4uxc744-uxbc18uxbcf5uxd55cuxb2e4}}
+
+온도 해석은 \textbf{굴절률 변화와 자유 열팽창으로 온도별 광학 상태를
+만든 뒤 동일한 추적·성능 계산을 반복}하는 것이다. 렌즈 내부 공간 온도
+분포, 응력, GRIN, 복굴절, mount 구조 해석은 이 모델의 입력이 아니다.
+
+\hypertarget{uxad74uxc808uxb960uxacfc-uxd615uxc0c1uxc758-uxc628uxb3c4-uxc758uxc874uxc131}{%
+\subsubsection{8.1 굴절률과 형상의 온도
+의존성}\label{uxad74uxc808uxb960uxacfc-uxd615uxc0c1uxc758-uxc628uxb3c4-uxc758uxc874uxc131}}
+
+공급된 \(n(\lambda_0,T)\) 표를 평가하거나, 제공된 absolute
+\(\beta(\lambda_0)=dn/dT\)의 선형 모델을 지정하면
+
+\[
+n(\lambda_0,T)=n(\lambda_0,T_c)+\beta(\lambda_0)(T-T_c).
+\tag{41}
+\]
+
+\(T_c\)는 굴절률 자료의 기준 온도다. 선형 모델의 유효범위는 자료의
+범위를 따른다. SCHOTT TIE-19 등 제조사 모델은 absolute/relative
+thermo-optic 계수 구분의 근거이며, 현재 엔진이 모든 제조사 catalog 식을
+자동 지원한다는 뜻은 아니다. 필요한 \(n(T)\) 데이터로 변환해 제공할 수
+있다. {[}R11{]}
+
+형상 기준온도 \(T_0\)에 대한 등방 배율을 \(s(T;T_0)\)라 한다. 기준온도와
+CTE 기준이 같은 선형 모델은 \(s=1+\alpha(T-T_0)\)다. Instantaneous CTE
+\(\alpha=(1/L)dL/dT\)를 제공하면
+
+\[
+s(T;T_0)=\exp\left(\int_{T_0}^{T}\alpha(\vartheta)\,d\vartheta\right).
+\tag{42}
+\]
+
+CTE의 정의를 선택한 뒤 다음 형상 항등식을 적용한다.
+
+\[
+z_{s,T}(r)=s\,z_{s,0}(r/s),\qquad
+R_T=sR_0,\quad c_T=c_0/s,\quad k_T=k_0,
+\quad A_{2m,T}=A_{2m,0}s^{1-2m}.
+\tag{43}
+\]
+
+중심 두께와 clear/mechanical diameter도 \(s\)배다. 식 (43)은 고차
+asphere를 포함한 전체 표면의 기하 similarity에서 직접 나온다. 렌즈별
+anchor와 air gap 정책으로 각 vertex 위치를 정한다. STOP 반경 유지/렌즈
+추종, OBJ/IMA 위치 유지 여부도 명시한다. 모든 온도 상태는 원 기준
+처방에서 독립 생성한다.
+
+\hypertarget{uxace0uxc815uxba74uxacfc-uxacf5uxd1b5-uxc7acuxcd08uxc810}{%
+\subsubsection{8.2 고정면과 공통
+재초점}\label{uxace0uxc815uxba74uxacfc-uxacf5uxd1b5-uxc7acuxcd08uxc810}}
+
+기본 비교는 지정한 IMA를 유지하여 focus drift, spot, MTF를 계산한다.
+재초점을 허용하면 \textbf{모든 field에 공통인 하나의 영상면}을 이동한다.
+
+최종 균질 매질에서 ray line은
+\(\mathbf x_{hi}(\delta)=\mathbf a_{hi}+\delta\mathbf b_{hi}\)다. 각
+field \(h\)의 pupil 가중치를 정규화하고
+\(\Delta\mathbf a,\Delta\mathbf b\)를 해당 field의 평균에서 뺀 값으로
+정의하면, field weight \(v_h\)에 대한 geometric centroid-RMS² 최소점은
+
+\[
+\delta_*=-\frac{\sum_hv_h\sum_i\widehat w_{hi}
+ \Delta\mathbf a_{hi}\cdot\Delta\mathbf b_{hi}}
+ {\sum_hv_h\sum_i\widehat w_{hi}\|\Delta\mathbf b_{hi}\|^2}.
+\tag{44}
+\]
+
+이 식은 고정된 ray 집합과 가중치에 대한 quadratic merit의 직접 미분
+결과다. MTF 최대 초점과 같은 목적함수는 아니다. MTF focus sweep은 선택한
+공통 IMA 위치마다 식 (19) 이후를 다시 계산해 비교한다.
+
+IMA만 이동할 때는 같은 경계면 \(\Pi\)와 그 위의 물리 진폭 \(a_\Pi\)를
+유지한다. Lens-only 최초 기준거리 \(L_0\)에서 \(B=1\)이었다면
+\(a_\Pi=L_0/(L_0^2+u^2+v^2)\)이며, 이동 후에는 새 \(L\)과 식 (21)로
+\(B\)를 다시 구성한다. 매번 \(B=1\)로 초기화하면 focus뿐 아니라 조명도
+바뀐다. 처방·온도·STOP·물점·파장이 바뀌면 그 상태의 광선을 새로
+추적한다.
+
+\hypertarget{uxc774-uxbb38uxc11cuxc758-uxc6d0uxb9acuxb97c-uxcf54uxb4dcuxc5d0uxc11c-uxcc3euxb294-uxc704uxce58}{%
+\subsection{9. 이 문서의 원리를 코드에서 찾는
+위치}\label{uxc774-uxbb38uxc11cuxc758-uxc6d0uxb9acuxb97c-uxcf54uxb4dcuxc5d0uxc11c-uxcc3euxb294-uxc704uxce58}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+계산 단계
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+구현 모듈·함수
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+입력·설정·선택적 물성 & \texttt{models.py}, \texttt{settings.py},
+\texttt{materials.py}, \texttt{io.py} \\
+sag, normal, 교점, Snell, STOP aiming & \texttt{geometry.py}:
+\texttt{sag}, \texttt{gradient}, \texttt{intersect}, \texttt{refract},
+\texttt{aim\_ray}, \texttt{trace\_bundle} \\
+EFL/BFL와 aperture 변환 & \texttt{paraxial.py}:
+\texttt{paraxial\_properties}, \texttt{resolve\_aperture} \\
+spot·mapping·수차·공통 초점 & \texttt{metrics.py} \\
+경계면·OPD·FFT·OTF·회절 기준 & \texttt{wave.py}:
+\texttt{make\_boundary\_state}, \texttt{analyze\_wave},
+\texttt{fft\_psf}, \texttt{angular\_otf} \\
+광량·RI·원거리 수송 & \texttt{radiometry.py} \\
+물리 source에서 회절장으로 연결 & \texttt{source\_wave.py}:
+\texttt{source\_diffraction\_kernel} \\
+source별 kernel의 비간섭 합성 & \texttt{imaging.py}:
+\texttt{synthesize\_image}, \texttt{registered\_spectral\_sum} \\
+균일 열 상태 생성 & \texttt{thermal.py}: \texttt{scale\_surface},
+\texttt{thermal\_system} \\
+선택한 분석의 실행 & \texttt{api.py}: \texttt{evaluate} \\
+\end{longtable}
+
+현재 모델은 동축 회전대칭 면·균질 등방 매질·순차 직접 투과·scalar 회절을
+대상으로 한다. 수치 수렴과 이 물리 모델의 적용성은 각각 확인한다. 상세
+알고리즘, 예외 처리, 기존 논쟁 및 코드 검증 이력은
+\texttt{calculation\_spec\_ko.md}, 루트 검증 문서와 역할별 리뷰를
+참고한다. 본 문서의 식과 테스트 통과만으로 상용툴 상관 검증이나 실제
+측정 정확도가 입증되지는 않는다.
+
+\hypertarget{uxcc38uxace0uxbb38uxd5ccuxacfc-uxc0acuxc6a9uxd55c-uxbc94uxc704}{%
+\subsection{10. 참고문헌과 사용한
+범위}\label{uxcc38uxace0uxbb38uxd5ccuxacfc-uxc0acuxc6a9uxd55c-uxbc94uxc704}}
+
+모든 웹 원문 확인일: 2026-10-18. 아래 자료는 원저자·대학 강의·제조사
+공식 문서다. 문서의 자체 좌표변환, 정규화, 구현 계약과 직접 유도는 각
+절에서 구분했다. 제품 문서는 기능 정의의 근거이며 이 코드의 구현 검증을
+대신하지 않는다.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{{[}R1{]} Ansys, Even Asphere.} Sag와 even-power 계수 정의.
+  \href{https://ansyshelp.ansys.com/public/Views/Secured/Zemax/v261/en/OpticStudio_User_Guide/OpticStudio_Help/topics/Even_Asphere.html}{공식
+  문서}
+\item
+  \textbf{{[}R2{]} Pharr, Jakob, Humphreys, PBRT 4e, Specular Reflection
+  and Transmission.} Snell·Fresnel 및 전력/진폭 구분.
+  \href{https://pbr-book.org/4ed/Reflection_Models/Specular_Reflection_and_Transmission}{원저자
+  웹북}
+\item
+  \textbf{{[}R3{]} Ansys / Nam-Hyong Kim, How to use Ray Aiming.} 실제
+  STOP 목표를 맞추는 반복 추적과 pupil의 의미.
+  \href{https://optics.ansys.com/hc/en-us/articles/42661778056083-How-to-use-Ray-Aiming}{공식
+  기술 문서}
+\item
+  \textbf{{[}R4{]} Michael J. Hayford, ray-optics, parax.firstorder.}
+  Reduced-coordinate first-order 광학의 공개 구현. 식 (12)--(13)은 본
+  문서의 좌표 정의에서 직접 도출한다.
+  \href{https://ray-optics.readthedocs.io/en/stable/_modules/rayoptics/parax/firstorder.html}{원저자
+  소스 문서}
+\item
+  \textbf{{[}R5{]} Ansys, Field Curvature and Distortion, Discussion.}
+  Parabasal T/S focus와 실제 small-field chief 기준 distortion.
+  \href{https://ansyshelp.ansys.com/public/Views/Secured/Zemax/v252/en/OpticStudio_User_Guide/OpticStudio_Help/topics/Field_Curvature_and_Distortion.html}{공식
+  문서}
+\item
+  \textbf{{[}R6{]} TU Delft, Advanced Optical Imaging, §8.3 Zernike
+  polynomials, 일반식 (17)--(19).} 원판 basis와 정규화. 단일-index
+  예시표 대신 본 코드의 \((n,m,0/c/s)\) tuple 정의를 사용한다.
+  \href{https://qiweb.tudelft.nl/aoi/wavefieldaberrations/wavefieldaberrations/}{대학
+  강의 원자료}
+\item
+  \textbf{{[}R7{]} Robert L. Lucke, Rayleigh-Sommerfeld Fraunhofer
+  Diffraction, 2006, §§2--3, 식 (5), (7), (8).} Obliquity를 포함한
+  Cartesian--direction-cosine Fourier 관계. 식 (19)--(21)의 실제 ray
+  boundary 연결은 본 구현의 유도다.
+  \href{https://arxiv.org/pdf/physics/0604229}{논문}
+\item
+  \textbf{{[}R8{]} MIT OCW, 2.71/2.710 Optics, Lecture 22, 2009, 강의
+  슬라이드 11--20.} 비간섭 intensity PSF, OTF, pupil 자기상관과 MTF.
+  \href{https://ocw.mit.edu/courses/2-71-optics-spring-2009/bebe78c6a2ae2603a0d1a3ea85e0b4ca_MIT2_71S09_lec22.pdf}{강의
+  PDF}
+\item
+  \textbf{{[}R9{]} Ansys, FFT PSF, Assumptions / Discussion.}
+  Chief-normal 가상면, scalar/Fraunhofer 범위와 sampling 의미.
+  \href{https://ansyshelp.ansys.com/public/Views/Secured/Zemax/v251/en/OpticStudio_User_Guide/OpticStudio_Help/topics/FFT_PSF.html}{공식
+  문서}
+\item
+  \textbf{{[}R10{]} SCHOTT, TIE-29: Refractive Index and Dispersion,
+  §§2.1--2.3.} Abbe 수와 Sellmeier 분산.
+  \href{https://media.schott.com/api/public/content/aaa572afd854434fb7b3faa4bc46103f?v=c0f4fa52}{제조사
+  PDF}
+\item
+  \textbf{{[}R11{]} SCHOTT, TIE-19: Temperature Coefficient of the
+  Refractive Index, §§1--2.} Absolute/relative index, thermo-optic
+  계수와 기준 상태.
+  \href{https://media.schott.com/api/public/content/63b62a0d73a640efa8c6fde92f2ad5c2?v=97a6a05a}{제조사
+  PDF}
+\item
+  \textbf{{[}R12{]} Ansys, FFT MTF, Discussion.} Image-space 주파수, FFT
+  T/S 규약, diffraction reference와 pupil sampling.
+  \href{https://ansyshelp.ansys.com/public/Views/Secured/Zemax/v252/en/OpticStudio_User_Guide/OpticStudio_Help/topics/FFT_MTF.html}{공식
+  문서}
+\item
+  \textbf{{[}R13{]} Pharr, Jakob, Humphreys, PBRT 3e, §5.5 Working with
+  Radiometric Integrals.} Radiance 적분, projected solid angle,
+  면적--입체각 변환.
+  \href{https://www.pbr-book.org/3ed-2018/Color_and_Radiometry/Working_with_Radiometric_Integrals}{원저자
+  웹북}
+\item
+  \textbf{{[}R14{]} Pharr, Jakob, Humphreys, PBRT 4e, Dielectric BSDF.}
+  매질 경계의 radiance 변환과 power 수송.
+  \href{https://pbr-book.org/4ed/Reflection_Models/Dielectric_BSDF}{원저자
+  웹북}
+\item
+  \textbf{{[}R15{]} Ansys, Relative Illumination, Discussion.} 균일
+  Lambertian 장면, 최대 조도 정규화, image-direction-cosine 적분.
+  \href{https://ansyshelp.ansys.com/public/Views/Secured/Zemax/v26102/en/OpticStudio_User_Guide/OpticStudio_Help/topics/Relative_Illumination.html}{공식
+  문서}
+\end{itemize}
+
+\end{document}

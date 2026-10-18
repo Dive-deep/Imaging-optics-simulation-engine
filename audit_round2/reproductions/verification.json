@@ -1,0 +1,27 @@
+{
+  "release_sha256": "d854cbaba525581088fe7b890ee54e2f1fb663c8ef8c6fb562b06a66a65284ef",
+  "source_files_unchanged": 75,
+  "reproduction_checks": [
+    {
+      "reviewer_evidence": "lens_design/findings.json",
+      "root_rerun": "reproductions/root_lens_confirmation.json",
+      "exact_json_match": true
+    },
+    {
+      "reviewer_evidence": "software/reproduction_results.json",
+      "root_rerun": "reproductions/root_software_confirmation.json",
+      "exact_json_match": true
+    },
+    {
+      "reviewer_evidence": "physics/repro_angular_otf_alias.json",
+      "root_rerun": "reproductions/root_angular_confirmation.json",
+      "exact_json_match": true
+    },
+    {
+      "reviewer_evidence": "physics/repro_stale_bundle.json",
+      "root_rerun": "reproductions/root_provenance_confirmation.json",
+      "exact_json_match": true
+    }
+  ],
+  "meaning": "Confirmed defect reproduction, not correctness acceptance."
+}

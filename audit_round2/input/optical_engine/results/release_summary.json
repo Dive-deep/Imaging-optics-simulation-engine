@@ -1,0 +1,57 @@
+{
+  "release": "0.1.0",
+  "created_utc": "2026-10-18T06:09:55.117119+00:00",
+  "verification_scope": "Analytic invariants, adversarial regression, independent synthetic optical specimens and cross-author agent review; no Zemax or measurement correlation.",
+  "test_result": {
+    "tests_run": 183,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "seconds": 32.49408550999942,
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "test_record": "results/test_results.json",
+  "installation": {
+    "command": "python -m pip install --no-deps --no-build-isolation -e .",
+    "exit_code": 0
+  },
+  "cli": {
+    "command": "python -m sequential_optics examples/triplet_G_only.json --settings examples/settings.json --request examples/quick_request.json --output results/cli_quick.json",
+    "exit_code": 0,
+    "wavelength_nm": 550.0,
+    "first_order_status": "ok",
+    "spot_status": "ok",
+    "rays": {
+      "status": "ok",
+      "successful": 217,
+      "total": 217
+    }
+  },
+  "compileall_exit_code": 0,
+  "integration_examples": [
+    {
+      "command": "python examples/run_demo.py",
+      "exit_code": 0,
+      "result": "results/demo/summary.json"
+    },
+    {
+      "command": "python examples/run_source_wave.py",
+      "exit_code": 0,
+      "result": "results/source_wave_demo.json"
+    }
+  ],
+  "review_documents": [
+    "reviews/diffraction_physics_review.md",
+    "reviews/geometry_thermal_physics_review.md",
+    "reviews/integration_camera_review.md",
+    "reviews/metrics_camera_review.md",
+    "reviews/radiometry_physics_review.md",
+    "reviews/sample_plan.md",
+    "reviews/software_review.md"
+  ],
+  "final_boundary_regression": "Exact STOP rim: actual physical aperture retained; independently verified finite collimator has 397/397 traced rays.",
+  "interpretation": "API status=ok means execution; preserve inner analysis_status, raw-power diagnostics and underresolved/conditional flags."
+}

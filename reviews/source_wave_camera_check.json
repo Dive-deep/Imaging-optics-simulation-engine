@@ -1,0 +1,29 @@
+{
+  "case": "actual synthetic refracting triplet finite-source afocal scalar diffraction",
+  "status": "conditional",
+  "source_cell_collected_power": 3.976102466003493e-06,
+  "collected_power_density": 0.003976102466003493,
+  "bin_power_sum": 3.976102466003493e-06,
+  "outside_roi_power": 0.0,
+  "registration": "full_unit_direction_rotation",
+  "raw_power_diagnostics": {
+    "ray_triangle_power_w": 3.976102466003493e-06,
+    "boundary_grid_power_w": 3.942641369118997e-06,
+    "boundary_grid_to_ray_ratio": 0.9915844480441347,
+    "wave_power_w_unvalidated": 3.942641305524576e-06,
+    "wave_to_boundary_ratio_unvalidated": 0.9999999838700976,
+    "raw_wave_phase_sampling_status": "necessary_check_passed",
+    "raw_max_grid_phase_step_rad": 0.2821373898966164,
+    "raw_max_triangle_phase_span_rad": 0.7092206845830631,
+    "wave_window_edge_power_fraction": 0.0004941013140730295,
+    "note": "Ratios precede PSF normalization; triangle flux itself is by construction. Passing phase check is necessary, not sufficient."
+  },
+  "sampling_diagnostics": {
+    "max_grid_phase_step_rad": 0.2821373898966164,
+    "max_triangle_phase_span_rad": 0.7092206845830631,
+    "support": "conservative_transmitted_STOP_triangles",
+    "amplitude_model": "constant physical electric-field amplitude per mapped triangle",
+    "transmission_quadrature": "vertex_mean within spherical source triangle",
+    "source_map_edge_model": "great_circle chords; refine original STOP mesh"
+  }
+}

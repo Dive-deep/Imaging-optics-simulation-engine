@@ -1,0 +1,27 @@
+{
+  "release": "0.2.1",
+  "commands": [
+    {
+      "command": "python3 examples/run_demo.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 examples/run_source_wave.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 examples/run_field_mtf.py",
+      "exit_code": 0
+    },
+    {
+      "command": "PYTHONPATH=src python3 -m sequential_optics examples/triplet_G_only.json --settings examples/settings.json --output results/fix_c_G_only_cli.json",
+      "exit_code": 0
+    }
+  ],
+  "field_mtf_quality": [
+    "conditional",
+    "conditional",
+    "conditional",
+    "conditional"
+  ]
+}

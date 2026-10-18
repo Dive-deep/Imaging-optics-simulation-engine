@@ -1,0 +1,382 @@
+{
+  "release": "0.1.0",
+  "hash_algorithm": "SHA-256",
+  "notes": "The manifest excludes itself; historical pre-rim reviewer results are explicitly labeled, not final predictions. Internal working contract, installed metadata, bytecode, and old verbose CLI output are excluded.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 13161,
+      "sha256": "ca18b78d8d0a5c620f0e41d43a3e4942a0917f7fa837d4f96281221bff2cb2ff"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 8238,
+      "sha256": "32a82b8396f96a80e5c38643e71a76286f6887a0801fad180d8e9d6ced9578f3"
+    },
+    {
+      "path": "docs/calculation_spec_ko.md",
+      "bytes": 186078,
+      "sha256": "6bbe485e37025f7cafdfa40f7147a53a8e555885c21c50960e7b6700ca40c53e"
+    },
+    {
+      "path": "examples/quick_request.json",
+      "bytes": 126,
+      "sha256": "8505ed729f20badc40d1717ed0156fcfacf8e774950bfe0a64cf52df346496f1"
+    },
+    {
+      "path": "examples/run_demo.py",
+      "bytes": 6287,
+      "sha256": "faa11c1648e2345c6f7a5a923d921deddf775ddaaa2b74f313839859b43ec544"
+    },
+    {
+      "path": "examples/run_source_wave.py",
+      "bytes": 2618,
+      "sha256": "86f0f19d1cdd1d85bdf609fcc27ee4c0d1510f7dc1baaa766c4bab69a094f78a"
+    },
+    {
+      "path": "examples/sample_systems.py",
+      "bytes": 2319,
+      "sha256": "71fbd60aafa03612d96e0d1521f1ae28c7e03b9d37b870fef62e685bd82c5ae5"
+    },
+    {
+      "path": "examples/settings.json",
+      "bytes": 745,
+      "sha256": "3680014bcff693dd02dd3c51073072438aa3164e9ca5a7d3292fea26c4e20a23"
+    },
+    {
+      "path": "examples/triplet.json",
+      "bytes": 5170,
+      "sha256": "6783f80f506799e469d30c11a4e5dba129b0d442e29972801680ebd22a283562"
+    },
+    {
+      "path": "examples/triplet_G_only.json",
+      "bytes": 5033,
+      "sha256": "36919df89a9aa481453625e899ddff3000f31acf55ad0285124f67c9683eaa03"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 342,
+      "sha256": "772d4912436987123be83ac53772618c456ebe4200301795b31082c6526e8646"
+    },
+    {
+      "path": "results/cli_quick.json",
+      "bytes": 105502,
+      "sha256": "c08d95c4689b3ddadc0d34c771fc38cee0a0292be341ae33835bf639fd65f114"
+    },
+    {
+      "path": "results/demo/source_bitmap.npy",
+      "bytes": 384,
+      "sha256": "0a25a24e553460f3a7dbd7c2c31b8f3840d8a48c0258f46c820a5fe281678542"
+    },
+    {
+      "path": "results/demo/summary.json",
+      "bytes": 1538020,
+      "sha256": "afc6a52fdee3bc4849afedf8e92b106498364b384b9877a83bc419c873bae05c"
+    },
+    {
+      "path": "results/demo/wave_T20_field0.npz",
+      "bytes": 1340278,
+      "sha256": "9fb7f1a1bbf1dc1aa202b8e297c780d688ac7dfad0bcb66c7df967e02d152e7d"
+    },
+    {
+      "path": "results/demo/wave_T20_field1.npz",
+      "bytes": 1244070,
+      "sha256": "8c6bd6e8865ee0fe06134a15f634acb1b62e2c92fa778d0ad96606c3e71c22bd"
+    },
+    {
+      "path": "results/demo/wave_T20_field2.npz",
+      "bytes": 1249449,
+      "sha256": "43d43f520f30091fe3a228835aa8ce4de0a336b09b2f1bb2bfa9536a89e883d7"
+    },
+    {
+      "path": "results/demo/wave_T60_field0.npz",
+      "bytes": 1333828,
+      "sha256": "438de75e5741c8c2583dd7b14d032164aed2342a77a55608a67b7be6eef9ec98"
+    },
+    {
+      "path": "results/demo/wave_T60_field1.npz",
+      "bytes": 1250431,
+      "sha256": "7c52ac22e75a75999c32ba9e2d1ff16079fd91fd9c19e445f2a904881a4f95a5"
+    },
+    {
+      "path": "results/demo/wave_T60_field2.npz",
+      "bytes": 1245435,
+      "sha256": "d77a9c7993da5de587424a86eaae550d3f71acae7663bdeae9f05fac115526b8"
+    },
+    {
+      "path": "results/demo/wave_T85_field0.npz",
+      "bytes": 1331475,
+      "sha256": "056ae45a3f548bb1cae4fc4007c90913552e9a4059ca87935965845acaa95ba2"
+    },
+    {
+      "path": "results/demo/wave_T85_field1.npz",
+      "bytes": 1247754,
+      "sha256": "26076b582335cff44445fd666083b489e35ab864f3d3967dfc481358bee6af5f"
+    },
+    {
+      "path": "results/demo/wave_T85_field2.npz",
+      "bytes": 1246651,
+      "sha256": "0bc94ab0ce8c942819b08c60645d211602b215a26a83b3b029e32bccd2fd0ef7"
+    },
+    {
+      "path": "results/demo_run.log",
+      "bytes": 94,
+      "sha256": "abe608abf63f1b4d9da5a739351c49601a8fe3f60ab43467c269b2180320300e"
+    },
+    {
+      "path": "results/release_summary.json",
+      "bytes": 2016,
+      "sha256": "cb19d4e0af12fb1331fdf21382fdf0d692690963edbef022d882faa08d92177c"
+    },
+    {
+      "path": "results/source_wave_demo.json",
+      "bytes": 90739,
+      "sha256": "ccdeb83f8e4d2af97bcdad600a3c8b432bb1369189f7ef1c3df4d47b9ec0bbcb"
+    },
+    {
+      "path": "results/source_wave_run.log",
+      "bytes": 77,
+      "sha256": "57c12b3a9701c534046735c63c17a9080757251a47732ddba81f1da43baef39e"
+    },
+    {
+      "path": "results/test_results.json",
+      "bytes": 37328,
+      "sha256": "7646ced869e257af4d6b157236b6a1a92ff9a41537e2ae8f80b8496404ffb134"
+    },
+    {
+      "path": "results/test_run.log",
+      "bytes": 19585,
+      "sha256": "361d1dc515e3b6fa7a08824e4a4328da636c9c43a0e21847c0947833000ccb0c"
+    },
+    {
+      "path": "reviews/diffraction_physics_review.md",
+      "bytes": 10783,
+      "sha256": "816a51ae4e4384b67badc8e9954ef5b4903f680728ff36e399f2fbbb6f8bc23c"
+    },
+    {
+      "path": "reviews/geometry_thermal_physics_review.md",
+      "bytes": 8751,
+      "sha256": "abc3d8611cae7ea40cf4d372724d42bde077293fcefd7cbb9c95729e86da2220"
+    },
+    {
+      "path": "reviews/integration_camera_review.md",
+      "bytes": 16936,
+      "sha256": "c9b4f8915023c77a072cb1deea43432add8b36f1c62b9e419d427eaf89d43c54"
+    },
+    {
+      "path": "reviews/integration_referee_results.json",
+      "bytes": 23346,
+      "sha256": "ff65269964c2bd0f8e5c9b44025442812c095411c751babe58d579b986cc8e8b"
+    },
+    {
+      "path": "reviews/integration_referee_results_pre_rim_fix.json",
+      "bytes": 23004,
+      "sha256": "04b9d2fb41f9f79c118f38cdf4e45426eb31c2a47e130526a4d32b6c485312c7"
+    },
+    {
+      "path": "reviews/metrics_camera_review.md",
+      "bytes": 5055,
+      "sha256": "ea88d6f70f6bb01213f8f0b051e667885bdd76ff06576ed6caf65e93b203a3b1"
+    },
+    {
+      "path": "reviews/radiometry_physics_review.md",
+      "bytes": 8818,
+      "sha256": "7dd589d1a8ee8726da3ecfea65592420523247dc96b6a055e49960e35efee9fd"
+    },
+    {
+      "path": "reviews/run_integration_referee.py",
+      "bytes": 7260,
+      "sha256": "8431b7b650000ba9d7c50643f47acef6f66dfb083001d4d83018e934df11c472"
+    },
+    {
+      "path": "reviews/run_source_wave_camera_check.py",
+      "bytes": 1743,
+      "sha256": "f9cab26d9651b2c08831766b4a2b9843d5356b13a2b12db90c5679fd1de557ba"
+    },
+    {
+      "path": "reviews/sample_plan.md",
+      "bytes": 17938,
+      "sha256": "96257bbe7a85c145342ba9177cb694f01e99589c4770d1eeb55e08de6a827cbd"
+    },
+    {
+      "path": "reviews/software_review.md",
+      "bytes": 5899,
+      "sha256": "6e35f3822e241c0985000d805123b562e3b65dbb5f200504c5a568601af6a15e"
+    },
+    {
+      "path": "reviews/source_wave_camera_check.json",
+      "bytes": 1475,
+      "sha256": "586208d0ea7f35840cd04c473a9985e89198d1be98a71449192ebe2605e8db21"
+    },
+    {
+      "path": "run_tests.py",
+      "bytes": 2971,
+      "sha256": "65086ba891dfcebea2747f6360c8f9d075f969d05ae7e31429affae8e6082716"
+    },
+    {
+      "path": "src/sequential_optics/__init__.py",
+      "bytes": 334,
+      "sha256": "75d6f1d977152c53b4975920c55e02b095199a37691bbcb94bda5aa06ce83371"
+    },
+    {
+      "path": "src/sequential_optics/__main__.py",
+      "bytes": 996,
+      "sha256": "b9695e980cb7aa818216940b589b4ac50543da383a1f31e440a423daedf46ae8"
+    },
+    {
+      "path": "src/sequential_optics/api.py",
+      "bytes": 9575,
+      "sha256": "86709a0413aa88700cbc5f6ad7269f074e10ac2d9f4ee6504522f9ca414b319e"
+    },
+    {
+      "path": "src/sequential_optics/errors.py",
+      "bytes": 428,
+      "sha256": "3d7dc20d5fcc85b37cd0d9863573da17fcb611ab805a91354aeb32232f4f3cd5"
+    },
+    {
+      "path": "src/sequential_optics/geometry.py",
+      "bytes": 25253,
+      "sha256": "fee90e235d80d9a605f8401a236465a3b6af6e87b76b2d21571f92d1e0274874"
+    },
+    {
+      "path": "src/sequential_optics/imaging.py",
+      "bytes": 13365,
+      "sha256": "0f3bfb3d6291c06741752380f7822f38f3a93856993d6b53a6824da881d8bb19"
+    },
+    {
+      "path": "src/sequential_optics/io.py",
+      "bytes": 5889,
+      "sha256": "5440b4d53b74cb693609eefc25fba4571e90db28b8d559df3b53aefa48bccad9"
+    },
+    {
+      "path": "src/sequential_optics/materials.py",
+      "bytes": 16216,
+      "sha256": "515b823bf74d59ad8b1c3278df0bb7667d32abf5acaed5042ba7c0f56481639f"
+    },
+    {
+      "path": "src/sequential_optics/metrics.py",
+      "bytes": 36057,
+      "sha256": "48395a401bcde2a356bc76066f9b6492effe69d666c3399a12980b5daca15a13"
+    },
+    {
+      "path": "src/sequential_optics/models.py",
+      "bytes": 6077,
+      "sha256": "8f38cb458ffedee20802a0f4451a1b8b6c7b6e12aeb17ff7a02478b37086f41b"
+    },
+    {
+      "path": "src/sequential_optics/paraxial.py",
+      "bytes": 4408,
+      "sha256": "3e2f885a04bb0b1cb41e8e184533a464c2cf593a585cd312d9a89068c5247248"
+    },
+    {
+      "path": "src/sequential_optics/radiometry.py",
+      "bytes": 23844,
+      "sha256": "12be196c379268c9d527bd438bd8b4b585ce21987e059d81e9c1922044e3c1ab"
+    },
+    {
+      "path": "src/sequential_optics/settings.py",
+      "bytes": 4572,
+      "sha256": "8f5ac04867d5e6b2c83e9fbe7bcf548d7807be97da1508f41a4b46bcd1f2c0c8"
+    },
+    {
+      "path": "src/sequential_optics/source_wave.py",
+      "bytes": 23935,
+      "sha256": "0141ab350ffc30698cbf03f1ca7b0254d26adabdff91f7a5b3296e831c4aa03c"
+    },
+    {
+      "path": "src/sequential_optics/thermal.py",
+      "bytes": 11135,
+      "sha256": "734bea39e8384680471e914299a60c5a424f210e8d1cfe5d262c99836144cab2"
+    },
+    {
+      "path": "src/sequential_optics/values.py",
+      "bytes": 513,
+      "sha256": "170f2cb25aeaa83380fc5f9e0ad06c99004c2a6fa8fcddcb2ed60c7b7b933d92"
+    },
+    {
+      "path": "src/sequential_optics/wave.py",
+      "bytes": 33064,
+      "sha256": "37b51da291d75cebde662aa3973318d410ca754e0aef6da555816332d050a528"
+    },
+    {
+      "path": "tests/test_adversarial.py",
+      "bytes": 12712,
+      "sha256": "71dea61035a5995604c8e896c641c8b6a7d754a98f5d840bfb17ac4eac133cbc"
+    },
+    {
+      "path": "tests/test_geometry.py",
+      "bytes": 11054,
+      "sha256": "7b88c767e1719389d187c31694e91e5949dbe5bbeaa78a55ff72b04e94cf3558"
+    },
+    {
+      "path": "tests/test_integration.py",
+      "bytes": 4232,
+      "sha256": "6466918aaf12fa0b9bf98d7508cf41d9de37faa928a2eba0f7480328b83d19a8"
+    },
+    {
+      "path": "tests/test_materials_thermal.py",
+      "bytes": 14360,
+      "sha256": "78884e4628cb3958effe1698c830867318633f6e46af69ecb0eafdd2eeed3b41"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "bytes": 17098,
+      "sha256": "17f3715a7f90b86ca3d0681618ccbb88b5c835f12b7d4459764f596e45080999"
+    },
+    {
+      "path": "tests/test_radiometry.py",
+      "bytes": 11728,
+      "sha256": "e952475caba4d64fc07c4e7c4ea874731bf3f61f2fff5658e1246330f12d5843"
+    },
+    {
+      "path": "tests/test_review_geometry.py",
+      "bytes": 6787,
+      "sha256": "754bcf507db9c9e422cc2e63b983b9029f654c12eeb2ffebcdad6eb010161f19"
+    },
+    {
+      "path": "tests/test_review_metrics.py",
+      "bytes": 3409,
+      "sha256": "6db6bc7c0d8a3c87223e54221dccc1cc1add4ba0ba4d11897710381a32ec6897"
+    },
+    {
+      "path": "tests/test_review_radiometry.py",
+      "bytes": 4673,
+      "sha256": "c7f8d4efe68f0cc8206eca0e1205a98c83f3b669f5e81f1685f4b76c326936ef"
+    },
+    {
+      "path": "tests/test_review_software.py",
+      "bytes": 6732,
+      "sha256": "83dec9c253acca4cab104b215b69c251b33bf9ef14b4cef13c2e96168c8522ce"
+    },
+    {
+      "path": "tests/test_review_source_wave.py",
+      "bytes": 5375,
+      "sha256": "da6f32de6e99f44986c12a336741ecd25a3699f20faf07193a0eccc32e9db097"
+    },
+    {
+      "path": "tests/test_review_wave.py",
+      "bytes": 4644,
+      "sha256": "88eb8b6b6645cf75dfc95d0b0bb713a3cc1bdadc57e21d349f1cc7b5a6b1627e"
+    },
+    {
+      "path": "tests/test_settings_io.py",
+      "bytes": 2591,
+      "sha256": "65819998b975f52f1cd405a9027fa4ae5c8e3a5d47989285577b2508085413a3"
+    },
+    {
+      "path": "tests/test_source_wave.py",
+      "bytes": 6648,
+      "sha256": "97637ec134d426842a24482ba112629cbc667aa53f76ee93ca94ca47f19c1258"
+    },
+    {
+      "path": "tests/test_wave.py",
+      "bytes": 15904,
+      "sha256": "e3d229b6efe20229b74e92555c8a667f99192a781e9923b90306f3196eba4dbd"
+    },
+    {
+      "path": "tests/test_wave_adversarial.py",
+      "bytes": 4793,
+      "sha256": "7456e8a6387234cdd1646a98be9252d1c0ad36aaa19ce91c18ed51ce69a7e78d"
+    }
+  ]
+}
