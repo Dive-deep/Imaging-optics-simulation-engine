@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "candidate_count": 23,
+  "fresh_4field_RGB_rays": 225492,
+  "failed_rays": 0,
+  "max_588nm_fullfield_chief_height_error_mm": 8.881784197001252e-16,
+  "imported_model_from_export": true,
+  "native_library_rebuilt_in_export": true,
+  "staged_tree_before_final_documentation": "88c779f94d3a00ef6c8cd7f52913475838e9901f",
+  "source_core_changes": [],
+  "scope": "Relocated staged export: build native kernel, load all 23 frozen designs, verify hashes, retrace 4 fields/RGB at16x48. Historical audit files unchanged; no wave convergence claim.",
+  "existing_full_core_suite_record": "experiments/candidates_20261022/results/restored_core_tests.json"
+}

@@ -1,0 +1,1793 @@
+US3944337A - Three element objective lens with ellipsoidal, hyperbolic, and parabolic surfaces 
+        - Google Patents
+#gb { top: 15px; left: auto; right: 0; width: auto; min-width: 135px !important; }   
+      body { transition: none; }
+window.version = 'patent-search.search_20260819_RC00';
+
+      function sendFeedback() {
+        userfeedback.api.startFeedback({
+          'productId': '713680',
+          'bucket': 'patent-search-web',
+          'productVersion': window.version,
+        });
+      }
+
+      window.experiments = {};
+      window.experiments.patentCountries = "ae,ag,al,am,ao,ap,ar,at,au,aw,az,ba,bb,bd,be,bf,bg,bh,bj,bn,bo,br,bw,bx,by,bz,ca,cf,cg,ch,ci,cl,cm,cn,co,cr,cs,cu,cy,cz,dd,de,dj,dk,dm,do,dz,ea,ec,ee,eg,em,ep,es,fi,fr,ga,gb,gc,gd,ge,gh,gm,gn,gq,gr,gt,gw,hk,hn,hr,hu,ib,id,ie,il,in,ir,is,it,jo,jp,ke,kg,kh,km,kn,kp,kr,kw,kz,la,lc,li,lk,lr,ls,lt,lu,lv,ly,ma,mc,md,me,mg,mk,ml,mn,mo,mr,mt,mw,mx,my,mz,na,ne,ng,ni,nl,no,nz,oa,om,pa,pe,pg,ph,pl,pt,py,qa,ro,rs,ru,rw,sa,sc,sd,se,sg,si,sk,sl,sm,sn,st,su,sv,sy,sz,td,tg,th,tj,tm,tn,tr,tt,tw,tz,ua,ug,us,uy,uz,vc,ve,vn,wo,yu,za,zm,zw";
+      
+      
+      window.experiments.keywordWizard = true;
+      
+      
+      
+      window.experiments.definitions = true;
+      window.experiments.plogs = true;
+
+      window.Polymer = {
+        dom: 'shady',
+        lazyRegister: true,
+      };
+US3944337A - Three element objective lens with ellipsoidal, hyperbolic, and parabolic surfaces 
+        - Google Patents
+Three element objective lens with ellipsoidal, hyperbolic, and parabolic surfaces
+Download PDF
+Info
+Publication number
+US3944337A
+US3944337A
+US05/516,235
+US51623574A
+US3944337A
+US 3944337 A
+US3944337 A
+US 3944337A
+US 51623574 A
+US51623574 A
+US 51623574A
+US 3944337 A
+US3944337 A
+US 3944337A
+Authority
+US
+United States
+Prior art keywords
+sub
+asphere
+surf
+lens
+numbered
+Prior art date
+1974-10-18
+Legal status (The legal status is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the status listed.)
+Expired - Lifetime
+Application number
+US05/516,235
+Inventor
+Paul Lewis Ruben
+Current Assignee (The listed assignees may be inaccurate. Google has not performed a legal analysis and makes no representation or warranty as to the accuracy of the list.)
+Eastman Kodak Co
+Original Assignee
+Eastman Kodak Co
+Priority date (The priority date is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the date listed.)
+1974-10-18
+Filing date
+1974-10-18
+Publication date
+1976-03-16
+1974-10-18
+Application filed by Eastman Kodak Co
+filed
+Critical
+Eastman Kodak Co
+1974-10-18
+Priority to US05/516,235
+priority
+Critical
+patent/US3944337A/en
+1975-10-13
+Priority to FR7531232A
+priority
+patent/FR2288321A1/en
+1975-10-16
+Priority to GB42476/75A
+priority
+patent/GB1522356A/en
+1975-10-20
+Priority to DE19752546927
+priority
+patent/DE2546927A1/en
+1976-03-16
+Application granted
+granted
+Critical
+1976-03-16
+Publication of US3944337A
+publication
+Critical
+patent/US3944337A/en
+1993-03-16
+Anticipated expiration
+legal-status
+Critical
+Status
+Expired - Lifetime
+legal-status
+Critical
+Current
+Links
+USPTO
+USPTO PatentCenter
+USPTO Assignment
+Espacenet
+Global Dossier
+Discuss
+238000000926
+separation method
+Methods
+0.000
+claims
+description
+8
+238000012937
+correction
+Methods
+0.000
+abstract
+description
+8
+230000004075
+alteration
+Effects
+0.000
+abstract
+description
+7
+239000004033
+plastic
+Substances
+0.000
+abstract
+description
+3
+229920003023
+plastic
+Polymers
+0.000
+abstract
+description
+3
+230000003287
+optical effect
+Effects
+0.000
+description
+6
+239000004793
+Polystyrene
+Substances
+0.000
+description
+4
+229920003229
+poly(methyl methacrylate)
+Polymers
+0.000
+description
+4
+239000004926
+polymethyl methacrylate
+Substances
+0.000
+description
+4
+229920002223
+polystyrene
+Polymers
+0.000
+description
+4
+239000011521
+glass
+Substances
+0.000
+description
+3
+229910052739
+hydrogen
+Inorganic materials
+0.000
+description
+2
+239000001257
+hydrogen
+Substances
+0.000
+description
+2
+125000004435
+hydrogen atom
+Chemical class
+[H]*
+0.000
+description
+2
+NLHHRLWOUZZQLW-UHFFFAOYSA-N
+Acrylonitrile
+Chemical compound
+C=CC#N
+NLHHRLWOUZZQLW-UHFFFAOYSA-N
+0.000
+description
+1
+DGAQECJNVWCQMB-PUAWFVPOSA-M
+Ilexoside XXIX
+Chemical compound
+C[C@@H]1CC[C@@]2(CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)OS(=O)(=O)[O-])C)C)[C@@H]2[C@]1(C)O)C)C(=O)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O.[Na+]
+DGAQECJNVWCQMB-PUAWFVPOSA-M
+0.000
+description
+1
+230000001944
+accentuation
+Effects
+0.000
+description
+1
+230000008602
+contraction
+Effects
+0.000
+description
+1
+239000006185
+dispersion
+Substances
+0.000
+description
+1
+238000010348
+incorporation
+Methods
+0.000
+description
+1
+238000012986
+modification
+Methods
+0.000
+description
+1
+230000004048
+modification
+Effects
+0.000
+description
+1
+229920002776
+polycyclohexyl methacrylate
+Polymers
+0.000
+description
+1
+229910052708
+sodium
+Inorganic materials
+0.000
+description
+1
+239000011734
+sodium
+Substances
+0.000
+description
+1
+238000001228
+spectrum
+Methods
+0.000
+description
+1
+Images
+Classifications
+G
+—
+PHYSICS
+G02
+—
+OPTICS
+G02B
+—
+OPTICAL ELEMENTS, SYSTEMS OR APPARATUS
+G02B13/00
+—
+Optical objectives specially designed for the purposes specified below
+G02B13/18
+—
+Optical objectives specially designed for the purposes specified below with lenses having one or more non-spherical faces, e.g. for reducing geometrical aberration
+G
+—
+PHYSICS
+G02
+—
+OPTICS
+G02B
+—
+OPTICAL ELEMENTS, SYSTEMS OR APPARATUS
+G02B9/00
+—
+Optical objectives characterised both by the number of the components and their arrangements according to their sign, i.e. + or -
+G02B9/12
+—
+Optical objectives characterised both by the number of the components and their arrangements according to their sign, i.e. + or - having three components only
+G02B9/14
+—
+Optical objectives characterised both by the number of the components and their arrangements according to their sign, i.e. + or - having three components only arranged + - +
+Definitions
+This invention
+relates to photographic objective lenses and in particular to such lenses that comprise three air spaced elements.
+Triplet lenses for use in photographic apparatus
+are well known and have been used for many years.
+high relative aperture lenses
+have also been in use for many years in the photographic industry.
+the use of high relative aperture lenses
+has spread to photographic apparatus designed to be mass produced for the amateur market. The price of such lenses then becomes of great concern and the relatively complex, well corrected, high relative aperture lenses known in the art are too costly.
+plastic elements in triplet lensens
+has been generally adopted in order to decrease the cost of such lenses.
+the introduction of plastic elements
+has usually resulted in accentuation of certain design problems. For instance, variation in the back focus length due to thermally induced contraction and expansion of the optics may be increased.
+a three element objective
+which comprises a front positive biconvex element, a middle biconcave negative element and a rear positive biconvex element.
+Aspheres
+are incorporated on selected surfaces of the first and second elements to provide improved aberration correction at a high relative aperture.
+the first two elements
+may be made of polymethyl methacrylate, polycyclohexyl methacrylate, polystyrene, or acrylonitrile.
+lens
+will be used to describe the complete lens and not the elements thereof.
+the elements
+are numbered from left to right with Arabic numerals.
+the elements, indices of refraction N, Abbe numbers V, radii of curvature R, thicknesses T, and air spaces S
+are numbered to correspond with the drawing.
+the indices of refraction
+are for the 0.5893 micron sodium D lines of the spectrum.
+the Abbe numbers
+are calculated utilizing the D line index and, as the main dispersion, the index difference between the 0.4861 micron hydrogen F line and the 0.6563 micron hydrogen C line. Radii of curvature having centers of curvature to the right of the surface are considered positive; those with centers of curvature to the left of the surface are considered negative.
+the lens
+comprises three air spaced elements.
+Element 1
+is a front positive biconvex element.
+Element 2
+is a middle negative biconcave element.
+Element 3
+is a rear positive biconvex element.
+D
+is a diaphragm.
+aspheric surfaces
+in a lens design provides additional parameters for correction of aberrations. Incorporation of an aspheric surface is particularly useful in a lens of large relative aperture, because the aspheric surfaces may be utilized to improve optical performance by controlling higher order spherical aberrations throughout the image field. Moreover, the choice of aspheric surfaces may preclude the necessity of increasing the strength of spherical surfaces to permit a reduction in the number of elements, thereby making the lens more manufacturable. In the design of the present invention, the improved aberration correction and the high relative aperture are achieved by the use of aspheres on one or more of the first four surfaces of the lens.
+This equation
+describes a surface in terms of its surface sag x at a semi-aperture distance y from the axis of the lens.
+the constant C
+is the vertex curvature, that is, the surface curvature at the vertex of the lens, and is equal to the reciprocal of the vertex radius of curvature R.
+Example I
+represents a significant improvement in the relative aperture and field coverage for a triplet.
+the relative aperture
+is f/1.57 with a focal length of 11.75mm and a semi-field angle of 16.94°.
+aspheres
+are utilized on the first four surfaces of the lens with the surfaces being respectively an ellipsoid, a hyperboloid, and two paraboloids on the middle negative element.
+the specific choice of the asphere for a particular surface
+is not absolutely essential, with the placing of paraboloids on the first element or other conic sections on the second element also resulting in comparable optical quality.
+Element 1
+is formed of polymethyl methacrylate while Element 2 is formed of polystyrene.
+the respective power and spacing of these two elements
+is chosen to minimize variations in back focal length for the lens caused by ambient thermal fluctuations, while aberration correction is improved by the selection of the conic surfaces on these two elements plus the distribution of the power of each element between its two surfaces.
+the rear element
+is formed of a relatively high index glass to provide assistance in achieving a flat field.
+Element 3
+has also been made a symmetric biconvex element in order to simplify assembly of the lens, since it is impossible to assemble this element in an improper orientation.
+the aspheric surfaces in this design
+are simple conics without any higher order corrections and the coefficients for each of the surfaces are as tabulated below:
+Example I
+appeared to represent the limit to which the relative aperture could be increased while maintaining the desired angular field coverage.
+Example II
+represents a lens with a reduced semi-field angle of 16.61° resulting in an increase in the focal length to 12.00mm and, more importantly, a relative aperture of 1.40 .
+the first and second elements
+have been made of polymethyl methacrylate and polystyrene with aspheres on each of the surfaces of the two elements.
+the respective aspheres
+are an ellipsoid, hyperboloid and two paraboloids, though the choice of these particular aspheres could be modified without sacrificing optical quality.
+Element 3
+is again formed of a high index glass to provide a relatively flat field and is a symmetric element.
+Example III
+is similar to Example II with a further reduction in semi-field angle to 14.34° and improved aberration correction at a relative aperture of f/1.40, with a focal length of 14.00mm.
+the coefficients for the aspheres of Example III
+are tabulated below:
+Example IV
+represents this design with a focal length of 12.01mm at a relative aperture of f/1.40 and a semi-field angle of 16.16°.
+Example IV
+is similar to Examples I-III with polymethyl methacrylate and polystyrene utilized for Elements 1 and 2 and a high index glass utilized for Element III, which is symmetrical in design.
+the coefficients for the aspheres in Example IV
+are tabulated below:
+Landscapes
+Physics & Mathematics
+(
+AREA
+)
+General Physics & Mathematics
+(
+AREA
+)
+Optics & Photonics
+(
+AREA
+)
+Lenses
+(
+AREA
+)
+Abstract
+An objective lens comprising three elements, a front positive biconvex element, a middle negative biconcave element and a rear positive biconvex element. The first two elements are made of inexpensive plastic materials. Aberration correction at a high relative aperture is improved by the use of aspheres on selected surfaces of the first and second elements.
+Description
+BACKGROUND OF THE INVENTION
+1. Field of the Invention
+This invention relates to photographic objective lenses and in particular to such lenses that comprise three air spaced elements.
+2. Description of the Prior Art
+Triplet lenses for use in photographic apparatus are well known and have been used for many years. Moreover, high relative aperture lenses have also been in use for many years in the photographic industry. However, with the advent of available light photography, the use of high relative aperture lenses has spread to photographic apparatus designed to be mass produced for the amateur market. The price of such lenses then becomes of great concern and the relatively complex, well corrected, high relative aperture lenses known in the art are too costly.
+The introduction of plastic elements in triplet lensens has been generally adopted in order to decrease the cost of such lenses. However, the introduction of plastic elements has usually resulted in accentuation of certain design problems. For instance, variation in the back focus length due to thermally induced contraction and expansion of the optics may be increased.
+SUMMARY OF THE INVENTION
+In accordance with the present invention, there is provided a three element objective which comprises a front positive biconvex element, a middle biconcave negative element and a rear positive biconvex element. Aspheres are incorporated on selected surfaces of the first and second elements to provide improved aberration correction at a high relative aperture. In the preferred embodiments, the first two elements may be made of polymethyl methacrylate, polycyclohexyl methacrylate, polystyrene, or acrylonitrile.
+DESCRIPTION OF THE DRAWING
+In the description of the preferred embodiments of the invention presented below, reference is made to the accompanying drawing which is a schematic axial cross-section of a three element objective according to the present invention.
+DESCRIPTION OF THE PREFERRED EMBODIMENTS
+For all purposes of describing or claiming of the invention, the term lens will be used to describe the complete lens and not the elements thereof. In the drawing, the elements are numbered from left to right with Arabic numerals. In each of the examples, the elements, indices of refraction N, Abbe numbers V, radii of curvature R, thicknesses T, and air spaces S are numbered to correspond with the drawing. The indices of refraction are for the 0.5893 micron sodium D lines of the spectrum. The Abbe numbers are calculated utilizing the D line index and, as the main dispersion, the index difference between the 0.4861 micron hydrogen F line and the 0.6563 micron hydrogen C line. Radii of curvature having centers of curvature to the right of the surface are considered positive; those with centers of curvature to the left of the surface are considered negative.
+In all embodiments of the invention as illustrated in the drawing, the lens comprises three air spaced elements. Element 1 is a front positive biconvex element. Element 2 is a middle negative biconcave element. Element 3 is a rear positive biconvex element. D is a diaphragm.
+The use of aspheric surfaces in a lens design provides additional parameters for correction of aberrations. Incorporation of an aspheric surface is particularly useful in a lens of large relative aperture, because the aspheric surfaces may be utilized to improve optical performance by controlling higher order spherical aberrations throughout the image field. Moreover, the choice of aspheric surfaces may preclude the necessity of increasing the strength of spherical surfaces to permit a reduction in the number of elements, thereby making the lens more manufacturable. In the design of the present invention, the improved aberration correction and the high relative aperture are achieved by the use of aspheres on one or more of the first four surfaces of the lens.
+An aspheric surface may be described by the following equation: ##EQU1##
+This equation describes a surface in terms of its surface sag x at a semi-aperture distance y from the axis of the lens. The constant C is the vertex curvature, that is, the surface curvature at the vertex of the lens, and is equal to the reciprocal of the vertex radius of curvature R. The constant K is the conic constant and is defined by the equation K = -e
+2
+where e is the eccentricity of the surface. Certain values of K describe conic sections or surfaces of revolution about the optical axis of the lens. Terms higher than the quadratic in the equation for x may also be included, if desired.
+Lenses may be made according to this invention by following the specifications in the preferred embodiments presented below:
+EXAMPLE I                                                                 
+                         Radius   Thickness or                            
+Element                                                                   
+       N.sub.D   V       mm       Separation mm                           
+______________________________________                                    
+                                  S.sub.1 =1.800                          
+                         R.sub.1 =Asphere                                 
+1      1.49168   57.4             T.sub.1 =3.500                          
+                         R.sub.2 =Asphere                                 
+                                  S.sub.2 =0.814                          
+                         R.sub.3 =Asphere                                 
+2      1.59028   30.9             T.sub.2 =0.900                          
+                         R.sub.4 =Asphere                                 
+                                  S.sub.3 =0.975                          
+                         R.sub.5 = 9.0058                                 
+3      1.73400   51.0             T.sub.3 =2.800                          
+                         R.sub.6 =-9.0058                                 
+______________________________________
+Example I represents a significant improvement in the relative aperture and field coverage for a triplet. The relative aperture is f/1.57 with a focal length of 11.75mm and a semi-field angle of 16.94°. It may be seen that aspheres are utilized on the first four surfaces of the lens with the surfaces being respectively an ellipsoid, a hyperboloid, and two paraboloids on the middle negative element. However, the specific choice of the asphere for a particular surface is not absolutely essential, with the placing of paraboloids on the first element or other conic sections on the second element also resulting in comparable optical quality. Element 1 is formed of polymethyl methacrylate while Element 2 is formed of polystyrene. The respective power and spacing of these two elements is chosen to minimize variations in back focal length for the lens caused by ambient thermal fluctuations, while aberration correction is improved by the selection of the conic surfaces on these two elements plus the distribution of the power of each element between its two surfaces. The rear element is formed of a relatively high index glass to provide assistance in achieving a flat field. Element 3 has also been made a symmetric biconvex element in order to simplify assembly of the lens, since it is impossible to assemble this element in an improper orientation. The aspheric surfaces in this design are simple conics without any higher order corrections and the coefficients for each of the surfaces are as tabulated below:
+Table I                                                     
+______________________________________                                    
+Surf. 1     Surf. 2     Surf. 3     Surf. 4                               
+______________________________________                                    
+C 0.15632779                                                              
+           -0.07215136                                                    
+                      -0.08858961  0.23514772                             
+K -0.84927155                                                             
+          -17.36321211                                                    
+                      -1.0        -1.0                                    
+______________________________________
+EXAMPLE II                                                                
+                         Radius   Thickness or                            
+Element                                                                   
+       N.sub.D   V       mm       Separation mm                           
+______________________________________                                    
+                                  S.sub.1 =1.800                          
+                         R.sub.1 =Asphere                                 
+1      1.49168   57.4             T.sub.1 =3.700                          
+                         R.sub.2 =Asphere                                 
+                                  S.sub.2 =0.825                          
+                         R.sub.3 =Asphere                                 
+2      1.59028   30.9             T.sub.2 =0.800                          
+                         R.sub.4 =Asphere                                 
+                                  S.sub.3 =1.123                          
+                         R.sub.5 = 9.4018                                 
+3      1.73400   51.0             T.sub.3 =2.697                          
+                         R.sub.6 =-9.4018                                 
+______________________________________
+It was found during design of the various embodiments of the invention presented herein, that Example I appeared to represent the limit to which the relative aperture could be increased while maintaining the desired angular field coverage. Example II represents a lens with a reduced semi-field angle of 16.61° resulting in an increase in the focal length to 12.00mm and, more importantly, a relative aperture of 1.40 . As with Example I, the first and second elements have been made of polymethyl methacrylate and polystyrene with aspheres on each of the surfaces of the two elements. The respective aspheres are an ellipsoid, hyperboloid and two paraboloids, though the choice of these particular aspheres could be modified without sacrificing optical quality. Element 3 is again formed of a high index glass to provide a relatively flat field and is a symmetric element. Once again no higher order corrections have been made in the aspheric surfaces and the coefficients are as tabulated below for the four aspheres:
+Table II                                                    
+______________________________________                                    
+Surf. 1     Surf. 2     Surf. 3    Surf. 4                                
+______________________________________                                    
+C .15671005                                                               
+           -.07073345  -.08252031                                         
+                                  .23303578                               
+K -.81198436                                                              
+          -20.27948769                                                    
+                      -1.0       -1.0                                     
+______________________________________
+EXAMPLE III                                                               
+                         Radius   Thickness or                            
+Element                                                                   
+       N.sub.D   V       mm       Separation mm                           
+______________________________________                                    
+                                  S.sub.1 =1.800                          
+                         R.sub.1 =Asphere                                 
+1      1.49168   57.4             T.sub.1 =4.553                          
+                         R.sub.2 =Asphere                                 
+                                  S.sub.2 =1.204                          
+                         R.sub.3 =Asphere                                 
+2      1.59028   30.9             T.sub.2 = .900                          
+                         R.sub.4 =Asphere                                 
+                                  S.sub.3 =1.190                          
+                         R.sub.5 = 10.134                                 
+3      1.73400   51.0             T.sub.3 =2.960                          
+                         R.sub.6 =-10.134                                 
+______________________________________
+Example III is similar to Example II with a further reduction in semi-field angle to 14.34° and improved aberration correction at a relative aperture of f/1.40, with a focal length of 14.00mm. The coefficients for the aspheres of Example III are tabulated below:
+Table III                                                   
+______________________________________                                    
+Surf. 1     Surf. 2     Surf. 3    Surf. 4                                
+______________________________________                                    
+C .13140514                                                               
+           -.06324239  -.08182546                                         
+                                  .21013933                               
+K -.80160409                                                              
+          -18.01533340                                                    
+                      -1.0       -1.0                                     
+______________________________________
+EXAMPLE IV                                                                
+                         Radius   Thickness or                            
+Element                                                                   
+       N.sub.D   V       mm       Separation mm                           
+______________________________________                                    
+                                  S.sub.1 =1.800                          
+                         R.sub.1 =Asphere                                 
+1      1.49168   57.4             T.sub.1 =3.517                          
+                         R.sub.2 =Asphere                                 
+                                  S.sub.2 = .825                          
+                         R.sub.3 =-13.094                                 
+2      1.59028   30.9             T.sub.2 = .900                          
+                         R.sub.4 =Asphere                                 
+                                  S.sub.3 =1.135                          
+                         R.sub.5 = 9.5029                                 
+3      1.73400   51.0             T.sub.3 =2.716                          
+                         R.sub.6 = -9.5029                                
+______________________________________
+Attempts to further increase the relative aperture based upon the designs of Examples II and III resulted in the finding that the aspheric power on the surface 3 was not essential to obtain the desired optical quality. It was found that this aspheric power could be successfully transferred to strengthen the hyperboloid on surface 2 and that surface 3 could be made a simple spherical surface with no consequent loss of optical quality, thereby utilizing three aspheres rather than four. Example IV represents this design with a focal length of 12.01mm at a relative aperture of f/1.40 and a semi-field angle of 16.16°. In other respects, Example IV is similar to Examples I-III with polymethyl methacrylate and polystyrene utilized for Elements 1 and 2 and a high index glass utilized for Element III, which is symmetrical in design. The coefficients for the aspheres in Example IV are tabulated below:
+Surf. 1          Surf. 2       Surf. 4                                    
+______________________________________                                    
+C .15628953     -.06431991    .22992535                                   
+K -.75823196   -25.72410942  -1.0                                         
+______________________________________
+The invention has been described in detail with particular reference to preferred embodiments thereof, but it will be understood that variations and modifications can be effected within the spirit and scope of the invention.
+Claims (
+6
+)
+I claim:
+1. A three element objective lens comprising a front positive biconvex element having two aspheric surfaces, a middle negative biconcave element having two aspheric surfaces and a rear positive biconvex element wherein said aspheric surfaces are from front to rear, an ellipsoid, a hyperboloid, and two paraboloids.
+2. A three element lens comprising a front positive biconvex element, a middle negative biconcave element and a rear positive biconvex element, said front element having two aspheric surfaces and said middle element having at least one aspheric surface wherein the lens focal length F, radii of curvature R, thicknesses T, air spaces S, vertex curvatures C and conic constants K, as numbered by subscript from front to rear, are as defined by the following relationships:
+11    ≦ F ≦                                         
+                         14                                               
+        9     ≦ R.sub.5 ≦                                   
+                         11                                               
+        9     ≦-R.sub.6 ≦                                   
+                         11                                               
+        3     ≦ T.sub.1 ≦                                   
+                         5                                                
+        0.8   ≦ T.sub.2 ≦                                   
+                         0.9                                              
+        2     ≦ T.sub.3 ≦                                   
+                         3                                                
+        0.8   ≦ S.sub.2 ≦                                   
+                         1.5                                              
+        0.9   ≦ S.sub.3 ≦                                   
+                         1.5                                              
+        0.13  ≦ C.sub.1 ≦                                   
+                         0.16                                             
+        0.06  ≦-C.sub.2 ≦                                   
+                         0.08                                             
+        0.08  ≦-C.sub.3 ≦                                   
+                         0.09                                             
+        0.21  ≦ C.sub.4 ≦                                   
+                         0.24                                             
+        .75   ≦-K.sub.1 ≦                                   
+                         .85                                              
+        17    ≦-K.sub.2 ≦                                   
+                         26.
+3. A lens as in claim 2, wherein said lens has a focal length of 11.75mm when constructed according to the following parameters:
+Radius   Thickness or                            
+Element                                                                   
+       N.sub.D   V       mm       Separation mm                           
+______________________________________                                    
+                                  S.sub.1 =1.800                          
+                         R.sub.1 =Asphere                                 
+1      1.49168   57.4             T.sub.1 =3.500                          
+                         R.sub.2 =Asphere                                 
+                                  S.sub.2 =0.814                          
+                         R.sub.3 =Asphere                                 
+2      1.59028   30.9             T.sub.2 =0.900                          
+                         R.sub.4 =Asphere                                 
+                                  S.sub.3 =0.975                          
+                         R.sub.5 =9.0058                                  
+3      1.73400   51.0             T.sub.3 =2.800                          
+                          R.sub.6 =-9.0058                                
+______________________________________
+wherein, from front to rear, the elements are numbered from 1 to 3, the corresponding indices of refraction, N, and Abbe numbers, V, are listed for each element, the radii of curvature of the surfaces are numbered from R
+1
+to R
+6
+, the thicknesses T
+1
+to T
+3
+, the spacings between the elements are numbered from S
+1
+to S
+3
+, and wherein R
+1
+, R
+2
+, R
+3
+and R
+4
+represent the vertex radius of curvature of an aspheric surface defined by the following formula and parameters:              Cy
+2
+x =              1+√1-(1+K)C
+2
+y
+2
+Surf. 1   Surf. 2     Surf. 3    Surf. 4______________________________________C 0.15632779           -0.07215136                      -0.08858961                                  0.23514772K -0.84927155          -17.36321211                      -1.0       -1.0______________________________________
+wherein x is the sag of an aspheric surface from a plane reference surface at a radial distance y from the axis of the lens, C is equal to the reciprocal of the vertex radius of curvature and K K is the conic constant.
+4. A lens as in claim 2, wherein said lens has a focal length of 12.00mm when constructed according to the following parameters:
+Radius   Thickness or                            
+Element                                                                   
+       N.sub.D   V       mm       Separation mm                           
+______________________________________                                    
+                                  S.sub.1 =1.800                          
+                         R.sub.1 =Asphere                                 
+1      1.49168   57.4             T.sub.1 =3.700                          
+                         R.sub.2 =Asphere                                 
+                                  S.sub.2 =0.825                          
+                         R.sub.3 =Asphere                                 
+2      1.59028   30.9             T.sub.2 =0.800                          
+                         R.sub.4 =Asphere                                 
+                                  S.sub.3 =1.123                          
+                         R.sub.5 =9.4018                                  
+3      1.73400   51.0             T.sub.3 =2.697                          
+                          R.sub.6 =-9.4018                                
+______________________________________
+wherein, from front to rear, the elements are numbered from 1 to 3, the corresponding indices of refraction, N, and Abbe numbers, V, are listed for each element, the radii of curvature of the surfaces are numbered from R
+1
+to R
+6
+, the thicknesses of the elements are numbered from T
+1
+to T
+3
+, the spacings between the elements are numbered from S
+1
+to S
+3
+, and wherein R
+1
+, R
+2
+, R
+3
+and R
+4
+represent the vertex radius of curvature of an aspheric surface defined by the following formula and parameters:              Cy
+2
+x =              1+√1-(1+K)C
+2
+y
+2
+Surf. 1   Surf. 2     Surf. 3    Surf. 4______________________________________C .15671005           -.07073345  -.08252031                                  .23303578K -.81198436          -20.27948769                      -1.0       -1.0______________________________________
+wherein x is the sag of an aspheric surface from a plane reference surface at a radial distance y from the axis of the lens, C is equal to the reciprocal of the vertex radius of curvature and K is the conic constant.
+5. A lens as in claim 2, wherein said lens has a focal length of 14.00 mm when constructed according to the following parameters:
+Radius   Thickness or                            
+Element                                                                   
+       N.sub.D   V       mm       Separation mm                           
+______________________________________                                    
+                                  S.sub.1 =1.800                          
+                         R.sub.1 =Asphere                                 
+1      1.49168   57.4             T.sub.1 =4.553                          
+                         R.sub.2 =Asphere                                 
+                                  S.sub.2 =1.204                          
+                         R.sub.3 =Asphere                                 
+2      1.59028   30.9             T.sub.2 = .900                          
+                         R.sub.4 =Asphere                                 
+                                  S.sub.3 =1.190                          
+                         R.sub.5 =10.134                                  
+3      1.73400   51.0             T.sub.3 =2.960                          
+                          R.sub.6 =-10.134                                
+______________________________________
+wherein, from front to rear, the elements are numbered from 1 to 3, the corresponding indices of refraction, N, and Abbe numbers, V, are listed for each element, the radii of curvature of the surfaces are numbered from R
+1
+to R
+6
+, the thicknesses of the elements are numbered from T
+1
+to T
+3
+, the spacings between the elements are numbered from S
+1
+to S
+3
+, and wherein R
+1
+, R
+2
+, R
+3
+and R
+4
+represent the vertex radius of curvature of an aspheric surface defined by the following formula and parameters:              Cy
+2
+x =              1+√1-(1+K)C
+2
+y
+2
+Surf. 1   Surf. 2     Surf. 3    Surf. 4______________________________________C .13140514           -.06324239  -08182546  .21013933K -.80160409          -18.01533340                      -1.0       -1.0______________________________________
+wherein x is the sag of an aspheric surface from a plane reference surface at a radial distance y from the axis of the lens, C is equal to the reciprocal of the vertex radius of curvature and K is the conic constant.
+6. A lens as in claim 2, wherein said lens has a focal length of 12.01 mm when constructed according to the following parameters:
+Radius   Thickness or                            
+Element                                                                   
+       N.sub.D   V       mm       Separation mm                           
+______________________________________                                    
+                                  S.sub.1 =1.800                          
+                         R.sub.1 =Asphere                                 
+1      1,49168   57.4             T.sub.1 =3.517                          
+                         R.sub.2 =Asphere                                 
+                                  S.sub.2 = .825                          
+                         R.sub.3 =-13.094                                 
+2      1.59028   30.9             T.sub.2 = .900                          
+                         R.sub.4 =Asphere                                 
+                                  S.sub.3 =1.135                          
+                         R.sub.5 = 9.5029                                 
+3      1.73400   51.0             T.sub.3 =2.716                          
+                         R.sub.6 = -9.5029                                
+______________________________________
+wherein, from front to rear, the elements are numbered from 1 to 3, the corresponding indices of refraction, N, and Abbe numbers, V, are listed for each element, the radii of curvature of the surfaces are numbered from R
+1
+to R
+6
+, the thicknesses of the elements are numbered from T
+1
+to T
+3
+, the spacings between the elements are numbered from S
+1
+to S
+3
+, and wherein R
+1
+, R
+2
+and R
+4
+represent the vertex radius curvature of an aspheric surface defined by the following formula and parameters:              Cy
+2
+x =              1+√1- (1+K)C
+2
+y
+2
+Surf. 1        Surf. 2       Surf. 4______________________________________C .15628953     -.06431991    .22992535K -.75823196   -25.72410942  -1.0______________________________________
+wherein x is the sag of an aspheric surface from a plane reference surface at a radial distance y from the axis of the lens, C is equal to the reciprocal of the vertex radius of curvature and K is the conic constant.
+US05/516,235
+1974-10-18
+1974-10-18
+Three element objective lens with ellipsoidal, hyperbolic, and parabolic surfaces
+Expired - Lifetime
+US3944337A
+(
+en
+)
+Priority Applications (4)
+Application Number
+Priority Date
+Filing Date
+Title
+US05/516,235
+US3944337A
+(
+en
+)
+1974-10-18
+1974-10-18
+Three element objective lens with ellipsoidal, hyperbolic, and parabolic surfaces
+FR7531232A
+FR2288321A1
+(
+en
+)
+1974-10-18
+1975-10-13
+TRIPLET OBJECTIVE WITH ASPHERICAL SURFACES
+GB42476/75A
+GB1522356A
+(
+en
+)
+1974-10-18
+1975-10-16
+Three element lens
+DE19752546927
+DE2546927A1
+(
+en
+)
+1974-10-18
+1975-10-20
+TRIPLET LENS
+Applications Claiming Priority (1)
+Application Number
+Priority Date
+Filing Date
+Title
+US05/516,235
+US3944337A
+(
+en
+)
+1974-10-18
+1974-10-18
+Three element objective lens with ellipsoidal, hyperbolic, and parabolic surfaces
+Publications (1)
+Publication Number
+Publication Date
+US3944337A
+true
+US3944337A
+              (
+en
+)
+1976-03-16
+Family
+ID=24054695
+Family Applications (1)
+Application Number
+Title
+Priority Date
+Filing Date
+US05/516,235
+Expired - Lifetime
+US3944337A
+(
+en
+)
+1974-10-18
+1974-10-18
+Three element objective lens with ellipsoidal, hyperbolic, and parabolic surfaces
+Country Status (4)
+Country
+Link
+US
+(
+1
+)
+US3944337A
+(
+en
+)
+DE
+(
+1
+)
+DE2546927A1
+(
+en
+)
+FR
+(
+1
+)
+FR2288321A1
+(
+en
+)
+GB
+(
+1
+)
+GB1522356A
+(
+en
+)
+Cited By (23)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+US4105308A
+(
+en
+)
+*
+1977-01-03
+1978-08-08
+Polaroid Corporation
+Aspheric plastic triplet
+US4109995A
+(
+en
+)
+*
+1976-06-03
+1978-08-29
+Opcon Associates Of Canada, Ltd.
+Triplet with aspheric surfaces
+US4163604A
+(
+en
+)
+*
+1977-12-23
+1979-08-07
+U.S. Precision Lens, Inc.
+Projection lens
+JPS55143518A
+(
+en
+)
+*
+1979-04-27
+1980-11-08
+Nippon Kogaku Kk <Nikon>
+Lens system
+FR2532063A1
+(
+en
+)
+*
+1982-05-29
+1984-02-24
+Rodenstock Optik G
+EXPLORATION OBJECTIVE OF AN IMPROVED TYPE, IN PARTICULAR FOR THE OPTICAL STORAGE OF INFORMATION
+US4838665A
+(
+en
+)
+*
+1986-07-25
+1989-06-13
+Pioneer Electronic Corporation
+Temperature-compensated lens system
+US5251063A
+(
+en
+)
+*
+1991-10-16
+1993-10-05
+Bodenseewerk Geratetechnik Gmbh
+Large-aperture three-lens objective with aspherical-surfaces
+US5305147A
+(
+en
+)
+*
+1990-08-20
+1994-04-19
+Olympus Optical Co., Ltd.
+Eyepiece lens system for endoscopes
+US5311348A
+(
+en
+)
+*
+1991-10-31
+1994-05-10
+Minolta Camera Kabushiki Kaisha
+Cylindrical lens system for use in laser beam scanning apparatus and scanning apparatus including same
+US5483382A
+(
+en
+)
+*
+1993-05-11
+1996-01-09
+Proxima Corporation
+Projection lens and method of using same
+US5541692A
+(
+en
+)
+*
+1994-06-24
+1996-07-30
+Konica Corporation
+Camera with triplet lenses
+US5596455A
+(
+en
+)
+*
+1995-06-29
+1997-01-21
+Minnesota Mining And Manufacturing Company
+Fixed-focus triplet projection lens for overhead projectors
+EP1139014A3
+(
+en
+)
+*
+2000-03-31
+2003-03-12
+Seiko Epson Corporation
+Light source device, and illuminating optical system and projector including the same
+US20040165283A1
+(
+en
+)
+*
+2003-02-24
+2004-08-26
+Cahall Scott C.
+Optical magnifier suitable for use with a microdisplay device
+WO2004099841A3
+(
+en
+)
+*
+2003-05-01
+2005-02-10
+Raytheon Co
+Compact wide-field-of-view imaging optical system
+US20060152824A1
+(
+en
+)
+*
+2005-01-07
+2006-07-13
+Hon Hai Precision Industry Co., Ltd.
+Hybrid lens system and mobile phone employing the same
+US20070058256A1
+(
+en
+)
+*
+2005-09-09
+2007-03-15
+Hon Hai Precision Industry Co., Ltd.
+Hybrid lens system
+US7433135B2
+(
+en
+)
+2005-09-28
+2008-10-07
+Hon Hai Precision Industry Co., Ltd.
+Image pick-up lens system
+CN100561286C
+(
+en
+)
+*
+2004-09-17
+2009-11-18
+鸿富锦精密工业（深圳）有限公司
+digital camera wide angle lens
+US7672045B2
+(
+en
+)
+2007-08-23
+2010-03-02
+Goodrich Corporation
+Compact two-element infrared objective lens and IR or thermal sight for weapon having viewing optics
+US10585262B2
+(
+en
+)
+*
+2015-02-04
+2020-03-10
+Largan Precision Co., Ltd.
+Optical lens assembly and image capturing device
+US20210041664A1
+(
+en
+)
+*
+2018-04-28
+2021-02-11
+Ningbo Sunny Automotive Optech Co., Ltd
+Optical lens assembly
+US11204482B1
+(
+en
+)
+*
+2020-08-28
+2021-12-21
+Yejia Optical Technology (Guangdong) Corporation
+Large-aperture optical lens with three lens pieces
+Families Citing this family (3)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+GB8606838D0
+(
+en
+)
+*
+1986-03-19
+1986-04-23
+Combined Optical Ind Ltd
+Lens
+GB2261744B
+(
+en
+)
+*
+1991-11-25
+1996-07-03
+Asahi Optical Co Ltd
+Variable power view finder with aspheric lens surfaces
+GB2282461A
+(
+en
+)
+*
+1991-11-25
+1995-04-05
+Asahi Optical Co Ltd
+Variable power view finder
+Citations (5)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+US1507212A
+(
+en
+)
+*
+1920-11-29
+1924-09-02
+Eastman Kodak Co
+Lens
+US2530397A
+(
+en
+)
+*
+1948-02-18
+1950-11-21
+Ancillary Henry L Beigel
+Anastigmatic lens
+US3194139A
+(
+en
+)
+*
+1962-03-05
+1965-07-13
+Eastman Kodak Co
+Zoom camera system
+US3443863A
+(
+en
+)
+*
+1967-01-23
+1969-05-13
+Eastman Kodak Co
+Triplet-type objective lens
+US3762801A
+(
+en
+)
+*
+1972-02-24
+1973-10-02
+Polaroid Corp
+Compact three component objective lenses
+Family Cites Families (1)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+US3575082A
+(
+en
+)
+*
+1968-06-24
+1971-04-13
+Eastman Kodak Co
+Albada viewfinder having three lens components
+1974
+1974-10-18
+US
+US05/516,235
+patent/US3944337A/en
+not_active
+Expired - Lifetime
+1975
+1975-10-13
+FR
+FR7531232A
+patent/FR2288321A1/en
+active
+Granted
+1975-10-16
+GB
+GB42476/75A
+patent/GB1522356A/en
+not_active
+Expired
+1975-10-20
+DE
+DE19752546927
+patent/DE2546927A1/en
+active
+Pending
+Patent Citations (5)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+US1507212A
+(
+en
+)
+*
+1920-11-29
+1924-09-02
+Eastman Kodak Co
+Lens
+US2530397A
+(
+en
+)
+*
+1948-02-18
+1950-11-21
+Ancillary Henry L Beigel
+Anastigmatic lens
+US3194139A
+(
+en
+)
+*
+1962-03-05
+1965-07-13
+Eastman Kodak Co
+Zoom camera system
+US3443863A
+(
+en
+)
+*
+1967-01-23
+1969-05-13
+Eastman Kodak Co
+Triplet-type objective lens
+US3762801A
+(
+en
+)
+*
+1972-02-24
+1973-10-02
+Polaroid Corp
+Compact three component objective lenses
+Cited By (33)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+US4109995A
+(
+en
+)
+*
+1976-06-03
+1978-08-29
+Opcon Associates Of Canada, Ltd.
+Triplet with aspheric surfaces
+US4105308A
+(
+en
+)
+*
+1977-01-03
+1978-08-08
+Polaroid Corporation
+Aspheric plastic triplet
+US4163604A
+(
+en
+)
+*
+1977-12-23
+1979-08-07
+U.S. Precision Lens, Inc.
+Projection lens
+JPS55143518A
+(
+en
+)
+*
+1979-04-27
+1980-11-08
+Nippon Kogaku Kk <Nikon>
+Lens system
+FR2532063A1
+(
+en
+)
+*
+1982-05-29
+1984-02-24
+Rodenstock Optik G
+EXPLORATION OBJECTIVE OF AN IMPROVED TYPE, IN PARTICULAR FOR THE OPTICAL STORAGE OF INFORMATION
+US4838665A
+(
+en
+)
+*
+1986-07-25
+1989-06-13
+Pioneer Electronic Corporation
+Temperature-compensated lens system
+US5305147A
+(
+en
+)
+*
+1990-08-20
+1994-04-19
+Olympus Optical Co., Ltd.
+Eyepiece lens system for endoscopes
+US5251063A
+(
+en
+)
+*
+1991-10-16
+1993-10-05
+Bodenseewerk Geratetechnik Gmbh
+Large-aperture three-lens objective with aspherical-surfaces
+US5311348A
+(
+en
+)
+*
+1991-10-31
+1994-05-10
+Minolta Camera Kabushiki Kaisha
+Cylindrical lens system for use in laser beam scanning apparatus and scanning apparatus including same
+US5483382A
+(
+en
+)
+*
+1993-05-11
+1996-01-09
+Proxima Corporation
+Projection lens and method of using same
+US5541692A
+(
+en
+)
+*
+1994-06-24
+1996-07-30
+Konica Corporation
+Camera with triplet lenses
+US5596455A
+(
+en
+)
+*
+1995-06-29
+1997-01-21
+Minnesota Mining And Manufacturing Company
+Fixed-focus triplet projection lens for overhead projectors
+EP1139014A3
+(
+en
+)
+*
+2000-03-31
+2003-03-12
+Seiko Epson Corporation
+Light source device, and illuminating optical system and projector including the same
+US6688756B1
+(
+en
+)
+2000-03-31
+2004-02-10
+Seiko Epson Corporation
+Light source device, and illuminating optical system and projector including the same
+EP1469252A3
+(
+en
+)
+*
+2000-03-31
+2005-08-31
+Seiko Epson Corporation
+Light source device, and illuminating optical system and projector including the same
+US20040165283A1
+(
+en
+)
+*
+2003-02-24
+2004-08-26
+Cahall Scott C.
+Optical magnifier suitable for use with a microdisplay device
+US6847494B2
+(
+en
+)
+*
+2003-02-24
+2005-01-25
+Eastman Kodak Company
+Optical magnifier suitable for use with a microdisplay device
+WO2004099841A3
+(
+en
+)
+*
+2003-05-01
+2005-02-10
+Raytheon Co
+Compact wide-field-of-view imaging optical system
+US7042656B2
+(
+en
+)
+2003-05-01
+2006-05-09
+Raytheon Company
+Compact wide-field-of-view imaging optical system
+JP2006525555A
+(
+en
+)
+*
+2003-05-01
+2006-11-09
+レイセオン・カンパニー
+Compact wide-field imaging optical system
+CN100561286C
+(
+en
+)
+*
+2004-09-17
+2009-11-18
+鸿富锦精密工业（深圳）有限公司
+digital camera wide angle lens
+US20060152824A1
+(
+en
+)
+*
+2005-01-07
+2006-07-13
+Hon Hai Precision Industry Co., Ltd.
+Hybrid lens system and mobile phone employing the same
+US7184226B2
+(
+en
+)
+*
+2005-01-07
+2007-02-27
+Hon Hai Precision Industry Co., Ltd.
+Hybrid lens system and mobile phone employing the same
+US7446954B2
+(
+en
+)
+2005-09-09
+2008-11-04
+Hon Hai Precision Industry Co., Ltd.
+Hybrid lens system
+US20070058256A1
+(
+en
+)
+*
+2005-09-09
+2007-03-15
+Hon Hai Precision Industry Co., Ltd.
+Hybrid lens system
+US7433135B2
+(
+en
+)
+2005-09-28
+2008-10-07
+Hon Hai Precision Industry Co., Ltd.
+Image pick-up lens system
+US7672045B2
+(
+en
+)
+2007-08-23
+2010-03-02
+Goodrich Corporation
+Compact two-element infrared objective lens and IR or thermal sight for weapon having viewing optics
+US20100165455A1
+(
+en
+)
+*
+2007-08-23
+2010-07-01
+Goodrich Corporation
+Compact two-element infrared objective lens and IR or thermal sight for weapon having viewing optics
+US7848015B2
+(
+en
+)
+2007-08-23
+2010-12-07
+Goodrich Corporation
+Compact two-element infrared objective lens and IR or thermal sight for weapon having viewing optics
+US10585262B2
+(
+en
+)
+*
+2015-02-04
+2020-03-10
+Largan Precision Co., Ltd.
+Optical lens assembly and image capturing device
+US20210041664A1
+(
+en
+)
+*
+2018-04-28
+2021-02-11
+Ningbo Sunny Automotive Optech Co., Ltd
+Optical lens assembly
+US12007624B2
+(
+en
+)
+*
+2018-04-28
+2024-06-11
+Ningbo Sunny Automotive Optech Co., Ltd
+Optical lens assembly
+US11204482B1
+(
+en
+)
+*
+2020-08-28
+2021-12-21
+Yejia Optical Technology (Guangdong) Corporation
+Large-aperture optical lens with three lens pieces
+Also Published As
+Publication number
+Publication date
+GB1522356A
+(
+en
+)
+1978-08-23
+FR2288321B1
+(
+en
+)
+1979-03-09
+DE2546927A1
+(
+en
+)
+1976-04-29
+FR2288321A1
+(
+en
+)
+1976-05-14
+Similar Documents
+Publication
+Publication Date
+Title
+CN117471657B
+(
+en
+)
+2024-04-26
+Optical lens
+US5327291A
+(
+en
+)
+1994-07-05
+Compact objective lens
+US4176913A
+(
+en
+)
+1979-12-04
+Telephoto lens with large relative aperture
+US3972592A
+(
+en
+)
+1976-08-03
+Zoom projection lens
+US3967884A
+(
+en
+)
+1976-07-06
+Three element objective lens
+JPS6119008B2
+(
+en
+)
+1986-05-15
+CN119471966B
+(
+en
+)
+2025-11-07
+Optical lens
+JPS6210407B2
+(
+en
+)
+1987-03-06
+US4892398A
+(
+en
+)
+1990-01-09
+Triplet type objective with a diaphragm arranged behind the lens system
+CN115826195A
+(
+en
+)
+2023-03-21
+optical lens
+CN117666088A
+(
+en
+)
+2024-03-08
+optical lens
+CN109709658A
+(
+en
+)
+2019-05-03
+Pick-up lens
+JP2978283B2
+(
+en
+)
+1999-11-15
+Telephoto objective lens
+CN212460161U
+(
+en
+)
+2021-02-02
+Optical imaging system
+CN218332133U
+(
+en
+)
+2023-01-17
+Fixed focus lens
+US4755039A
+(
+en
+)
+1988-07-05
+Focusing lens
+US3910685A
+(
+en
+)
+1975-10-07
+Three element objective lens with aspheres on rear surfaces of first and second elements
+CN113433662B
+(
+en
+)
+2022-08-09
+Imaging system, lens module, electronic equipment and carrier
+US3905686A
+(
+en
+)
+1975-09-16
+Three element projection lens
+US12619054B2
+(
+en
+)
+2026-05-05
+Small lens system
+US2983193A
+(
+en
+)
+1961-05-09
+High resolution photographic objectives
+JPS6239811A
+(
+en
+)
+1987-02-20
+Copying use variable power lens
+US4550987A
+(
+en
+)
+1985-11-05
+Small size telephoto lens
+US2819652A
+(
+en
+)
+1958-01-14
+Telephoto objective
+JPS6125125B2
+(
+en
+)
+1986-06-14
+if (window.help && window.help.service) {
+        helpApi = window.help.service.Lazy.create(0, {apiKey: 'AIzaSyDTEI_0tLX4varJ7bwK8aT-eOI5qr3BmyI', locale: 'en-US'});
+        window.requestedSurveys = new Set();
+        window.requestSurvey = function(triggerId) {
+          if (window.requestedSurveys.has(triggerId)) {
+            return;
+          }
+          window.requestedSurveys.add(triggerId);
+          helpApi.requestSurvey({
+            triggerId: triggerId,
+            enableTestingMode: false,
+            callback: (requestSurveyCallbackParam) => {
+              if (!requestSurveyCallbackParam.surveyData) {
+                return;
+              }
+              helpApi.presentSurvey({
+                productData: {
+                  productVersion: window.version,
+                  customData: {
+                    "experiments": "",
+                  },
+                },
+                surveyData: requestSurveyCallbackParam.surveyData,
+                colorScheme: 1,
+                customZIndex: 10000,
+              });
+            }
+          });
+        };
+
+        window.requestSurvey('YXTwAsvoW0kedxbuTdH0RArc9VhT');
+      }

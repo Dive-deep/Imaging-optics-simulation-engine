@@ -1,0 +1,965 @@
+[
+  {
+    "source": "experiments/candidates_ct20_20261022/results/rescue/seed_0059.json",
+    "seed": "seed_0059",
+    "trials": [
+      {
+        "delta_radius_mm": 0.0,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7055952345444138
+      },
+      {
+        "delta_radius_mm": -0.02,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.704844349843251
+      },
+      {
+        "delta_radius_mm": -0.04,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7040955645208992
+      },
+      {
+        "delta_radius_mm": -0.06,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7033488292932767
+      },
+      {
+        "delta_radius_mm": -0.08,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.702604096125548
+      },
+      {
+        "delta_radius_mm": -0.1,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.7018613182000454,
+        "all_constraints_passed": true
+      },
+      {
+        "delta_radius_mm": -0.12000000000000001,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.7011204498850114,
+        "all_constraints_passed": true
+      },
+      {
+        "delta_radius_mm": -0.13999999999999999,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.7003814467041543,
+        "all_constraints_passed": true
+      },
+      {
+        "delta_radius_mm": -0.16,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6996442653069764
+      },
+      {
+        "delta_radius_mm": -0.18,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.69890886343988
+      },
+      {
+        "delta_radius_mm": -0.19999999999999998,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6981751999180071
+      },
+      {
+        "delta_radius_mm": -0.22,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6974432345978065
+      },
+      {
+        "delta_radius_mm": -0.24,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6967129283503131
+      },
+      {
+        "delta_radius_mm": -0.26,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6959842430351035
+      },
+      {
+        "delta_radius_mm": -0.28,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6952571414749352
+      },
+      {
+        "delta_radius_mm": -0.30000000000000004,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6945315874310267
+      },
+      {
+        "delta_radius_mm": -0.32,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.693807545578982
+      },
+      {
+        "delta_radius_mm": -0.34,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6930849814853287
+      },
+      {
+        "delta_radius_mm": -0.36000000000000004,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6923638615846638
+      },
+      {
+        "delta_radius_mm": -0.38,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6916441531573851
+      },
+      {
+        "delta_radius_mm": -0.4,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.690925824307997
+      },
+      {
+        "delta_radius_mm": -0.42000000000000004,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.690208843943972
+      },
+      {
+        "delta_radius_mm": -0.44,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6894931817551585
+      },
+      {
+        "delta_radius_mm": -0.46,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6887788081937165
+      },
+      {
+        "delta_radius_mm": -0.48000000000000004,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6880656944545702
+      },
+      {
+        "delta_radius_mm": -0.5,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.687353812456362
+      },
+      {
+        "delta_radius_mm": -0.52,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6866431348228975
+      },
+      {
+        "delta_radius_mm": -0.54,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6859336348650683
+      },
+      {
+        "delta_radius_mm": -0.56,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6852252865632379
+      },
+      {
+        "delta_radius_mm": -0.5800000000000001,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6845180645500796
+      },
+      {
+        "delta_radius_mm": -0.6,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6838119440938594
+      },
+      {
+        "delta_radius_mm": 0.02,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.706348269190649
+      },
+      {
+        "delta_radius_mm": 0.04,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7071035056641961
+      },
+      {
+        "delta_radius_mm": 0.06,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7078609971979719
+      },
+      {
+        "delta_radius_mm": 0.08,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7086207984111826
+      },
+      {
+        "delta_radius_mm": 0.1,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7093829653458866
+      },
+      {
+        "delta_radius_mm": 0.12000000000000001,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7101475555045186
+      },
+      {
+        "delta_radius_mm": 0.13999999999999999,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7109146278884145
+      },
+      {
+        "delta_radius_mm": 0.16,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7116842430373528
+      },
+      {
+        "delta_radius_mm": 0.18,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7124564630701523
+      },
+      {
+        "delta_radius_mm": 0.19999999999999998,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7132313517263376
+      },
+      {
+        "delta_radius_mm": 0.22,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7140089744089212
+      },
+      {
+        "delta_radius_mm": 0.24,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7147893982283168
+      },
+      {
+        "delta_radius_mm": 0.26,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7155726920474199
+      },
+      {
+        "delta_radius_mm": 0.28,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7163589265278905
+      },
+      {
+        "delta_radius_mm": 0.30000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7171481741776672
+      },
+      {
+        "delta_radius_mm": 0.32,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.717940509399747
+      },
+      {
+        "delta_radius_mm": 0.34,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7187360085422642
+      },
+      {
+        "delta_radius_mm": 0.36000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7195347499499073
+      },
+      {
+        "delta_radius_mm": 0.38,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7203368140167095
+      },
+      {
+        "delta_radius_mm": 0.4,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7211422832402458
+      },
+      {
+        "delta_radius_mm": 0.42000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7219512422772884
+      },
+      {
+        "delta_radius_mm": 0.44,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.722763778000944
+      },
+      {
+        "delta_radius_mm": 0.46,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7235799795593271
+      },
+      {
+        "delta_radius_mm": 0.48000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7243999384358077
+      },
+      {
+        "delta_radius_mm": 0.5,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7252237485108788
+      },
+      {
+        "delta_radius_mm": 0.52,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7260515061256847
+      },
+      {
+        "delta_radius_mm": 0.54,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7268833101472635
+      },
+      {
+        "delta_radius_mm": 0.56,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7277192620355508
+      },
+      {
+        "delta_radius_mm": 0.5800000000000001,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.72855946591219
+      },
+      {
+        "delta_radius_mm": 0.6,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7294040286312071
+      }
+    ],
+    "chosen": {
+      "initial_radius_mm": 21.812947069780776,
+      "delta_radius_mm": -0.1,
+      "first_lens_clear_diameter_mm": 50.0,
+      "fixed_CT_and_surface_prescription": true,
+      "scope": "small STOP scan within first-opening50 alternative; no per-field/per-color refocus"
+    },
+    "seconds": 4.137298833999921
+  },
+  {
+    "source": "experiments/candidates_ct20_20261022/results/rescue/seed_0048.json",
+    "seed": "seed_0048",
+    "trials": [
+      {
+        "delta_radius_mm": 0.0,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7061614546616918
+      },
+      {
+        "delta_radius_mm": -0.02,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.7054816769008517,
+        "all_constraints_passed": true
+      },
+      {
+        "delta_radius_mm": -0.04,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.7048016497723667,
+        "all_constraints_passed": true
+      },
+      {
+        "delta_radius_mm": -0.06,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.7041213932308872,
+        "all_constraints_passed": true
+      },
+      {
+        "delta_radius_mm": -0.08,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.703440926802864,
+        "all_constraints_passed": true
+      },
+      {
+        "delta_radius_mm": -0.1,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.702760269590006,
+        "all_constraints_passed": true
+      },
+      {
+        "delta_radius_mm": -0.12000000000000001,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.7020794402728149,
+        "all_constraints_passed": true
+      },
+      {
+        "delta_radius_mm": -0.13999999999999999,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.7013984571142049,
+        "all_constraints_passed": true
+      },
+      {
+        "delta_radius_mm": -0.16,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.700717337963198,
+        "all_constraints_passed": true
+      },
+      {
+        "delta_radius_mm": -0.18,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.7000361002586907,
+        "all_constraints_passed": true
+      },
+      {
+        "delta_radius_mm": -0.19999999999999998,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6993547610332926
+      },
+      {
+        "delta_radius_mm": -0.22,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6986733369172254
+      },
+      {
+        "delta_radius_mm": -0.24,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6979918441422935
+      },
+      {
+        "delta_radius_mm": -0.26,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6973102985459035
+      },
+      {
+        "delta_radius_mm": -0.28,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6966287155753796
+      },
+      {
+        "delta_radius_mm": -0.30000000000000004,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6959471102912297
+      },
+      {
+        "delta_radius_mm": -0.32,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6952654973725446
+      },
+      {
+        "delta_radius_mm": -0.34,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6945838911204668
+      },
+      {
+        "delta_radius_mm": -0.36000000000000004,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6939023054626371
+      },
+      {
+        "delta_radius_mm": -0.38,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6932207539575128
+      },
+      {
+        "delta_radius_mm": -0.4,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6925392497987156
+      },
+      {
+        "delta_radius_mm": -0.42000000000000004,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6918578058194148
+      },
+      {
+        "delta_radius_mm": -0.44,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6911764344967445
+      },
+      {
+        "delta_radius_mm": -0.46,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6904951479562506
+      },
+      {
+        "delta_radius_mm": -0.48000000000000004,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.689813957976357
+      },
+      {
+        "delta_radius_mm": -0.5,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6891328759928678
+      },
+      {
+        "delta_radius_mm": -0.52,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6884519131034749
+      },
+      {
+        "delta_radius_mm": -0.54,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6877710800722989
+      },
+      {
+        "delta_radius_mm": -0.56,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6870903873344363
+      },
+      {
+        "delta_radius_mm": -0.5800000000000001,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.686409845000522
+      },
+      {
+        "delta_radius_mm": -0.6,
+        "all4field_rays_valid": true,
+        "rim_NA_min": 0.6857294628613069
+      },
+      {
+        "delta_radius_mm": 0.02,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7068409626686709
+      },
+      {
+        "delta_radius_mm": 0.04,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.707520180100733
+      },
+      {
+        "delta_radius_mm": 0.06,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7081990856987973
+      },
+      {
+        "delta_radius_mm": 0.08,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7088776577626804
+      },
+      {
+        "delta_radius_mm": 0.1,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7095558741481166
+      },
+      {
+        "delta_radius_mm": 0.12000000000000001,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7102337122638835
+      },
+      {
+        "delta_radius_mm": 0.13999999999999999,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7109111490690414
+      },
+      {
+        "delta_radius_mm": 0.16,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7115881610702882
+      },
+      {
+        "delta_radius_mm": 0.18,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7122647243194319
+      },
+      {
+        "delta_radius_mm": 0.19999999999999998,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7129408144109858
+      },
+      {
+        "delta_radius_mm": 0.22,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7136164064798927
+      },
+      {
+        "delta_radius_mm": 0.24,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7142914751993783
+      },
+      {
+        "delta_radius_mm": 0.26,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.71496599477922
+      },
+      {
+        "delta_radius_mm": 0.28,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7156399389628926
+      },
+      {
+        "delta_radius_mm": 0.30000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7163132810271859
+      },
+      {
+        "delta_radius_mm": 0.32,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.716985993779813
+      },
+      {
+        "delta_radius_mm": 0.34,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7176580495581781
+      },
+      {
+        "delta_radius_mm": 0.36000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.718329420228115
+      },
+      {
+        "delta_radius_mm": 0.38,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7190000771827884
+      },
+      {
+        "delta_radius_mm": 0.4,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.719669991341764
+      },
+      {
+        "delta_radius_mm": 0.42000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7203391331502464
+      },
+      {
+        "delta_radius_mm": 0.44,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7210074725784996
+      },
+      {
+        "delta_radius_mm": 0.46,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.721674979121447
+      },
+      {
+        "delta_radius_mm": 0.48000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.722341621798454
+      },
+      {
+        "delta_radius_mm": 0.5,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7230073691533088
+      },
+      {
+        "delta_radius_mm": 0.52,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7236721892543911
+      },
+      {
+        "delta_radius_mm": 0.54,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.724336049695051
+      },
+      {
+        "delta_radius_mm": 0.56,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7249989175941817
+      },
+      {
+        "delta_radius_mm": 0.5800000000000001,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.725660759597016
+      },
+      {
+        "delta_radius_mm": 0.6,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7263215418761276
+      }
+    ],
+    "chosen": {
+      "initial_radius_mm": 21.680237076912537,
+      "delta_radius_mm": -0.18,
+      "first_lens_clear_diameter_mm": 50.0,
+      "fixed_CT_and_surface_prescription": true,
+      "scope": "small STOP scan within first-opening50 alternative; no per-field/per-color refocus"
+    },
+    "seconds": 8.22094896300041
+  },
+  {
+    "source": "experiments/candidates_ct20_20261022/results/rescue/seed_0012.json",
+    "seed": "seed_0012",
+    "trials": [
+      {
+        "delta_radius_mm": 0.0,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7062974494487743
+      },
+      {
+        "delta_radius_mm": -0.02,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7056316131850915
+      },
+      {
+        "delta_radius_mm": -0.04,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7049662757018325
+      },
+      {
+        "delta_radius_mm": -0.06,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.704301420673268
+      },
+      {
+        "delta_radius_mm": -0.08,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7036370323619916
+      },
+      {
+        "delta_radius_mm": -0.1,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7029730955986961
+      },
+      {
+        "delta_radius_mm": -0.12000000000000001,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7023095957625016
+      },
+      {
+        "delta_radius_mm": -0.13999999999999999,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7016465187618397
+      },
+      {
+        "delta_radius_mm": -0.16,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.700983851015865
+      },
+      {
+        "delta_radius_mm": -0.18,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.700321579436395
+      },
+      {
+        "delta_radius_mm": -0.19999999999999998,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6996596914103659
+      },
+      {
+        "delta_radius_mm": -0.22,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6989981747827962
+      },
+      {
+        "delta_radius_mm": -0.24,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6983370178402395
+      },
+      {
+        "delta_radius_mm": -0.26,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6976762092947266
+      },
+      {
+        "delta_radius_mm": -0.28,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6970157382681843
+      },
+      {
+        "delta_radius_mm": -0.30000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6963555942773157
+      },
+      {
+        "delta_radius_mm": -0.32,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6956957672189406
+      },
+      {
+        "delta_radius_mm": -0.34,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6950362473557784
+      },
+      {
+        "delta_radius_mm": -0.36000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6943770253026724
+      },
+      {
+        "delta_radius_mm": -0.38,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6937180920132375
+      },
+      {
+        "delta_radius_mm": -0.4,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6930594387669288
+      },
+      {
+        "delta_radius_mm": -0.42000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6924010571565191
+      },
+      {
+        "delta_radius_mm": -0.44,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6917429390759746
+      },
+      {
+        "delta_radius_mm": -0.46,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6910850767087237
+      },
+      {
+        "delta_radius_mm": -0.48000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6904274625163076
+      },
+      {
+        "delta_radius_mm": -0.5,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6897700892274014
+      },
+      {
+        "delta_radius_mm": -0.52,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6891129498272055
+      },
+      {
+        "delta_radius_mm": -0.54,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6884560375471862
+      },
+      {
+        "delta_radius_mm": -0.56,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6877993458551691
+      },
+      {
+        "delta_radius_mm": -0.5800000000000001,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6871428684457692
+      },
+      {
+        "delta_radius_mm": -0.6,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.6864865992311531
+      },
+      {
+        "delta_radius_mm": 0.02,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7069638014277253
+      },
+      {
+        "delta_radius_mm": 0.04,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7076306866872731
+      },
+      {
+        "delta_radius_mm": 0.06,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7082981234451925
+      },
+      {
+        "delta_radius_mm": 0.08,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7089661305942618
+      },
+      {
+        "delta_radius_mm": 0.1,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7096347277254359
+      },
+      {
+        "delta_radius_mm": 0.12000000000000001,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.710303935151635
+      },
+      {
+        "delta_radius_mm": 0.13999999999999999,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7109737739321758
+      },
+      {
+        "delta_radius_mm": 0.16,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7116442658978398
+      },
+      {
+        "delta_radius_mm": 0.18,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7123154336766017
+      },
+      {
+        "delta_radius_mm": 0.19999999999999998,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7129873007200254
+      },
+      {
+        "delta_radius_mm": 0.22,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7136598913303381
+      },
+      {
+        "delta_radius_mm": 0.24,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7143332306882005
+      },
+      {
+        "delta_radius_mm": 0.26,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.715007344881176
+      },
+      {
+        "delta_radius_mm": 0.28,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7156822609329184
+      },
+      {
+        "delta_radius_mm": 0.30000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7163580068330895
+      },
+      {
+        "delta_radius_mm": 0.32,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7170346115680145
+      },
+      {
+        "delta_radius_mm": 0.34,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7177121051520953
+      },
+      {
+        "delta_radius_mm": 0.36000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7183905186599868
+      },
+      {
+        "delta_radius_mm": 0.38,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7190698842595582
+      },
+      {
+        "delta_radius_mm": 0.4,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7197502352456427
+      },
+      {
+        "delta_radius_mm": 0.42000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7204316060745991
+      },
+      {
+        "delta_radius_mm": 0.44,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7211140323996907
+      },
+      {
+        "delta_radius_mm": 0.46,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.721797551107304
+      },
+      {
+        "delta_radius_mm": 0.48000000000000004,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7224822003540128
+      },
+      {
+        "delta_radius_mm": 0.5,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7231680196045137
+      },
+      {
+        "delta_radius_mm": 0.52,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7238550496704294
+      },
+      {
+        "delta_radius_mm": 0.54,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7245433327500235
+      },
+      {
+        "delta_radius_mm": 0.56,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7252329124688147
+      },
+      {
+        "delta_radius_mm": 0.5800000000000001,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7259238339211216
+      },
+      {
+        "delta_radius_mm": 0.6,
+        "all4field_rays_valid": false,
+        "rim_NA_min": 0.7266161437125543
+      }
+    ],
+    "chosen": null,
+    "seconds": 2.5345954960002928
+  }
+]

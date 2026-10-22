@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "clear circular pupil vs analytic diffraction MTF",
+      "passed": true,
+      "max_absolute_error": 0.00010811259735865608,
+      "frequencies_lp_mm": [
+        0.0,
+        238.09523809523807,
+        595.2380952380952,
+        1190.4761904761904,
+        1785.7142857142856,
+        2261.904761904762,
+        2380.9523809523807,
+        2619.0476190476193
+      ],
+      "actual": [
+        1.0,
+        0.8729966841668969,
+        0.6849958552086212,
+        0.3909919867366676,
+        0.14423873998342082,
+        0.013263332412268583,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        1.0,
+        0.8728885715695383,
+        0.6850376424742927,
+        0.3910022189557706,
+        0.14429361281438743,
+        0.01332001101014115,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "clear pupil imaginary OTF zero",
+      "passed": true
+    },
+    {
+      "name": "DC normalized and beyond cutoff zero",
+      "passed": true
+    },
+    {
+      "name": "pupil tilt gives correct complex OTF translation sign",
+      "passed": true,
+      "max_complex_error": 1.1292119807989558e-14
+    },
+    {
+      "name": "polychromatic displacement preserved",
+      "passed": true,
+      "mtf_at_20": 6.123233995736766e-17,
+      "incorrect_mean_magnitude": 1.0
+    },
+    {
+      "name": "defocus continuous autocorrelation vs actual FFT",
+      "passed": true,
+      "max_complex_error": 0.0004284939458992776,
+      "fft_frequency_step_lp_mm": 9.765625000000455
+    },
+    {
+      "name": "fast FFT interpolation support and triangle owner unchanged",
+      "passed": true
+    },
+    {
+      "name": "fast FFT interpolation values unchanged",
+      "passed": true,
+      "max_error": 0.0
+    }
+  ],
+  "seconds": 3.125700520999999,
+  "scope": "Analytic controls of scalar Fourier identity, translation phase, RGB complex sum, and unchanged interpolation. Not high-NA vector validation or candidate convergence."
+}

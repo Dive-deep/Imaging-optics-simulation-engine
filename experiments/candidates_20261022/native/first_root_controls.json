@@ -1,0 +1,18 @@
+{
+  "two_positive_roots": {
+    "status": 0,
+    "hit": [
+      1.0000000000000004,
+      0.0,
+      1.0000000000000009
+    ],
+    "first_expected": [
+      1,
+      0,
+      1
+    ]
+  },
+  "tangent_status": 3,
+  "zero_direction_status": 3,
+  "passed": true
+}

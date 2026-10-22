@@ -1,0 +1,107 @@
+{
+  "selected_count": 24,
+  "distinct_source_seeds": 24,
+  "material_order_count": 15,
+  "aperture_modes": {
+    "front_diameter50": 24
+  },
+  "glass_position_counts": {
+    "3": 14,
+    "2": 6,
+    "1": 4
+  },
+  "EPD_mm": {
+    "minimum": 43.2000000278482,
+    "maximum": 43.95937551960043
+  },
+  "NA_588_onaxis": {
+    "minimum": 0.7071113112770566,
+    "maximum": 0.7230771600268395
+  },
+  "NA_allRGB_onaxis": {
+    "minimum": 0.7017721291973887,
+    "maximum": 0.7329017523195133
+  },
+  "vertex_BFL_mm": {
+    "minimum": 3.0006702480837983,
+    "maximum": 9.027529166583017
+  },
+  "paraxial_BFL_588_mm": {
+    "minimum": 3.014000349083768,
+    "maximum": 9.617752166951613
+  },
+  "EFL_588_mm": {
+    "minimum": 29.65377993035797,
+    "maximum": 30.753162815737177
+  },
+  "center_thickness_mm": {
+    "minimum": 2.0695880188527673,
+    "maximum": 33.9373294357066
+  },
+  "air_gap_mm": {
+    "minimum": 1.0000638816808327,
+    "maximum": 7.804999046612623
+  },
+  "stop_distance_mm": {
+    "minimum": 0.1012229233049606,
+    "maximum": 2.9688000164465596
+  },
+  "TTL_first_vertex_to_image_mm": {
+    "minimum": 53.5222668863242,
+    "maximum": 75.6440237771363
+  },
+  "fullfield_chief_height_mm_by_wavelength": {
+    "486.0": {
+      "minimum": 6.29290221009853,
+      "maximum": 6.359158651928553
+    },
+    "588.0": {
+      "minimum": 6.399990058195155,
+      "maximum": 6.400506802257689
+    },
+    "656.0": {
+      "minimum": 6.417299662219473,
+      "maximum": 6.44311678223843
+    }
+  },
+  "fullfield_RI_uncoated_RGB": {
+    "minimum": 0.8562325572238283,
+    "maximum": 0.9889070232649895
+  },
+  "fullfield_RI_uncoated_588": {
+    "minimum": 0.8561507780177868,
+    "maximum": 0.9889180599059352
+  },
+  "fullfield_distortion_588_percent": {
+    "minimum": -2.092565629528542,
+    "maximum": 1.537250129240575
+  },
+  "axis_spot_RGB_RMS_radius_mm": {
+    "minimum": 0.07098270468649177,
+    "maximum": 0.1699490296862922
+  },
+  "fullfield_spot_RGB_RMS_radius_mm": {
+    "minimum": 0.11462829551973852,
+    "maximum": 0.4280942058828311
+  },
+  "primary_wave_status_counts": {
+    "underresolved_quadrature": 225,
+    "conditional": 11,
+    "not_applicable": 52
+  },
+  "actual_fft_status_counts": {
+    "underresolved": 33,
+    "not_applicable": 9
+  },
+  "strict_pointwise_quadrature_pass_count": 11,
+  "primary_monochromatic_requested_pairs": 288,
+  "primary_monochromatic_computed_curve_pairs": 236,
+  "polychromatic_computed_curve_pairs": 78,
+  "geometric_monochromatic_curve_pairs": 288,
+  "geometric_polychromatic_curve_pairs": 96,
+  "actual_fft_requested_diagnostic_pairs": 48,
+  "actual_fft_recorded_diagnostic_pairs": 42,
+  "sampled_ray_count_13fields_RGB_per_candidate": 31863,
+  "wave_seconds_sum_not_wallclock_benchmark": 808.9533672180028,
+  "validation_scope": "sampled optical feasibility and explicitly conditional scalar curves; no manufacturing/global-optimum/Zemax/cropped-sensor certification"
+}

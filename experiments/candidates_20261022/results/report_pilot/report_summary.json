@@ -1,0 +1,17 @@
+[
+  {
+    "candidate_id": "pilot_0083",
+    "materials": "PC / PMMA / TAFD45",
+    "aperture_mode": "front_diameter50",
+    "EPD_mm": 43.97139085717998,
+    "first_clear_diameter_mm": 50.0,
+    "EFL_mm": 30.67351665830397,
+    "BFL_vertex_mm": 3.176375312682152,
+    "NA_588": 0.7092790163905844,
+    "RI_edge_588": 0.986793081871345,
+    "distortion_edge_588_percent": -1.7109546588042979,
+    "spot_edge_588_rms_mm": 0.08558655253813949,
+    "poly_MTF20_worst_TS_edge": null,
+    "qualification": "numerically_qualified_initial_candidate"
+  }
+]

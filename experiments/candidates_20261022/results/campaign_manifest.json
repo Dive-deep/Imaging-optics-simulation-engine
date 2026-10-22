@@ -1,0 +1,38 @@
+{
+  "recorded_utc": "2026-10-22T03:02:14.539019+00:00",
+  "client_timezone": "Asia/Seoul",
+  "baseline_commit": "e347d56b238f86cedd239921335245f85163b806",
+  "original_source_sha256": {
+    "src/sequential_optics/source_wave.py": "c7dc9d577e470a98b133feab514fe764f6c9795f9e0218d46fa875114bb0da4a",
+    "src/sequential_optics/__main__.py": "b9695e980cb7aa818216940b589b4ac50543da383a1f31e440a423daedf46ae8",
+    "src/sequential_optics/io.py": "3c7fc0c10cf8b9d5f7d016a508566d4c4a811777fd56c83363add86612f544d1",
+    "src/sequential_optics/provenance.py": "1326c89602233c0ad68d06a962663d16573f545f9a391a0007986302f381b342",
+    "src/sequential_optics/thermal.py": "a173e504be65ebee4c1f3f90b49c0660853943a0683a87a7e21ff7c291f637b0",
+    "src/sequential_optics/radiometry.py": "12be196c379268c9d527bd438bd8b4b585ce21987e059d81e9c1922044e3c1ab",
+    "src/sequential_optics/api.py": "1c9bfb118fec6afe911ae89871457641aa246afebd7237dcdb1cb4b5b8d4f419",
+    "src/sequential_optics/materials.py": "515b823bf74d59ad8b1c3278df0bb7667d32abf5acaed5042ba7c0f56481639f",
+    "src/sequential_optics/errors.py": "3d7dc20d5fcc85b37cd0d9863573da17fcb611ab805a91354aeb32232f4f3cd5",
+    "src/sequential_optics/values.py": "170f2cb25aeaa83380fc5f9e0ad06c99004c2a6fa8fcddcb2ed60c7b7b933d92",
+    "src/sequential_optics/paraxial.py": "3e2f885a04bb0b1cb41e8e184533a464c2cf593a585cd312d9a89068c5247248",
+    "src/sequential_optics/models.py": "e35f64554349cd5837bed6b42337557f8a7e964d898828a60aeb35f2e2261682",
+    "src/sequential_optics/imaging.py": "615217059ae042d18b8c35562069f8590d8b66a240b4bb5cc4ac2a32c9d3bffe",
+    "src/sequential_optics/metrics.py": "1d9dde79413f65a6c10700e9773318a37bcd2ce7f9a6ef3b7a4be21f22f33659",
+    "src/sequential_optics/wave.py": "e4996e1c6cfeccd9c350fbe7232629b67ce2f52cc625ad676f086fbfe878df9a",
+    "src/sequential_optics/geometry.py": "784d7c22d318e9ee6a49338b4b88943dd0def9ff6ce320bc91c50fd5d39b9ff8",
+    "src/sequential_optics/__init__.py": "aade767a2e0fb84f0b86c3ad5fec9301fac40bcb2944bfba6f7cb8a72cc289c8",
+    "src/sequential_optics/settings.py": "1920abc4d31d350930293f37961c1c964095ef11dd9e55b1184b55f905ea0583"
+  },
+  "search_inputs_sha256": {
+    "experiments/candidates_20261022/model.py": "95e793be9560a3e28c682714dc83e84ffd21cb79dcfacff196b2a3acc5e651c7",
+    "experiments/candidates_20261022/optimize.py": "724313a0338d5c2cc63c709937c446fe8cf3b46239d0c762d3a69d47dea2d3e5",
+    "experiments/candidates_20261022/seeds.json": "3707a970fa99459a0578fdae524e9695290e9a908a2bd6129dba0ca938a56b08",
+    "experiments/candidates_20261022/native/raytrace.py": "1d474185a89240645db2f02c0d0fc2030195e523e9ed2a0463d62cc385de54cb",
+    "experiments/candidates_20261022/native/raytrace.c": "cc787749eb84e60e3caa6cb3dae292c179f27b6ea34a96897074007e59eb1b1a"
+  },
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "python": "3.12.14",
+  "cpu_quota": "400000 100000",
+  "precision": "float64",
+  "no_prior_workspace_results_reused": true
+}

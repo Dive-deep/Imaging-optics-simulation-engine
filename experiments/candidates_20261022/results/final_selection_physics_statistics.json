@@ -1,0 +1,118 @@
+{
+  "candidate_count": 24,
+  "material_orders": {
+    "PMMA / PMMA / TAFD45": 1,
+    "PMMA / PC / TAFD45": 4,
+    "PMMA / PMMA / FDS18W": 2,
+    "PC / PMMA / FDS18W": 1,
+    "PC / PMMA / TAFD45": 2,
+    "PC / PC / FDS18W": 2,
+    "PC / PC / TAFD45": 2,
+    "PMMA / TAFD45 / PC": 1,
+    "TAFD45 / PC / PC": 1,
+    "PC / TAFD45 / PMMA": 2,
+    "PC / TAFD45 / PC": 1,
+    "TAFD45 / PMMA / PMMA": 1,
+    "PMMA / TAFD45 / PMMA": 1,
+    "PMMA / FDS18W / PC": 1,
+    "FDS18W / PMMA / PC": 2
+  },
+  "aperture_modes": {
+    "front_diameter50": 24
+  },
+  "EPD_mm_range": [
+    43.2000000278482,
+    43.95937551960043
+  ],
+  "primary_NA_range": [
+    0.7071113112770566,
+    0.7230771600268395
+  ],
+  "all_RGB_minimum_NA_range": [
+    0.7017721291973887,
+    0.7190564086461544
+  ],
+  "RI_edge_uncoated_polychromatic_range": [
+    0.8562325572238283,
+    0.9889070232649895
+  ],
+  "RI_edge_geometric_polychromatic_range": [
+    0.8607214876481242,
+    0.9948330144845753
+  ],
+  "fullfield_chief_height_RGB_mm_ranges": {
+    "486.0": [
+      6.29290221009853,
+      6.359158651928553
+    ],
+    "588.0": [
+      6.399990058195155,
+      6.400506802257689
+    ],
+    "656.0": [
+      6.417299662219473,
+      6.44311678223843
+    ]
+  },
+  "polychromatic_RMS_um_by_field_ranges": {
+    "0.0": [
+      70.98270468649177,
+      169.9490296862922
+    ],
+    "0.5": [
+      81.90127503433847,
+      185.82716717695297
+    ],
+    "0.8": [
+      89.86271525685066,
+      255.35445740791968
+    ],
+    "1.0": [
+      114.62829551973851,
+      428.0942058828311
+    ]
+  },
+  "fullfield_tangential_NA_RGB_range": [
+    0.6596617872050565,
+    0.7313175333207698
+  ],
+  "vertex_BFL_mm_range": [
+    3.0006702480837983,
+    9.027529166583017
+  ],
+  "paraxial_BFL588_mm_range": [
+    3.014000349083768,
+    9.617752166951613
+  ],
+  "G_distortion_fullfield_percent_range": [
+    -2.092565629528542,
+    1.537250129240575
+  ],
+  "G_chief_height_max_error_mm": 0.000506802257688399,
+  "negative_geometric_OTF_points_by_candidate": {
+    "C01": 43,
+    "C02": 145,
+    "C03": 161,
+    "C04": 35,
+    "C05": 11,
+    "C06": 64,
+    "C07": 81,
+    "C08": 37,
+    "C09": 32,
+    "C10": 13,
+    "C11": 35,
+    "C12": 41,
+    "C13": 0,
+    "C14": 119,
+    "C15": 19,
+    "C16": 21,
+    "C17": 56,
+    "C18": 76,
+    "C19": 119,
+    "C20": 64,
+    "C21": 172,
+    "C22": 114,
+    "C23": 15,
+    "C24": 124
+  }
+}

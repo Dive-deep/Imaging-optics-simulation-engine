@@ -1,0 +1,3440 @@
+{
+  "source_result": "experiments/candidates_ct20_20261022/results/repair/seed_0080.json",
+  "design": {
+    "seed_id": "seed_0080",
+    "materials": [
+      "PC",
+      "TAFD45",
+      "PMMA"
+    ],
+    "curvatures": [
+      0.032385670459029896,
+      0.004880567447853288,
+      0.018392437541926307,
+      -0.0005834747086851199,
+      0.029712978363770955,
+      -0.009443404922912855
+    ],
+    "conics": [
+      -0.9399806886824867,
+      -1.2267435445887356,
+      0.0,
+      0.0,
+      -1.8585055985683456,
+      -7.917547898776061
+    ],
+    "asphere_sag_coefficients_mm": [
+      [
+        1.7760501874147103,
+        -0.5996124756999739,
+        0.33768137771817175,
+        0.23186868522266316,
+        -0.27965138454343685
+      ],
+      [
+        4.685369769530195,
+        -3.3437341546253005,
+        1.0001154249485433,
+        0.8650042840935642,
+        -0.46039020070711206
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.7595621854548084,
+        6.597753044812554,
+        3.634393221833381,
+        18.63216942386062,
+        -3.300899930743693
+      ],
+      [
+        18.975025243619267,
+        7.72558686693451,
+        -11.670831731001797,
+        -4.589066170393583,
+        -1.1090415276523864
+      ]
+    ],
+    "axial_distances_mm": [
+      19.99986787990497,
+      7.4296163037016445,
+      19.99890477804428,
+      1.2657713810897404,
+      8.049493911555063,
+      4.123124957895642
+    ],
+    "stop_distance_mm": 0.17565084168362796,
+    "stop_radius_mm": 21.600006064519313,
+    "clear_radii_mm": [
+      25.0,
+      21.183739154689377,
+      20.208284061832117,
+      15.886344901654187,
+      13.212548061899032,
+      10.532647033078996
+    ],
+    "aperture_mode": "front_diameter50",
+    "provenance": {
+      "method": "analytic_thin_power_then_exact_reduced_ABCD_compensation",
+      "family": "positive_glass_mixed_plastics",
+      "bending_variant": 1,
+      "thin_initial_element_powers_per_mm": [
+        0.022,
+        0.04,
+        -0.022
+      ],
+      "fitted_thin_element_powers_per_mm": [
+        0.01557795836683486,
+        0.03437254176988566,
+        -0.023692767672366652
+      ],
+      "focal_target_mm": 30.109632700662107,
+      "paraxial_EFL_mm": 30.10962136247583,
+      "paraxial_BFL_mm": 13.679518390297934,
+      "actual_image_gap_mm": 13.679518390297934,
+      "first_order_matrix_reduced_y_nu": [
+        [
+          0.454323826447916,
+          16.731332543839272
+        ],
+        [
+          -0.03321197526735596,
+          0.9779795192296379
+        ]
+      ],
+      "minimum_sampled_material_and_air_axial_clearances_mm": [
+        2.400000000000001,
+        1.2,
+        2.4000000000000012,
+        1.2000000000000002,
+        2.4
+      ],
+      "clearance_radius_samples": 257,
+      "fit_nfev": 80,
+      "fit_success": false,
+      "real_ray_qualified": false,
+      "limits": "Only paraxial power and sampled nonintersection prepared. No claim of NA, image-height, throughput, RGB correction or MTF feasibility."
+    },
+    "optimization_ct_upper_mm": 20.0
+  },
+  "aperture_fit": {
+    "schema": "dense-footprint-aperture-fit/1",
+    "original_design_sha256": "d2e64ef161708c7f9997eb3f906123030613091d2d051a4f927563918b62087a",
+    "field_fractions": [
+      0.0,
+      0.08333333333333333,
+      0.16666666666666666,
+      0.25,
+      0.3333333333333333,
+      0.41666666666666663,
+      0.5,
+      0.5833333333333333,
+      0.6666666666666666,
+      0.75,
+      0.8333333333333333,
+      0.9166666666666666,
+      1.0
+    ],
+    "field_angles_deg": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      6.999999999999999,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0
+    ],
+    "wavelengths_nm": [
+      486.0,
+      588.0,
+      656.0
+    ],
+    "rings": 16,
+    "arms": 48,
+    "chief_and_rim_included": true,
+    "sampled_ray_count": 31863,
+    "original_transmitted_ray_count": 31863,
+    "original_status_counts": {
+      "0": 31863
+    },
+    "coupled_element_radii": false,
+    "policy": "Coupled mode: equal front/back radius, capped by smaller original face. Independent mode: each face capped by its own original radius. Reserve max(0.30mm,2% of maximum sampled footprint). Front-diameter50 first front face remains exactly25mm radius; coupled mode keeps both first-element faces25mm.",
+    "limitation": "Sampled nonnegative Y fields in a rotationally symmetric system. No rigorous extremum proof between fields/rings/azimuths and no manufacturing tolerance allocation. Dense downstream qualification remains necessary.",
+    "mechanical_profile": "Only clear semi-diameters are specified. Mechanical outer diameter, edge/chamfer or tapered solid profile is unspecified; independent clear faces are not manufacturing certification. The wave model treats its declared last clear surface extent as the boundary constraint; moving that boundary with identical rays is model sensitivity, not a physical improvement.",
+    "surface_footprint_maxima_mm": [
+      23.882668924473343,
+      21.18125776708828,
+      19.87899105565687,
+      15.574847942798222,
+      13.212547924780191,
+      10.232647033078996
+    ],
+    "elements": [
+      {
+        "lens": 1,
+        "surfaces": [
+          1
+        ],
+        "original_face_radii_mm": [
+          25.0
+        ],
+        "maximum_sampled_footprint_radius_mm": 23.882668924473343,
+        "requested_margin_mm": 0.4776533784894669,
+        "proposed_equal_face_radius_mm": 25.0,
+        "actual_sampled_clearance_mm": 1.117331075526657,
+        "full_requested_margin_available": true
+      },
+      {
+        "lens": 1,
+        "surfaces": [
+          2
+        ],
+        "original_face_radii_mm": [
+          21.183739154689377
+        ],
+        "maximum_sampled_footprint_radius_mm": 21.18125776708828,
+        "requested_margin_mm": 0.4236251553417656,
+        "proposed_equal_face_radius_mm": 21.183739154689377,
+        "actual_sampled_clearance_mm": 0.0024813876010973956,
+        "full_requested_margin_available": false
+      },
+      {
+        "lens": 2,
+        "surfaces": [
+          3
+        ],
+        "original_face_radii_mm": [
+          20.208284061832117
+        ],
+        "maximum_sampled_footprint_radius_mm": 19.87899105565687,
+        "requested_margin_mm": 0.3975798211131374,
+        "proposed_equal_face_radius_mm": 20.208284061832117,
+        "actual_sampled_clearance_mm": 0.3292930061752486,
+        "full_requested_margin_available": false
+      },
+      {
+        "lens": 2,
+        "surfaces": [
+          4
+        ],
+        "original_face_radii_mm": [
+          15.886344901654187
+        ],
+        "maximum_sampled_footprint_radius_mm": 15.574847942798222,
+        "requested_margin_mm": 0.31149695885596446,
+        "proposed_equal_face_radius_mm": 15.886344901654187,
+        "actual_sampled_clearance_mm": 0.3114969588559653,
+        "full_requested_margin_available": true
+      },
+      {
+        "lens": 3,
+        "surfaces": [
+          5
+        ],
+        "original_face_radii_mm": [
+          13.212548061899032
+        ],
+        "maximum_sampled_footprint_radius_mm": 13.212547924780191,
+        "requested_margin_mm": 0.3,
+        "proposed_equal_face_radius_mm": 13.212548061899032,
+        "actual_sampled_clearance_mm": 1.371188407262025e-07,
+        "full_requested_margin_available": false
+      },
+      {
+        "lens": 3,
+        "surfaces": [
+          6
+        ],
+        "original_face_radii_mm": [
+          10.532647033078996
+        ],
+        "maximum_sampled_footprint_radius_mm": 10.232647033078996,
+        "requested_margin_mm": 0.3,
+        "proposed_equal_face_radius_mm": 10.532647033078996,
+        "actual_sampled_clearance_mm": 0.3000000000000007,
+        "full_requested_margin_available": true
+      }
+    ],
+    "proposed_design_sha256": "d2e64ef161708c7f9997eb3f906123030613091d2d051a4f927563918b62087a",
+    "original_geometry": {
+      "minimum_conic_domains": [
+        0.960656154133822,
+        1.0,
+        0.8618542731324579,
+        0.9999140804396878,
+        1.0,
+        1.0
+      ],
+      "minimum_adjacent_surface_separation_mm": [
+        14.53188394894113,
+        7.429616303701643,
+        17.552600285975004,
+        1.265771381089742,
+        6.5283289818046
+      ],
+      "stop_front_min_clearance_mm": 0.17565084168362796,
+      "image_back_min_clearance_mm": 4.009668915524161,
+      "center_thickness_mm": [
+        19.99986787990497,
+        19.99890477804428,
+        8.049493911555063
+      ],
+      "axis_air_gaps_mm": [
+        7.4296163037016445,
+        1.2657713810897404
+      ]
+    },
+    "proposed_geometry": {
+      "minimum_conic_domains": [
+        0.960656154133822,
+        1.0,
+        0.8618542731324579,
+        0.9999140804396878,
+        1.0,
+        1.0
+      ],
+      "minimum_adjacent_surface_separation_mm": [
+        14.53188394894113,
+        7.429616303701643,
+        17.552600285975004,
+        1.265771381089742,
+        6.5283289818046
+      ],
+      "stop_front_min_clearance_mm": 0.17565084168362796,
+      "image_back_min_clearance_mm": 4.009668915524161,
+      "center_thickness_mm": [
+        19.99986787990497,
+        19.99890477804428,
+        8.049493911555063
+      ],
+      "axis_air_gaps_mm": [
+        7.4296163037016445,
+        1.2657713810897404
+      ]
+    },
+    "lost_transmitted_ray_count": 0,
+    "newly_transmitted_ray_count": 0,
+    "changed_ray_status_count": 0,
+    "all_ray_statuses_equal": true,
+    "all_image_forward_flags_equal": true,
+    "transmitted_ray_comparison": [
+      {
+        "array": "history",
+        "compared_scalar_count": 573534,
+        "bitwise_equal": true,
+        "nonfinite_pattern_equal": true,
+        "max_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10,
+        "passed": true
+      },
+      {
+        "array": "direction_history",
+        "compared_scalar_count": 573534,
+        "bitwise_equal": true,
+        "nonfinite_pattern_equal": true,
+        "max_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-12,
+        "passed": true
+      },
+      {
+        "array": "opl_history",
+        "compared_scalar_count": 191178,
+        "bitwise_equal": true,
+        "nonfinite_pattern_equal": true,
+        "max_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10,
+        "passed": true
+      },
+      {
+        "array": "pos",
+        "compared_scalar_count": 95589,
+        "bitwise_equal": true,
+        "nonfinite_pattern_equal": true,
+        "max_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10,
+        "passed": true
+      },
+      {
+        "array": "dir",
+        "compared_scalar_count": 95589,
+        "bitwise_equal": true,
+        "nonfinite_pattern_equal": true,
+        "max_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-12,
+        "passed": true
+      },
+      {
+        "array": "image_xy",
+        "compared_scalar_count": 63726,
+        "bitwise_equal": true,
+        "nonfinite_pattern_equal": true,
+        "max_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10,
+        "passed": true
+      }
+    ],
+    "transmitted_optics_bitwise_equal": true,
+    "accepted": true,
+    "applied": false,
+    "reason": "All sampled statuses and transmitted optical histories preserved",
+    "result_design_sha256": "d2e64ef161708c7f9997eb3f906123030613091d2d051a4f927563918b62087a"
+  },
+  "metrics": {
+    "schema": "candidate-geometric-radiometric-audit/1",
+    "candidate_id": "seed_0080",
+    "status": "numerically_qualified_initial_candidate",
+    "not_global_optimum_or_Zemax_validation": true,
+    "all_declared_numeric_constraints_passed": true,
+    "all_declared_numeric_constraints_and_sampled_rays_passed": true,
+    "constraint_results": {
+      "three_separated_elements_two_plastics_one_glass": {
+        "passed": true,
+        "measured": [
+          "PC",
+          "TAFD45",
+          "PMMA"
+        ],
+        "requirement": "twoPMMA/PC plusoneFDS18W/TAFD45"
+      },
+      "glass_surfaces_standard": {
+        "passed": true,
+        "measured": true,
+        "requirement": "glass k=0 andA4..A12=0"
+      },
+      "only_even_orders4_through12": {
+        "passed": true,
+        "measured": "A4,A6,A8,A10,A12",
+        "requirement": "no other aspheric orders"
+      },
+      "aperture_alternative50mm": {
+        "passed": true,
+        "measured": {
+          "nominal_STOP_diameter_mm": 43.200012129038626,
+          "supported_unvignetted_EPD_mm": 43.200012129038626,
+          "first_surface_clear_diameter_mm": 50.0
+        },
+        "requirement": "EPD50fullytransmittedonaxis or first_lens_object_side_clear_diameter50"
+      },
+      "center_thickness_strictly_over2mm": {
+        "passed": true,
+        "measured": [
+          19.99986787990497,
+          19.99890477804428,
+          8.049493911555063
+        ],
+        "requirement": ">2mm each"
+      },
+      "center_thickness_at_most20mm": {
+        "passed": true,
+        "measured": [
+          19.99986787990497,
+          19.99890477804428,
+          8.049493911555063
+        ],
+        "requirement": "<=20mm each; exact floating-point comparison, no positive tolerance"
+      },
+      "axis_air_gaps_at_least1mm": {
+        "passed": true,
+        "measured": [
+          7.4296163037016445,
+          1.2657713810897404
+        ],
+        "requirement": ">=1mm each"
+      },
+      "vertex_BFL_at_least3mm": {
+        "passed": true,
+        "measured": 4.123124957895642,
+        "requirement": "last_surface_vertex_to_fixed_image_plane>=3mm"
+      },
+      "positive_finite_paraxial_EFL": {
+        "passed": true,
+        "measured": 29.958885841802108,
+        "requirement": "finitepositiveimageformingpower"
+      },
+      "paraxial_BFL_at_least3mm": {
+        "passed": true,
+        "measured": 4.117426031598411,
+        "requirement": "finiteparaxialbackfocaldistance>=3mm",
+        "interpretation": "additionalconservativeBFLdefinitioncheck;distinctfromactualfixedimageplaneBFL"
+      },
+      "real_surface_sag_domain": {
+        "passed": true,
+        "measured": [
+          0.960656154133822,
+          1.0,
+          0.8618542731324579,
+          0.9999140804396878,
+          1.0,
+          1.0
+        ],
+        "requirement": "strictlypositiveconicradicand acrossclearaperture"
+      },
+      "no_adjacent_surface_crossing_sampled": {
+        "passed": true,
+        "measured": [
+          14.53188394894113,
+          7.429616303701643,
+          17.552600285975004,
+          1.265771381089742,
+          6.5283289818046
+        ],
+        "requirement": ">0mm overcommonclearaperture",
+        "radial_samples_per_interval": 1025,
+        "continuous_proof": false
+      },
+      "stop_plane_before_entire_first_clear_surface": {
+        "passed": true,
+        "measured": 0.17565084168362796,
+        "requirement": "positiveclearance"
+      },
+      "image_plane_after_entire_last_clear_surface": {
+        "passed": true,
+        "measured": 4.009668915524161,
+        "requirement": "positiveclearance"
+      },
+      "onaxis_588nm_NA_at_least0p7": {
+        "passed": true,
+        "measured": 0.7128598303553828,
+        "requirement": "allnominalrimraysvalidandminimumrimNA>=0.7"
+      },
+      "fullfield_588nm_height_numerically_close_to6p4mm": {
+        "passed": true,
+        "measured": 6.4,
+        "requirement": "target6.4mm",
+        "residual_mm": 0.0,
+        "numerical_proximity_tolerance_mm": 0.001,
+        "user_approved_relaxation": false
+      },
+      "all_requested_sampled_rays_transmitted": {
+        "passed": true,
+        "measured": {
+          "invalid_count": 0
+        },
+        "requirement": "no deletedfailedorchiefrimrays;candidatequalificationpolicy_notanextrauserthroughputspec"
+      }
+    },
+    "failed_constraints": [],
+    "aperture": {
+      "EPD_mm": 43.200012129038626,
+      "nominal_STOP_diameter_mm": 43.200012129038626,
+      "first_surface_clear_diameter_mm": 50.0,
+      "first_lens_maximum_surface_clear_diameter_mm": 50.0,
+      "EPD_definition": "physical_stop_diameter;no_powered_surface_before_stop",
+      "onaxis_nominal_pupil_fully_transmitted_allRGB": true,
+      "onaxis_effective_area_equivalent_diameter_RGB_mm": [
+        43.20001212903862,
+        43.20001212903862,
+        43.20001212903862
+      ],
+      "effective_area_equivalent_diameter_is_not_a_pupil_boundary_measurement": true,
+      "stop_distance_before_first_vertex_mm": 0.17565084168362796,
+      "stop_distance_less_than_positive_EFL_preference_met": true
+    },
+    "fixed_image_plane_z_mm": 60.86677921219134,
+    "vertex_BFL_mm": 4.123124957895642,
+    "first_order_primary588nm": {
+      "efl_mm": 29.958885841802108,
+      "paraxial_bfl_mm": 4.117426031598411,
+      "matrix": [
+        [
+          0.13743588641248136,
+          29.4778815946231
+        ],
+        [
+          -0.03337907842369372,
+          0.11682158792595893
+        ]
+      ]
+    },
+    "geometry_dense_sample": {
+      "minimum_conic_domains": [
+        0.960656154133822,
+        1.0,
+        0.8618542731324579,
+        0.9999140804396878,
+        1.0,
+        1.0
+      ],
+      "minimum_adjacent_surface_separation_mm": [
+        14.53188394894113,
+        7.429616303701643,
+        17.552600285975004,
+        1.265771381089742,
+        6.5283289818046
+      ],
+      "stop_front_min_clearance_mm": 0.17565084168362796,
+      "image_back_min_clearance_mm": 4.009668915524161,
+      "center_thickness_mm": [
+        19.99986787990497,
+        19.99890477804428,
+        8.049493911555063
+      ],
+      "axis_air_gaps_mm": [
+        7.4296163037016445,
+        1.2657713810897404
+      ]
+    },
+    "by_wavelength_nm": {
+      "486.0": {
+        "first_order": {
+          "efl_mm": 29.604758085418954,
+          "paraxial_bfl_mm": 3.7507182364752056,
+          "matrix": [
+            [
+              0.12669308851142153,
+              29.195320842537225
+            ],
+            [
+              -0.03377835404412657,
+              0.10916235693206947
+            ]
+          ]
+        },
+        "fields": {
+          "0.0": {
+            "field_angle_deg": 0.0,
+            "spot_geometric": {
+              "centroid_xy_mm": [
+                -9.053088140253962e-18,
+                -6.810822522282378e-17
+              ],
+              "rms_radius_mm": 0.13440753501364078,
+              "rms_diameter_mm": 0.26881507002728156,
+              "covariance_mm2": [
+                [
+                  0.009032692734221541,
+                  -1.6203081125390166e-18
+                ],
+                [
+                  -1.5649957693080635e-18,
+                  0.009032692734221527
+                ]
+              ],
+              "transmitted_quadrature_weight": 1.0,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "spot_uncoated_fresnel": {
+              "centroid_xy_mm": [
+                -7.131430499365941e-18,
+                -6.4255432653444e-17
+              ],
+              "rms_radius_mm": 0.1340435444547178,
+              "rms_diameter_mm": 0.2680870889094356,
+              "covariance_mm2": [
+                [
+                  0.00898383590499196,
+                  -1.5803073029880983e-18
+                ],
+                [
+                  -1.2911065446351449e-18,
+                  0.008983835904991952
+                ]
+              ],
+              "transmitted_quadrature_weight": 0.6537355081988355,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "image_space_NA": {
+              "image_medium_index": 1.0,
+              "definition": "n_image*sin(angle_to_optical_z_axis)",
+              "rim_ray_count": 48,
+              "valid_rim_ray_count": 48,
+              "complete_rim_transmitted": true,
+              "valid_rim_minimum": 0.7237154005351155,
+              "valid_rim_median": 0.7237154005351156,
+              "valid_rim_maximum": 0.7237154005351157,
+              "conservative_complete_rim_NA": 0.7237154005351155,
+              "all_valid_sample_maximum_NOT_acceptance_value": 0.7237154005351157,
+              "chief_angle_to_z_deg": 0.0,
+              "rim_sine_angle_to_chief_minimum": 0.7237154005351155,
+              "rim_sine_angle_to_chief_maximum": 0.7237154005351157,
+              "tangential_opposite_rim_cone_NA": 0.7237154005351156,
+              "sagittal_opposite_rim_cone_NA": 0.7237154005351156
+            },
+            "chief_height_mm": 0.0,
+            "chief_image_xy_mm": [
+              0.0,
+              0.0
+            ],
+            "rectilinear_reference_height_paraxial_EFL_mm": 0.0,
+            "distortion_percent_paraxial_EFL": 0.0,
+            "distortion_percent_axis_chief_slope": 0.0,
+            "entrance_pupil_area_mm2": 1465.74229151614,
+            "geometric_transmitted_pupil_fraction": 0.9999999999999999,
+            "uncoated_power_transmission_fraction": 0.6537355081988355,
+            "RI_geometric": 1.0,
+            "RI_uncoated_fresnel": 1.0,
+            "irradiance_per_unit_input_radiance_geometric_sr": 1.6680436523629218,
+            "irradiance_per_unit_input_radiance_uncoated_sr": 1.0904593647753167,
+            "chief_mapping_valid": true,
+            "ray_count_including_chief_rim": 817,
+            "positive_weight_ray_count": 768,
+            "invalid_ray_count_including_chief_rim": 0,
+            "native_status_counts": {
+              "ok": 817
+            },
+            "failed_surface_counts_1_based": {},
+            "backward_image_projection_count": 0,
+            "vignetting_status": "none_on_positive_weight_quadrature",
+            "RI_status": "conditional_local_chief_mapping_and_sampled_pupil"
+          },
+          "0.5": {
+            "field_angle_deg": 6.0,
+            "spot_geometric": {
+              "centroid_xy_mm": [
+                -4.212125440106185e-17,
+                3.1410393235262575
+              ],
+              "rms_radius_mm": 0.1616755164103369,
+              "rms_diameter_mm": 0.3233510328206738,
+              "covariance_mm2": [
+                [
+                  0.016703123702208448,
+                  3.016156549018656e-18
+                ],
+                [
+                  3.0710478484510064e-18,
+                  0.009435848904340665
+                ]
+              ],
+              "transmitted_quadrature_weight": 1.0,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "spot_uncoated_fresnel": {
+              "centroid_xy_mm": [
+                -4.039957894988672e-17,
+                3.141145102946548
+              ],
+              "rms_radius_mm": 0.16131792742481516,
+              "rms_diameter_mm": 0.3226358548496303,
+              "covariance_mm2": [
+                [
+                  0.016631517071202785,
+                  2.8712028719157762e-18
+                ],
+                [
+                  2.9209988078540923e-18,
+                  0.009391956637435143
+                ]
+              ],
+              "transmitted_quadrature_weight": 0.6534801497008191,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "image_space_NA": {
+              "image_medium_index": 1.0,
+              "definition": "n_image*sin(angle_to_optical_z_axis)",
+              "rim_ray_count": 48,
+              "valid_rim_ray_count": 48,
+              "complete_rim_transmitted": true,
+              "valid_rim_minimum": 0.7022905823558567,
+              "valid_rim_median": 0.7186806450511274,
+              "valid_rim_maximum": 0.7225905253758341,
+              "conservative_complete_rim_NA": 0.7022905823558567,
+              "all_valid_sample_maximum_NOT_acceptance_value": 0.7225905253758341,
+              "chief_angle_to_z_deg": 0.7466938070316366,
+              "rim_sine_angle_to_chief_minimum": 0.7115082267110102,
+              "rim_sine_angle_to_chief_maximum": 0.7188894682602092,
+              "tangential_opposite_rim_cone_NA": 0.712161566886972,
+              "sagittal_opposite_rim_cone_NA": 0.7186725393641458
+            },
+            "chief_height_mm": 3.1191255590558313,
+            "chief_image_xy_mm": [
+              0.0,
+              3.1191255590558313
+            ],
+            "rectilinear_reference_height_paraxial_EFL_mm": 3.1115854587933116,
+            "distortion_percent_paraxial_EFL": 0.2423234187963974,
+            "distortion_percent_axis_chief_slope": 0.11232264363041367,
+            "entrance_pupil_area_mm2": 1465.74229151614,
+            "geometric_transmitted_pupil_fraction": 0.9999999999999999,
+            "uncoated_power_transmission_fraction": 0.6534801497008191,
+            "RI_geometric": 0.9738338878559796,
+            "RI_uncoated_fresnel": 0.9734534943240364,
+            "irradiance_per_unit_input_radiance_geometric_sr": 1.6243974350940722,
+            "irradiance_per_unit_input_radiance_uncoated_sr": 1.061511479058901,
+            "chief_mapping_valid": true,
+            "ray_count_including_chief_rim": 817,
+            "positive_weight_ray_count": 768,
+            "invalid_ray_count_including_chief_rim": 0,
+            "native_status_counts": {
+              "ok": 817
+            },
+            "failed_surface_counts_1_based": {},
+            "backward_image_projection_count": 0,
+            "vignetting_status": "none_on_positive_weight_quadrature",
+            "RI_status": "conditional_local_chief_mapping_and_sampled_pupil"
+          },
+          "0.8": {
+            "field_angle_deg": 9.600000000000001,
+            "spot_geometric": {
+              "centroid_xy_mm": [
+                3.0357660829594124e-18,
+                5.054700710462313
+              ],
+              "rms_radius_mm": 0.21727448756185855,
+              "rms_diameter_mm": 0.4345489751237171,
+              "covariance_mm2": [
+                [
+                  0.03427194458014894,
+                  -5.595827030523762e-20
+                ],
+                [
+                  2.320329317612245e-19,
+                  0.012936258365119285
+                ]
+              ],
+              "transmitted_quadrature_weight": 1.0,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "spot_uncoated_fresnel": {
+              "centroid_xy_mm": [
+                3.4048639439280127e-18,
+                5.054937927221402
+              ],
+              "rms_radius_mm": 0.21683713106919866,
+              "rms_diameter_mm": 0.4336742621383973,
+              "covariance_mm2": [
+                [
+                  0.03415285721564089,
+                  4.1176042435957027e-19
+                ],
+                [
+                  3.28234121346503e-19,
+                  0.012865484194679946
+                ]
+              ],
+              "transmitted_quadrature_weight": 0.6527762900949194,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "image_space_NA": {
+              "image_medium_index": 1.0,
+              "definition": "n_image*sin(angle_to_optical_z_axis)",
+              "rim_ray_count": 48,
+              "valid_rim_ray_count": 48,
+              "complete_rim_transmitted": true,
+              "valid_rim_minimum": 0.6812579407900798,
+              "valid_rim_median": 0.7113648663255767,
+              "valid_rim_maximum": 0.7173440009802315,
+              "conservative_complete_rim_NA": 0.6812579407900798,
+              "all_valid_sample_maximum_NOT_acceptance_value": 0.7173440009802315,
+              "chief_angle_to_z_deg": 1.5188383512735857,
+              "rim_sine_angle_to_chief_minimum": 0.6947627038533112,
+              "rim_sine_angle_to_chief_maximum": 0.7115822730195775,
+              "tangential_opposite_rim_cone_NA": 0.6975977219913134,
+              "sagittal_opposite_rim_cone_NA": 0.7113641472292053
+            },
+            "chief_height_mm": 5.028753209588914,
+            "chief_image_xy_mm": [
+              0.0,
+              5.028753209588914
+            ],
+            "rectilinear_reference_height_paraxial_EFL_mm": 5.007270026568755,
+            "distortion_percent_paraxial_EFL": 0.4290398342044366,
+            "distortion_percent_axis_chief_slope": 0.29879691302754363,
+            "entrance_pupil_area_mm2": 1465.74229151614,
+            "geometric_transmitted_pupil_fraction": 0.9999999999999999,
+            "uncoated_power_transmission_fraction": 0.6527762900949194,
+            "RI_geometric": 0.9338286639108502,
+            "RI_uncoated_fresnel": 0.9324584685502724,
+            "irradiance_per_unit_input_radiance_geometric_sr": 1.557666975231042,
+            "irradiance_per_unit_input_radiance_uncoated_sr": 1.0168080692946946,
+            "chief_mapping_valid": true,
+            "ray_count_including_chief_rim": 817,
+            "positive_weight_ray_count": 768,
+            "invalid_ray_count_including_chief_rim": 0,
+            "native_status_counts": {
+              "ok": 817
+            },
+            "failed_surface_counts_1_based": {},
+            "backward_image_projection_count": 0,
+            "vignetting_status": "none_on_positive_weight_quadrature",
+            "RI_status": "conditional_local_chief_mapping_and_sampled_pupil"
+          },
+          "1.0": {
+            "field_angle_deg": 12.0,
+            "spot_geometric": {
+              "centroid_xy_mm": [
+                3.7730235602495554e-17,
+                6.348161891829248
+              ],
+              "rms_radius_mm": 0.2795449429326921,
+              "rms_diameter_mm": 0.5590898858653842,
+              "covariance_mm2": [
+                [
+                  0.057171223420488,
+                  3.1435357680596586e-18
+                ],
+                [
+                  3.2789929566324488e-18,
+                  0.02097415169875408
+                ]
+              ],
+              "transmitted_quadrature_weight": 1.0,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "spot_uncoated_fresnel": {
+              "centroid_xy_mm": [
+                3.168717398794856e-17,
+                6.348634107693543
+              ],
+              "rms_radius_mm": 0.27893819107930384,
+              "rms_diameter_mm": 0.5578763821586077,
+              "covariance_mm2": [
+                [
+                  0.056993363524812456,
+                  2.94125649419471e-18
+                ],
+                [
+                  3.32629555517919e-18,
+                  0.020813150917781763
+                ]
+              ],
+              "transmitted_quadrature_weight": 0.6518110890451803,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "image_space_NA": {
+              "image_medium_index": 1.0,
+              "definition": "n_image*sin(angle_to_optical_z_axis)",
+              "rim_ray_count": 48,
+              "valid_rim_ray_count": 48,
+              "complete_rim_transmitted": true,
+              "valid_rim_minimum": 0.6673824684029641,
+              "valid_rim_median": 0.705338790690991,
+              "valid_rim_maximum": 0.7132789452176287,
+              "conservative_complete_rim_NA": 0.6673824684029641,
+              "all_valid_sample_maximum_NOT_acceptance_value": 0.7132789452176287,
+              "chief_angle_to_z_deg": 2.2790868083476923,
+              "rim_sine_angle_to_chief_minimum": 0.6781286239936388,
+              "rim_sine_angle_to_chief_maximum": 0.705568793553175,
+              "tangential_opposite_rim_cone_NA": 0.6873539515500459,
+              "sagittal_opposite_rim_cone_NA": 0.705289439571365
+            },
+            "chief_height_mm": 6.330697255812798,
+            "chief_image_xy_mm": [
+              0.0,
+              6.330697255812798
+            ],
+            "rectilinear_reference_height_paraxial_EFL_mm": 6.29268558770944,
+            "distortion_percent_paraxial_EFL": 0.6040611369110938,
+            "distortion_percent_axis_chief_slope": 0.47359123670731584,
+            "entrance_pupil_area_mm2": 1465.74229151614,
+            "geometric_transmitted_pupil_fraction": 0.9999999999999999,
+            "uncoated_power_transmission_fraction": 0.6518110890451803,
+            "RI_geometric": 0.8984907610499543,
+            "RI_uncoated_fresnel": 0.8958458491425214,
+            "irradiance_per_unit_input_radiance_geometric_sr": 1.498721810676107,
+            "irradiance_per_unit_input_radiance_uncoated_sr": 0.976883495592558,
+            "chief_mapping_valid": true,
+            "ray_count_including_chief_rim": 817,
+            "positive_weight_ray_count": 768,
+            "invalid_ray_count_including_chief_rim": 0,
+            "native_status_counts": {
+              "ok": 817
+            },
+            "failed_surface_counts_1_based": {},
+            "backward_image_projection_count": 0,
+            "vignetting_status": "none_on_positive_weight_quadrature",
+            "RI_status": "conditional_local_chief_mapping_and_sampled_pupil"
+          }
+        }
+      },
+      "588.0": {
+        "first_order": {
+          "efl_mm": 29.958885841802108,
+          "paraxial_bfl_mm": 4.117426031598411,
+          "matrix": [
+            [
+              0.13743588641248136,
+              29.4778815946231
+            ],
+            [
+              -0.03337907842369372,
+              0.11682158792595893
+            ]
+          ]
+        },
+        "fields": {
+          "0.0": {
+            "field_angle_deg": 0.0,
+            "spot_geometric": {
+              "centroid_xy_mm": [
+                -3.0330555775281987e-17,
+                -3.261076846929056e-17
+              ],
+              "rms_radius_mm": 0.10485948845597574,
+              "rms_diameter_mm": 0.2097189769119515,
+              "covariance_mm2": [
+                [
+                  0.0054977561596244555,
+                  -6.261656693995128e-18
+                ],
+                [
+                  -6.275362859892842e-18,
+                  0.005497756159624456
+                ]
+              ],
+              "transmitted_quadrature_weight": 1.0,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "spot_uncoated_fresnel": {
+              "centroid_xy_mm": [
+                -2.969701986814319e-17,
+                -3.103246476572854e-17
+              ],
+              "rms_radius_mm": 0.10461310904619193,
+              "rms_diameter_mm": 0.20922621809238387,
+              "covariance_mm2": [
+                [
+                  0.005471951292155226,
+                  -6.2575458689640306e-18
+                ],
+                [
+                  -6.275328638380216e-18,
+                  0.005471951292155218
+                ]
+              ],
+              "transmitted_quadrature_weight": 0.6621781239588529,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "image_space_NA": {
+              "image_medium_index": 1.0,
+              "definition": "n_image*sin(angle_to_optical_z_axis)",
+              "rim_ray_count": 48,
+              "valid_rim_ray_count": 48,
+              "complete_rim_transmitted": true,
+              "valid_rim_minimum": 0.7128598303553828,
+              "valid_rim_median": 0.7128598303553829,
+              "valid_rim_maximum": 0.7128598303553831,
+              "conservative_complete_rim_NA": 0.7128598303553828,
+              "all_valid_sample_maximum_NOT_acceptance_value": 0.7128598303553831,
+              "chief_angle_to_z_deg": 0.0,
+              "rim_sine_angle_to_chief_minimum": 0.7128598303553829,
+              "rim_sine_angle_to_chief_maximum": 0.7128598303553831,
+              "tangential_opposite_rim_cone_NA": 0.7128598303553829,
+              "sagittal_opposite_rim_cone_NA": 0.7128598303553829
+            },
+            "chief_height_mm": 0.0,
+            "chief_image_xy_mm": [
+              0.0,
+              0.0
+            ],
+            "rectilinear_reference_height_paraxial_EFL_mm": 0.0,
+            "distortion_percent_paraxial_EFL": 0.0,
+            "distortion_percent_axis_chief_slope": 0.0,
+            "entrance_pupil_area_mm2": 1465.74229151614,
+            "geometric_transmitted_pupil_fraction": 0.9999999999999999,
+            "uncoated_power_transmission_fraction": 0.6621781239588529,
+            "RI_geometric": 1.0,
+            "RI_uncoated_fresnel": 1.0,
+            "irradiance_per_unit_input_radiance_geometric_sr": 1.6330067107375894,
+            "irradiance_per_unit_input_radiance_uncoated_sr": 1.0813413201284343,
+            "chief_mapping_valid": true,
+            "ray_count_including_chief_rim": 817,
+            "positive_weight_ray_count": 768,
+            "invalid_ray_count_including_chief_rim": 0,
+            "native_status_counts": {
+              "ok": 817
+            },
+            "failed_surface_counts_1_based": {},
+            "backward_image_projection_count": 0,
+            "vignetting_status": "none_on_positive_weight_quadrature",
+            "RI_status": "conditional_local_chief_mapping_and_sampled_pupil"
+          },
+          "0.5": {
+            "field_angle_deg": 6.0,
+            "spot_geometric": {
+              "centroid_xy_mm": [
+                -5.4833524873454387e-17,
+                3.1847816206305968
+              ],
+              "rms_radius_mm": 0.08524305398514676,
+              "rms_diameter_mm": 0.1704861079702935,
+              "covariance_mm2": [
+                [
+                  0.0018576601296827668,
+                  -6.6199713014752556e-18
+                ],
+                [
+                  -6.619742359420016e-18,
+                  0.005408718123031876
+                ]
+              ],
+              "transmitted_quadrature_weight": 1.0,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "spot_uncoated_fresnel": {
+              "centroid_xy_mm": [
+                -5.5331828437821937e-17,
+                3.1846898666492063
+              ],
+              "rms_radius_mm": 0.08499454142304311,
+              "rms_diameter_mm": 0.16998908284608621,
+              "covariance_mm2": [
+                [
+                  0.001847725354738,
+                  -6.549321492797684e-18
+                ],
+                [
+                  -6.535975197864603e-18,
+                  0.005376346716975391
+                ]
+              ],
+              "transmitted_quadrature_weight": 0.6619283272092367,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "image_space_NA": {
+              "image_medium_index": 1.0,
+              "definition": "n_image*sin(angle_to_optical_z_axis)",
+              "rim_ray_count": 48,
+              "valid_rim_ray_count": 48,
+              "complete_rim_transmitted": true,
+              "valid_rim_minimum": 0.687469349941114,
+              "valid_rim_median": 0.7076643213920257,
+              "valid_rim_maximum": 0.7141825602905523,
+              "conservative_complete_rim_NA": 0.687469349941114,
+              "all_valid_sample_maximum_NOT_acceptance_value": 0.7141825602905523,
+              "chief_angle_to_z_deg": 0.7958432669319343,
+              "rim_sine_angle_to_chief_minimum": 0.6974898743916673,
+              "rim_sine_angle_to_chief_maximum": 0.7084534731187175,
+              "tangential_opposite_rim_cone_NA": 0.700880376720238,
+              "sagittal_opposite_rim_cone_NA": 0.7076635897767632
+            },
+            "chief_height_mm": 3.1526233031430575,
+            "chief_image_xy_mm": [
+              0.0,
+              3.1526233031430575
+            ],
+            "rectilinear_reference_height_paraxial_EFL_mm": 3.1488057858143126,
+            "distortion_percent_paraxial_EFL": 0.12123698914501269,
+            "distortion_percent_axis_chief_slope": 0.11912376289100468,
+            "entrance_pupil_area_mm2": 1465.74229151614,
+            "geometric_transmitted_pupil_fraction": 0.9999999999999999,
+            "uncoated_power_transmission_fraction": 0.6619283272092367,
+            "RI_geometric": 0.9735690064245706,
+            "RI_uncoated_fresnel": 0.9732017421424496,
+            "irradiance_per_unit_input_radiance_geometric_sr": 1.589844720857451,
+            "irradiance_per_unit_input_radiance_uncoated_sr": 1.0523632565996086,
+            "chief_mapping_valid": true,
+            "ray_count_including_chief_rim": 817,
+            "positive_weight_ray_count": 768,
+            "invalid_ray_count_including_chief_rim": 0,
+            "native_status_counts": {
+              "ok": 817
+            },
+            "failed_surface_counts_1_based": {},
+            "backward_image_projection_count": 0,
+            "vignetting_status": "none_on_positive_weight_quadrature",
+            "RI_status": "conditional_local_chief_mapping_and_sampled_pupil"
+          },
+          "0.8": {
+            "field_angle_deg": 9.600000000000001,
+            "spot_geometric": {
+              "centroid_xy_mm": [
+                -2.7267684638010437e-17,
+                5.1242025416167625
+              ],
+              "rms_radius_mm": 0.06874214081114038,
+              "rms_diameter_mm": 0.13748428162228077,
+              "covariance_mm2": [
+                [
+                  0.0010000272537587925,
+                  5.923117208786592e-19
+                ],
+                [
+                  5.925477332188607e-19,
+                  0.00372545466953986
+                ]
+              ],
+              "transmitted_quadrature_weight": 1.0,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "spot_uncoated_fresnel": {
+              "centroid_xy_mm": [
+                -2.798224732527236e-17,
+                5.124117834119123
+              ],
+              "rms_radius_mm": 0.06857527232391583,
+              "rms_diameter_mm": 0.13715054464783166,
+              "covariance_mm2": [
+                [
+                  0.0010050212878877198,
+                  5.510505504982595e-19
+                ],
+                [
+                  5.5572123768366865e-19,
+                  0.0036975466864114966
+                ]
+              ],
+              "transmitted_quadrature_weight": 0.6612259367428361,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "image_space_NA": {
+              "image_medium_index": 1.0,
+              "definition": "n_image*sin(angle_to_optical_z_axis)",
+              "rim_ray_count": 48,
+              "valid_rim_ray_count": 48,
+              "complete_rim_transmitted": true,
+              "valid_rim_minimum": 0.6645232193757448,
+              "valid_rim_median": 0.7001712769961302,
+              "valid_rim_maximum": 0.7092392345729083,
+              "conservative_complete_rim_NA": 0.6645232193757448,
+              "all_valid_sample_maximum_NOT_acceptance_value": 0.7092392345729083,
+              "chief_angle_to_z_deg": 1.604635591977944,
+              "rim_sine_angle_to_chief_minimum": 0.6851879998820055,
+              "rim_sine_angle_to_chief_maximum": 0.7008471691986554,
+              "tangential_opposite_rim_cone_NA": 0.685990348674991,
+              "sagittal_opposite_rim_cone_NA": 0.7001541670510577
+            },
+            "chief_height_mm": 5.0833076751754165,
+            "chief_image_xy_mm": [
+              0.0,
+              5.0833076751754165
+            ],
+            "rectilinear_reference_height_paraxial_EFL_mm": 5.067166253215739,
+            "distortion_percent_paraxial_EFL": 0.31854928678201055,
+            "distortion_percent_axis_chief_slope": 0.3164318959217649,
+            "entrance_pupil_area_mm2": 1465.74229151614,
+            "geometric_transmitted_pupil_fraction": 0.9999999999999999,
+            "uncoated_power_transmission_fraction": 0.6612259367428361,
+            "RI_geometric": 0.933178866357829,
+            "RI_uncoated_fresnel": 0.9318369902754682,
+            "irradiance_per_unit_input_radiance_geometric_sr": 1.5238873510808308,
+            "irradiance_per_unit_input_radiance_uncoated_sr": 1.0076338412089818,
+            "chief_mapping_valid": true,
+            "ray_count_including_chief_rim": 817,
+            "positive_weight_ray_count": 768,
+            "invalid_ray_count_including_chief_rim": 0,
+            "native_status_counts": {
+              "ok": 817
+            },
+            "failed_surface_counts_1_based": {},
+            "backward_image_projection_count": 0,
+            "vignetting_status": "none_on_positive_weight_quadrature",
+            "RI_status": "conditional_local_chief_mapping_and_sampled_pupil"
+          },
+          "1.0": {
+            "field_angle_deg": 12.0,
+            "spot_geometric": {
+              "centroid_xy_mm": [
+                5.014435047745458e-18,
+                6.434355756852494
+              ],
+              "rms_radius_mm": 0.08978874196531193,
+              "rms_diameter_mm": 0.17957748393062387,
+              "covariance_mm2": [
+                [
+                  0.005996064775623672,
+                  -5.733203023438671e-18
+                ],
+                [
+                  -5.733137529093904e-18,
+                  0.0020659534080896963
+                ]
+              ],
+              "transmitted_quadrature_weight": 1.0,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "spot_uncoated_fresnel": {
+              "centroid_xy_mm": [
+                2.3194414730207355e-18,
+                6.434404583428436
+              ],
+              "rms_radius_mm": 0.0897404764184638,
+              "rms_diameter_mm": 0.1794809528369276,
+              "covariance_mm2": [
+                [
+                  0.006002608175929607,
+                  -5.736936131771657e-18
+                ],
+                [
+                  -5.748681785918373e-18,
+                  0.0020507449318832504
+                ]
+              ],
+              "transmitted_quadrature_weight": 0.6602604922129389,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "image_space_NA": {
+              "image_medium_index": 1.0,
+              "definition": "n_image*sin(angle_to_optical_z_axis)",
+              "rim_ray_count": 48,
+              "valid_rim_ray_count": 48,
+              "complete_rim_transmitted": true,
+              "valid_rim_minimum": 0.6499213799831509,
+              "valid_rim_median": 0.6940618098606165,
+              "valid_rim_maximum": 0.7054913975778826,
+              "conservative_complete_rim_NA": 0.6499213799831509,
+              "all_valid_sample_maximum_NOT_acceptance_value": 0.7054913975778826,
+              "chief_angle_to_z_deg": 2.39483737765184,
+              "rim_sine_angle_to_chief_minimum": 0.6702659280980138,
+              "rim_sine_angle_to_chief_maximum": 0.6944424142644284,
+              "tangential_opposite_rim_cone_NA": 0.6757066826510562,
+              "sagittal_opposite_rim_cone_NA": 0.6939357745373479
+            },
+            "chief_height_mm": 6.4,
+            "chief_image_xy_mm": [
+              0.0,
+              6.4
+            ],
+            "rectilinear_reference_height_paraxial_EFL_mm": 6.367957765998162,
+            "distortion_percent_paraxial_EFL": 0.5031791224013427,
+            "distortion_percent_axis_chief_slope": 0.5010578346194672,
+            "entrance_pupil_area_mm2": 1465.74229151614,
+            "geometric_transmitted_pupil_fraction": 0.9999999999999999,
+            "uncoated_power_transmission_fraction": 0.6602604922129389,
+            "RI_geometric": 0.8975445360572033,
+            "RI_uncoated_fresnel": 0.8949452960137162,
+            "irradiance_per_unit_input_radiance_geometric_sr": 1.4656962505672693,
+            "irradiance_per_unit_input_radiance_uncoated_sr": 0.9677413278342043,
+            "chief_mapping_valid": true,
+            "ray_count_including_chief_rim": 817,
+            "positive_weight_ray_count": 768,
+            "invalid_ray_count_including_chief_rim": 0,
+            "native_status_counts": {
+              "ok": 817
+            },
+            "failed_surface_counts_1_based": {},
+            "backward_image_projection_count": 0,
+            "vignetting_status": "none_on_positive_weight_quadrature",
+            "RI_status": "conditional_local_chief_mapping_and_sampled_pupil"
+          }
+        }
+      },
+      "656.0": {
+        "first_order": {
+          "efl_mm": 30.105373470047788,
+          "paraxial_bfl_mm": 4.268001718277738,
+          "matrix": [
+            [
+              0.14176876837366012,
+              29.593044552997785
+            ],
+            [
+              -0.03321666150379807,
+              0.12003952923822733
+            ]
+          ]
+        },
+        "fields": {
+          "0.0": {
+            "field_angle_deg": 0.0,
+            "spot_geometric": {
+              "centroid_xy_mm": [
+                1.1817803680091998e-17,
+                -6.953801683778904e-17
+              ],
+              "rms_radius_mm": 0.19708545895725174,
+              "rms_diameter_mm": 0.3941709179145035,
+              "covariance_mm2": [
+                [
+                  0.0194213390661953,
+                  1.4797589268925613e-17
+                ],
+                [
+                  1.4527757893206956e-17,
+                  0.019421339066195267
+                ]
+              ],
+              "transmitted_quadrature_weight": 1.0,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "spot_uncoated_fresnel": {
+              "centroid_xy_mm": [
+                8.999902787459073e-18,
+                -7.103203817658593e-17
+              ],
+              "rms_radius_mm": 0.1966083708616959,
+              "rms_diameter_mm": 0.3932167417233918,
+              "covariance_mm2": [
+                [
+                  0.019327425746445078,
+                  1.4282313976473918e-17
+                ],
+                [
+                  1.4399886287399217e-17,
+                  0.019327425746445078
+                ]
+              ],
+              "transmitted_quadrature_weight": 0.6655868562635463,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "image_space_NA": {
+              "image_medium_index": 1.0,
+              "definition": "n_image*sin(angle_to_optical_z_axis)",
+              "rim_ray_count": 48,
+              "valid_rim_ray_count": 48,
+              "complete_rim_transmitted": true,
+              "valid_rim_minimum": 0.708409055026218,
+              "valid_rim_median": 0.7084090550262183,
+              "valid_rim_maximum": 0.7084090550262185,
+              "conservative_complete_rim_NA": 0.708409055026218,
+              "all_valid_sample_maximum_NOT_acceptance_value": 0.7084090550262185,
+              "chief_angle_to_z_deg": 0.0,
+              "rim_sine_angle_to_chief_minimum": 0.708409055026218,
+              "rim_sine_angle_to_chief_maximum": 0.7084090550262184,
+              "tangential_opposite_rim_cone_NA": 0.7084090550262184,
+              "sagittal_opposite_rim_cone_NA": 0.7084090550262184
+            },
+            "chief_height_mm": 0.0,
+            "chief_image_xy_mm": [
+              0.0,
+              0.0
+            ],
+            "rectilinear_reference_height_paraxial_EFL_mm": 0.0,
+            "distortion_percent_paraxial_EFL": 0.0,
+            "distortion_percent_axis_chief_slope": 0.0,
+            "entrance_pupil_area_mm2": 1465.74229151614,
+            "geometric_transmitted_pupil_fraction": 0.9999999999999999,
+            "uncoated_power_transmission_fraction": 0.6655868562635463,
+            "RI_geometric": 1.0,
+            "RI_uncoated_fresnel": 1.0,
+            "irradiance_per_unit_input_radiance_geometric_sr": 1.6190008641921494,
+            "irradiance_per_unit_input_radiance_uncoated_sr": 1.0775856954856176,
+            "chief_mapping_valid": true,
+            "ray_count_including_chief_rim": 817,
+            "positive_weight_ray_count": 768,
+            "invalid_ray_count_including_chief_rim": 0,
+            "native_status_counts": {
+              "ok": 817
+            },
+            "failed_surface_counts_1_based": {},
+            "backward_image_projection_count": 0,
+            "vignetting_status": "none_on_positive_weight_quadrature",
+            "RI_status": "conditional_local_chief_mapping_and_sampled_pupil"
+          },
+          "0.5": {
+            "field_angle_deg": 6.0,
+            "spot_geometric": {
+              "centroid_xy_mm": [
+                -1.0755285551056204e-16,
+                3.202518832735656
+              ],
+              "rms_radius_mm": 0.17547374318807268,
+              "rms_diameter_mm": 0.35094748637614537,
+              "covariance_mm2": [
+                [
+                  0.011355587616569985,
+                  1.0247163612125718e-17
+                ],
+                [
+                  1.0191681283569349e-17,
+                  0.019435446931863696
+                ]
+              ],
+              "transmitted_quadrature_weight": 1.0,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "spot_uncoated_fresnel": {
+              "centroid_xy_mm": [
+                -1.091798949857176e-16,
+                3.202354377373917
+              ],
+              "rms_radius_mm": 0.17497824278523563,
+              "rms_diameter_mm": 0.34995648557047127,
+              "covariance_mm2": [
+                [
+                  0.011292863883169149,
+                  9.969100510532835e-18
+                ],
+                [
+                  1.0051274243860606e-17,
+                  0.01932452156503972
+                ]
+              ],
+              "transmitted_quadrature_weight": 0.66533811528241,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "image_space_NA": {
+              "image_medium_index": 1.0,
+              "definition": "n_image*sin(angle_to_optical_z_axis)",
+              "rim_ray_count": 48,
+              "valid_rim_ray_count": 48,
+              "complete_rim_transmitted": true,
+              "valid_rim_minimum": 0.6814346569685553,
+              "valid_rim_median": 0.7031540217984451,
+              "valid_rim_maximum": 0.7108714372510623,
+              "conservative_complete_rim_NA": 0.6814346569685553,
+              "all_valid_sample_maximum_NOT_acceptance_value": 0.7108714372510623,
+              "chief_angle_to_z_deg": 0.8164194618070725,
+              "rim_sine_angle_to_chief_minimum": 0.6917938212816314,
+              "rim_sine_angle_to_chief_maximum": 0.7043345153190047,
+              "tangential_opposite_rim_cone_NA": 0.6962831299154204,
+              "sagittal_opposite_rim_cone_NA": 0.7031540207870444
+            },
+            "chief_height_mm": 3.1663134676962987,
+            "chief_image_xy_mm": [
+              0.0,
+              3.1663134676962987
+            ],
+            "rectilinear_reference_height_paraxial_EFL_mm": 3.1642022559569574,
+            "distortion_percent_paraxial_EFL": 0.06672176961401988,
+            "distortion_percent_axis_chief_slope": 0.12174780110927319,
+            "entrance_pupil_area_mm2": 1465.74229151614,
+            "geometric_transmitted_pupil_fraction": 0.9999999999999999,
+            "uncoated_power_transmission_fraction": 0.66533811528241,
+            "RI_geometric": 0.9734668347015254,
+            "RI_uncoated_fresnel": 0.9731030338041841,
+            "irradiance_per_unit_input_radiance_geometric_sr": 1.5760436466441659,
+            "irradiance_per_unit_input_radiance_uncoated_sr": 1.0486019094610461,
+            "chief_mapping_valid": true,
+            "ray_count_including_chief_rim": 817,
+            "positive_weight_ray_count": 768,
+            "invalid_ray_count_including_chief_rim": 0,
+            "native_status_counts": {
+              "ok": 817
+            },
+            "failed_surface_counts_1_based": {},
+            "backward_image_projection_count": 0,
+            "vignetting_status": "none_on_positive_weight_quadrature",
+            "RI_status": "conditional_local_chief_mapping_and_sampled_pupil"
+          },
+          "0.8": {
+            "field_angle_deg": 9.600000000000001,
+            "spot_geometric": {
+              "centroid_xy_mm": [
+                -8.646512325571898e-17,
+                5.1523559555613
+              ],
+              "rms_radius_mm": 0.1384446957046846,
+              "rms_diameter_mm": 0.2768893914093692,
+              "covariance_mm2": [
+                [
+                  0.0032331175888162386,
+                  6.029724536544965e-18
+                ],
+                [
+                  6.036826728248202e-18,
+                  0.015933816179946474
+                ]
+              ],
+              "transmitted_quadrature_weight": 1.0,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "spot_uncoated_fresnel": {
+              "centroid_xy_mm": [
+                -8.733433184291104e-17,
+                5.152145020074438
+              ],
+              "rms_radius_mm": 0.13795940316451005,
+              "rms_diameter_mm": 0.2759188063290201,
+              "covariance_mm2": [
+                [
+                  0.003209977653132224,
+                  5.97826450221139e-18
+                ],
+                [
+                  5.937564050892354e-18,
+                  0.015822819268375598
+                ]
+              ],
+              "transmitted_quadrature_weight": 0.6646352308946446,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "image_space_NA": {
+              "image_medium_index": 1.0,
+              "definition": "n_image*sin(angle_to_optical_z_axis)",
+              "rim_ray_count": 48,
+              "valid_rim_ray_count": 48,
+              "complete_rim_transmitted": true,
+              "valid_rim_minimum": 0.6577624257368685,
+              "valid_rim_median": 0.6955989100024519,
+              "valid_rim_maximum": 0.7060683977849498,
+              "conservative_complete_rim_NA": 0.6577624257368685,
+              "all_valid_sample_maximum_NOT_acceptance_value": 0.7060683977849498,
+              "chief_angle_to_z_deg": 1.6403909381794735,
+              "rim_sine_angle_to_chief_minimum": 0.6790549304012714,
+              "rim_sine_angle_to_chief_maximum": 0.6966401082055584,
+              "tangential_opposite_rim_cone_NA": 0.6812954469483832,
+              "sagittal_opposite_rim_cone_NA": 0.6955687359704579
+            },
+            "chief_height_mm": 5.1055941311362165,
+            "chief_image_xy_mm": [
+              0.0,
+              5.1055941311362165
+            ],
+            "rectilinear_reference_height_paraxial_EFL_mm": 5.091942780963791,
+            "distortion_percent_paraxial_EFL": 0.268097085133423,
+            "distortion_percent_axis_chief_slope": 0.32323385158885554,
+            "entrance_pupil_area_mm2": 1465.74229151614,
+            "geometric_transmitted_pupil_fraction": 0.9999999999999999,
+            "uncoated_power_transmission_fraction": 0.6646352308946446,
+            "RI_geometric": 0.9329285908730653,
+            "RI_uncoated_fresnel": 0.9315947326303823,
+            "irradiance_per_unit_input_radiance_geometric_sr": 1.5104121948530569,
+            "irradiance_per_unit_input_radiance_uncoated_sr": 1.0038731578722484,
+            "chief_mapping_valid": true,
+            "ray_count_including_chief_rim": 817,
+            "positive_weight_ray_count": 768,
+            "invalid_ray_count_including_chief_rim": 0,
+            "native_status_counts": {
+              "ok": 817
+            },
+            "failed_surface_counts_1_based": {},
+            "backward_image_projection_count": 0,
+            "vignetting_status": "none_on_positive_weight_quadrature",
+            "RI_status": "conditional_local_chief_mapping_and_sampled_pupil"
+          },
+          "1.0": {
+            "field_angle_deg": 12.0,
+            "spot_geometric": {
+              "centroid_xy_mm": [
+                6.769487314456368e-18,
+                6.4692417861050195
+              ],
+              "rms_radius_mm": 0.10770701951363221,
+              "rms_diameter_mm": 0.21541403902726441,
+              "covariance_mm2": [
+                [
+                  0.0011274089305623267,
+                  -3.875417917839613e-18
+                ],
+                [
+                  -3.905904440433645e-18,
+                  0.010473393121947623
+                ]
+              ],
+              "transmitted_quadrature_weight": 1.0,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "spot_uncoated_fresnel": {
+              "centroid_xy_mm": [
+                6.294651497354134e-18,
+                6.469118145794608
+              ],
+              "rms_radius_mm": 0.10734769709112395,
+              "rms_diameter_mm": 0.2146953941822479,
+              "covariance_mm2": [
+                [
+                  0.0011294225496322678,
+                  -3.785326273553215e-18
+                ],
+                [
+                  -3.756730678707681e-18,
+                  0.010394105521135432
+                ]
+              ],
+              "transmitted_quadrature_weight": 0.6636692273772724,
+              "status": "conditional_transmitted_ray_moment"
+            },
+            "image_space_NA": {
+              "image_medium_index": 1.0,
+              "definition": "n_image*sin(angle_to_optical_z_axis)",
+              "rim_ray_count": 48,
+              "valid_rim_ray_count": 48,
+              "complete_rim_transmitted": true,
+              "valid_rim_minimum": 0.6429113349045184,
+              "valid_rim_median": 0.6894655196194548,
+              "valid_rim_maximum": 0.7023301898045933,
+              "conservative_complete_rim_NA": 0.6429113349045184,
+              "all_valid_sample_maximum_NOT_acceptance_value": 0.7023301898045933,
+              "chief_angle_to_z_deg": 2.4428988508100753,
+              "rim_sine_angle_to_chief_minimum": 0.6670520027602642,
+              "rim_sine_angle_to_chief_maximum": 0.6900199864077736,
+              "tangential_opposite_rim_cone_NA": 0.6710227209597844,
+              "sagittal_opposite_rim_cone_NA": 0.6892976523092139
+            },
+            "chief_height_mm": 6.428300060234356,
+            "chief_image_xy_mm": [
+              0.0,
+              6.428300060234356
+            ],
+            "rectilinear_reference_height_paraxial_EFL_mm": 6.39909467258526,
+            "distortion_percent_paraxial_EFL": 0.4563987430005856,
+            "distortion_percent_axis_chief_slope": 0.5116390552979855,
+            "entrance_pupil_area_mm2": 1465.74229151614,
+            "geometric_transmitted_pupil_fraction": 0.9999999999999999,
+            "uncoated_power_transmission_fraction": 0.6636692273772723,
+            "RI_geometric": 0.8971813197854472,
+            "RI_uncoated_fresnel": 0.8945964417956618,
+            "irradiance_per_unit_input_radiance_geometric_sr": 1.4525373320696922,
+            "irradiance_per_unit_input_radiance_uncoated_sr": 0.964004328911337,
+            "chief_mapping_valid": true,
+            "ray_count_including_chief_rim": 817,
+            "positive_weight_ray_count": 768,
+            "invalid_ray_count_including_chief_rim": 0,
+            "native_status_counts": {
+              "ok": 817
+            },
+            "failed_surface_counts_1_based": {},
+            "backward_image_projection_count": 0,
+            "vignetting_status": "none_on_positive_weight_quadrature",
+            "RI_status": "conditional_local_chief_mapping_and_sampled_pupil"
+          }
+        }
+      }
+    },
+    "polychromatic_equal_incident_radiance_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "polychromatic_fields": {
+      "0.0": {
+        "spot_geometric_common_RGB_centroid": {
+          "centroid_xy_mm": [
+            -9.500321536404231e-18,
+            -5.453875740780988e-17
+          ],
+          "rms_radius_mm": 0.15044774942382572,
+          "rms_diameter_mm": 0.30089549884765143,
+          "covariance_mm2": [
+            [
+              0.011317262653347126,
+              2.3028433087572363e-18
+            ],
+            [
+              2.1946262860758057e-18,
+              0.011317262653347121
+            ]
+          ],
+          "transmitted_quadrature_weight": 1.0000000000000002,
+          "status": "conditional_transmitted_ray_moment"
+        },
+        "spot_uncoated_common_RGB_centroid": {
+          "centroid_xy_mm": [
+            -9.623215245221366e-18,
+            -5.488977331102944e-17
+          ],
+          "rms_radius_mm": 0.15023082249590586,
+          "rms_diameter_mm": 0.3004616449918117,
+          "covariance_mm2": [
+            [
+              0.011284650013898194,
+              2.2030587898163305e-18
+            ],
+            [
+              2.162750449801127e-18,
+              0.011284650013898176
+            ]
+          ],
+          "transmitted_quadrature_weight": 0.6605001628070782,
+          "status": "conditional_transmitted_ray_moment"
+        },
+        "RI_geometric": 1.0,
+        "RI_uncoated_fresnel": 1.0
+      },
+      "0.5": {
+        "spot_geometric_common_RGB_centroid": {
+          "centroid_xy_mm": [
+            -6.792526610621684e-17,
+            3.1761132589641665
+          ],
+          "rms_radius_mm": 0.14854736750161723,
+          "rms_diameter_mm": 0.29709473500323447,
+          "covariance_mm2": [
+            [
+              0.009972123816153715,
+              1.5581554341974252e-18
+            ],
+            [
+              1.6269335685716233e-18,
+              0.012094196575506809
+            ]
+          ],
+          "transmitted_quadrature_weight": 1.0000000000000002,
+          "status": "conditional_transmitted_ray_moment"
+        },
+        "spot_uncoated_common_RGB_centroid": {
+          "centroid_xy_mm": [
+            -6.82502541792335e-17,
+            3.1762573056664096
+          ],
+          "rms_radius_mm": 0.14813321172531035,
+          "rms_diameter_mm": 0.2962664234506207,
+          "covariance_mm2": [
+            [
+              0.00989778342575014,
+              1.5097702428971928e-18
+            ],
+            [
+              1.6014992649564423e-18,
+              0.012045664990305488
+            ]
+          ],
+          "transmitted_quadrature_weight": 0.6602488640641553,
+          "status": "conditional_transmitted_ray_moment"
+        },
+        "RI_geometric": 0.9736251882953713,
+        "RI_uncoated_fresnel": 0.97325349309201
+      },
+      "0.8": {
+        "spot_geometric_common_RGB_centroid": {
+          "centroid_xy_mm": [
+            -3.51010453342182e-17,
+            5.110419735880117
+          ],
+          "rms_radius_mm": 0.15932549564331314,
+          "rms_diameter_mm": 0.3186509912866263,
+          "covariance_mm2": [
+            [
+              0.012835029807574675,
+              9.40910998942575e-19
+            ],
+            [
+              9.110942917948008e-19,
+              0.012549583754412718
+            ]
+          ],
+          "transmitted_quadrature_weight": 1.0000000000000002,
+          "status": "conditional_transmitted_ray_moment"
+        },
+        "spot_uncoated_common_RGB_centroid": {
+          "centroid_xy_mm": [
+            -3.589783188798949e-17,
+            5.1107090372415565
+          ],
+          "rms_radius_mm": 0.15855482241094476,
+          "rms_diameter_mm": 0.3171096448218895,
+          "covariance_mm2": [
+            [
+              0.012681547957406237,
+              8.589457576460192e-19
+            ],
+            [
+              8.846611460911388e-19,
+              0.012458083752359997
+            ]
+          ],
+          "transmitted_quadrature_weight": 0.6595458192441334,
+          "status": "conditional_transmitted_ray_moment"
+        },
+        "RI_geometric": 0.9333168109494938,
+        "RI_uncoated_fresnel": 0.9319652124636058
+      },
+      "1.0": {
+        "spot_geometric_common_RGB_centroid": {
+          "centroid_xy_mm": [
+            1.56006528225297e-17,
+            6.417253144928923
+          ],
+          "rms_radius_mm": 0.1875962994982334,
+          "rms_diameter_mm": 0.3751925989964668,
+          "covariance_mm2": [
+            [
+              0.021431565708891348,
+              -2.8732927123318413e-18
+            ],
+            [
+              -2.8233412496010218e-18,
+              0.013760805876539536
+            ]
+          ],
+          "transmitted_quadrature_weight": 1.0000000000000002,
+          "status": "conditional_transmitted_ray_moment"
+        },
+        "spot_uncoated_common_RGB_centroid": {
+          "centroid_xy_mm": [
+            1.451291546195122e-17,
+            6.417768887117459
+          ],
+          "rms_radius_mm": 0.18651033960772964,
+          "rms_diameter_mm": 0.3730206792154593,
+          "covariance_mm2": [
+            [
+              0.021187877571889974,
+              -2.69049860467739e-18
+            ],
+            [
+              -2.619388032274777e-18,
+              0.013598229208700675
+            ]
+          ],
+          "transmitted_quadrature_weight": 0.6585802695451304,
+          "status": "conditional_transmitted_ray_moment"
+        },
+        "RI_geometric": 0.8977458138669769,
+        "RI_uncoated_fresnel": 0.89513182239336
+      }
+    },
+    "chief_mapping_evidence": {
+      "chief_height_mm": [
+        [
+          0.0,
+          3.1191255590558313,
+          5.028753209588914,
+          6.330697255812798
+        ],
+        [
+          0.0,
+          3.1526233031430575,
+          5.0833076751754165,
+          6.4
+        ],
+        [
+          0.0,
+          3.1663134676962987,
+          5.1055941311362165,
+          6.428300060234356
+        ]
+      ],
+      "derivative_mm_per_rad": [
+        [
+          29.643201319958685,
+          30.073320378654063,
+          30.768938814684784,
+          31.417263188027174
+        ],
+        [
+          29.95951818756905,
+          30.40043114945767,
+          31.11345156776579,
+          31.777298408242057
+        ],
+        [
+          30.088827821723413,
+          30.53404805233306,
+          31.254005357439492,
+          31.924013033624018
+        ]
+      ],
+      "derivative_h_mm_per_rad": [
+        [
+          29.64320132380066,
+          30.073320382884013,
+          30.768938818925836,
+          31.41726319149107
+        ],
+        [
+          29.95951819150689,
+          30.400431153765336,
+          31.113451571918024,
+          31.77729841168375
+        ],
+        [
+          30.088827825699475,
+          30.534048056685133,
+          31.25400536165834,
+          31.924013037132323
+        ]
+      ],
+      "derivative_h2_minus_h_mm_per_rad": [
+        [
+          -3.841975626528438e-09,
+          -4.2299497238218464e-09,
+          -4.241051954068098e-09,
+          -3.4638958368304884e-09
+        ],
+        [
+          -3.9378420524371904e-09,
+          -4.307665335545607e-09,
+          -4.1522341120980855e-09,
+          -3.4416913763379853e-09
+        ],
+        [
+          -3.976062146193726e-09,
+          -4.352074256530614e-09,
+          -4.218847493575595e-09,
+          -3.5083047578154947e-09
+        ]
+      ],
+      "axis_chief_slope_mm_per_rad": [
+        29.643201319958685,
+        29.95951818756905,
+        30.088827821723413
+      ],
+      "valid": [
+        [
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true
+        ]
+      ],
+      "status_counts": {
+        "ok": 66
+      },
+      "step_rad": 2e-05,
+      "status": "finite_difference_chief_map_not_full_aberrated_detector_radiometry"
+    },
+    "fresnel_evidence": {
+      "maximum_surface_snell_sine_residual": 8.175969124814275e-13,
+      "model": "product_of_unpolarized_lossless_bare_interface_power_transmissions",
+      "coatings_absorption_polarization_transport": "not_included"
+    },
+    "NA_rgb_onaxis_conservative_complete_rim": [
+      0.7237154005351155,
+      0.7128598303553828,
+      0.708409055026218
+    ],
+    "RI_model": {
+      "formula": "E/L=A_eff*cos(theta)*sin(theta)/(r(theta)*dr/dtheta);axislimit=A_eff/f0^2",
+      "pupil_measure": "originalentranceSTOPplanearea;positiveweightquadrature;chief/rimzeroarea",
+      "object": "uniformdistantincoherentradiance;equalRGBspectralradiance",
+      "image": "onefixedflatplane;localchiefmap;aberratedPSFredistributionnotintegrated",
+      "status": "conditionalgeometricradiometry;notfullOpticStudioexitpupilsolidangleintegration"
+    },
+    "sampling": {
+      "rings": 16,
+      "arms": 48,
+      "ray_count_per_field_wavelength": 817,
+      "geometry_radial_samples": 1025
+    },
+    "all_requested_native_status_counts": {
+      "ok": 9804
+    },
+    "all_invalid_ray_count_including_chief_rim": 0
+  },
+  "geometric_mtf_proxy": {
+    "method": "geometric_complex_OTF_equal_incident_RGB_common_centroid",
+    "frequencies_lp_mm": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.25,
+      3.5,
+      3.75,
+      4.0,
+      4.25,
+      4.5,
+      4.75,
+      5.0,
+      5.25,
+      5.5,
+      5.75,
+      6.0,
+      6.25,
+      6.5,
+      6.75,
+      7.0,
+      7.25,
+      7.5,
+      7.75,
+      8.0,
+      8.25,
+      8.5,
+      8.75,
+      9.0,
+      9.25,
+      9.5,
+      9.75,
+      10.0,
+      10.25,
+      10.5,
+      10.75,
+      11.0,
+      11.25,
+      11.5,
+      11.75,
+      12.0,
+      12.25,
+      12.5,
+      12.75,
+      13.0,
+      13.25,
+      13.5,
+      13.75,
+      14.0,
+      14.25,
+      14.5,
+      14.75,
+      15.0,
+      15.25,
+      15.5,
+      15.75,
+      16.0,
+      16.25,
+      16.5,
+      16.75,
+      17.0,
+      17.25,
+      17.5,
+      17.75,
+      18.0,
+      18.25,
+      18.5,
+      18.75,
+      19.0,
+      19.25,
+      19.5,
+      19.75,
+      20.0
+    ],
+    "fields": [
+      0.0,
+      0.5,
+      0.8,
+      1.0
+    ],
+    "MTF_t": [
+      [
+        1.0000000000000229,
+        0.9861366406600435,
+        0.9457121215981126,
+        0.8820803429674182,
+        0.8003756401295229,
+        0.7068978793516478,
+        0.6083774713767338,
+        0.5112227296275482,
+        0.4208519987563497,
+        0.3411976884203173,
+        0.27444138863735373,
+        0.22100319176466576,
+        0.17976997018107674,
+        0.1485126756226404,
+        0.1244170316923482,
+        0.10463902165824288,
+        0.08679793713758878,
+        0.0693347187183286,
+        0.0516889940694285,
+        0.034280075216846784,
+        0.01830983642540018,
+        0.005433533887349002,
+        0.0026361483749783956,
+        0.004519008920105839,
+        0.0005167211593943277,
+        0.012364314523767008,
+        0.030042351838888263,
+        0.05181282426600586,
+        0.07542758907983177,
+        0.0984564346929485,
+        0.11863807739174215,
+        0.13419399981066898,
+        0.14405395294819892,
+        0.14795922688495966,
+        0.14643213986594808,
+        0.1406235495041887,
+        0.13207048490486648,
+        0.1224098517545389,
+        0.1130994380732786,
+        0.10519358368576638,
+        0.09920892369885806,
+        0.09509800128022648,
+        0.09232859418784757,
+        0.09004792419742784,
+        0.08729676989063272,
+        0.08323121107477034,
+        0.07731032587939948,
+        0.0694162285345116,
+        0.059886648517396834,
+        0.04945711574636572,
+        0.03912658402644122,
+        0.02997397243328759,
+        0.022961270047857984,
+        0.018760236566089713,
+        0.017634307860805432,
+        0.01939628160336957,
+        0.023447892085691042,
+        0.028892220040058016,
+        0.03469680259010173,
+        0.039876631437860674,
+        0.04366340831393338,
+        0.04563081375067895,
+        0.04575434781983393,
+        0.04439676521764775,
+        0.04222387909494559,
+        0.04006800566968541,
+        0.03876532052537443,
+        0.03899735307647268,
+        0.041165177088204774,
+        0.04531802621838067,
+        0.05114747090710065,
+        0.058045985946465775,
+        0.06521702601031017,
+        0.07181474742645684,
+        0.077086846054869,
+        0.08049436310823992,
+        0.08178752888097356,
+        0.08102566274027752,
+        0.07854005465233058,
+        0.0748495256214516,
+        0.07054698333428056
+      ],
+      [
+        1.0000000000000229,
+        0.9851976991868979,
+        0.9421831709214871,
+        0.8749333057424362,
+        0.7894415241262501,
+        0.6928749007492919,
+        0.5925950976887197,
+        0.4952080571453511,
+        0.40581251009311897,
+        0.327597969117551,
+        0.2618833799663315,
+        0.20856123096501886,
+        0.16672477499872093,
+        0.1351172283704792,
+        0.11215062236386901,
+        0.09569230875268514,
+        0.08321428881793468,
+        0.07251317689095037,
+        0.06244201915196199,
+        0.053145172201074384,
+        0.04577751997422616,
+        0.04171032553059588,
+        0.041334184552840096,
+        0.04368785765824479,
+        0.047590883349742825,
+        0.052628271093399764,
+        0.059112143413635625,
+        0.06752777706884902,
+        0.07801123074578085,
+        0.09015213812307248,
+        0.10310405988285709,
+        0.11581586658195957,
+        0.12725563565190653,
+        0.13658707297191422,
+        0.14328268662797344,
+        0.147155938192001,
+        0.14830451093922623,
+        0.14698529726735982,
+        0.14347516033304708,
+        0.13798564496181462,
+        0.13067533606168952,
+        0.12174835156761149,
+        0.1115775586810393,
+        0.10077852663320795,
+        0.09018445395527191,
+        0.08071060619151307,
+        0.07313645792595554,
+        0.06788359984513834,
+        0.06491154135219653,
+        0.06380358359192895,
+        0.06395970428121532,
+        0.06475118634753914,
+        0.06560069870480237,
+        0.06604105823318059,
+        0.06578079918300202,
+        0.06475214098671427,
+        0.06310675648448656,
+        0.06115070641802444,
+        0.05924319577822067,
+        0.05770191573943847,
+        0.056746777665034186,
+        0.05648071352957665,
+        0.05688610730908692,
+        0.05783336831038293,
+        0.059123815795783484,
+        0.06057413407411815,
+        0.062102489039034724,
+        0.06374996101027985,
+        0.06559883028103193,
+        0.06762387746966858,
+        0.06958167561349882,
+        0.07102992862511201,
+        0.07147221391410276,
+        0.07054175607924772,
+        0.06813649440435525,
+        0.06446429990611245,
+        0.06000171657638076,
+        0.05539538133005658,
+        0.0513408576169703,
+        0.048456227785438975,
+        0.04714178963031565
+      ],
+      [
+        1.0000000000000229,
+        0.9846523426131436,
+        0.9401919499975152,
+        0.8711155254652471,
+        0.7841342417539662,
+        0.6871717790384404,
+        0.5882599676771467,
+        0.49452962028050096,
+        0.4114347740388281,
+        0.34225952235030704,
+        0.28790828571031385,
+        0.24704533881187962,
+        0.2167300294286174,
+        0.19349498630368003,
+        0.17440664881272447,
+        0.15762147149191413,
+        0.14237718375904246,
+        0.12867893235864838,
+        0.11693264787558427,
+        0.10761544324158276,
+        0.10094235583421435,
+        0.09653262822263588,
+        0.09327005229353716,
+        0.08955488342191854,
+        0.08383555903434281,
+        0.07511762428840728,
+        0.0632855718184776,
+        0.049326235630204766,
+        0.03592265234389818,
+        0.029160066160920844,
+        0.034961324635045685,
+        0.04865175267052102,
+        0.06454997841437282,
+        0.08060054699813178,
+        0.09619614647176354,
+        0.11107548096649322,
+        0.12489517349622123,
+        0.13708071613513098,
+        0.1468550896776074,
+        0.15339259301977773,
+        0.1560390648143799,
+        0.15452962928525155,
+        0.14913603895696587,
+        0.14069297615313706,
+        0.13048456403146624,
+        0.12001084546904035,
+        0.11068876217419976,
+        0.10356456364314749,
+        0.09911747375636404,
+        0.0972099185119597,
+        0.09718999396482378,
+        0.09810463908072119,
+        0.09896216680402756,
+        0.09898106591909192,
+        0.09776542682424587,
+        0.09536211331563452,
+        0.09218467749022315,
+        0.08882671307699305,
+        0.08582374542250981,
+        0.08344695793706242,
+        0.08160489453867587,
+        0.07988023294044891,
+        0.07766798431832778,
+        0.07435510783240093,
+        0.06949050266584264,
+        0.06290808826107643,
+        0.05477445501681828,
+        0.04554654280396513,
+        0.03584811711377977,
+        0.026300056053005758,
+        0.017361420691718425,
+        0.009264124974403634,
+        0.0026374695776400702,
+        0.006017565582225079,
+        0.012603427013969637,
+        0.019156856158282845,
+        0.025461819308845956,
+        0.03125624178015173,
+        0.03621210011823445,
+        0.040015158011906,
+        0.04246571671460028
+      ],
+      [
+        1.0000000000000229,
+        0.9832578241878279,
+        0.9357669004094578,
+        0.8651499918017423,
+        0.7822116884561839,
+        0.6982814832262587,
+        0.6220755717473161,
+        0.5571985478721365,
+        0.5018797916215599,
+        0.4514639478505306,
+        0.4019391774759678,
+        0.3522054443951798,
+        0.3042963326823255,
+        0.26202390622432536,
+        0.2287179833859855,
+        0.2050107190797086,
+        0.18834414584260556,
+        0.1749345918324739,
+        0.16226507504773127,
+        0.15003465165293403,
+        0.13956617892612028,
+        0.1326317734660835,
+        0.13046740206315263,
+        0.13331211412847124,
+        0.14036372760695826,
+        0.14994925592896832,
+        0.15993583970876865,
+        0.1683821188995086,
+        0.1741817517895503,
+        0.17736707873445084,
+        0.17885824444662285,
+        0.1796977766309979,
+        0.18017873765729414,
+        0.17948059841754926,
+        0.1760855003187586,
+        0.16863375991947543,
+        0.1566852817309669,
+        0.1411036232848902,
+        0.12400513578896341,
+        0.10820930514607704,
+        0.0960623430668677,
+        0.0879892904038676,
+        0.0822135485813731,
+        0.07636954474123278,
+        0.06934693853167859,
+        0.06186877622801206,
+        0.055744215195708866,
+        0.05211787392116839,
+        0.05002272583918319,
+        0.04709526464664253,
+        0.04143849438216483,
+        0.03257303150063713,
+        0.021530010664800064,
+        0.011721204388495818,
+        0.01275575056909599,
+        0.02150197095980907,
+        0.029597638720892095,
+        0.0355392971684614,
+        0.039520813534822924,
+        0.04221888423289146,
+        0.04422867651292025,
+        0.04572803628808614,
+        0.0464894047150553,
+        0.046145178569198406,
+        0.04443309915199601,
+        0.04125437053498762,
+        0.036579933640313714,
+        0.030354389695630802,
+        0.02252586010524781,
+        0.01320556018969233,
+        0.002969068666495511,
+        0.008154179917513136,
+        0.018276243317362363,
+        0.02696005025732128,
+        0.033685719022192605,
+        0.03853692845657387,
+        0.04214613076878074,
+        0.045342032196719013,
+        0.0486190845781217,
+        0.05184450784269643,
+        0.054478035611781585
+      ]
+    ],
+    "MTF_s": [
+      [
+        1.0000000000000229,
+        0.9861366406600431,
+        0.9457121215981125,
+        0.8820803429674176,
+        0.8003756401295232,
+        0.7068978793516486,
+        0.6083774713767341,
+        0.5112227296275476,
+        0.4208519987563504,
+        0.34119768842031734,
+        0.27444138863735407,
+        0.2210031917646667,
+        0.17976997018107707,
+        0.14851267562264095,
+        0.12441703169234887,
+        0.1046390216582434,
+        0.08679793713758958,
+        0.06933471871832941,
+        0.05168899406942908,
+        0.03428007521684721,
+        0.01830983642540104,
+        0.00543353388734988,
+        0.0026361483749772143,
+        0.0045190089201044056,
+        0.0005167211593956276,
+        0.01236431452376852,
+        0.030042351838889373,
+        0.051812824266006544,
+        0.07542758907983176,
+        0.09845643469294772,
+        0.11863807739174081,
+        0.1341939998106669,
+        0.14405395294819612,
+        0.14795922688495713,
+        0.1464321398659453,
+        0.1406235495041865,
+        0.13207048490486487,
+        0.12240985175453802,
+        0.11309943807327857,
+        0.10519358368576714,
+        0.09920892369885921,
+        0.09509800128022895,
+        0.09232859418785001,
+        0.09004792419743009,
+        0.08729676989063466,
+        0.08323121107477162,
+        0.0773103258794007,
+        0.06941622853451218,
+        0.05988664851739751,
+        0.04945711574636633,
+        0.039126584026442354,
+        0.02997397243328934,
+        0.02296127004786058,
+        0.018760236566092627,
+        0.017634307860808923,
+        0.01939628160337308,
+        0.023447892085694078,
+        0.02889222004006027,
+        0.034696802590103125,
+        0.03987663143786076,
+        0.04366340831393194,
+        0.04563081375067634,
+        0.04575434781983027,
+        0.04439676521764381,
+        0.042223879094941894,
+        0.0400680056696821,
+        0.038765320525371884,
+        0.03899735307647119,
+        0.041165177088204524,
+        0.04531802621838137,
+        0.05114747090710183,
+        0.05804598594646713,
+        0.06521702601031105,
+        0.07181474742645712,
+        0.0770868460548684,
+        0.08049436310823774,
+        0.08178752888097057,
+        0.0810256627402741,
+        0.0785400546523274,
+        0.07484952562144882,
+        0.07054698333427888
+      ],
+      [
+        1.0000000000000229,
+        0.9877753333308099,
+        0.9520231518178652,
+        0.8954094405283396,
+        0.8220592955681122,
+        0.7371242650985698,
+        0.6462587990984622,
+        0.5550725613407412,
+        0.46862539865786573,
+        0.391022172422165,
+        0.32514737207007766,
+        0.2725575683442006,
+        0.2335270360136217,
+        0.2072219139572365,
+        0.19196399682915807,
+        0.1855384084094067,
+        0.18550032231183317,
+        0.1894435330173254,
+        0.19520592824789887,
+        0.2010010658707929,
+        0.20547836989520188,
+        0.20772467142763293,
+        0.20722554735105883,
+        0.20380582793039734,
+        0.1975654476431601,
+        0.188820963434213,
+        0.1780564036809866,
+        0.16588142298809927,
+        0.15299135421758572,
+        0.14012328454828718,
+        0.12800454751436488,
+        0.11729412566539663,
+        0.10852206100287462,
+        0.10203563860610335,
+        0.09796267079739814,
+        0.09620104062457581,
+        0.09643983831650847,
+        0.09821169831904983,
+        0.10096957850644488,
+        0.10417568986515931,
+        0.10738692590776566,
+        0.11032085271160869,
+        0.11288933960609233,
+        0.11519274717889823,
+        0.11747512141593938,
+        0.12004855176735864,
+        0.12320114537633704,
+        0.1271066268747932,
+        0.13175362317390085,
+        0.13690918432292984,
+        0.14212470424598933,
+        0.14678440598677492,
+        0.15018853307677987,
+        0.15165691945875748,
+        0.1506349371983556,
+        0.1467836010308848,
+        0.1400387911901976,
+        0.13063041160685507,
+        0.11905959131813676,
+        0.10603928810694818,
+        0.09240946731377779,
+        0.07904137154967984,
+        0.06674579760880787,
+        0.056197918066247826,
+        0.04788675529617316,
+        0.04209204080741381,
+        0.03888609330781254,
+        0.03815458304583209,
+        0.0396282853834126,
+        0.04291831002870324,
+        0.04754944455589064,
+        0.05298938373091756,
+        0.05867474318110577,
+        0.0640369440423549,
+        0.06853165904591833,
+        0.07167433374755015,
+        0.07308164262515042,
+        0.07251533969512504,
+        0.06992179797889571,
+        0.06545858938959553,
+        0.05949948022783225
+      ],
+      [
+        1.0000000000000229,
+        0.9843568560999906,
+        0.9396618147292388,
+        0.872165041469108,
+        0.7908836269874081,
+        0.705857297510338,
+        0.6263179279819587,
+        0.5591820947126355,
+        0.508171102225628,
+        0.4736868236839094,
+        0.45337641420870045,
+        0.4431591003338629,
+        0.43840471515709156,
+        0.43496233631256453,
+        0.42982612396542175,
+        0.42135973025036444,
+        0.40913584053297664,
+        0.393543332338819,
+        0.3753475388440822,
+        0.35535793933579424,
+        0.33428168531320573,
+        0.3127524587612249,
+        0.29145464994215853,
+        0.27123485858972707,
+        0.2531115387408647,
+        0.23814734446615626,
+        0.22721397891106987,
+        0.22073035614430714,
+        0.21847292472874072,
+        0.21953659153293026,
+        0.22247471581139536,
+        0.2255863250704651,
+        0.2272700679265855,
+        0.22634425817716142,
+        0.22224650482698743,
+        0.2150682473062731,
+        0.2054330299070221,
+        0.19427344503422625,
+        0.1825851490990635,
+        0.17123111931061083,
+        0.16083999821630776,
+        0.15180190444525063,
+        0.14432942216271685,
+        0.13853347036945537,
+        0.13446854030146024,
+        0.13212533936983836,
+        0.13138005147007373,
+        0.13193464943656305,
+        0.13329139763916587,
+        0.13479333133132113,
+        0.13573581545602864,
+        0.13552320968669693,
+        0.13382195357903717,
+        0.130656569041701,
+        0.12641074405045202,
+        0.12172644748179619,
+        0.11732867642691071,
+        0.11382911640884125,
+        0.11156916369917205,
+        0.1105487796734135,
+        0.1104577431980513,
+        0.11079110450714987,
+        0.11100372548171736,
+        0.11064927320678514,
+        0.10945978261903169,
+        0.10734812104874986,
+        0.10434684794961008,
+        0.10052091098625962,
+        0.09589924282973863,
+        0.09045902588727579,
+        0.08417104563009974,
+        0.07708556667619888,
+        0.06941742309240687,
+        0.06158522840335399,
+        0.05417487788914367,
+        0.04782639871943118,
+        0.043074715495128583,
+        0.040196657776750445,
+        0.03911952648995714,
+        0.039428667683157614,
+        0.0404785938398985
+      ],
+      [
+        1.0000000000000229,
+        0.9740724174036514,
+        0.9021778738462417,
+        0.8001295995126253,
+        0.6887858447468782,
+        0.5878935966898583,
+        0.5107920528900479,
+        0.46167175626694146,
+        0.4360347100432152,
+        0.42379273778636894,
+        0.4135650129750109,
+        0.39650696761996146,
+        0.3684424967795391,
+        0.32992058674740815,
+        0.2846747387320993,
+        0.23747344893304814,
+        0.19235393319369237,
+        0.1518145872815355,
+        0.11696475233161963,
+        0.0881865978085495,
+        0.06573829236252489,
+        0.04992297717187487,
+        0.04080788649150592,
+        0.037784635280079824,
+        0.03935415601615123,
+        0.04337007886162989,
+        0.047688339801872835,
+        0.05091944511690959,
+        0.05290271182247776,
+        0.05465505591615866,
+        0.05781111057321199,
+        0.06382151385548443,
+        0.07328234324494193,
+        0.08568396625128667,
+        0.09964725604070353,
+        0.11348077591252229,
+        0.12576377334980296,
+        0.13569173942948293,
+        0.14308052095027257,
+        0.14811448002489708,
+        0.15104023136484787,
+        0.1519959932354505,
+        0.15104857560627494,
+        0.14836412730961376,
+        0.14435313188940677,
+        0.13965203943582657,
+        0.13491504676810995,
+        0.1305196175012258,
+        0.12635865545068495,
+        0.12185807381273858,
+        0.11623906777381898,
+        0.1089075759837936,
+        0.09977738932148746,
+        0.08936205926833571,
+        0.07858924247142923,
+        0.06843443347867885,
+        0.05956094314794981,
+        0.05214161158985237,
+        0.04593369363909181,
+        0.040540913040008564,
+        0.03570198618812306,
+        0.03144334805732387,
+        0.028022556367441644,
+        0.025714687432160575,
+        0.024584320676666365,
+        0.0243897146090846,
+        0.02468305827472874,
+        0.025050611820669765,
+        0.025349604730690763,
+        0.02579601446454494,
+        0.026841191559233285,
+        0.02889796552280834,
+        0.03206761178411165,
+        0.03602459032769924,
+        0.04013122061064494,
+        0.04372616034705238,
+        0.04643127595357969,
+        0.04830860200754917,
+        0.04978172334373399,
+        0.05136880150939167,
+        0.05338255895958019
+      ]
+    ],
+    "real_OTF_t": [
+      [
+        1.0000000000000229,
+        0.9861366406600435,
+        0.9457121215981126,
+        0.8820803429674182,
+        0.8003756401295229,
+        0.7068978793516478,
+        0.6083774713767338,
+        0.5112227296275482,
+        0.4208519987563497,
+        0.3411976884203173,
+        0.27444138863735373,
+        0.22100319176466576,
+        0.17976997018107674,
+        0.1485126756226404,
+        0.1244170316923482,
+        0.10463902165824288,
+        0.08679793713758878,
+        0.0693347187183286,
+        0.0516889940694285,
+        0.034280075216846784,
+        0.01830983642540018,
+        0.005433533887349002,
+        -0.0026361483749783956,
+        -0.004519008920105839,
+        0.0005167211593943277,
+        0.012364314523767008,
+        0.030042351838888263,
+        0.05181282426600586,
+        0.07542758907983177,
+        0.0984564346929485,
+        0.11863807739174215,
+        0.13419399981066898,
+        0.14405395294819892,
+        0.14795922688495966,
+        0.14643213986594808,
+        0.1406235495041887,
+        0.13207048490486648,
+        0.1224098517545389,
+        0.1130994380732786,
+        0.10519358368576638,
+        0.09920892369885806,
+        0.09509800128022648,
+        0.09232859418784757,
+        0.09004792419742784,
+        0.08729676989063272,
+        0.08323121107477034,
+        0.07731032587939948,
+        0.0694162285345116,
+        0.059886648517396834,
+        0.04945711574636572,
+        0.03912658402644122,
+        0.02997397243328759,
+        0.022961270047857984,
+        0.018760236566089713,
+        0.017634307860805432,
+        0.01939628160336957,
+        0.023447892085691042,
+        0.028892220040058016,
+        0.03469680259010173,
+        0.039876631437860674,
+        0.04366340831393338,
+        0.04563081375067895,
+        0.04575434781983393,
+        0.04439676521764775,
+        0.04222387909494559,
+        0.04006800566968541,
+        0.03876532052537443,
+        0.03899735307647268,
+        0.041165177088204774,
+        0.04531802621838067,
+        0.05114747090710065,
+        0.058045985946465775,
+        0.06521702601031017,
+        0.07181474742645684,
+        0.077086846054869,
+        0.08049436310823992,
+        0.08178752888097356,
+        0.08102566274027752,
+        0.07854005465233058,
+        0.0748495256214516,
+        0.07054698333428056
+      ],
+      [
+        1.0000000000000229,
+        0.9851976742278379,
+        0.9421816532675434,
+        0.8749174668600191,
+        0.7893631698906741,
+        0.6926234330538111,
+        0.5919966009539543,
+        0.49408303438790224,
+        0.4040989655639085,
+        0.32548785933560964,
+        0.2598546129400277,
+        0.20718308601742044,
+        0.16624894839365167,
+        0.1351168977920211,
+        0.1116159533111929,
+        0.09371371460841041,
+        0.07975008441257901,
+        0.06853106051134696,
+        0.059313512412068434,
+        0.05172634059489429,
+        0.045671483081271516,
+        0.041234193406681025,
+        0.038613134271438206,
+        0.038064705290336946,
+        0.03984810216036929,
+        0.04415964958556407,
+        0.05105482178615327,
+        0.06036911398427011,
+        0.07165875152384187,
+        0.08418458030763273,
+        0.09695567683367703,
+        0.10883493711526893,
+        0.11869159324693247,
+        0.12557090975463878,
+        0.12884415603017055,
+        0.12830489916953056,
+        0.12419007996761569,
+        0.11712262596450425,
+        0.10799115024611461,
+        0.09779618065487881,
+        0.08749762639072936,
+        0.07789386288142273,
+        0.06955090660081659,
+        0.06278484520387871,
+        0.05768690046297707,
+        0.054172254060527295,
+        0.052032933651264705,
+        0.05098088201675468,
+        0.050676848724319726,
+        0.050749927097322914,
+        0.050817798123467386,
+        0.050517116015979226,
+        0.049547395789660574,
+        0.047722807266026665,
+        0.045018200098975066,
+        0.041592049020463547,
+        0.03777187167614107,
+        0.033996766616970535,
+        0.030724455687992803,
+        0.028322490162669085,
+        0.02697083847893455,
+        0.02660296319998998,
+        0.02690412438754379,
+        0.02737108215348197,
+        0.027420759231168258,
+        0.026521715920257316,
+        0.02431567508744207,
+        0.020698898203362234,
+        0.01584424715733158,
+        0.010160974364637271,
+        0.004205810287632057,
+        -0.0014291234752156217,
+        -0.0062220412275056725,
+        -0.009796113910702299,
+        -0.011949896738698557,
+        -0.012644993253568585,
+        -0.011964987352971777,
+        -0.010066399075174155,
+        -0.00714138852832472,
+        -0.0034039297518862963,
+        0.0009006605599691334
+      ],
+      [
+        1.0000000000000229,
+        0.9846523302940866,
+        0.9401911502779905,
+        0.871106221505471,
+        0.784080683666312,
+        0.6869629288120563,
+        0.5876283111925663,
+        0.4929449891878418,
+        0.40802130729076536,
+        0.3358389279324661,
+        0.277286324059594,
+        0.23152388999228624,
+        0.1965540490997458,
+        0.16984830934385223,
+        0.14889875619111728,
+        0.1316049047192499,
+        0.1164629880580311,
+        0.102577246170757,
+        0.0895487035614219,
+        0.07731006435747738,
+        0.06596698617416986,
+        0.05568337341086854,
+        0.04662153361217595,
+        0.038926366450328105,
+        0.032731878933423005,
+        0.028169048415577956,
+        0.02536290740934085,
+        0.02441793662232846,
+        0.02539892799230303,
+        0.028316311441658353,
+        0.033120761956170044,
+        0.03970481155918161,
+        0.04790351951066659,
+        0.057485532887538195,
+        0.06813118445979323,
+        0.07940369628155251,
+        0.0907288610697267,
+        0.10140296910193956,
+        0.11064494282346024,
+        0.11769641594958569,
+        0.12195614803467336,
+        0.12311859277578854,
+        0.12127711296823795,
+        0.11695490892141927,
+        0.1110421119098266,
+        0.10464216402684813,
+        0.09885744571634213,
+        0.09456459656375006,
+        0.0922369778684533,
+        0.09186201654111506,
+        0.09297671908141644,
+        0.09481224331157143,
+        0.09650767846548101,
+        0.09733354691683939,
+        0.09686322670048228,
+        0.09504645016409884,
+        0.09216853483016788,
+        0.08871307533373654,
+        0.08517405520123231,
+        0.0818771485309374,
+        0.07886533549543333,
+        0.07588259246583944,
+        0.07245824966603374,
+        0.0680634728797705,
+        0.062289834572555026,
+        0.05499446398178892,
+        0.0463680052137478,
+        0.03690636156213678,
+        0.027296843832514003,
+        0.018254530989109993,
+        0.010357826320552262,
+        0.003929875885375975,
+        -0.0010037577344578464,
+        -0.004675185637038017,
+        -0.007470580754547965,
+        -0.009798441899126592,
+        -0.011970166442465496,
+        -0.014125501859384677,
+        -0.01621842233560262,
+        -0.018058994137566783,
+        -0.019390484889014317
+      ],
+      [
+        1.0000000000000229,
+        0.9832571418012611,
+        0.9357256541818427,
+        0.864724503329146,
+        0.7801475484433401,
+        0.6918487771924541,
+        0.6073364336910616,
+        0.5304970344546573,
+        0.4616587880603005,
+        0.3988035261897317,
+        0.33934183090190945,
+        0.28172195450419435,
+        0.22628771106728868,
+        0.17515588610447955,
+        0.13129336056783628,
+        0.09727091313408694,
+        0.07424550049443146,
+        0.06156568758974457,
+        0.05709211216810316,
+        0.058016214721586704,
+        0.06177654339157638,
+        0.06667940687985811,
+        0.07200836410504402,
+        0.07766162260060518,
+        0.08356812106292195,
+        0.0892102797199008,
+        0.09349936139253613,
+        0.09505698836499618,
+        0.09274972590836214,
+        0.08620001297556854,
+        0.07601025532556009,
+        0.06357609908897383,
+        0.05056078253827346,
+        0.03826237304371656,
+        0.027156470375610395,
+        0.01681751013599002,
+        0.006250906649782195,
+        -0.00551497407838372,
+        -0.018841200063245887,
+        -0.03315367294827328,
+        -0.04702165423917372,
+        -0.05860350058686603,
+        -0.06626894886314445,
+        -0.0691400798550987,
+        -0.06733846851086342,
+        -0.06185881413871753,
+        -0.054147713030646805,
+        -0.04558081900177786,
+        -0.03705634415331425,
+        -0.02885362954196963,
+        -0.020779380512145913,
+        -0.012500119876086664,
+        -0.003890899717981147,
+        0.0047579721632755615,
+        0.012755214506439067,
+        0.0192175918724673,
+        0.023365220158590837,
+        0.024769783897328278,
+        0.02345956831245006,
+        0.01986079629054104,
+        0.014629541222833765,
+        0.008467689632832617,
+        0.0020055827170017116,
+        -0.0042159817579004305,
+        -0.00969177261811943,
+        -0.013892215702421044,
+        -0.016262418760392982,
+        -0.016306939788857885,
+        -0.01373379453453456,
+        -0.008591210255201705,
+        -0.0013249157326484888,
+        0.007284555813352381,
+        0.01629167163928476,
+        0.024801050152908906,
+        0.03214547733693084,
+        0.03796138982613595,
+        0.0421427003241625,
+        0.044707186105341086,
+        0.045645449960605836,
+        0.044825291434760425,
+        0.041994776466976545
+      ]
+    ],
+    "real_OTF_s": [
+      [
+        1.0000000000000229,
+        0.9861366406600431,
+        0.9457121215981125,
+        0.8820803429674176,
+        0.8003756401295232,
+        0.7068978793516486,
+        0.6083774713767341,
+        0.5112227296275476,
+        0.4208519987563504,
+        0.34119768842031734,
+        0.27444138863735407,
+        0.2210031917646667,
+        0.17976997018107707,
+        0.14851267562264095,
+        0.12441703169234887,
+        0.1046390216582434,
+        0.08679793713758958,
+        0.06933471871832941,
+        0.05168899406942908,
+        0.03428007521684721,
+        0.01830983642540104,
+        0.00543353388734988,
+        -0.0026361483749772143,
+        -0.0045190089201044056,
+        0.0005167211593956276,
+        0.01236431452376852,
+        0.030042351838889373,
+        0.051812824266006544,
+        0.07542758907983176,
+        0.09845643469294772,
+        0.11863807739174081,
+        0.1341939998106669,
+        0.14405395294819612,
+        0.14795922688495713,
+        0.1464321398659453,
+        0.1406235495041865,
+        0.13207048490486487,
+        0.12240985175453802,
+        0.11309943807327857,
+        0.10519358368576714,
+        0.09920892369885921,
+        0.09509800128022895,
+        0.09232859418785001,
+        0.09004792419743009,
+        0.08729676989063466,
+        0.08323121107477162,
+        0.0773103258794007,
+        0.06941622853451218,
+        0.05988664851739751,
+        0.04945711574636633,
+        0.039126584026442354,
+        0.02997397243328934,
+        0.02296127004786058,
+        0.018760236566092627,
+        0.017634307860808923,
+        0.01939628160337308,
+        0.023447892085694078,
+        0.02889222004006027,
+        0.034696802590103125,
+        0.03987663143786076,
+        0.04366340831393194,
+        0.04563081375067634,
+        0.04575434781983027,
+        0.04439676521764381,
+        0.042223879094941894,
+        0.0400680056696821,
+        0.038765320525371884,
+        0.03899735307647119,
+        0.041165177088204524,
+        0.04531802621838137,
+        0.05114747090710183,
+        0.05804598594646713,
+        0.06521702601031105,
+        0.07181474742645712,
+        0.0770868460548684,
+        0.08049436310823774,
+        0.08178752888097057,
+        0.0810256627402741,
+        0.0785400546523274,
+        0.07484952562144882,
+        0.07054698333427888
+      ],
+      [
+        1.0000000000000229,
+        0.9877753333308099,
+        0.9520231518178652,
+        0.8954094405283396,
+        0.8220592955681122,
+        0.7371242650985698,
+        0.6462587990984622,
+        0.5550725613407412,
+        0.46862539865786573,
+        0.391022172422165,
+        0.32514737207007766,
+        0.2725575683442006,
+        0.2335270360136217,
+        0.2072219139572365,
+        0.19196399682915807,
+        0.1855384084094067,
+        0.18550032231183317,
+        0.1894435330173254,
+        0.19520592824789887,
+        0.2010010658707929,
+        0.20547836989520188,
+        0.20772467142763293,
+        0.20722554735105883,
+        0.20380582793039734,
+        0.1975654476431601,
+        0.188820963434213,
+        0.1780564036809866,
+        0.16588142298809927,
+        0.15299135421758572,
+        0.14012328454828718,
+        0.12800454751436488,
+        0.11729412566539663,
+        0.10852206100287462,
+        0.10203563860610335,
+        0.09796267079739814,
+        0.09620104062457581,
+        0.09643983831650847,
+        0.09821169831904983,
+        0.10096957850644488,
+        0.10417568986515931,
+        0.10738692590776566,
+        0.11032085271160869,
+        0.11288933960609233,
+        0.11519274717889823,
+        0.11747512141593938,
+        0.12004855176735864,
+        0.12320114537633704,
+        0.1271066268747932,
+        0.13175362317390085,
+        0.13690918432292984,
+        0.14212470424598933,
+        0.14678440598677492,
+        0.15018853307677987,
+        0.15165691945875748,
+        0.1506349371983556,
+        0.1467836010308848,
+        0.1400387911901976,
+        0.13063041160685507,
+        0.11905959131813676,
+        0.10603928810694818,
+        0.09240946731377779,
+        0.07904137154967984,
+        0.06674579760880787,
+        0.056197918066247826,
+        0.04788675529617316,
+        0.04209204080741381,
+        0.03888609330781254,
+        0.03815458304583209,
+        0.0396282853834126,
+        0.04291831002870324,
+        0.04754944455589064,
+        0.05298938373091756,
+        0.05867474318110577,
+        0.0640369440423549,
+        0.06853165904591833,
+        0.07167433374755015,
+        0.07308164262515042,
+        0.07251533969512504,
+        0.06992179797889571,
+        0.06545858938959553,
+        0.05949948022783225
+      ],
+      [
+        1.0000000000000229,
+        0.9843568560999906,
+        0.9396618147292388,
+        0.872165041469108,
+        0.7908836269874081,
+        0.705857297510338,
+        0.6263179279819587,
+        0.5591820947126355,
+        0.508171102225628,
+        0.4736868236839094,
+        0.45337641420870045,
+        0.4431591003338629,
+        0.43840471515709156,
+        0.43496233631256453,
+        0.42982612396542175,
+        0.42135973025036444,
+        0.40913584053297664,
+        0.393543332338819,
+        0.3753475388440822,
+        0.35535793933579424,
+        0.33428168531320573,
+        0.3127524587612249,
+        0.29145464994215853,
+        0.27123485858972707,
+        0.2531115387408647,
+        0.23814734446615626,
+        0.22721397891106987,
+        0.22073035614430714,
+        0.21847292472874072,
+        0.21953659153293026,
+        0.22247471581139536,
+        0.2255863250704651,
+        0.2272700679265855,
+        0.22634425817716142,
+        0.22224650482698743,
+        0.2150682473062731,
+        0.2054330299070221,
+        0.19427344503422625,
+        0.1825851490990635,
+        0.17123111931061083,
+        0.16083999821630776,
+        0.15180190444525063,
+        0.14432942216271685,
+        0.13853347036945537,
+        0.13446854030146024,
+        0.13212533936983836,
+        0.13138005147007373,
+        0.13193464943656305,
+        0.13329139763916587,
+        0.13479333133132113,
+        0.13573581545602864,
+        0.13552320968669693,
+        0.13382195357903717,
+        0.130656569041701,
+        0.12641074405045202,
+        0.12172644748179619,
+        0.11732867642691071,
+        0.11382911640884125,
+        0.11156916369917205,
+        0.1105487796734135,
+        0.1104577431980513,
+        0.11079110450714987,
+        0.11100372548171736,
+        0.11064927320678514,
+        0.10945978261903169,
+        0.10734812104874986,
+        0.10434684794961008,
+        0.10052091098625962,
+        0.09589924282973863,
+        0.09045902588727579,
+        0.08417104563009974,
+        0.07708556667619888,
+        0.06941742309240687,
+        0.06158522840335399,
+        0.05417487788914367,
+        0.04782639871943118,
+        0.043074715495128583,
+        0.040196657776750445,
+        0.03911952648995714,
+        0.039428667683157614,
+        0.0404785938398985
+      ],
+      [
+        1.0000000000000229,
+        0.9740724174036514,
+        0.9021778738462417,
+        0.8001295995126253,
+        0.6887858447468782,
+        0.5878935966898583,
+        0.5107920528900479,
+        0.46167175626694146,
+        0.4360347100432152,
+        0.42379273778636894,
+        0.4135650129750109,
+        0.39650696761996146,
+        0.3684424967795391,
+        0.32992058674740815,
+        0.2846747387320993,
+        0.23747344893304814,
+        0.19235393319369237,
+        0.1518145872815355,
+        0.11696475233161963,
+        0.0881865978085495,
+        0.06573829236252489,
+        0.04992297717187487,
+        0.04080788649150592,
+        0.037784635280079824,
+        0.03935415601615123,
+        0.04337007886162989,
+        0.047688339801872835,
+        0.05091944511690959,
+        0.05290271182247776,
+        0.05465505591615866,
+        0.05781111057321199,
+        0.06382151385548443,
+        0.07328234324494193,
+        0.08568396625128667,
+        0.09964725604070353,
+        0.11348077591252229,
+        0.12576377334980296,
+        0.13569173942948293,
+        0.14308052095027257,
+        0.14811448002489708,
+        0.15104023136484787,
+        0.1519959932354505,
+        0.15104857560627494,
+        0.14836412730961376,
+        0.14435313188940677,
+        0.13965203943582657,
+        0.13491504676810995,
+        0.1305196175012258,
+        0.12635865545068495,
+        0.12185807381273858,
+        0.11623906777381898,
+        0.1089075759837936,
+        0.09977738932148746,
+        0.08936205926833571,
+        0.07858924247142923,
+        0.06843443347867885,
+        0.05956094314794981,
+        0.05214161158985237,
+        0.04593369363909181,
+        0.040540913040008564,
+        0.03570198618812306,
+        0.03144334805732387,
+        0.028022556367441644,
+        0.025714687432160575,
+        0.024584320676666365,
+        0.0243897146090846,
+        0.02468305827472874,
+        0.025050611820669765,
+        0.025349604730690763,
+        0.02579601446454494,
+        0.026841191559233285,
+        0.02889796552280834,
+        0.03206761178411165,
+        0.03602459032769924,
+        0.04013122061064494,
+        0.04372616034705238,
+        0.04643127595357969,
+        0.04830860200754917,
+        0.04978172334373399,
+        0.05136880150939167,
+        0.05338255895958019
+      ]
+    ],
+    "mean_AUC_normalized": 0.17605448753153574,
+    "minimum_AUC_normalized": 0.14826555408836029,
+    "MTF20_minimum": 0.0404785938398985,
+    "negative_OTF_points": 46,
+    "point_count": 648,
+    "all_rays_valid": true
+  }
+}

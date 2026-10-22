@@ -1,0 +1,91 @@
+{
+  "schema": "independent-radiometry-controls/1",
+  "passed": true,
+  "checks": 15,
+  "records": [
+    {
+      "name": "plane_six_interface_unpolarized_transmission",
+      "passed": true,
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "plane_snell_invariant",
+      "passed": true,
+      "maximum_snell_residual": 2.6506574712925612e-15
+    },
+    {
+      "name": "weighted_conditional_moment_preserves_lost_mass",
+      "passed": true
+    },
+    {
+      "name": "material_PMMA_nd_Vd",
+      "passed": true,
+      "nd_error": 0.0,
+      "Vd_error": 1.8900436771218665e-12
+    },
+    {
+      "name": "material_PC_nd_Vd",
+      "passed": true,
+      "nd_error": 2.220446049250313e-16,
+      "Vd_error": -2.913225216616411e-13
+    },
+    {
+      "name": "material_FDS18W_nd_Vd",
+      "passed": true,
+      "nd_error": 0.0,
+      "Vd_error": -3.197442310920451e-14
+    },
+    {
+      "name": "material_TAFD45_nd_Vd",
+      "passed": true,
+      "nd_error": 0.0,
+      "Vd_error": 9.237055564881302e-14
+    },
+    {
+      "name": "high_NA_actual_design_original_python_reference",
+      "passed": true,
+      "ray_cases": 72,
+      "status_mismatches": [],
+      "max_position_difference_mm": 2.1387336346379016e-11,
+      "max_direction_difference": 2.1460611066004276e-13,
+      "max_opl_difference_mm": 3.539923909556819e-11,
+      "max_image_difference_mm": 9.336087458677866e-12
+    },
+    {
+      "name": "ABCD_against_infinitesimal_original_real_ray",
+      "passed": true,
+      "efl_difference_mm": 1.4743761767022079e-12,
+      "paraxial_bfl_difference_mm": 1.056932319443149e-13
+    },
+    {
+      "name": "complete_rim_NA_is_not_one_ray_maximum",
+      "passed": true,
+      "rim_min": 0.7092790163905844,
+      "rim_max": 0.709279016390585
+    },
+    {
+      "name": "onaxis_RI_normalized_both_models",
+      "passed": true
+    },
+    {
+      "name": "all_native_failures_retained",
+      "passed": true
+    },
+    {
+      "name": "RI_independent_smaller_chief_derivative_step",
+      "passed": true,
+      "independent_RI": 1.0215235385316057,
+      "reported_RI": 1.021523539050152
+    },
+    {
+      "name": "vignetting_has_no_NA_or_EPD_false_certificate",
+      "passed": true
+    },
+    {
+      "name": "afocal_plane_stack_does_not_pass_infinite_BFL",
+      "passed": true
+    }
+  ],
+  "source_design": "experiments/candidates_20261022/results/pilot/seed_0083.json",
+  "scope": "analyticplaneFresnel/materialanchors/weightedloss,originalPythonactualhighNA72rays,firstorder,RIderivative,NAandvignetting"
+}

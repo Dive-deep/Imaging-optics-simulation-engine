@@ -1,0 +1,25 @@
+{
+  "schema": "candidate-repository-release-assets/1",
+  "tag": "candidates-ct20-20261022",
+  "assets": [
+    {
+      "filename": "optics_initial_candidates_ct20_23_20261022.zip",
+      "candidate_count": 23,
+      "role": "current_CT20_candidate_delivery",
+      "bytes": 40131585,
+      "sha256": "db9e66c27f5eb0b507a3131396c9f64cb3dfea68be72ad8540f0b83bb397dc18",
+      "download_url": "https://github.com/Dive-deep/Imaging-optics-simulation-engine/releases/download/candidates-ct20-20261022/optics_initial_candidates_ct20_23_20261022.zip",
+      "snapshot_immutable": true
+    },
+    {
+      "filename": "optics_initial_candidates_24_20261022.zip",
+      "candidate_count": 24,
+      "role": "preserved_pre_CT20_delivery",
+      "bytes": 27149380,
+      "sha256": "7a8c0dc208489b84e5653944f9fc22e9d2642c7783d80aafe0a40665d620f6c7",
+      "download_url": "https://github.com/Dive-deep/Imaging-optics-simulation-engine/releases/download/candidates-ct20-20261022/optics_initial_candidates_24_20261022.zip",
+      "snapshot_immutable": true
+    }
+  ],
+  "note": "ZIPs preserve their original generation-time snapshots. Read current main branch handoff for the later GitHub transfer."
+}

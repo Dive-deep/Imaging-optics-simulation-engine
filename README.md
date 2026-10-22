@@ -1,8 +1,28 @@
-# Sequential Optics Core
+# 결상 계산 Engine&DB
+
+새 프로젝트 대화에서는 [붙여넣기용 시작 프롬프트](docs/new_chat_prompt_ko.txt)와 [대화 인계 문서](docs/conversation_handoff_20261022_ko.md)를 사용한다. GitHub가 이전 대화 원문을 자동 이관하는 것은 아니다.
+
+> 이 저장소의 AGENTS.md, CODEX_START.md, HANDOFF.md와 docs/conversation_handoff_20261022_ko.md를 읽고 「결상 계산 Engine&DB」를 이어가자. 최신 CT20 후보 23개 전부와 기존 증거를 보존하고, 기하 검증과 미해결 고NA 파동 결과를 구분해 현재 상태를 복원해줘.
+
+계산 엔진: **Sequential Optics Core v0.2.1**. 현재 후보·검증 자료와 향후 DB 작업의 기준 저장소다. DB는 아직 생성하지 않았다.
 
 3매 렌즈 기술 명세를 바탕으로 작성한 **Python 독립 광학 계산 엔진**이다. 실제 비구면 교점·벡터 Snell 추적과 명시적인 scalar 회절 profile을 사용한다. 렌즈 수를 3으로 하드코딩하지 않아 같은 모듈을 다른 면 수에도 재사용할 수 있다.
 
 실행 가능한 코드, 자동 테스트, 합성 처방, 실제 실행 결과, 다중 에이전트의 독립 코드 리뷰가 함께 있다. **Zemax 결과와의 수치 일치 또는 측정 정확도를 검증한 제품은 아니다.** `conditional`, `underresolved`, 수치 실패와 물리적 차단은 구분해서 반환한다.
+
+## 2026-10-22 CT20 초기 설계 후보군
+
+각 렌즈의 축상 중심 두께를 **2 < CT ≤ 20 mm**로 제한하여 다시 계산한 [서로 다른 출발점의 후보 23개](experiments/candidates_ct20_20261022/candidates.json)를 모두 제공한다. 실제 CT 범위는 **2.0317579927–19.9999970367 mm**다. 첫 렌즈 전면 clear diameter 50 mm 대안 22개와 EPD 50 mm 대안 1개, 재료 순서 16종을 포함한다. 합격한 독립 부모를 모두 유지했으며 전체 성능 순위나 단일 우승 후보를 정하지 않았다.
+
+[생성·재계산 방법](experiments/candidates_ct20_20261022/METHOD_KO.md), [전체 23개 오프라인 HTML 보고서](experiments/candidates_ct20_20261022/reports/candidate_report.html), [전체 후보 PDF](experiments/candidates_ct20_20261022/reports/candidate_layouts_and_mtf.pdf), [전체 단면 모음](experiments/candidates_ct20_20261022/reports/candidate_contact_sheet.png)을 함께 제공한다. 최종 전달 묶음 경로는 [CT20 후보 23개 ZIP](https://github.com/Dive-deep/Imaging-optics-simulation-engine/releases/download/candidates-ct20-20261022/optics_initial_candidates_ct20_23_20261022.zip)이다.
+
+독립 물리 검사는 **23/23개 통과, 새 광선 732,849개 실패 0**이며, 원본 엔진과 별도 native 커널의 **6,900개 광선 대조도 상태·수치 실패 0**이다. 이는 검사한 기하·광선 표본의 결과다. 주 파동 MTF의 field/파장별 T/S 276쌍은 `underresolved_quadrature` 200, `conditional` 3, `not_applicable` 73으로, 고NA 파동 정확도 인증이나 확정 학습 label이 아니다. 적용 불가 패널의 기하 MTF 진단은 회절을 포함하지 않으며 파동 결과와 구분한다. [최종 집계](experiments/candidates_ct20_20261022/results/final_summary.json)와 [물리 검증 통계](experiments/candidates_ct20_20261022/results/final_selection_physics_statistics.json)에 근거가 있다. 원본 `src/`와 `tests/`는 변경하지 않았다.
+
+## 이전 2026-10-22 초기 설계 후보 24개
+
+[3매·50mm 첫 개구·24° 화각 후보24개](experiments/candidates_20261022/candidates.json)와 [구체적인 생성·선정 과정](experiments/candidates_20261022/METHOD_KO.md)을 별도 실험에 보존했다. [오프라인 시각 보고서](experiments/candidates_20261022/reports/candidate_report.html)는 각 후보의 실제 chief/marginal ray 단면, RI·왜곡·spot과0–20lp/mmT/S곡선을 표시한다. 기하 조건 합격과 파동 모델의 적용 불가/미수렴은 별도 상태이며, 이 결과는 후속 최적화 시작점이다. 원본 코어의 광학 계약을 바꾸거나 전역 최적·Zemax동치를 주장하지 않는다.
+
+이전 실험과 [기존 후보 24개 ZIP, 약 27 MB](https://github.com/Dive-deep/Imaging-optics-simulation-engine/releases/download/candidates-ct20-20261022/optics_initial_candidates_24_20261022.zip)은 삭제하거나 CT20 결과로 덮어쓰지 않았다.
 
 ## 현재 수정본 v0.2.1
 

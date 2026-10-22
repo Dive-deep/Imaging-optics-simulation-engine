@@ -1,0 +1,739 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "case": 0,
+      "passed": true,
+      "upper_bound_mm": 0.9008735669867103,
+      "dense_maximum_mm": 0.8977530769122537,
+      "bound_excess_mm": 0.0031204900744565833,
+      "previous_coarse_bound_mm": 19.26285786888482,
+      "relative_old_bound_gap": 18.365104791972566
+    },
+    {
+      "case": 1,
+      "passed": true,
+      "upper_bound_mm": 47.862352042398925,
+      "dense_maximum_mm": 47.861649723403275,
+      "bound_excess_mm": 0.0007023189956498754,
+      "previous_coarse_bound_mm": 64.42151050365595,
+      "relative_old_bound_gap": 16.559860780252677
+    },
+    {
+      "case": 2,
+      "passed": true,
+      "upper_bound_mm": 31.314907475835238,
+      "dense_maximum_mm": 31.314440370478223,
+      "bound_excess_mm": 0.0004671053570142192,
+      "previous_coarse_bound_mm": 34.303541232199315,
+      "relative_old_bound_gap": 2.9891008617210915
+    },
+    {
+      "case": 3,
+      "passed": true,
+      "upper_bound_mm": 80.1657271458786,
+      "dense_maximum_mm": 80.16459712963895,
+      "bound_excess_mm": 0.0011300162396565838,
+      "previous_coarse_bound_mm": 89.96710601517303,
+      "relative_old_bound_gap": 9.802508885534081
+    },
+    {
+      "case": 4,
+      "passed": true,
+      "upper_bound_mm": 9.427914698916192,
+      "dense_maximum_mm": 9.426821281100862,
+      "bound_excess_mm": 0.0010934178153299001,
+      "previous_coarse_bound_mm": 24.768074132965076,
+      "relative_old_bound_gap": 15.341252851864214
+    },
+    {
+      "case": 5,
+      "passed": true,
+      "upper_bound_mm": 22.064796975124892,
+      "dense_maximum_mm": 22.062482064873,
+      "bound_excess_mm": 0.002314910251893565,
+      "previous_coarse_bound_mm": 38.714274286786804,
+      "relative_old_bound_gap": 16.651792221913805
+    },
+    {
+      "case": 6,
+      "passed": true,
+      "upper_bound_mm": 42.35043266796345,
+      "dense_maximum_mm": 42.34741563458939,
+      "bound_excess_mm": 0.0030170333740642263,
+      "previous_coarse_bound_mm": 58.97454148862812,
+      "relative_old_bound_gap": 16.62712585403873
+    },
+    {
+      "case": 7,
+      "passed": true,
+      "upper_bound_mm": 51.04554141489518,
+      "dense_maximum_mm": 51.04228447924044,
+      "bound_excess_mm": 0.0032569356547398343,
+      "previous_coarse_bound_mm": 72.21413477287179,
+      "relative_old_bound_gap": 21.171850293631344
+    },
+    {
+      "case": 8,
+      "passed": true,
+      "upper_bound_mm": 15.969689173023115,
+      "dense_maximum_mm": 15.969653583497646,
+      "bound_excess_mm": 3.558952546889316e-05,
+      "previous_coarse_bound_mm": 21.200336004958473,
+      "relative_old_bound_gap": 5.230682421460827
+    },
+    {
+      "case": 9,
+      "passed": true,
+      "upper_bound_mm": 73.0010054764235,
+      "dense_maximum_mm": 72.99750817825878,
+      "bound_excess_mm": 0.003497298164717222,
+      "previous_coarse_bound_mm": 84.45902866598418,
+      "relative_old_bound_gap": 11.461520487725394
+    },
+    {
+      "case": 10,
+      "passed": true,
+      "upper_bound_mm": 18.953519445529952,
+      "dense_maximum_mm": 18.95341640787745,
+      "bound_excess_mm": 0.00010303765250085917,
+      "previous_coarse_bound_mm": 30.79413744709836,
+      "relative_old_bound_gap": 11.84072103922091
+    },
+    {
+      "case": 11,
+      "passed": true,
+      "upper_bound_mm": 43.31522284741921,
+      "dense_maximum_mm": 43.31495582350405,
+      "bound_excess_mm": 0.0002670239151569831,
+      "previous_coarse_bound_mm": 49.863669578836,
+      "relative_old_bound_gap": 6.548713755331953
+    },
+    {
+      "case": 12,
+      "passed": true,
+      "upper_bound_mm": 35.313326263306976,
+      "dense_maximum_mm": 35.31328685800408,
+      "bound_excess_mm": 3.9405302892703276e-05,
+      "previous_coarse_bound_mm": 35.528508762410084,
+      "relative_old_bound_gap": 0.21522190440600042
+    },
+    {
+      "case": 13,
+      "passed": true,
+      "upper_bound_mm": 57.58338878490293,
+      "dense_maximum_mm": 57.58308187414779,
+      "bound_excess_mm": 0.00030691075514255317,
+      "previous_coarse_bound_mm": 66.18581702221371,
+      "relative_old_bound_gap": 8.602735148065925
+    },
+    {
+      "case": 14,
+      "passed": true,
+      "upper_bound_mm": 52.31959279437737,
+      "dense_maximum_mm": 52.31884344718899,
+      "bound_excess_mm": 0.0007493471883819325,
+      "previous_coarse_bound_mm": 66.78500344910475,
+      "relative_old_bound_gap": 14.46616000191576
+    },
+    {
+      "case": 15,
+      "passed": true,
+      "upper_bound_mm": 27.805898040785966,
+      "dense_maximum_mm": 27.80553373696876,
+      "bound_excess_mm": 0.00036430381720720106,
+      "previous_coarse_bound_mm": 37.48066308055473,
+      "relative_old_bound_gap": 9.675129343585969
+    },
+    {
+      "case": 16,
+      "passed": true,
+      "upper_bound_mm": 62.325535088267436,
+      "dense_maximum_mm": 62.323997876228496,
+      "bound_excess_mm": 0.0015372120389400834,
+      "previous_coarse_bound_mm": 79.57561834970588,
+      "relative_old_bound_gap": 17.25162047347738
+    },
+    {
+      "case": 17,
+      "passed": true,
+      "upper_bound_mm": 55.62023749452446,
+      "dense_maximum_mm": 55.615697642896635,
+      "bound_excess_mm": 0.004539851627825442,
+      "previous_coarse_bound_mm": 75.13107657846714,
+      "relative_old_bound_gap": 19.51537893557051
+    },
+    {
+      "case": 18,
+      "passed": true,
+      "upper_bound_mm": 71.06869553502726,
+      "dense_maximum_mm": 71.0683414950673,
+      "bound_excess_mm": 0.0003540399599586408,
+      "previous_coarse_bound_mm": 75.57185335318572,
+      "relative_old_bound_gap": 4.503511858118415
+    },
+    {
+      "case": 19,
+      "passed": true,
+      "upper_bound_mm": 67.16205705585232,
+      "dense_maximum_mm": 67.15974277335009,
+      "bound_excess_mm": 0.002314282502226206,
+      "previous_coarse_bound_mm": 78.89253874454387,
+      "relative_old_bound_gap": 11.73279597119378
+    },
+    {
+      "case": 20,
+      "passed": true,
+      "upper_bound_mm": 52.640650441114076,
+      "dense_maximum_mm": 52.6401570470572,
+      "bound_excess_mm": 0.000493394056874763,
+      "previous_coarse_bound_mm": 67.7719186426758,
+      "relative_old_bound_gap": 15.131761595618599
+    },
+    {
+      "case": 21,
+      "passed": true,
+      "upper_bound_mm": 60.98689731769599,
+      "dense_maximum_mm": 60.98614099960831,
+      "bound_excess_mm": 0.0007563180876815068,
+      "previous_coarse_bound_mm": 80.55535478843072,
+      "relative_old_bound_gap": 19.56921378882241
+    },
+    {
+      "case": 22,
+      "passed": true,
+      "upper_bound_mm": 48.73299103141538,
+      "dense_maximum_mm": 48.73296210003534,
+      "bound_excess_mm": 2.8931380043673016e-05,
+      "previous_coarse_bound_mm": 63.582731622091444,
+      "relative_old_bound_gap": 14.849769522056107
+    },
+    {
+      "case": 23,
+      "passed": true,
+      "upper_bound_mm": 17.636622582157845,
+      "dense_maximum_mm": 17.636194755605718,
+      "bound_excess_mm": 0.0004278265521264757,
+      "previous_coarse_bound_mm": 32.74565229759054,
+      "relative_old_bound_gap": 15.10945754198482
+    },
+    {
+      "case": 24,
+      "passed": true,
+      "upper_bound_mm": 50.90363106908053,
+      "dense_maximum_mm": 50.90118294293897,
+      "bound_excess_mm": 0.0024481261415587596,
+      "previous_coarse_bound_mm": 58.92992398046271,
+      "relative_old_bound_gap": 8.028741037523737
+    },
+    {
+      "case": 25,
+      "passed": true,
+      "upper_bound_mm": 57.627820699333355,
+      "dense_maximum_mm": 57.62773597194874,
+      "bound_excess_mm": 8.472738461762219e-05,
+      "previous_coarse_bound_mm": 60.0840579554316,
+      "relative_old_bound_gap": 2.4563219834828587
+    },
+    {
+      "case": 26,
+      "passed": true,
+      "upper_bound_mm": 71.60771084758734,
+      "dense_maximum_mm": 71.60471236851188,
+      "bound_excess_mm": 0.002998479075458249,
+      "previous_coarse_bound_mm": 92.90588344600766,
+      "relative_old_bound_gap": 21.30117107749578
+    },
+    {
+      "case": 27,
+      "passed": true,
+      "upper_bound_mm": 48.0224573927544,
+      "dense_maximum_mm": 48.021203039831825,
+      "bound_excess_mm": 0.001254352922572366,
+      "previous_coarse_bound_mm": 64.49261578253379,
+      "relative_old_bound_gap": 16.471412742701965
+    },
+    {
+      "case": 28,
+      "passed": true,
+      "upper_bound_mm": 58.61862328831834,
+      "dense_maximum_mm": 58.61668184190391,
+      "bound_excess_mm": 0.0019414464144276167,
+      "previous_coarse_bound_mm": 70.16459027676787,
+      "relative_old_bound_gap": 11.547908434863956
+    },
+    {
+      "case": 29,
+      "passed": true,
+      "upper_bound_mm": 63.559453092979616,
+      "dense_maximum_mm": 63.5583064107138,
+      "bound_excess_mm": 0.0011466822658192655,
+      "previous_coarse_bound_mm": 74.2334546322575,
+      "relative_old_bound_gap": 10.675148221543708
+    },
+    {
+      "case": 30,
+      "passed": true,
+      "upper_bound_mm": 74.02161496966794,
+      "dense_maximum_mm": 74.02112242068459,
+      "bound_excess_mm": 0.0004925489833453867,
+      "previous_coarse_bound_mm": 78.05626837932948,
+      "relative_old_bound_gap": 4.03514595864489
+    },
+    {
+      "case": 31,
+      "passed": true,
+      "upper_bound_mm": 15.40022271125317,
+      "dense_maximum_mm": 15.39991831547191,
+      "bound_excess_mm": 0.0003043957812600695,
+      "previous_coarse_bound_mm": 33.775147757162735,
+      "relative_old_bound_gap": 18.375229441690827
+    },
+    {
+      "case": 32,
+      "passed": true,
+      "upper_bound_mm": 27.532751707739237,
+      "dense_maximum_mm": 27.531153115539496,
+      "bound_excess_mm": 0.0015985921997412333,
+      "previous_coarse_bound_mm": 36.26226407604581,
+      "relative_old_bound_gap": 8.731110960506314
+    },
+    {
+      "case": 33,
+      "passed": true,
+      "upper_bound_mm": 10.96048616606305,
+      "dense_maximum_mm": 10.958733789794486,
+      "bound_excess_mm": 0.001752376268564504,
+      "previous_coarse_bound_mm": 25.222562765344385,
+      "relative_old_bound_gap": 14.263828975549899
+    },
+    {
+      "case": 34,
+      "passed": true,
+      "upper_bound_mm": 28.44472352782148,
+      "dense_maximum_mm": 28.44451403505595,
+      "bound_excess_mm": 0.00020949276553139384,
+      "previous_coarse_bound_mm": 35.044407055821026,
+      "relative_old_bound_gap": 6.599893020765077
+    },
+    {
+      "case": 35,
+      "passed": true,
+      "upper_bound_mm": 71.74616820249994,
+      "dense_maximum_mm": 71.74532659394667,
+      "bound_excess_mm": 0.0008416085532729767,
+      "previous_coarse_bound_mm": 77.8046580702777,
+      "relative_old_bound_gap": 6.059331476331025
+    },
+    {
+      "case": 36,
+      "passed": true,
+      "upper_bound_mm": 4.389778024414812,
+      "dense_maximum_mm": 4.389683053099271,
+      "bound_excess_mm": 9.497131554070393e-05,
+      "previous_coarse_bound_mm": 18.918739221147607,
+      "relative_old_bound_gap": 14.529056168048335
+    },
+    {
+      "case": 37,
+      "passed": true,
+      "upper_bound_mm": 16.17923686775018,
+      "dense_maximum_mm": 16.179072204938198,
+      "bound_excess_mm": 0.00016466281198290744,
+      "previous_coarse_bound_mm": 19.161120316316126,
+      "relative_old_bound_gap": 2.982048111377928
+    },
+    {
+      "case": 38,
+      "passed": true,
+      "upper_bound_mm": 50.10921727911433,
+      "dense_maximum_mm": 50.10901642044003,
+      "bound_excess_mm": 0.00020085867430452709,
+      "previous_coarse_bound_mm": 54.8609274620745,
+      "relative_old_bound_gap": 4.751911041634472
+    },
+    {
+      "case": 39,
+      "passed": true,
+      "upper_bound_mm": 57.150080243328595,
+      "dense_maximum_mm": 57.148777634224025,
+      "bound_excess_mm": 0.0013026091045702515,
+      "previous_coarse_bound_mm": 60.70636595732597,
+      "relative_old_bound_gap": 3.557588323101946
+    },
+    {
+      "case": 40,
+      "passed": true,
+      "upper_bound_mm": 27.83200344415214,
+      "dense_maximum_mm": 27.830023010942483,
+      "bound_excess_mm": 0.0019804332096562405,
+      "previous_coarse_bound_mm": 34.32039779134661,
+      "relative_old_bound_gap": 6.4903747804041245
+    },
+    {
+      "case": 41,
+      "passed": true,
+      "upper_bound_mm": 69.09702024182249,
+      "dense_maximum_mm": 69.09514380497136,
+      "bound_excess_mm": 0.0018764368511341445,
+      "previous_coarse_bound_mm": 80.47521562714293,
+      "relative_old_bound_gap": 11.380071822171573
+    },
+    {
+      "case": 42,
+      "passed": true,
+      "upper_bound_mm": 50.31296182596944,
+      "dense_maximum_mm": 50.30908531900228,
+      "bound_excess_mm": 0.0038765069671597985,
+      "previous_coarse_bound_mm": 63.40648164567028,
+      "relative_old_bound_gap": 13.097396326668004
+    },
+    {
+      "case": 43,
+      "passed": true,
+      "upper_bound_mm": 78.88476193905043,
+      "dense_maximum_mm": 78.8829250995412,
+      "bound_excess_mm": 0.0018368395092380752,
+      "previous_coarse_bound_mm": 88.67638846332174,
+      "relative_old_bound_gap": 9.793463363780546
+    },
+    {
+      "case": 44,
+      "passed": true,
+      "upper_bound_mm": 21.216545625207445,
+      "dense_maximum_mm": 21.21220972080872,
+      "bound_excess_mm": 0.004335904398725887,
+      "previous_coarse_bound_mm": 36.614522516772524,
+      "relative_old_bound_gap": 15.402312795963805
+    },
+    {
+      "case": 45,
+      "passed": true,
+      "upper_bound_mm": 38.41850066600973,
+      "dense_maximum_mm": 38.414699804753134,
+      "bound_excess_mm": 0.00380086125659318,
+      "previous_coarse_bound_mm": 61.30123573907637,
+      "relative_old_bound_gap": 22.886535934323234
+    },
+    {
+      "case": 46,
+      "passed": true,
+      "upper_bound_mm": 25.528506006188028,
+      "dense_maximum_mm": 25.528391548825148,
+      "bound_excess_mm": 0.00011445736287996056,
+      "previous_coarse_bound_mm": 38.4160140618845,
+      "relative_old_bound_gap": 12.887622513059355
+    },
+    {
+      "case": 47,
+      "passed": true,
+      "upper_bound_mm": 34.140265736068564,
+      "dense_maximum_mm": 34.14011892712511,
+      "bound_excess_mm": 0.00014680894345531215,
+      "previous_coarse_bound_mm": 54.914675580861015,
+      "relative_old_bound_gap": 20.774556653735907
+    },
+    {
+      "case": 48,
+      "passed": true,
+      "upper_bound_mm": 34.28294789241853,
+      "dense_maximum_mm": 34.280299844378355,
+      "bound_excess_mm": 0.0026480480401716022,
+      "previous_coarse_bound_mm": 49.16037206417652,
+      "relative_old_bound_gap": 14.880072219798166
+    },
+    {
+      "case": 49,
+      "passed": true,
+      "upper_bound_mm": 24.84154906603359,
+      "dense_maximum_mm": 24.8372791166722,
+      "bound_excess_mm": 0.004269949361390246,
+      "previous_coarse_bound_mm": 43.49852152315596,
+      "relative_old_bound_gap": 18.66124240648376
+    },
+    {
+      "case": 50,
+      "passed": true,
+      "upper_bound_mm": 17.671108715457624,
+      "dense_maximum_mm": 17.669895611273105,
+      "bound_excess_mm": 0.0012131041845186985,
+      "previous_coarse_bound_mm": 35.37029189433693,
+      "relative_old_bound_gap": 17.700396283063824
+    },
+    {
+      "case": 51,
+      "passed": true,
+      "upper_bound_mm": 42.95905207069809,
+      "dense_maximum_mm": 42.958569456646686,
+      "bound_excess_mm": 0.0004826140514069266,
+      "previous_coarse_bound_mm": 54.102487487190174,
+      "relative_old_bound_gap": 11.143918030543489
+    },
+    {
+      "case": 52,
+      "passed": true,
+      "upper_bound_mm": 46.26445940779286,
+      "dense_maximum_mm": 46.26158729235536,
+      "bound_excess_mm": 0.002872115437504874,
+      "previous_coarse_bound_mm": 68.3771718212685,
+      "relative_old_bound_gap": 22.115584528913146
+    },
+    {
+      "case": 53,
+      "passed": true,
+      "upper_bound_mm": 4.788091880754092,
+      "dense_maximum_mm": 4.787612611129791,
+      "bound_excess_mm": 0.00047926962430100417,
+      "previous_coarse_bound_mm": 12.307840594338142,
+      "relative_old_bound_gap": 7.5202279832083505
+    },
+    {
+      "case": 54,
+      "passed": true,
+      "upper_bound_mm": 44.22813698871127,
+      "dense_maximum_mm": 44.22778648875536,
+      "bound_excess_mm": 0.0003504999559069688,
+      "previous_coarse_bound_mm": 49.81820597843984,
+      "relative_old_bound_gap": 5.5904194896844785
+    },
+    {
+      "case": 55,
+      "passed": true,
+      "upper_bound_mm": 32.97935032284989,
+      "dense_maximum_mm": 32.97579888892332,
+      "bound_excess_mm": 0.0035514339265674266,
+      "previous_coarse_bound_mm": 54.28912643051059,
+      "relative_old_bound_gap": 21.31332754158727
+    },
+    {
+      "case": 56,
+      "passed": true,
+      "upper_bound_mm": 2.105345456111125,
+      "dense_maximum_mm": 2.1024983735499085,
+      "bound_excess_mm": 0.002847082561216574,
+      "previous_coarse_bound_mm": 18.146362775711047,
+      "relative_old_bound_gap": 16.043864402161137
+    },
+    {
+      "case": 57,
+      "passed": true,
+      "upper_bound_mm": 10.469104728425846,
+      "dense_maximum_mm": 10.466611101515985,
+      "bound_excess_mm": 0.0024936269098603248,
+      "previous_coarse_bound_mm": 26.969724561386595,
+      "relative_old_bound_gap": 16.50311345987061
+    },
+    {
+      "case": 58,
+      "passed": true,
+      "upper_bound_mm": 48.99710006712797,
+      "dense_maximum_mm": 48.996348090537325,
+      "bound_excess_mm": 0.0007519765906423004,
+      "previous_coarse_bound_mm": 53.217957248638825,
+      "relative_old_bound_gap": 4.221609158101501
+    },
+    {
+      "case": 59,
+      "passed": true,
+      "upper_bound_mm": 21.792226544332504,
+      "dense_maximum_mm": 21.789889106579604,
+      "bound_excess_mm": 0.0023374377528995183,
+      "previous_coarse_bound_mm": 30.507781931439155,
+      "relative_old_bound_gap": 8.71789282485955
+    },
+    {
+      "case": 60,
+      "passed": true,
+      "upper_bound_mm": 25.742943651307524,
+      "dense_maximum_mm": 25.738747169443418,
+      "bound_excess_mm": 0.004196481864106261,
+      "previous_coarse_bound_mm": 43.27568129234134,
+      "relative_old_bound_gap": 17.53693412289792
+    },
+    {
+      "case": 61,
+      "passed": true,
+      "upper_bound_mm": 35.39236871678559,
+      "dense_maximum_mm": 35.39051884256959,
+      "bound_excess_mm": 0.0018498742159991366,
+      "previous_coarse_bound_mm": 44.87940795869707,
+      "relative_old_bound_gap": 9.488889116127481
+    },
+    {
+      "case": 62,
+      "passed": true,
+      "upper_bound_mm": 41.56873256385157,
+      "dense_maximum_mm": 41.56705781785919,
+      "bound_excess_mm": 0.001674745992382043,
+      "previous_coarse_bound_mm": 57.02038725341882,
+      "relative_old_bound_gap": 15.453329435559631
+    },
+    {
+      "case": 63,
+      "passed": true,
+      "upper_bound_mm": 55.101345770804286,
+      "dense_maximum_mm": 55.101322191933846,
+      "bound_excess_mm": 2.357887044013296e-05,
+      "previous_coarse_bound_mm": 62.38922473457323,
+      "relative_old_bound_gap": 7.287902542639387
+    },
+    {
+      "case": 64,
+      "passed": true,
+      "upper_bound_mm": 16.740507350803064,
+      "dense_maximum_mm": 16.740393175985606,
+      "bound_excess_mm": 0.00011417481745823466,
+      "previous_coarse_bound_mm": 19.763142371789804,
+      "relative_old_bound_gap": 3.0227491958041988
+    },
+    {
+      "case": 65,
+      "passed": true,
+      "upper_bound_mm": 20.73040946740622,
+      "dense_maximum_mm": 20.72664398268587,
+      "bound_excess_mm": 0.00376548472034699,
+      "previous_coarse_bound_mm": 41.30216758703876,
+      "relative_old_bound_gap": 20.575523604352888
+    },
+    {
+      "case": 66,
+      "passed": true,
+      "upper_bound_mm": 77.69790363422855,
+      "dense_maximum_mm": 77.69730256952573,
+      "bound_excess_mm": 0.0006010647028205085,
+      "previous_coarse_bound_mm": 82.62144999389412,
+      "relative_old_bound_gap": 4.924147424368385
+    },
+    {
+      "case": 67,
+      "passed": true,
+      "upper_bound_mm": 82.58581762668508,
+      "dense_maximum_mm": 82.58561564135763,
+      "bound_excess_mm": 0.00020198532745041575,
+      "previous_coarse_bound_mm": 83.24757205074242,
+      "relative_old_bound_gap": 0.6619564093847856
+    },
+    {
+      "case": 68,
+      "passed": true,
+      "upper_bound_mm": 30.39837181487229,
+      "dense_maximum_mm": 30.39824624695711,
+      "bound_excess_mm": 0.00012556791518036903,
+      "previous_coarse_bound_mm": 42.71413188945244,
+      "relative_old_bound_gap": 12.315885642495328
+    },
+    {
+      "case": 69,
+      "passed": true,
+      "upper_bound_mm": 40.043824939740645,
+      "dense_maximum_mm": 40.04281548189344,
+      "bound_excess_mm": 0.001009457847203521,
+      "previous_coarse_bound_mm": 54.04974553018781,
+      "relative_old_bound_gap": 14.006930048294372
+    },
+    {
+      "case": 70,
+      "passed": true,
+      "upper_bound_mm": 30.859903051128562,
+      "dense_maximum_mm": 30.859552132746277,
+      "bound_excess_mm": 0.0003509183822849593,
+      "previous_coarse_bound_mm": 32.77618060375538,
+      "relative_old_bound_gap": 1.9166284710091013
+    },
+    {
+      "case": 71,
+      "passed": true,
+      "upper_bound_mm": 6.183025445708901,
+      "dense_maximum_mm": 6.182977172948207,
+      "bound_excess_mm": 4.8272760693635064e-05,
+      "previous_coarse_bound_mm": 13.862251448669806,
+      "relative_old_bound_gap": 7.679274275721599
+    },
+    {
+      "case": 72,
+      "passed": true,
+      "upper_bound_mm": 32.06762170753308,
+      "dense_maximum_mm": 32.0659471422362,
+      "bound_excess_mm": 0.0016745652968808145,
+      "previous_coarse_bound_mm": 46.39643135098813,
+      "relative_old_bound_gap": 14.330484208751933
+    },
+    {
+      "case": 73,
+      "passed": true,
+      "upper_bound_mm": 23.855975329456083,
+      "dense_maximum_mm": 23.855526763336805,
+      "bound_excess_mm": 0.0004485661192781265,
+      "previous_coarse_bound_mm": 42.64037837686215,
+      "relative_old_bound_gap": 18.784851613525348
+    },
+    {
+      "case": 74,
+      "passed": true,
+      "upper_bound_mm": 27.72922685617961,
+      "dense_maximum_mm": 27.728775107635514,
+      "bound_excess_mm": 0.0004517485440977964,
+      "previous_coarse_bound_mm": 35.868272429577914,
+      "relative_old_bound_gap": 8.1394973219424
+    },
+    {
+      "case": 75,
+      "passed": true,
+      "upper_bound_mm": 7.579550193441157,
+      "dense_maximum_mm": 7.579432285103995,
+      "bound_excess_mm": 0.0001179083371614098,
+      "previous_coarse_bound_mm": 18.662912929705524,
+      "relative_old_bound_gap": 11.08348064460153
+    },
+    {
+      "case": 76,
+      "passed": true,
+      "upper_bound_mm": 48.032155893221976,
+      "dense_maximum_mm": 48.02924271940007,
+      "bound_excess_mm": 0.002913173821909254,
+      "previous_coarse_bound_mm": 62.426584610635715,
+      "relative_old_bound_gap": 14.397341891235648
+    },
+    {
+      "case": 77,
+      "passed": true,
+      "upper_bound_mm": 13.19994862193052,
+      "dense_maximum_mm": 13.199912199851687,
+      "bound_excess_mm": 3.642207883380877e-05,
+      "previous_coarse_bound_mm": 26.68877637562643,
+      "relative_old_bound_gap": 13.488864175774742
+    },
+    {
+      "case": 78,
+      "passed": true,
+      "upper_bound_mm": 0.8595358963176654,
+      "dense_maximum_mm": 0.8594551826260487,
+      "bound_excess_mm": 8.071369161666286e-05,
+      "previous_coarse_bound_mm": 17.292032876939068,
+      "relative_old_bound_gap": 16.432577694313018
+    },
+    {
+      "case": 79,
+      "passed": true,
+      "upper_bound_mm": 15.507613295954057,
+      "dense_maximum_mm": 15.50697117829282,
+      "bound_excess_mm": 0.0006421176612363411,
+      "previous_coarse_bound_mm": 31.27129853301924,
+      "relative_old_bound_gap": 15.76432735472642
+    },
+    {
+      "case": "cancelling_high_order_terms",
+      "passed": true,
+      "upper_bound_mm": 35.16190584475738,
+      "dense_maximum_mm": 35.16019621736486,
+      "previous_coarse_bound_mm": 53.125
+    },
+    {
+      "case": "negative_curvature_undefined_rim_rejected",
+      "passed": true
+    }
+  ],
+  "check_count": 82,
+  "seconds": 3.2462666999999783,
+  "scope": "Analytic signed-term interval envelope is conservative in real arithmetic; outward nextafter elementary arithmetic and explicit numerical margin are used. Dense comparisons validate implementation, not a formal proof of all transcendental library rounding."
+}

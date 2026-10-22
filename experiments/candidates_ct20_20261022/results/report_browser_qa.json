@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "loading_method": "Playwright page.setContent of exact standalone HTML; file:// navigation is restricted by the managed browser policy",
+  "candidate_count": 23,
+  "counts": {
+    "records": 23,
+    "summary": 23,
+    "images": 23,
+    "unique_ids": 23,
+    "overview_image_embedded": true
+  },
+  "checks": [
+    "initial view shows all 23 candidates with no selected winner",
+    "first/last and next/previous navigation",
+    "return to all-candidate overview",
+    "source seed search, candidate selection and full JSON download including STOP-scan history",
+    "empty search clears candidate selection and disables candidate controls",
+    "strict EPD50 filter has 1 candidate",
+    "first-lens diameter50 filter has 22 candidates"
+  ],
+  "page_errors": [],
+  "external_network_requests": [],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1100
+    },
+    {
+      "width": 430,
+      "height": 900
+    }
+  ]
+}

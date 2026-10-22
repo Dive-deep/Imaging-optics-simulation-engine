@@ -1,0 +1,1621 @@
+US4892398A - Triplet type objective with a diaphragm arranged behind the lens system 
+        - Google Patents
+#gb { top: 15px; left: auto; right: 0; width: auto; min-width: 135px !important; }   
+      body { transition: none; }
+window.version = 'patent-search.search_20260819_RC00';
+
+      function sendFeedback() {
+        userfeedback.api.startFeedback({
+          'productId': '713680',
+          'bucket': 'patent-search-web',
+          'productVersion': window.version,
+        });
+      }
+
+      window.experiments = {};
+      window.experiments.patentCountries = "ae,ag,al,am,ao,ap,ar,at,au,aw,az,ba,bb,bd,be,bf,bg,bh,bj,bn,bo,br,bw,bx,by,bz,ca,cf,cg,ch,ci,cl,cm,cn,co,cr,cs,cu,cy,cz,dd,de,dj,dk,dm,do,dz,ea,ec,ee,eg,em,ep,es,fi,fr,ga,gb,gc,gd,ge,gh,gm,gn,gq,gr,gt,gw,hk,hn,hr,hu,ib,id,ie,il,in,ir,is,it,jo,jp,ke,kg,kh,km,kn,kp,kr,kw,kz,la,lc,li,lk,lr,ls,lt,lu,lv,ly,ma,mc,md,me,mg,mk,ml,mn,mo,mr,mt,mw,mx,my,mz,na,ne,ng,ni,nl,no,nz,oa,om,pa,pe,pg,ph,pl,pt,py,qa,ro,rs,ru,rw,sa,sc,sd,se,sg,si,sk,sl,sm,sn,st,su,sv,sy,sz,td,tg,th,tj,tm,tn,tr,tt,tw,tz,ua,ug,us,uy,uz,vc,ve,vn,wo,yu,za,zm,zw";
+      
+      
+      window.experiments.keywordWizard = true;
+      
+      
+      
+      window.experiments.definitions = true;
+      window.experiments.plogs = true;
+
+      window.Polymer = {
+        dom: 'shady',
+        lazyRegister: true,
+      };
+US4892398A - Triplet type objective with a diaphragm arranged behind the lens system 
+        - Google Patents
+Triplet type objective with a diaphragm arranged behind the lens system
+Download PDF
+Info
+Publication number
+US4892398A
+US4892398A
+US07/272,759
+US27275988A
+US4892398A
+US 4892398 A
+US4892398 A
+US 4892398A
+US 27275988 A
+US27275988 A
+US 27275988A
+US 4892398 A
+US4892398 A
+US 4892398A
+Authority
+US
+United States
+Prior art keywords
+sub
+lens element
+lens
+objective
+refractive index
+Prior art date
+1987-11-18
+Legal status (The legal status is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the status listed.)
+Expired - Fee Related
+Application number
+US07/272,759
+Inventor
+Yoshinobu Kudo
+Akira Fukushima
+Kazuo Kimura
+Mitsuko Date
+Current Assignee (The listed assignees may be inaccurate. Google has not performed a legal analysis and makes no representation or warranty as to the accuracy of the list.)
+Minolta Co Ltd
+Electrolux AB
+Original Assignee
+Minolta Co Ltd
+Priority date (The priority date is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the date listed.)
+1987-11-18
+Filing date
+1988-11-17
+Publication date
+1990-01-09
+1988-11-17
+Application filed by Minolta Co Ltd
+filed
+Critical
+Minolta Co Ltd
+1989-01-06
+Assigned to AKTIEBOLAGET ELECTROLUX,  A CORP. OF KINGDOM OF SWEDEN
+reassignment
+AKTIEBOLAGET ELECTROLUX,  A CORP. OF KINGDOM OF SWEDEN
+ASSIGNMENT OF ASSIGNORS INTEREST.
+Assignors: FARNDAHL, STIG H., WALFRIDSON, MAGNUS T.
+1989-01-09
+Assigned to MINOLTA CAMERA KABUSHIKI KAISHA, A CORP. OF JAPAN
+reassignment
+MINOLTA CAMERA KABUSHIKI KAISHA, A CORP. OF JAPAN
+ASSIGNMENT OF ASSIGNORS INTEREST.
+Assignors: DATE, MITSUKO, FUKUSHIMA, AKIRA, KIMURA, KAZUO, KUDO, YOSHINOBU
+1990-01-09
+Application granted
+granted
+Critical
+1990-01-09
+Publication of US4892398A
+publication
+Critical
+patent/US4892398A/en
+2008-11-17
+Anticipated expiration
+legal-status
+Critical
+Status
+Expired - Fee Related
+legal-status
+Critical
+Current
+Links
+USPTO
+USPTO PatentCenter
+USPTO Assignment
+Espacenet
+Global Dossier
+Discuss
+239000011521
+glass
+Substances
+0.000
+claims
+abstract
+description
+17
+230000005499
+meniscus
+Effects
+0.000
+claims
+description
+3
+150000001875
+compounds
+Chemical class
+0.000
+claims
+description
+2
+230000004075
+alteration
+Effects
+0.000
+abstract
+description
+13
+238000004519
+manufacturing process
+Methods
+0.000
+abstract
+description
+6
+230000003287
+optical effect
+Effects
+0.000
+description
+8
+230000008859
+change
+Effects
+0.000
+description
+5
+238000010276
+construction
+Methods
+0.000
+description
+2
+230000007423
+decrease
+Effects
+0.000
+description
+2
+230000004048
+modification
+Effects
+0.000
+description
+2
+238000012986
+modification
+Methods
+0.000
+description
+2
+LFQSCWFLJHTTHZ-UHFFFAOYSA-N
+Ethanol
+Chemical compound
+CCO
+LFQSCWFLJHTTHZ-UHFFFAOYSA-N
+0.000
+description
+1
+206010073261
+Ovarian theca cell tumour
+Diseases
+0.000
+description
+1
+230000004308
+accommodation
+Effects
+0.000
+description
+1
+201000009310
+astigmatism
+Diseases
+0.000
+description
+1
+230000003247
+decreasing effect
+Effects
+0.000
+description
+1
+238000009795
+derivation
+Methods
+0.000
+description
+1
+239000000463
+material
+Substances
+0.000
+description
+1
+230000008520
+organization
+Effects
+0.000
+description
+1
+208000001644
+thecoma
+Diseases
+0.000
+description
+1
+Images
+Classifications
+G
+—
+PHYSICS
+G02
+—
+OPTICS
+G02B
+—
+OPTICAL ELEMENTS, SYSTEMS OR APPARATUS
+G02B13/00
+—
+Optical objectives specially designed for the purposes specified below
+G
+—
+PHYSICS
+G02
+—
+OPTICS
+G02B
+—
+OPTICAL ELEMENTS, SYSTEMS OR APPARATUS
+G02B9/00
+—
+Optical objectives characterised both by the number of the components and their arrangements according to their sign, i.e. + or -
+G02B9/12
+—
+Optical objectives characterised both by the number of the components and their arrangements according to their sign, i.e. + or - having three components only
+G02B9/14
+—
+Optical objectives characterised both by the number of the components and their arrangements according to their sign, i.e. + or - having three components only arranged + - +
+G02B9/16
+—
+Optical objectives characterised both by the number of the components and their arrangements according to their sign, i.e. + or - having three components only arranged + - + all the components being simple
+G
+—
+PHYSICS
+G02
+—
+OPTICS
+G02B
+—
+OPTICAL ELEMENTS, SYSTEMS OR APPARATUS
+G02B13/00
+—
+Optical objectives specially designed for the purposes specified below
+G02B13/18
+—
+Optical objectives specially designed for the purposes specified below with lenses having one or more non-spherical faces, e.g. for reducing geometrical aberration
+Definitions
+the present invention
+relates to an objective for compact lens-shutter cameras whose diaphragm is arranged behind the whole optical system, and more particularly to a compact wide angle objective with a simple construction for cameras for a spread use.
+a wide angle objective with a diaphragm arranged behind the whole lens system
+is advantageous for accommodation in the camera, for compactization of the camera or the objective itself and for realization of precise focusing.
+triplet type objectives with F No. 4  ⁇ 2.8 and a total angular field coverage of 60°  ⁇ 64°
+have been proposed.
+a wide angle triplet type objective
+since a astigmatic difference tends to become large at a marginal angular field, it was conventional to construct this type of objective by using lens elements formed of glass with a high refractive index. For example, in Japanese patent application laid-open number Sho.
+all lens elements
+are formed of glass with a high refractive index to construct an objective with a total angular field coverage of 64°, and F No. 3.5.
+an objective with F No. 4 and a total angular field coverage of 64°
+has been realized by using glass with a high refractive index. But forming a lens element of glass of a high refractive index incurs an increase in the manufacturing cost.
+a wide angle triplet type objective with a diaphragm arranged behind the lens system
+comprising from the object side, a first positive lens formed of glass with a high refractive index, a second negative lens formed of plastic, a third positive lens formed of plastic.
+the second and the third lenses
+are formed of plastic, so that manufacturing cost is low as well as the change in the back focus depending on the temperature is cancelled.
+the first lens
+is formed of glass with a high refractive index, so that aberrations are corrected well.
+it is necessary to construct a diameter of the first lens
+so large that manufacturing cost tends to become high. Because, glass material, which is much expensive than plastic, is employed of the largest volume lens in the whole lens system.
+An object of the present invention
+is to provide a triplet type wide angle objective with a compact size, a small F No. and light weight, whose manfuacturing cost is low, whose construction is advantageous in manufacturing of lens elements and whose aberrations are corrected well.
+the lens system
+comprises, from the object side, a first positive meniscus lens element having an object side surface convex to the object side, a second biconcave lens element, a third biconvex lens element and a diaphragm.
+the first and second lens elements
+are formed of plastic and the third lens element is formed of glass. Further the lens system fulfills the following conditions:
+N 1
+represents the refractive index of the first lens element
+N 2
+represents the refractive index of the second lens element
+N 3
+represents the refractive index of the third lens element
+FIG. 1
+is a cross sectional view of an objective according to the respective embodiments of the present invention.
+FIGS. 2A to 2C
+represent the aberration curves of the embodiment 1 respectively;
+FIGS. 3A to 3C
+represent the aberration curves of the embodiment 2 respectively
+FIGS. 4A to 4C
+represent the aberration curves of the embodiment 3 respectively
+FIGS. 5A to 5C
+represent the aberration curves of the embodiment 4 respectively
+FIG. 1
+shows the position of the lens elements. Values of radii of curvature and axial distances for each lens element and air spaces in the respective embodiments are provided in the accompanying tables set forth herein, and the schematic cross sectional view of FIG. 1 follows the normal conventions of an object at the left-hand side of the drawing and the image plane at the right-hand side.
+the present invention
+provides a lens system comprising, from the object side, a first positive meniscus lens element (L 1 ) having an object side surface convex to the object side surface, a second biconvex lens element (L 2 ), a third biconvex lens element (L 3 ), and a diaphragm (S).
+the first (L 1 ) and second (L 2 ) lens elements
+are formed of plastic and the third lens elements (L3) is formed of glass.
+the lens system
+fulfills the following conditions:
+N 1
+represents the refractive index of the first lens element (L 1 )
+N 2
+represents the refractive index of the second lens element (L 2 )
+N 3
+represents the refractive index of the third lens element (L 3 ).
+the first positive lens element (L 1 ) and the second negative lens element (L 2 )
+are made of plastic, so that the change in back focus caused by change of the temperature is cancelled.
+the first plastic lens element (L 1 )
+has a low refractive index
+the third lens element (L 3 ) formed of glass with a high refractive index
+prevents the petzval sum from becoming great.
+the radius of curvature of the third lens element (L 3 )
+is larger than that of the first lens element (L 1 ) and the volume of the third lens element (L 3 ) is smaller than that of the first lens element (L 1 ), the weight of the lens system and the cost for manufacturing of the lens elements can decrease in comparison with a triplet type objective having a first lens element (L 1 ) formed of glass with a high refractive index.
+the present invention
+is characterized in that the refractive index of the third lens element (L 3 ) is much greater than that of the first lens element (L 1 ) as represented by the condition (1).
+the condition (1)
+is satisfied, image field of the objective can be kept substantially flat over angular field of 65° and the petzval sum can be kept substantially small. If the lower limit of the condition (1) is violated, the petzval sum cannot be kept small and the astigmatic difference at the great angular field becomes great.
+the upper limit of the condition (1)
+shows the highest limit of the refractive index of the glass which is normally available as the third lens element (L 3 ).
+Condition (2)
+is for a ratio of the refractive index of the second lens element (L 2 ) to that of the third lens element (L 3 ).
+the refractive index of the second lens element (L 2 )
+is about constant because the second lens element (L 2 ) is formed of plastic which is normally available for photographic lens. Therefore, if the upper limit of the condition (2) is violted, the refractive index of the third lens element (L 3 ) becomes so small that the third lens element (L 3 ) cannot be formed of glass with a high refractive index, and the petzval sum increases so much that it becomes difficult to correct the astigmatic difference and a field curvature well.
+the upper limit of the condition (2)
+shows the highest limit of the refractive index of glass which is normally available as the third lens element (L 3 ).
+d 2
+represents the axial distance between the first lens element (L 1 ) and the second lens element (L 2 )
+d 4
+represents the axial distance between the second lens element (L 2 ) and the third lens element (L 3 )
+f 12
+represents the compound focal length of the first (L 1 ) and the second (L 2 ) lens elements
+f 3
+represents the focal length of the third lens element (L 3 )
+f
+represents the focal length of the lens system.
+Condition (3)
+is for correcting the field curvature well. If the upper limit of the condition (3) is violated, the petzval sum increases so much that it becomes difficult to correct the field curvature, and the diameter of the first lens element (L 1 ) must be constructed large for securing sufficient amount of marginal light rays. In contrast thereto, if the lower limit of the condition (3) is violated, a spherical aberration is in undercorrection state and it becomes difficult to correct a distortion, a astigmatism and a chromatic aberration, while the petzval sum decreases.
+Condition (4)
+is desirable for compactization of the objective and for keeping a vignetting small. If the upper limit of the condition (4) is violated, the vignetting and the field curvature increase. In contrast thereto, if the lower limit of the condition (4) is violated, the total length of the lens system including the back focal distance increases so long that it is difficult to construct the lens system with compact in size, while the vignetting becomes small.
+Condition (5)
+is desirable for decreasing the change of aberrations depending on the decentering of the third lens element (L 3 ) from the optical axis defined by the first (L 1 ) and second (L 2 ) lens elements. If the upper limit of condition (5) is violated, the vignetting at a large angular portion of the field increases and it becomes difficult to correct the field curvature well. On the other hand, if the lower limit of condition (5), the focal length of the third lens element (L 3 ) becomes so short that the change of aberrations depending on the decentering of the third lens element (L 2 ) increases.
+the lens system
+is recommended to fulfill the following condition instead of the condition (5).
+the first (L 1 ) and second (L 2 ) lens elements
+are formed of plastic, so that it becomes easier to employ an aspherical surface.
+the aspherical surface
+is employed for at least one surface of the first lens element (L 1 )
+the spherical aberration, the distortion, the field curvature and the coma
+which are not so satisfactory corrected in case of an object consisting of only spherical lens elements can be corrected almost completely.
+the following tables 1 to 4
+disclose, respectively design parameters of embodiments 1 to 4 of the present invention.
+r 1 , r 2 , r 3 . . .
+is respectively the radius of curvature from the object side
+the d 1 , d 2 , d 3 . . .
+is respectively the axial thickness including both air spaces and the actual thickness of a lens element.
+Nd 1 , Nd 2 , Nd 3
+is respectively the refractive index of the first through third lens element and  ⁇ d 1 ,  ⁇ d 2 ,  ⁇ d 3 is respectively the abbe number of the first (L 1 ) through third lens element (L 3 ).
+a surface with the mark *
+represents an aspherical surface, whose configuration is defined as follows: ##EQU1## wherein, X represents the coordinate along the optical axix measured from an imaginary plane tangent to the aspherical surface perpendicularly to the optical axis, Y represents the coordinate perpendicular to the optical axis from the optical axis, ri represents a paraxial radius of curvature, and A, B, C, D, . . . is aspherical coefficient.
+Landscapes
+Physics & Mathematics
+(
+AREA
+)
+General Physics & Mathematics
+(
+AREA
+)
+Optics & Photonics
+(
+AREA
+)
+Lenses
+(
+AREA
+)
+Abstract
+In a triplet type objective for a compact lens shutter camera with a diaphragm arranged behind the lens system, the first and the second lens elements are formed of plastic and the third lens element is formed of glass, so that it is advantageous in manufacturing cost and weight. Therefore, an F No. of the objective is small and aberrations, for example astigmatic difference, are corrected well.
+Description
+BACKGROUND OF THE INVENTION
+1. Field of the Invention
+The present invention relates to an objective for compact lens-shutter cameras whose diaphragm is arranged behind the whole optical system, and more particularly to a compact wide angle objective with a simple construction for cameras for a spread use.
+2. Description of the Prior Art
+With a compact lens-shutter camera for cameras for a spread use, a wide angle objective with a diaphragm arranged behind the whole lens system is advantageous for accommodation in the camera, for compactization of the camera or the objective itself and for realization of precise focusing. As this kind of objective, triplet type objectives with F No. 4˜2.8 and a total angular field coverage of 60°˜64° have been proposed. With a wide angle triplet type objective, since a astigmatic difference tends to become large at a marginal angular field, it was conventional to construct this type of objective by using lens elements formed of glass with a high refractive index. For example, in Japanese patent application laid-open number Sho. 59-34510, all lens elements, one or two of which have an aspherical surface, are formed of glass with a high refractive index to construct an objective with a total angular field coverage of 64°, and F No. 3.5. In Japanese patent application laid-open number Sho. 57-2012, an objective with F No. 4 and a total angular field coverage of 64° has been realized by using glass with a high refractive index. But forming a lens element of glass of a high refractive index incurs an increase in the manufacturing cost.
+On the other hand, in U.S. Pat. No. 3,784,287 or in Japanese patent application laid-open number Sho. 61-272710, a wide angle triplet type objective without using glass of a high refractive index have been proposed, but the objective in the former prior art is of F No. 5.6 and the objective in the latter prior art is of F No. 8.0 which are relatively small.
+Further, in Japanese patent application laid-open number Sho. 62-183420, a wide angle triplet type objective with a diaphragm arranged behind the lens system comprising from the object side, a first positive lens formed of glass with a high refractive index, a second negative lens formed of plastic, a third positive lens formed of plastic. In the objective, the second and the third lenses are formed of plastic, so that manufacturing cost is low as well as the change in the back focus depending on the temperature is cancelled. And the first lens is formed of glass with a high refractive index, so that aberrations are corrected well. However, for securing sufficient marginal light rays, it is necessary to construct a diameter of the first lens so large that manufacturing cost tends to become high. Because, glass material, which is much expensive than plastic, is employed of the largest volume lens in the whole lens system.
+SUMMARY OF THE INVENTION
+An object of the present invention is to provide a triplet type wide angle objective with a compact size, a small F No. and light weight, whose manfuacturing cost is low, whose construction is advantageous in manufacturing of lens elements and whose aberrations are corrected well.
+According to the present invention, the lens system comprises, from the object side, a first positive meniscus lens element having an object side surface convex to the object side, a second biconcave lens element, a third biconvex lens element and a diaphragm. The first and second lens elements are formed of plastic and the third lens element is formed of glass. Further the lens system fulfills the following conditions:
+0.15<N.sub.3 -N.sub.1 <0.45
+0.75<N.sub.2 /N.sub.3 <0.90
+wherein, N
+1
+represents the refractive index of the first lens element, N
+2
+represents the refractive index of the second lens element, and N
+3
+represents the refractive index of the third lens element.
+The features of the present invention, which are believed to be novel, are set forth with particularly in the appended claims. The present invention, both as to its organization and manner of operation, together with further objects and advantages thereof, may be best understood by reference to the following description, taken in conjunction with the accompanying drawing.
+BRIEF DESCRIPTION OF THE DRAWINGS
+FIG. 1 is a cross sectional view of an objective according to the respective embodiments of the present invention.
+FIGS. 2A to 2C represent the aberration curves of the embodiment 1 respectively;
+FIGS. 3A to 3C represent the aberration curves of the embodiment 2 respectively;
+FIGS. 4A to 4C represent the aberration curves of the embodiment 3 respectively;
+FIGS. 5A to 5C represent the aberration curves of the embodiment 4 respectively;
+DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS
+The following description is provided to enable any person skilled in the optical and camera field to make and use the invention and sets forth the best modes contemplated by the inventors for carrying out our invention. Various modifications, however, will remain readily apparent to those skilled in the art, since the generic principles of the present invention have been defined herein specifically to provide a relatively economical and easily manufactured triplet type objective. The derivation of the formulas and the relation of the powers set forth herein can be accomplished with the assistance of a computer. The present invention represents the parameters of a compromise balance of acceptable aberrrations which can be relatively easily manufactured to provide a low cost lens system for utilization with a compact lens shutter camera.
+In the drawings, FIG. 1 shows the position of the lens elements. Values of radii of curvature and axial distances for each lens element and air spaces in the respective embodiments are provided in the accompanying tables set forth herein, and the schematic cross sectional view of FIG. 1 follows the normal conventions of an object at the left-hand side of the drawing and the image plane at the right-hand side.
+As shown in FIG. 1, the present invention provides a lens system comprising, from the object side, a first positive meniscus lens element (L
+1
+) having an object side surface convex to the object side surface, a second biconvex lens element (L
+2
+), a third biconvex lens element (L
+3
+), and a diaphragm (S). The first (L
+1
+) and second (L
+2
+) lens elements are formed of plastic and the third lens elements (L3) is formed of glass. Further the lens system fulfills the following conditions:
+0.15<N.sub.3 -N.sub.1 <0.45                                (1)
+0.75<N.sub.2 /N.sub.3 <0.90                                (2)
+wherein, N
+1
+represents the refractive index of the first lens element (L
+1
+), N
+2
+represents the refractive index of the second lens element (L
+2
+), and N
+3
+represents the refractive index of the third lens element (L
+3
+).
+According to the present invention, the first positive lens element (L
+1
+) and the second negative lens element (L
+2
+) are made of plastic, so that the change in back focus caused by change of the temperature is cancelled. Although the first plastic lens element (L
+1
+) has a low refractive index, the third lens element (L
+3
+) formed of glass with a high refractive index prevents the petzval sum from becoming great. Further, because the radius of curvature of the third lens element (L
+3
+) is larger than that of the first lens element (L
+1
+) and the volume of the third lens element (L
+3
+) is smaller than that of the first lens element (L
+1
+), the weight of the lens system and the cost for manufacturing of the lens elements can decrease in comparison with a triplet type objective having a first lens element (L
+1
+) formed of glass with a high refractive index.
+Thus, the present invention is characterized in that the refractive index of the third lens element (L
+3
+) is much greater than that of the first lens element (L
+1
+) as represented by the condition (1). When the condition (1) is satisfied, image field of the objective can be kept substantially flat over angular field of 65° and the petzval sum can be kept substantially small. If the lower limit of the condition (1) is violated, the petzval sum cannot be kept small and the astigmatic difference at the great angular field becomes great. On the other hand, the upper limit of the condition (1) shows the highest limit of the refractive index of the glass which is normally available as the third lens element (L
+3
+).
+Condition (2) is for a ratio of the refractive index of the second lens element (L
+2
+) to that of the third lens element (L
+3
+). The refractive index of the second lens element (L
+2
+) is about constant because the second lens element (L
+2
+) is formed of plastic which is normally available for photographic lens. Therefore, if the upper limit of the condition (2) is violted, the refractive index of the third lens element (L
+3
+) becomes so small that the third lens element (L
+3
+) cannot be formed of glass with a high refractive index, and the petzval sum increases so much that it becomes difficult to correct the astigmatic difference and a field curvature well. On the other hand, the upper limit of the condition (2), as same as in the condition (1), shows the highest limit of the refractive index of glass which is normally available as the third lens element (L
+3
+).
+Furthermore, according to the present invention, it is desirable to fulfill the following conditions.
+2.5<d.sub.2 /d.sub.4 <4.0                                  (3)
+0.55<|f.sub.12 |/f<0.8                   (4)
+0.3<f.sub.3 /f<0.6                                         (5)
+wherein, d
+2
+represents the axial distance between the first lens element (L
+1
+) and the second lens element (L
+2
+), d
+4
+represents the axial distance between the second lens element (L
+2
+) and the third lens element (L
+3
+), f
+12
+represents the compound focal length of the first (L
+1
+) and the second (L
+2
+) lens elements, f
+3
+represents the focal length of the third lens element (L
+3
+), and f represents the focal length of the lens system.
+Condition (3) is for correcting the field curvature well. If the upper limit of the condition (3) is violated, the petzval sum increases so much that it becomes difficult to correct the field curvature, and the diameter of the first lens element (L
+1
+) must be constructed large for securing sufficient amount of marginal light rays. In contrast thereto, if the lower limit of the condition (3) is violated, a spherical aberration is in undercorrection state and it becomes difficult to correct a distortion, a astigmatism and a chromatic aberration, while the petzval sum decreases.
+Condition (4) is desirable for compactization of the objective and for keeping a vignetting small. If the upper limit of the condition (4) is violated, the vignetting and the field curvature increase. In contrast thereto, if the lower limit of the condition (4) is violated, the total length of the lens system including the back focal distance increases so long that it is difficult to construct the lens system with compact in size, while the vignetting becomes small.
+Condition (5) is desirable for decreasing the change of aberrations depending on the decentering of the third lens element (L
+3
+) from the optical axis defined by the first (L
+1
+) and second (L
+2
+) lens elements. If the upper limit of condition (5) is violated, the vignetting at a large angular portion of the field increases and it becomes difficult to correct the field curvature well. On the other hand, if the lower limit of condition (5), the focal length of the third lens element (L
+3
+) becomes so short that the change of aberrations depending on the decentering of the third lens element (L
+2
+) increases.
+Furthermore, for correcting aberrations more satisfactory, the lens system is recommended to fulfill the following condition instead of the condition (5).
+0.32<f.sub.3 /f<0.5                                        (6)
+According to this invention, the first (L
+1
+) and second (L
+2
+) lens elements are formed of plastic, so that it becomes easier to employ an aspherical surface. Especially, when the aspherical surface is employed for at least one surface of the first lens element (L
+1
+), the spherical aberration, the distortion, the field curvature and the coma which are not so satisfactory corrected in case of an object consisting of only spherical lens elements can be corrected almost completely.
+The following tables 1 to 4 disclose, respectively design parameters of embodiments 1 to 4 of the present invention. In the embodiments r
+1
+, r
+2
+, r
+3
+. . . is respectively the radius of curvature from the object side, and the d
+1
+, d
+2
+, d
+3
+. . . is respectively the axial thickness including both air spaces and the actual thickness of a lens element. Nd
+1
+, Nd
+2
+, Nd
+3
+is respectively the refractive index of the first through third lens element and νd
+1
+, νd
+2
+, νd
+3
+is respectively the abbe number of the first (L
+1
+) through third lens element (L
+3
+). A surface with the mark * represents an aspherical surface, whose configuration is defined as follows: ##EQU1## wherein, X represents the coordinate along the optical axix measured from an imaginary plane tangent to the aspherical surface perpendicularly to the optical axis, Y represents the coordinate perpendicular to the optical axis from the optical axis, ri represents a paraxial radius of curvature, and A, B, C, D, . . . is aspherical coefficient.
+TABLE 1                                                     
+______________________________________                                    
+Embodiment 1                                                              
+f = 100 F.sub.No. = 3.5 2w = 60°                                   
+______________________________________                                    
+radius of    axial      refractive Abbe                                   
+curvature    distance   index      number                                 
+______________________________________                                    
+           r.sub.1 *                                                      
+                 28.581                                                   
+L.sub.1                d.sub.1                                            
+                            11.403                                        
+                                  N.sub.1                                 
+                                       1.49140                            
+                                             ν.sub.1                   
+                                                  57.82                   
+          r.sub.2                                                         
+                43.298                                                    
+                       d.sub.2                                            
+                            4.191                                         
+           r.sub.3                                                        
+                 -46.546                                                  
+L.sub.2                d.sub.3                                            
+                            3.400 N.sub.2                                 
+                                       1.58400                            
+                                             ν.sub.2                   
+                                                  31.00                   
+          r.sub.4                                                         
+                33.494                                                    
+                       d.sub.4                                            
+                            1.300                                         
+           r.sub.5                                                        
+                 50.000                                                   
+L.sub.3                d.sub.5                                            
+                            6.822 N.sub.3                                 
+                                       1.80500                            
+                                             ν.sub.3                   
+                                                  40.97                   
+          r.sub.6                                                         
+                -51.016                                                   
+                       d.sub.6                                            
+                            4.737                                         
+S         r.sub.7                                                         
+                ∞                                                   
+______________________________________                                    
+aspheric surface                                                          
+coefficients      parameters                                              
+______________________________________                                    
+A      = 0.0             N.sub.3 -N.sub.1                                 
+                                 = 0.314                                  
+B      =  -0.58716 × 10.sup.-7                                      
+                         N.sub.2 /N.sub.3                                 
+                                 = 0.878                                  
+C      = 0.14066 × 10.sup.-8                                        
+                         d.sub.2 /d.sub.4                                 
+                                 = 3.224                                  
+D      = -0.32495 × 10.sup.-10                                      
+                         |f.sub.12 |/f                  
+                                 = 0.559                                  
+E      = 0.14141 × 10.sup.-12                                       
+                         f.sub.3 /f                                       
+                                 = 0.3223                                 
+F      = -0.17872 × 10.sup.-15                                      
+______________________________________
+TABLE 2                                                     
+______________________________________                                    
+Embodiment 2                                                              
+f = 100 F.sub.No. = 3.5 2w = 60°                                   
+______________________________________                                    
+radius of    axial      refractive Abbe                                   
+curvature    distance   index      number                                 
+______________________________________                                    
+           r.sub.1 *                                                      
+                 28.405                                                   
+L.sub.1                d.sub.1                                            
+                            11.402                                        
+                                  N.sub.1                                 
+                                       1.49140                            
+                                             ν.sub.1                   
+                                                  57.82                   
+          r.sub.2                                                         
+                42.904                                                    
+                       d.sub.2                                            
+                            4.183                                         
+           r.sub.3                                                        
+                 -46.694                                                  
+L.sub.2                d.sub.3                                            
+                            3.400 N.sub.2                                 
+                                       1.58400                            
+                                             ν.sub.2                   
+                                                  31.00                   
+          r.sub.4                                                         
+                33.804                                                    
+                       d.sub.4                                            
+                            1.300                                         
+           r.sub.5                                                        
+                 51.000                                                   
+L.sub.3                d.sub.5                                            
+                            6.671 N.sub.3                                 
+                                       1.82050                            
+                                             ν.sub.3                   
+                                                  43.00                   
+          r.sub.6                                                         
+                -52.571                                                   
+                       d.sub.6                                            
+                            4.737                                         
+S         r.sub.7                                                         
+                ∞                                                   
+______________________________________                                    
+aspheric surface                                                          
+coefficients      parameters                                              
+______________________________________                                    
+A      = 0.0             N.sub.3 -N.sub.1                                 
+                                 = 0.329                                  
+B      = 0.34706 × 10.sup.-7                                        
+                         N.sub.2 /N.sub.3                                 
+                                 = 0.870                                  
+C      = 0.37596 × 10.sup.-9                                        
+                         d.sub.2 /d.sub.4                                 
+                                 = 3.218                                  
+D      = -0.29099 × 10.sup.-10                                      
+                         |f.sub.12 |/f                  
+                                 = 0.566                                  
+E      = 0.14248 × 10.sup.-12                                       
+                         f.sub.3 /f                                       
+                                 = 0.325                                  
+F      = -0.18383 × 10.sup.-15                                      
+______________________________________
+TABLE 3                                                     
+______________________________________                                    
+Embodiment 3                                                              
+f = 100 F.sub.No. = 3.5 2w = 60°                                   
+______________________________________                                    
+radius of    axial      refractive Abbe                                   
+curvature    distance   index      number                                 
+______________________________________                                    
+           r.sub.1 *                                                      
+                 27.747                                                   
+L.sub.3                d.sub.1                                            
+                            11.364                                        
+                                  N.sub.1                                 
+                                       1.49140                            
+                                             ν.sub.1                   
+                                                  57.82                   
+          r.sub.2                                                         
+                45.438                                                    
+                       d.sub.2                                            
+                            4.206                                         
+           r.sub.3                                                        
+                 -60.616                                                  
+L.sub.2                d.sub.3                                            
+                            3.200 N.sub.2                                 
+                                       1.58400                            
+                                             ν.sub.2                   
+                                                  31.00                   
+          r.sub.4                                                         
+                34.522                                                    
+                       d.sub.4                                            
+                            1.500                                         
+           r.sub.5                                                        
+                 54.400                                                   
+L.sub.3                d.sub.5                                            
+                            7.386 N.sub.3                                 
+                                       1.80500                            
+                                             ν.sub.3                   
+                                                  40.97                   
+          r.sub.6                                                         
+                -61.975                                                   
+                       d.sub.6                                            
+                            4.737                                         
+S         r.sub.7                                                         
+                ∞                                                   
+______________________________________                                    
+aspheric surface                                                          
+coefficients      parameters                                              
+______________________________________                                    
+A      = 0.0             N.sub.3 -N.sub.1                                 
+                                 = 0.314                                  
+B      = 0.28547 × 10.sup.-5                                        
+                         N.sub.2 /N.sub.3                                 
+                                 = 0.878                                  
+C      = -0.16114 × 10.sup.-7                                       
+                         d.sub.2 /d.sub.4                                 
+                                 = 2.804                                  
+D      = 0.13227 × 10.sup.-9                                        
+                         |f.sub.12 |/f                  
+                                 = 0.732                                  
+E      = -0.46555 × 10.sup.-12                                      
+                         f.sub.3 /f                                       
+                                 = 0.370                                  
+F      = 0.49329 × 10.sup.-15                                       
+______________________________________
+TABLE 4                                                     
+______________________________________                                    
+Embodiment 4                                                              
+f = 100 F.sub.No. = 3.5 2w = 60°                                   
+______________________________________                                    
+radius of    axial      refractive Abbe                                   
+curvature    distance   index      number                                 
+______________________________________                                    
+           r.sub.1 *                                                      
+                 29.764                                                   
+L.sub.1                d.sub.1                                            
+                            11.403                                        
+                                  N.sub.1                                 
+                                       1.49140                            
+                                             ν.sub.1                   
+                                                  57.82                   
+          r.sub.2                                                         
+                46.420                                                    
+                       d.sub.2                                            
+                            4.191                                         
+           r.sub.3                                                        
+                 -46.621                                                  
+L.sub.2                d.sub.3                                            
+                            3.400 N.sub.2                                 
+                                       1.58400                            
+                                             ν.sub.2                   
+                                                  31.00                   
+          r.sub.4                                                         
+                36.165                                                    
+                       d.sub.4                                            
+                            1.300                                         
+           r.sub.5                                                        
+                 54.768                                                   
+L.sub.3                d.sub.5                                            
+                            6.770 N.sub.3                                 
+                                       1.81100                            
+                                             ν.sub.3                   
+                                                  44.88                   
+          r.sub.6                                                         
+                -51.016                                                   
+                       d.sub.6                                            
+                            4.737                                         
+S         r.sub.7                                                         
+                ∞                                                   
+______________________________________                                    
+aspheric surface                                                          
+coefficients      parameters                                              
+______________________________________                                    
+A      = 0.0             N.sub.3 -N.sub.1                                 
+                                 = 0.320                                  
+B      = -0.40165 × 10.sup.-6                                       
+                         N.sub.2 /N.sub.3                                 
+                                 = 0.875                                  
+C      = 0.33894 × 10.sup.-8                                        
+                         d.sub.2 /d.sub.4                                 
+                                 = 3.224                                  
+D      = -0.38542 × 10.sup.-10                                      
+                         |f.sub.12 |/f                  
+                                 = 0.587                                  
+E      = 0.14267 × 10.sup.-12                                       
+                         f.sub.3 /f                                       
+                                 = 0.335                                  
+F      = -0.17391 × 10.sup.-15                                      
+______________________________________
+As can be readily appreciated, it is possible to deviate from the above embodiments of the present invention and, as will be readily understood by those skilled in the optical art, the invention is capable of many modifications and improvements within the scope and spirt thereof. Accordingly, it will be understood that the invention is not to be limited by these specific embodiments, but only by the scope and spirit of the appended claims.
+Claims (
+3
+)
+What is claimed is:
+1. A triplet type objective comprising,
+(a) a lens system which includes from the object side;
+a first positive meniscus lens element having an object side surface convex to the object side,
+a second biconcave lens element,
+a third biconvex lens element,
+wherein, the first and the second lens elements are formed of plastic and the third lens element is formed of glass, and
+(b) a diaphragm arranged behind the lens system,
+(c) wherein the lens system fulfills the following conditions:
+0.15<N.sub.3 -N.sub.1 <0.45
+0.75<N.sub.2 /N.sub.3 <0.90
+wherein:
+N
+1
+represents the refractive index of the first lens element;
+N
+2
+represents the refractive index of the second lens element;
+N
+3
+represents the refractive power of the third lens element.
+2. A triplet type objective as claimed claim 1, wherein the triplet type objective fulfills the following conditions:
+2.5<d.sub.2 /d.sub.4 <4.0
+0.55<|f.sub.12 |/f<0.8
+0.3<f.sub.3 /f<0.6
+wherein,
+d
+2
+represents the axial distance between the first lens element and the second lens element;
+d
+4
+represents the axial distance between the second lens element and the third lens element;
+f
+12
+represents the compound focal length of the first and the second lens elements;
+f
+3
+represents the focal length of the third lens element;
+f represents the focal length of the lens objective.
+3. A triplet type objective as claimed claim 1, wherein one of the surfaces of the first lens element is an aspherical surface.
+US07/272,759
+1987-11-18
+1988-11-17
+Triplet type objective with a diaphragm arranged behind the lens system
+Expired - Fee Related
+US4892398A
+(
+en
+)
+Applications Claiming Priority (2)
+Application Number
+Priority Date
+Filing Date
+Title
+JP62-291479
+1987-11-18
+JP62291479A
+JPH01133016A
+(
+en
+)
+1987-11-18
+1987-11-18
+Triplet lens system having stop at rear position
+Publications (1)
+Publication Number
+Publication Date
+US4892398A
+true
+US4892398A
+              (
+en
+)
+1990-01-09
+Family
+ID=17769409
+Family Applications (1)
+Application Number
+Title
+Priority Date
+Filing Date
+US07/272,759
+Expired - Fee Related
+US4892398A
+(
+en
+)
+1987-11-18
+1988-11-17
+Triplet type objective with a diaphragm arranged behind the lens system
+Country Status (2)
+Country
+Link
+US
+(
+1
+)
+US4892398A
+(
+en
+)
+JP
+(
+1
+)
+JPH01133016A
+(
+en
+)
+Cited By (12)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+US5084784A
+(
+en
+)
+*
+1989-07-12
+1992-01-28
+Asahi Kogaku Kogyo K.K.
+Copying lens system
+GB2250355A
+(
+en
+)
+*
+1990-10-12
+1992-06-03
+Asahi Optical Co Ltd
+Three element copying lens system
+US5204780A
+(
+en
+)
+*
+1989-03-28
+1993-04-20
+Minolta Camera Kabushiki Kaisha
+Lens system for a copying machine
+EP0644445A3
+(
+en
+)
+*
+1993-09-17
+1995-08-16
+Steinheil Optronik Gmbh
+Aspherical lens.
+US5572369A
+(
+en
+)
+*
+1993-06-29
+1996-11-05
+Eastman Kodak Company
+Triplet-type lens for use in a compact photographic camera
+US5589989A
+(
+en
+)
+*
+1993-06-29
+1996-12-31
+Eastman Kodak Company
+Compact objective lens system
+US6069751A
+(
+en
+)
+*
+1997-07-28
+2000-05-30
+Canon Kabushiki Kaisha
+Photographic lens and photographing apparatus having the same
+US6441971B2
+(
+en
+)
+*
+1999-09-27
+2002-08-27
+Alex Ning
+Compact lens with external aperture stop
+US20090257134A1
+(
+en
+)
+*
+2005-12-01
+2009-10-15
+Sony Corporation
+Image capture lens and image capture apparatus
+US20110058259A1
+(
+en
+)
+*
+2009-09-09
+2011-03-10
+Asia Optical Co., Inc.
+Scanner Lens
+CN109557650A
+(
+en
+)
+*
+2018-12-11
+2019-04-02
+江西联益光学有限公司
+Collimate camera lens and projective module group
+US11204482B1
+(
+en
+)
+*
+2020-08-28
+2021-12-21
+Yejia Optical Technology (Guangdong) Corporation
+Large-aperture optical lens with three lens pieces
+Families Citing this family (3)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+JPH07104183A
+(
+en
+)
+*
+1993-10-08
+1995-04-21
+Olympus Optical Co Ltd
+Bright triplet lens
+JP4506083B2
+(
+en
+)
+*
+2002-03-25
+2010-07-21
+コニカミノルタホールディングス株式会社
+Imaging lens, imaging device including the same, imaging unit, and portable terminal including imaging unit
+KR20040023979A
+(
+en
+)
+*
+2002-09-12
+2004-03-20
+현대자동차주식회사
+Automobile door outer belt moulding mounting structure
+Citations (3)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+US3784287A
+(
+en
+)
+*
+1972-12-13
+1974-01-08
+Berkey Photo Inc
+Plastic triplet objective lens system
+US4105308A
+(
+en
+)
+*
+1977-01-03
+1978-08-08
+Polaroid Corporation
+Aspheric plastic triplet
+US4542961A
+(
+en
+)
+*
+1983-03-03
+1985-09-24
+Canon Kabushiki Kaisha
+Triplet type objective
+1987
+1987-11-18
+JP
+JP62291479A
+patent/JPH01133016A/en
+active
+Pending
+1988
+1988-11-17
+US
+US07/272,759
+patent/US4892398A/en
+not_active
+Expired - Fee Related
+Patent Citations (3)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+US3784287A
+(
+en
+)
+*
+1972-12-13
+1974-01-08
+Berkey Photo Inc
+Plastic triplet objective lens system
+US4105308A
+(
+en
+)
+*
+1977-01-03
+1978-08-08
+Polaroid Corporation
+Aspheric plastic triplet
+US4542961A
+(
+en
+)
+*
+1983-03-03
+1985-09-24
+Canon Kabushiki Kaisha
+Triplet type objective
+Cited By (18)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+US5204780A
+(
+en
+)
+*
+1989-03-28
+1993-04-20
+Minolta Camera Kabushiki Kaisha
+Lens system for a copying machine
+US5084784A
+(
+en
+)
+*
+1989-07-12
+1992-01-28
+Asahi Kogaku Kogyo K.K.
+Copying lens system
+GB2250355A
+(
+en
+)
+*
+1990-10-12
+1992-06-03
+Asahi Optical Co Ltd
+Three element copying lens system
+US5155632A
+(
+en
+)
+*
+1990-10-12
+1992-10-13
+Asahi Kogaku Kogyo K.K.
+Copying lens system
+GB2250355B
+(
+en
+)
+*
+1990-10-12
+1994-04-06
+Asahi Optical Co Ltd
+Copying lens system
+US5589989A
+(
+en
+)
+*
+1993-06-29
+1996-12-31
+Eastman Kodak Company
+Compact objective lens system
+US5572369A
+(
+en
+)
+*
+1993-06-29
+1996-11-05
+Eastman Kodak Company
+Triplet-type lens for use in a compact photographic camera
+US5668671A
+(
+en
+)
+*
+1993-09-17
+1997-09-16
+British Aerospace Public Limited Co.
+Dioptric lens system
+EP0644445A3
+(
+en
+)
+*
+1993-09-17
+1995-08-16
+Steinheil Optronik Gmbh
+Aspherical lens.
+US6069751A
+(
+en
+)
+*
+1997-07-28
+2000-05-30
+Canon Kabushiki Kaisha
+Photographic lens and photographing apparatus having the same
+US6441971B2
+(
+en
+)
+*
+1999-09-27
+2002-08-27
+Alex Ning
+Compact lens with external aperture stop
+US20090257134A1
+(
+en
+)
+*
+2005-12-01
+2009-10-15
+Sony Corporation
+Image capture lens and image capture apparatus
+US8169719B2
+(
+en
+)
+*
+2005-12-01
+2012-05-01
+Sony Corporation
+Image capture lens and image capture apparatus
+US20110058259A1
+(
+en
+)
+*
+2009-09-09
+2011-03-10
+Asia Optical Co., Inc.
+Scanner Lens
+US8385009B2
+(
+en
+)
+*
+2009-09-09
+2013-02-26
+Asia Optical International Ltd.
+Scanner lens
+CN109557650A
+(
+en
+)
+*
+2018-12-11
+2019-04-02
+江西联益光学有限公司
+Collimate camera lens and projective module group
+US11314062B2
+(
+en
+)
+2018-12-11
+2022-04-26
+Jiangxi Lianyi Optics Co., Ltd.
+Collimating lens, projecting module and mobile phone
+US11204482B1
+(
+en
+)
+*
+2020-08-28
+2021-12-21
+Yejia Optical Technology (Guangdong) Corporation
+Large-aperture optical lens with three lens pieces
+Also Published As
+Publication number
+Publication date
+JPH01133016A
+(
+en
+)
+1989-05-25
+Similar Documents
+Publication
+Publication Date
+Title
+JPH04267212A
+(
+en
+)
+1992-09-22
+Ultra wide angle lens
+US5636067A
+(
+en
+)
+1997-06-03
+Taking lens system
+EP1577695B1
+(
+en
+)
+2008-02-27
+Zoom lens system
+US5691850A
+(
+en
+)
+1997-11-25
+Eyepiece
+US5046833A
+(
+en
+)
+1991-09-10
+Zoom lens system
+US3967884A
+(
+en
+)
+1976-07-06
+Three element objective lens
+US20030161054A1
+(
+en
+)
+2003-08-28
+Low-cost, single focus lens
+US4787724A
+(
+en
+)
+1988-11-29
+Triplet type objective with a diaphragm arranged behind the lens system
+JP2978283B2
+(
+en
+)
+1999-11-15
+Telephoto objective lens
+US6900948B2
+(
+en
+)
+2005-05-31
+Single focus lens
+JPH10301021A
+(
+en
+)
+1998-11-13
+Small lens
+JP3610160B2
+(
+en
+)
+2005-01-12
+Photo lens
+US4610514A
+(
+en
+)
+1986-09-09
+Telephoto lens system
+US4755039A
+(
+en
+)
+1988-07-05
+Focusing lens
+US4412725A
+(
+en
+)
+1983-11-01
+Rear stop diaphragm zoom lens
+US5615051A
+(
+en
+)
+1997-03-25
+Bright triplet
+US4792216A
+(
+en
+)
+1988-12-20
+Photographic lens system
+US4176915A
+(
+en
+)
+1979-12-04
+Wide angle lens
+JP3518886B2
+(
+en
+)
+2004-04-12
+High-performance wide-angle lens
+JPH08190060A
+(
+en
+)
+1996-07-23
+Eyepiece system
+US5134522A
+(
+en
+)
+1992-07-28
+Projection lens system
+JP3038974B2
+(
+en
+)
+2000-05-08
+Small wide-angle lens
+JPS6233568B2
+(
+en
+)
+1987-07-21
+US6384986B1
+(
+en
+)
+2002-05-07
+Zoom lens and optical apparatus having the same
+JPH0735973A
+(
+en
+)
+1995-02-07
+Wide-angle lens
+Legal Events
+Date
+Code
+Title
+Description
+1989-01-06
+AS
+Assignment
+Owner name
+:
+AKTIEBOLAGET ELECTROLUX,  A CORP. OF KINGDOM OF SW
+Free format text
+:
+ASSIGNMENT OF ASSIGNORS INTEREST.;ASSIGNORS:WALFRIDSON, MAGNUS T.;FARNDAHL, STIG H.;REEL/FRAME:005015/0963
+Effective date
+:
+19881125
+1989-01-09
+AS
+Assignment
+Owner name
+:
+MINOLTA CAMERA KABUSHIKI KAISHA, A CORP. OF JAPAN,
+Free format text
+:
+ASSIGNMENT OF ASSIGNORS INTEREST.;ASSIGNORS:KUDO, YOSHINOBU;FUKUSHIMA, AKIRA;KIMURA, KAZUO;AND OTHERS;REEL/FRAME:005017/0637
+Effective date
+:
+19881220
+1989-12-09
+FEPP
+Fee payment procedure
+Free format text
+:
+PAYOR NUMBER ASSIGNED (ORIGINAL EVENT CODE: ASPN); ENTITY STATUS OF PATENT OWNER: LARGE ENTITY
+1993-08-10
+REMI
+Maintenance fee reminder mailed
+1994-01-09
+LAPS
+Lapse for failure to pay maintenance fees
+1994-03-22
+FP
+Lapsed due to failure to pay maintenance fee
+Effective date
+:
+19940109
+2018-01-29
+STCH
+Information on status: patent discontinuation
+Free format text
+:
+PATENT EXPIRED DUE TO NONPAYMENT OF MAINTENANCE FEES UNDER 37 CFR 1.362
+if (window.help && window.help.service) {
+        helpApi = window.help.service.Lazy.create(0, {apiKey: 'AIzaSyDTEI_0tLX4varJ7bwK8aT-eOI5qr3BmyI', locale: 'en-US'});
+        window.requestedSurveys = new Set();
+        window.requestSurvey = function(triggerId) {
+          if (window.requestedSurveys.has(triggerId)) {
+            return;
+          }
+          window.requestedSurveys.add(triggerId);
+          helpApi.requestSurvey({
+            triggerId: triggerId,
+            enableTestingMode: false,
+            callback: (requestSurveyCallbackParam) => {
+              if (!requestSurveyCallbackParam.surveyData) {
+                return;
+              }
+              helpApi.presentSurvey({
+                productData: {
+                  productVersion: window.version,
+                  customData: {
+                    "experiments": "",
+                  },
+                },
+                surveyData: requestSurveyCallbackParam.surveyData,
+                colorScheme: 1,
+                customZIndex: 10000,
+              });
+            }
+          });
+        };
+
+        window.requestSurvey('YXTwAsvoW0kedxbuTdH0RArc9VhT');
+      }

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "gcc",
+    "-shared",
+    "-fPIC",
+    "-O3",
+    "-std=c11",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/native/raytrace.c",
+    "-lm",
+    "-o",
+    "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/native/_raytrace_kernel.so"
+  ],
+  "compiler": "gcc (Debian 14.2.0-19) 14.2.0",
+  "source_sha256": "cc787749eb84e60e3caa6cb3dae292c179f27b6ea34a96897074007e59eb1b1a",
+  "binary_sha256": "1a150c6660cae7ba8c61714f0c57abae74f7e8e2e82f25cc199326a49e3be4b0"
+}

@@ -1,0 +1,2047 @@
+US7072123B2 - Imaging lens including three lens components 
+        - Google Patents
+#gb { top: 15px; left: auto; right: 0; width: auto; min-width: 135px !important; }   
+      body { transition: none; }
+window.version = 'patent-search.search_20260819_RC00';
+
+      function sendFeedback() {
+        userfeedback.api.startFeedback({
+          'productId': '713680',
+          'bucket': 'patent-search-web',
+          'productVersion': window.version,
+        });
+      }
+
+      window.experiments = {};
+      window.experiments.patentCountries = "ae,ag,al,am,ao,ap,ar,at,au,aw,az,ba,bb,bd,be,bf,bg,bh,bj,bn,bo,br,bw,bx,by,bz,ca,cf,cg,ch,ci,cl,cm,cn,co,cr,cs,cu,cy,cz,dd,de,dj,dk,dm,do,dz,ea,ec,ee,eg,em,ep,es,fi,fr,ga,gb,gc,gd,ge,gh,gm,gn,gq,gr,gt,gw,hk,hn,hr,hu,ib,id,ie,il,in,ir,is,it,jo,jp,ke,kg,kh,km,kn,kp,kr,kw,kz,la,lc,li,lk,lr,ls,lt,lu,lv,ly,ma,mc,md,me,mg,mk,ml,mn,mo,mr,mt,mw,mx,my,mz,na,ne,ng,ni,nl,no,nz,oa,om,pa,pe,pg,ph,pl,pt,py,qa,ro,rs,ru,rw,sa,sc,sd,se,sg,si,sk,sl,sm,sn,st,su,sv,sy,sz,td,tg,th,tj,tm,tn,tr,tt,tw,tz,ua,ug,us,uy,uz,vc,ve,vn,wo,yu,za,zm,zw";
+      
+      
+      window.experiments.keywordWizard = true;
+      
+      
+      
+      window.experiments.definitions = true;
+      window.experiments.plogs = true;
+
+      window.Polymer = {
+        dom: 'shady',
+        lazyRegister: true,
+      };
+US7072123B2 - Imaging lens including three lens components 
+        - Google Patents
+Imaging lens including three lens components
+Download PDF
+Info
+Publication number
+US7072123B2
+US7072123B2
+US10/860,134
+US86013404A
+US7072123B2
+US 7072123 B2
+US7072123 B2
+US 7072123B2
+US 86013404 A
+US86013404 A
+US 86013404A
+US 7072123 B2
+US7072123 B2
+US 7072123B2
+Authority
+US
+United States
+Prior art keywords
+lens
+imaging lens
+imaging
+lens component
+object side
+Prior art date
+2003-06-24
+Legal status (The legal status is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the status listed.)
+Expired - Lifetime
+Application number
+US10/860,134
+Other versions
+US20040264003A1
+(
+en
+Inventor
+Takayuki Noda
+Current Assignee (The listed assignees may be inaccurate. Google has not performed a legal analysis and makes no representation or warranty as to the accuracy of the list.)
+Tianjin OFilm Opto Electronics Co Ltd
+Original Assignee
+Fujinon Corp
+Priority date (The priority date is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the date listed.)
+2003-06-24
+Filing date
+2004-06-04
+Publication date
+2006-07-04
+2004-06-04
+Application filed by Fujinon Corp
+filed
+Critical
+Fujinon Corp
+2004-06-04
+Assigned to FUJI PHOTO OPTICAL CO., LTD.
+reassignment
+FUJI PHOTO OPTICAL CO., LTD.
+ASSIGNMENT OF ASSIGNORS INTEREST (SEE DOCUMENT FOR DETAILS).
+Assignors: NODA, TAKAYUKI
+2004-11-23
+Assigned to FUJINON CORPORATION
+reassignment
+FUJINON CORPORATION
+CHANGE OF NAME OF ASSIGNEE
+Assignors: FUJI PHOTO OPTICAL CO., LTD.
+2004-12-30
+Publication of US20040264003A1
+publication
+Critical
+patent/US20040264003A1/en
+2006-07-04
+Application granted
+granted
+Critical
+2006-07-04
+Publication of US7072123B2
+publication
+Critical
+patent/US7072123B2/en
+2018-09-26
+Assigned to FUJIFILM CORPORATION
+reassignment
+FUJIFILM CORPORATION
+CHANGE OF NAME (SEE DOCUMENT FOR DETAILS).
+Assignors: FUJINON CORPORATION
+2019-01-10
+Assigned to NANCHANG O-FILM OPTICAL-ELECTRONIC TECH CO., LTD.
+reassignment
+NANCHANG O-FILM OPTICAL-ELECTRONIC TECH CO., LTD.
+ASSIGNMENT OF ASSIGNORS INTEREST (SEE DOCUMENT FOR DETAILS).
+Assignors: FUJIFILM CORPORATION
+2020-04-17
+Assigned to TIANJIN OFILM OPTO ELECTRONICS CO., LTD.
+reassignment
+TIANJIN OFILM OPTO ELECTRONICS CO., LTD.
+ASSIGNMENT OF ASSIGNORS INTEREST (SEE DOCUMENT FOR DETAILS).
+Assignors: NANCHANG O-FILM OPTICAL-ELECTRONIC TECH CO., LTD.
+2024-06-04
+Anticipated expiration
+legal-status
+Critical
+Status
+Expired - Lifetime
+legal-status
+Critical
+Current
+Links
+USPTO
+USPTO PatentCenter
+USPTO Assignment
+Espacenet
+Global Dossier
+Discuss
+Images
+Classifications
+G
+—
+PHYSICS
+G02
+—
+OPTICS
+G02B
+—
+OPTICAL ELEMENTS, SYSTEMS OR APPARATUS
+G02B13/00
+—
+Optical objectives specially designed for the purposes specified below
+G02B13/001
+—
+Miniaturised objectives for electronic devices, e.g. portable telephones, webcams, PDAs, small digital cameras
+G02B13/0015
+—
+Miniaturised objectives for electronic devices, e.g. portable telephones, webcams, PDAs, small digital cameras characterised by the lens design
+G02B13/002
+—
+Miniaturised objectives for electronic devices, e.g. portable telephones, webcams, PDAs, small digital cameras characterised by the lens design having at least one aspherical surface
+G02B13/0035
+—
+Miniaturised objectives for electronic devices, e.g. portable telephones, webcams, PDAs, small digital cameras characterised by the lens design having at least one aspherical surface having three lenses
+G
+—
+PHYSICS
+G02
+—
+OPTICS
+G02B
+—
+OPTICAL ELEMENTS, SYSTEMS OR APPARATUS
+G02B13/00
+—
+Optical objectives specially designed for the purposes specified below
+G02B13/18
+—
+Optical objectives specially designed for the purposes specified below with lenses having one or more non-spherical faces, e.g. for reducing geometrical aberration
+G
+—
+PHYSICS
+G02
+—
+OPTICS
+G02B
+—
+OPTICAL ELEMENTS, SYSTEMS OR APPARATUS
+G02B3/00
+—
+Simple or compound lenses
+G02B3/02
+—
+Simple or compound lenses with non-spherical faces
+G02B3/04
+—
+Simple or compound lenses with non-spherical faces with continuous faces that are rotationally symmetrical but deviate from a true sphere, e.g. so called "aspheric" lenses
+Definitions
+Japanese Laid-Open Patent Application H10-301022
+describes exemplary imaging lenses for such cameras that include only three lens elements, including plastic lens elements, in order to achieve miniaturization and reduction of manufacturing costs.
+the imaging lenses described in Japanese Laid-Open Patent Application H10-301022
+have good overall performance, the imaging lenses of this Japanese published application provide relatively little space for optical members such as cover glasses and cut-off filters. Additionally, these imaging lenses provide relatively narrow field angles of forty-three degrees so improvement in field angles is also desired.
+the present invention
+relates to an imaging lens that provides sufficient length along the optical axis on the image side of the imaging lens elements for optical members, such as a cover glass and cut-off and low-pass filters, relative to the total length of the imaging lens, and provides a bright image and high performance while reducing manufacturing costs and the total length of the imaging lens with a small number of lens elements and lens components.
+the present invention
+is applicable to imaging lenses with a wide range of uses, such as those used in cameras for televising images in telephones, in surveillance cameras, in cameras used in portable electronic terminals, in still video cameras, and in scanners for image acquisition by a personal computer.
+FIG. 1
+shows a cross-sectional view of the imaging lens according to Embodiment 1;
+FIG. 2
+shows a cross-sectional view of the imaging lens according to Embodiment 2;
+FIGS. 3A–3C
+show the spherical aberration, astigmatism, and distortion, respectively, of the imaging lens according to Embodiment 1;
+FIGS. 4A–4C
+show the spherical aberration, astigmatism, and distortion, respectively, of the imaging lens according to Embodiment 2.
+FIG. 1
+shows a cross-sectional view of the imaging lens of Embodiment 1.
+the lens elements of the imaging lens
+are referenced by the symbols G 1 to G 3 , in order from the object side of the imaging lens along the optical axis Z 1 .
+a cover glass on the image side of the third lens element G 3
+is referenced by the symbol CG.
+the imaging lens
+further includes a diaphragm stop St that operates as an aperture stop.
+the radii of curvature of the lens elements G 1 to G 3 , the stop St, and the cover glass CG
+are referenced by the letter R followed by a number denoting their order from the object side of the imaging lens, from R 1 to R 9 .
+the on-axis surface spacings along the optical axis Z 1 between the surfaces of the optical elements
+are referenced by the letter D followed by a number denoting their order from the object side of the imaging lens, from D 1 to D 9 .
+lens element
+is herein defined as a single transparent mass of refractive material having two opposed refracting surfaces, which surfaces are positioned at least generally transversely of the optical axis of the imaging lens.
+lens component
+is herein defined as (a) a single lens element spaced so far from any adjacent lens element that the spacing cannot be neglected in computing the optical image forming properties of the lens elements or (b) two or more lens elements that have their adjacent lens surfaces either in full overall contact or overall so close together that the spacings between adjacent lens surfaces of the different lens elements are so small that the spacings can be neglected in computing the optical image forming properties of the two or more lens elements.
+some lens elements
+may also be lens components. Therefore, the terms “lens element” and “lens component” should not be taken as mutually exclusive terms. In fact, the terms may frequently be used to describe a single lens element in accordance with part (a) above of the definition of a “lens component.”
+lens elements
+may also be lens components.
+the present invention
+may variously be described in terms of lens elements or in terms of lens components.
+the imaging lens of the present invention
+can be used, for example, in a camera of portable terminal equipment or in a still video camera that uses an image pickup element such as a CCD or CMOS.
+the imaging lens
+includes, arranged in order from the object side along the optical axis Z 1 , the first lens element G 1 , the second lens element G 2 , and the third lens element G 3 .
+An image pickup element, such as a CCD
+(not shown in the drawings) is arranged at the image plane Simg of the imaging lens.
+the cover glass CG
+is arranged at or adjacent to the image plane so as to protect the image-detecting elements of the CCD.
+Tb
+represents the length along the optical axis, as indicated by the adjacent double-headed horizontal arrow, that provides space for optical elements such as a cover glass CG and cut-off filter.
+At least one surface of the first lens element G 1 and at least one surface of the second lens element G 2
+has an aspheric shape. It is more preferable that both surfaces of the second lens element G 2 be aspheric. By making both surfaces aspheric, it becomes easier to achieve a bright imaging lens.
+each lens element
+be made of plastic.
+the third lens element G 3
+is made of glass. By making the third lens element of glass when plastic lenses are used for the first and second lens elements, it becomes easier to suppress the movement of the image plane due to changes in temperature. By using aspheric surfaces, aberration correction is made easy even though the imaging lens may include only three lens elements. Additionally, by using plastic as the lens material for lens elements with aspheric surfaces, the aspheric surfaces are formed more easily, thereby reducing manufacturing costs.
+the imaging lens of the present invention
+satisfies the following condition:  ⁇ 1.0  ⁇ f/Rg 3 r ⁇  0.4 Condition (1) where
+Condition (1)
+it becomes easier to increase the length Tb between the image-side lens surface of the third lens element G 3 and the image plane Simg relative to the total length of the imaging lens. If the shape of the image-side surface of the third lens element G 3 , which is the image-side lens element surface of the imaging lens, is convex on the image side with a small radius of curvature, it becomes harder to obtain a desirable length Tb that provides space for optical elements such as a cover glass CG and cut-off filter.
+the radius of curvature of the image-side lens surface of the third lens element
+becomes relatively large (i.e., approaches that of a planar surface), which is preferable in obtaining a desirable length Tb for placing optical elements such as a cover glass and a cut-off filter between the imaging lens and the image plane of the imaging lens.
+the imaging lens
+be constructed so as to satisfy the following Condition (2): 0  ⁇ f /( ⁇  3 / f 3 ) ⁇  0.03 Condition (2)
+the imaging lens
+satisfy the following Condition (3): f 3 / f ⁇  2 Condition (3)
+Condition (3)
+relates to the third lens element G 3 being high in optical power relative to the first and second lens elements G 1 and G 2 .
+the third lens element G 3
+is made of glass and the first and second lens elements, G 1 and G 2 , are made of plastic, providing much of the optical power of the imaging lens in the third lens element G 3 is especially effective in reducing the movement of the image plane due to changes in temperature.
+the imaging lens
+satisfy the following Condition (4): 0.35  ⁇ f 1 / f ⁇  1.9 Condition (4)
+the object-side surface of the first lens element G 1
+is convex near the optical axis.
+the term “near the optical axis”
+is herein defined as a central region that surrounds the optical axis but excludes a substantial peripheral region surrounding the central region.
+the curvature of the lens surface and the refractive power of the lens element
+may or may not be of the same magnitude or even of the same sign, that is, either positive or negative in sign, as at the central region that is near the optical axis.
+the curvature and refractive power
+may vary based on the lens surface being aspheric.
+the second lens element G 2
+has a meniscus shape with its concave surface on the object side.
+the third lens element G 3
+has positive refractive power and a convex lens surface on its object side.
+An imaging lens constructed as described above
+may include a small number of lens elements, be compact while allowing space for optical elements such as a cover glass and filters, and be produced at low cost.
+optical elements
+such as a cover glass and filters
+an imaging lens that has a bright image and achieves a high performance
+can be provided.
+Embodiments 1 and 2 of the present invention
+will now be individually described with further reference to the drawings.
+references
+will be frequently made to a “lens element.”
+lens elements described below
+are also lens components and may variously be replaced by lens components that include more than one lens element.
+FIG. 1
+shows Embodiment 1 of the present invention.
+the first lens element G 1
+has a meniscus shape and the stop St is between the first lens element G 1 and the second element G 2 .
+Embodiment 1
+satisfies the following Condition (5): 1.0  ⁇ f 1 /f ⁇  1.9 Condition (5) where
+f 1 and f
+are as defined above.
+Table 1
+below lists the surface number #, in order from the object side, the radius of curvature R (in mm) of each surface near the optical axis, the on-axis surface spacing D (in mm), as well as the refractive index N and the Abbe number  ⁇  (both at the d-line of 587.6 nm) of each optical element for Embodiment 1.
+Table 1
+listed in the bottom portion of Table 1 are the focal length f, the f-number F NO , and the maximum field angle 2 ⁇ .
+Table 2
+below lists the values of the constants K, and A 3 –A 14 used in Equation (A) above for each of the aspheric lens surfaces of Table 1. Aspheric coefficients that are not present in Table 2 are zero.
+An “E” in the data
+indicates that the number following the “E” is the exponent to the base 10 . For example, “1.0E-2” represents the number 1.0 ⁇ 10  ⁇ 2 .
+the imaging lens of Embodiment 1
+satisfies Conditions (1)–(5) above, as set forth in Table 3 below.
+the length Tb
+shown in FIG. 1 , equals the back focal length of the imaging lens when the thickness of the cover glass CG is set to zero with the image-side surface of the third lens element G 3 being planar.
+the focal length f
+normalized to the value of one hundred millimeters in Embodiment 1, the back focal length of the imaging lens when the thickness of the cover glass CG is set to zero equals 57.1 mm.
+FIGS. 3A–3C
+show the spherical aberration, astigmatism, and distortion, respectively, of the imaging lens according to Embodiment 1.
+the spherical aberration
+is shown for wavelengths of 540 nm, 420 nm, and 680 nm.
+the astigmatism
+is shown at these same three wavelengths for both the sagittal image surface S and the tangential image surface T.
+the distortion
+is shown at 540 nm.
+the half-field angle  ⁇  for FIGS. 3B and 3C
+is 33.8°.
+Embodiment 1
+the various aberrations are favorably corrected, and performance capabilities that are suitable for a bright, compact, high performance imaging lens can be obtained.
+FIG. 2
+shows Embodiment 2 of the present invention.
+Embodiment 2
+is similar to Embodiment 1 and therefore only the differences between Embodiment 2 and Embodiment 1 will be explained.
+the stop St
+is positioned between the first lens element G 1 and the second lens element G 2
+the stop St
+is positioned on the object side of the first lens element G 1 .
+Embodiment 2
+satisfies the following Condition (6): 0.35  ⁇ f 1 /f ⁇  1.0 Condition (6) where
+the first lens element G 1
+has a meniscus shape
+the first lens element G 1
+has a biconvex shape at least near the optical axis.
+Table 4
+below lists the surface number #, in order from the object side, the radius of curvature R (in mm) of each surface near the optical axis, the on-axis surface spacing D (in mm), as well as the refractive index N and the Abbe number  ⁇  (both at the d-line) of each optical element for Embodiment 2.
+the focal length f
+the focal length of Table 4
+the f-number F NO
+the maximum field angle 2 ⁇ .
+Table 5
+below lists the values of the constants K, and A 2 –A 10 used in Equation (A) above for each of the aspheric lens surfaces of Table 4. Aspheric coefficients that are not present in Table 5 are zero.
+An “E” in the data
+indicates that the number following the “E” is the exponent to the base 10 . For example, “1.0E-2” represents the number 1.0 ⁇ 10  ⁇ 2 .
+the imaging lens of Embodiment 2
+satisfies Conditions (1)–(4) and (6) above, as set forth in Table 6 below.
+Condition No. Condition Value
+(1)  ⁇ 1.0  ⁇  f/Rg3r  ⁇  0.4 0 (2) 0  ⁇  f/( ⁇ 3/f3)  ⁇  0.03 0.0094 (3) f3/f  ⁇  2 1.971 (4) 0.35  ⁇  f1/f  ⁇  1.9 0.707 (6) 0.35  ⁇  f1/f  ⁇  1.0 0.707
+the length Tb
+(shown in FIG. 2 ) equals the back focal length of the imaging lens when the thickness of the cover glass CG is set to zero with the image-side surface of the third lens element G 3 being planar.
+the focal length f
+normalized to the value of one hundred millimeters in Embodiment 2
+the back focal length of the imaging lens when the thickness of the cover glass CG is set to zero
+is 52.52 mm.
+FIGS. 4A–4C
+show the spherical aberration, astigmatism, and distortion, respectively, of the imaging lens according to Embodiment 2.
+the spherical aberration
+is shown for wavelengths of 540 nm, 420 nm, and 680 nm.
+the astigmatism
+is shown at these same three wavelengths for both the sagittal image surface S and the tangential image surface T.
+the distortion
+is shown at 540 nm.
+the half-field angle  ⁇  for FIGS. 4B and 4C
+is 34.0°.
+Embodiment 2
+the various aberrations are favorably corrected, and performance capabilities that are suitable for a bright, compact, high performance imaging lens can be obtained.
+Landscapes
+Physics & Mathematics
+(
+AREA
+)
+General Physics & Mathematics
+(
+AREA
+)
+Optics & Photonics
+(
+AREA
+)
+Lenses
+(
+AREA
+)
+Abstract
+An imaging lens includes, in order from the object side: a first lens component with a convex surface on the object side near the optical axis; a second lens component with a meniscus shape and a concave surface on the object side near the optical axis; and, a third lens component of positive refractive power with a convex surface on the object side. The first and second lens components may include aspheric surfaces and be made of plastic, and the third lens component may be made of glass. A stop may be placed on the object side of the first lens component or between the first lens component and the second lens component. Each lens component that forms the imaging lens may consist of a lens element. Specified conditions are satisfied in order to reduce aberrations and to insure that a sufficient back focus is provided.
+Description
+BACKGROUND OF THE INVENTION
+In recent years, various kinds of video cameras have been used that provide still and/or motion pictures and use a solid-state image pickup element such as a CCD (Charge Coupled Device) or a CMOS (Complementary Metal Oxide Semiconductor) at the image pickup plane. The solid-state image pickup elements have become more miniaturized each year by technological advances, and an accompanying miniaturization of the imaging lenses of the video camera has been demanded. Also, there has been an increasing demand for reducing manufacturing costs. Furthermore, the number of pixels in the image has been increasing. This, in turn, has produced a demand for higher resolution and higher performance imaging lenses.
+Japanese Laid-Open Patent Application H10-301022 describes exemplary imaging lenses for such cameras that include only three lens elements, including plastic lens elements, in order to achieve miniaturization and reduction of manufacturing costs.
+As stated above, recent image pickup elements have been highly miniaturized and provide an increasing number of pixels accompanied by demands for higher resolving power and miniaturization of the imaging lenses used with such image pickup elements. On the other hand, in optical systems employing an image pickup element, optical elements, such as cover glasses and cut-off filters, are often placed between the final image-side lens surface and the image pickup element. This, in turn, requires allowing space in terms of length along the optical axis for such optical elements between the final image-side lens surface and the image pickup element.
+In order to realize both miniaturization and adequate length, it is desirable to increase the distance between the final image-side lens surface and the image pickup element relative to the total length of the imaging lens. Although the imaging lenses described in Japanese Laid-Open Patent Application H10-301022 have good overall performance, the imaging lenses of this Japanese published application provide relatively little space for optical members such as cover glasses and cut-off filters. Additionally, these imaging lenses provide relatively narrow field angles of forty-three degrees so improvement in field angles is also desired.
+BRIEF SUMMARY OF THE INVENTION
+The present invention relates to an imaging lens that provides sufficient length along the optical axis on the image side of the imaging lens elements for optical members, such as a cover glass and cut-off and low-pass filters, relative to the total length of the imaging lens, and provides a bright image and high performance while reducing manufacturing costs and the total length of the imaging lens with a small number of lens elements and lens components. The present invention is applicable to imaging lenses with a wide range of uses, such as those used in cameras for televising images in telephones, in surveillance cameras, in cameras used in portable electronic terminals, in still video cameras, and in scanners for image acquisition by a personal computer.
+BRIEF DESCRIPTION OF THE DRAWINGS
+The present invention will become more fully understood from the detailed description given below and the accompanying drawings, which are given by way of illustration only and thus are not limitative of the present invention, wherein:
+FIG. 1
+shows a cross-sectional view of the imaging lens according to
+Embodiment
+1;
+FIG. 2
+shows a cross-sectional view of the imaging lens according to Embodiment 2;
+FIGS. 3A–3C
+show the spherical aberration, astigmatism, and distortion, respectively, of the imaging lens according to
+Embodiment
+1; and
+FIGS. 4A–4C
+show the spherical aberration, astigmatism, and distortion, respectively, of the imaging lens according to Embodiment 2.
+DETAILED DESCRIPTION
+A general description of preferred embodiments of the imaging lens of the present invention will now be described with reference to
+FIG. 1
+.
+FIG. 1
+shows a cross-sectional view of the imaging lens of
+Embodiment
+1. In
+FIG. 1
+, the lens elements of the imaging lens are referenced by the symbols G
+1
+to G
+3
+, in order from the object side of the imaging lens along the optical axis Z
+1
+. Additionally, a cover glass on the image side of the third lens element G
+3
+is referenced by the symbol CG. The imaging lens further includes a diaphragm stop St that operates as an aperture stop. The radii of curvature of the lens elements G
+1
+to G
+3
+, the stop St, and the cover glass CG are referenced by the letter R followed by a number denoting their order from the object side of the imaging lens, from R
+1
+to R
+9
+. The on-axis surface spacings along the optical axis Z
+1
+between the surfaces of the optical elements are referenced by the letter D followed by a number denoting their order from the object side of the imaging lens, from D
+1
+to D
+9
+.
+Definitions of the terms “lens element” and “lens component” as used herein detailed description will now be given. The term “lens element” is herein defined as a single transparent mass of refractive material having two opposed refracting surfaces, which surfaces are positioned at least generally transversely of the optical axis of the imaging lens. The term “lens component” is herein defined as (a) a single lens element spaced so far from any adjacent lens element that the spacing cannot be neglected in computing the optical image forming properties of the lens elements or (b) two or more lens elements that have their adjacent lens surfaces either in full overall contact or overall so close together that the spacings between adjacent lens surfaces of the different lens elements are so small that the spacings can be neglected in computing the optical image forming properties of the two or more lens elements. Thus, some lens elements may also be lens components. Therefore, the terms “lens element” and “lens component” should not be taken as mutually exclusive terms. In fact, the terms may frequently be used to describe a single lens element in accordance with part (a) above of the definition of a “lens component.”
+In accordance with the definitions of “lens component,” and “lens element” above, lens elements may also be lens components. Thus, the present invention may variously be described in terms of lens elements or in terms of lens components.
+The imaging lens of the present invention can be used, for example, in a camera of portable terminal equipment or in a still video camera that uses an image pickup element such as a CCD or CMOS. As shown in
+FIG. 1
+, the imaging lens includes, arranged in order from the object side along the optical axis Z
+1
+, the first lens element G
+1
+, the second lens element G
+2
+, and the third lens element G
+3
+. An image pickup element, such as a CCD (not shown in the drawings) is arranged at the image plane Simg of the imaging lens. The cover glass CG is arranged at or adjacent to the image plane so as to protect the image-detecting elements of the CCD. In addition to the cover glass CG, other optical elements such as an infrared cut-off filter and/or a low-pass filter may also be arranged between the third lens element G
+3
+and the image plane. In
+FIG. 1
+, Tb represents the length along the optical axis, as indicated by the adjacent double-headed horizontal arrow, that provides space for optical elements such as a cover glass CG and cut-off filter.
+Preferably, at least one surface of the first lens element G
+1
+and at least one surface of the second lens element G
+2
+has an aspheric shape. It is more preferable that both surfaces of the second lens element G
+2
+be aspheric. By making both surfaces aspheric, it becomes easier to achieve a bright imaging lens. When employing aspheric surfaces for the first lens element G
+1
+and the second lens element G
+2
+, it is also preferable that each lens element be made of plastic. Additionally, preferably the third lens element G
+3
+is made of glass. By making the third lens element of glass when plastic lenses are used for the first and second lens elements, it becomes easier to suppress the movement of the image plane due to changes in temperature. By using aspheric surfaces, aberration correction is made easy even though the imaging lens may include only three lens elements. Additionally, by using plastic as the lens material for lens elements with aspheric surfaces, the aspheric surfaces are formed more easily, thereby reducing manufacturing costs.
+The lens surfaces that are aspheric are defined using the following equation:
+Z
+=[(
+C·Y
+2
+)/{1+(1−
+K·C
+2
+·Y
+2
+)
+1/2
+}]+Σ(
+Ai·|Y
+i
+|)  Equation (A)
+where
+Z is the length (in mm) of a line drawn from a point on the aspheric lens surface at a distance Y from the optical axis to the tangential plane of the aspheric surface vertex,
+C is the curvature (=1/the radius of curvature, R) of the aspheric lens surface on the optical axis,
+Y is the distance (in mm) from the optical axis,
+K is the eccentricity, and
+A
+i
+is the ith aspheric coefficient, and the summation extends over i.
+Preferably, the imaging lens of the present invention satisfies the following condition:
+−1.0
+<f/Rg
+3
+r<
+0.4  Condition (1)
+where
+f is the focal length of the imaging lens, and
+Rg3r is the radius of curvature of the image-side lens surface of the third lens element G
+3
+.
+By satisfying Condition (1), it becomes easier to increase the length Tb between the image-side lens surface of the third lens element G
+3
+and the image plane Simg relative to the total length of the imaging lens. If the shape of the image-side surface of the third lens element G
+3
+, which is the image-side lens element surface of the imaging lens, is convex on the image side with a small radius of curvature, it becomes harder to obtain a desirable length Tb that provides space for optical elements such as a cover glass CG and cut-off filter. By satisfying Condition (1), the radius of curvature of the image-side lens surface of the third lens element becomes relatively large (i.e., approaches that of a planar surface), which is preferable in obtaining a desirable length Tb for placing optical elements such as a cover glass and a cut-off filter between the imaging lens and the image plane of the imaging lens.
+By using plastic aspheric lens elements for the first and second lens elements and by satisfying Condition (1), not only is a desirable length Tb achieved, but production costs and total length of the imaging lens are reduced. Additionally, a bright and high-performance imaging lens with as few as three lens elements is obtained.
+Also, especially when the third lens element G
+3
+is made of glass, it is preferable that the imaging lens be constructed so as to satisfy the following Condition (2):
+0
+<f
+/(ν
+3
+/ f
+3
+)<
+0.03  Condition (2)
+where
+f is as defined above,
+ν
+3
+is the Abbe number, at the d-line of 587.6 nm, of the third lens element G
+3
+, and
+f
+3
+is the focal length of the third lens element G
+3
+.
+By satisfying Condition (2), correction of chromatic aberration becomes easier. Specifically, chromatic aberration introduced by using plastic as the lens material of lens elements G
+1
+and G
+2
+is corrected by using glass as the lens material of lens element G
+3
+and satisfying Condition (2).
+Additionally, especially when both surfaces of the second lens element G
+2
+are aspheric, it is preferable that the imaging lens satisfy the following Condition (3):
+f
+3
+/ f<
+2  Condition (3)
+where f
+3
+and f are as defined above.
+Condition (3) relates to the third lens element G
+3
+being high in optical power relative to the first and second lens elements G
+1
+and G
+2
+. When the third lens element G
+3
+is made of glass and the first and second lens elements, G
+1
+and G
+2
+, are made of plastic, providing much of the optical power of the imaging lens in the third lens element G
+3
+is especially effective in reducing the movement of the image plane due to changes in temperature.
+Additionally, it is preferable that the imaging lens satisfy the following Condition (4):
+0.35
+<f
+1
+/
+f<
+1.9  Condition (4)
+where
+f
+1
+is the focal length of the first lens element G
+1
+, and
+f is as defined above.
+By satisfying Conditions (3) and (4) above that relate to the powers of the third lens element G
+3
+and the first lens element G
+1
+, respectively, it becomes easier to increase the back focal length and the closely associated length Tb in order to provide space for optical elements such as a cover glass and filters.
+By satisfying Conditions (1)–(4) related to the powers of the imaging lens and the imaging lens elements, and by choosing appropriate shapes of the lens elements, good aberration correction with only three lens elements may be obtained. With regard to shapes of the lens elements, the object-side surface of the first lens element G
+1
+is convex near the optical axis. The term “near the optical axis” is herein defined as a central region that surrounds the optical axis but excludes a substantial peripheral region surrounding the central region. At the peripheral region, the curvature of the lens surface and the refractive power of the lens element may or may not be of the same magnitude or even of the same sign, that is, either positive or negative in sign, as at the central region that is near the optical axis. In particular, the curvature and refractive power may vary based on the lens surface being aspheric.
+The second lens element G
+2
+has a meniscus shape with its concave surface on the object side. The third lens element G
+3
+has positive refractive power and a convex lens surface on its object side.
+An imaging lens constructed as described above may include a small number of lens elements, be compact while allowing space for optical elements such as a cover glass and filters, and be produced at low cost. In addition, through the use of particular aspheric surfaces, through the use of certain lens element shapes and lens element materials, and by satisfying various requirements as described above, an imaging lens that has a bright image and achieves a high performance can be provided.
+Embodiments 1 and 2 of the present invention will now be individually described with further reference to the drawings. In the following descriptions, references will be frequently made to a “lens element.” However, as set forth above, it is understood that lens elements described below are also lens components and may variously be replaced by lens components that include more than one lens element.
+EMBODIMENT
+1
+FIG. 1
+shows
+Embodiment
+1 of the present invention. As shown in
+FIG. 1
+, in
+Embodiment
+1, the first lens element G
+1
+has a meniscus shape and the stop St is between the first lens element G
+1
+and the second element G
+2
+. Additionally,
+Embodiment
+1 satisfies the following Condition (5):
+1.0
+<f
+1
+/f<
+1.9  Condition (5)
+where
+f
+1
+and f are as defined above. When the stop St is placed between the first lens element G
+1
+and the second lens element G
+2
+, it becomes easier to obtain a bright image by satisfying Condition (5).
+Table 1 below lists the surface number #, in order from the object side, the radius of curvature R (in mm) of each surface near the optical axis, the on-axis surface spacing D (in mm), as well as the refractive index N and the Abbe number ν (both at the d-line of 587.6 nm) of each optical element for
+Embodiment
+1. Listed in the bottom portion of Table 1 are the focal length f, the f-number F
+NO
+, and the maximum field angle 2ω.
+TABLE 1
+#
+R
+D
+N
+ν
+1*
+52.941
+25.80
+1.50842
+56.3
+2
+131.128
+7.57
+3
+∞ (stop)
+13.18
+4*
+−26.712
+25.23
+1.50842
+56.3
+5*
+−33.867
+2.24
+6
+133.027
+42.06
+1.77250
+49.6
+7
+∞
+14.02
+8
+∞
+14.02
+1.51872
+64.2
+9
+∞
+33.08
+f = 100 mm
+F
+NO
+= 2.82
+2ω = 67.6°
+The surfaces with a * to the right of the surface number in Table 1 are aspheric lens surfaces, and the aspheric surface shape is expressed by Equation (A) above.
+Table 2 below lists the values of the constants K, and A
+3
+–A
+14
+used in Equation (A) above for each of the aspheric lens surfaces of Table 1. Aspheric coefficients that are not present in Table 2 are zero. An “E” in the data indicates that the number following the “E” is the exponent to the base
+10
+. For example, “1.0E-2” represents the number 1.0×10
+−2
+.
+TABLE 2
+#
+K
+A
+3
+A
+4
+A
+5
+A
+6
+1
+1.00000
+4.92991E−2
+−7.83187E−2
+2.50919E−2
+1.31058E−1
+4
+1.00000
+0
+−1.21244E−1
+0
+1.22558
+5
+1.00000
+2.01572E−1
+−4.01059E−1
+−4.68207E−2
+8.91352E−1
+A
+7
+A
+8
+A
+9
+A
+10
+1
+−6.81459E−2
+−2.74598E−1
+−3.66954E−2
+1.00611
+4
+0
+−7.11993
+0
+2.03640E+1
+5
+1.46585E−1
+−1.40465
+−3.21433E−1
+1.06408
+A
+11
+A
+12
+A
+13
+A
+14
+1
+2.59926E−1
+−3.39517
+3.52483
+−1.12132
+4
+0
+−2.85987E+1
+0
+1.53995E+1
+5
+1.49572
+−1.98647
+2.03867E−1
+2.59759E−1
+The imaging lens of
+Embodiment
+1 satisfies Conditions (1)–(5) above, as set forth in Table 3 below.
+TABLE 3
+Condition No.
+Condition
+Value
+(1)
+−1.0 < f/Rg3r < 0.4
+0
+(2)
+0 < f/(ν3/f3) < 0.03
+0.0117
+(3)
+f3/f < 2
+1.721
+(4)
+0.35 < f1/f < 1.9
+1.572
+(5)
+1.0 < f1/f < 1.9
+1.572
+In
+Embodiment
+1, the length Tb, shown in
+FIG. 1
+, equals the back focal length of the imaging lens when the thickness of the cover glass CG is set to zero with the image-side surface of the third lens element G
+3
+being planar. With the focal length f normalized to the value of one hundred millimeters in
+Embodiment
+1, the back focal length of the imaging lens when the thickness of the cover glass CG is set to zero equals 57.1 mm.
+FIGS. 3A–3C
+show the spherical aberration, astigmatism, and distortion, respectively, of the imaging lens according to
+Embodiment
+1. In
+FIG. 3A
+, the spherical aberration is shown for wavelengths of 540 nm, 420 nm, and 680 nm. In
+FIG. 3B
+, the astigmatism is shown at these same three wavelengths for both the sagittal image surface S and the tangential image surface T. In
+FIG. 3C
+, the distortion is shown at 540 nm. The half-field angle ω for
+FIGS. 3B and 3C
+is 33.8°.
+As is clear from the lens data and aberration curves discussed above, in
+Embodiment
+1 the various aberrations are favorably corrected, and performance capabilities that are suitable for a bright, compact, high performance imaging lens can be obtained.
+EMBODIMENT 2
+FIG. 2
+shows Embodiment 2 of the present invention. Embodiment 2 is similar to
+Embodiment
+1 and therefore only the differences between Embodiment 2 and
+Embodiment
+1 will be explained. Whereas in the imaging lens of
+Embodiment
+1 the stop St is positioned between the first lens element G
+1
+and the second lens element G
+2
+, in the imaging lens of Embodiment 2 the stop St is positioned on the object side of the first lens element G
+1
+. Additionally, Embodiment 2 satisfies the following Condition (6):
+0.35
+<f
+1
+/f<
+1.0  Condition (6)
+where
+f
+1
+and f are as defined above.
+With the stop St placed on the object side of the first lens element G
+1
+, it becomes easier to obtain a bright image by satisfying Condition (6).
+Additionally, while in
+Embodiment
+1 the first lens element G
+1
+has a meniscus shape, in Embodiment 2, the first lens element G
+1
+has a biconvex shape at least near the optical axis. When making the object-side surface of the first lens element G
+1
+to be aspheric, it is preferable to construct the object-side surface so that it has a convex shape near the optical axis and changes to a concave shape toward the periphery. Also, when making the image-side surface of the second lens element G
+2
+to be aspheric, it is preferable to construct the image-side surface so that it has a convex shape near the optical axis and changes to a concave shape toward the periphery. With this design, good aberration correction can be achieved.
+Table 4 below lists the surface number #, in order from the object side, the radius of curvature R (in mm) of each surface near the optical axis, the on-axis surface spacing D (in mm), as well as the refractive index N and the Abbe number ν (both at the d-line) of each optical element for Embodiment 2. Listed in the bottom portion of Table 4 are the focal length f, the f-number F
+NO
+, and the maximum field angle 2ω.
+TABLE 4
+#
+R
+D
+N
+ν
+1
+∞ (stop)
+7.04
+2*
+102.557
+25.34
+1.53039
+55.2
+3*
+−54.191
+16.05
+4*
+−19.060
+25.62
+1.58364
+30.3
+5*
+−37.325
+2.82
+6
+126.252
+44.77
+1.71300
+53.8
+7
+∞
+18.00
+8
+∞
+14.13
+1.54212
+59.4
+9
+∞
+10.16
+f = 100 mm
+F
+NO
+= 2.81
+2ω = 68.0°
+The surfaces with a * to the right of the surface number in Table 4 are aspheric lens surfaces, and the aspheric surface shape is expressed by Equation (A) above.
+Table 5 below lists the values of the constants K, and A
+2
+–A
+10
+used in Equation (A) above for each of the aspheric lens surfaces of Table 4. Aspheric coefficients that are not present in Table 5 are zero. An “E” in the data indicates that the number following the “E” is the exponent to the base
+10
+. For example, “1.0E-2” represents the number 1.0×10
+−2
+.
+TABLE 5
+#
+K
+A
+2
+A
+3
+A
+4
+A
+5
+A
+6
+A
+7
+A
+8
+A
+9
+A
+10
+2
+1.00000
+−0.81934E−4
+0
+−0.12208E−5
+0
+−0.14862E−7
+0
+0.26308E−10
+0
+−0.37054E−13
+3
+1.00000
+0
+0
+−0.64467E−5
+0
+−0.29551E−8
+0
+0.69281E−11
+0
+−0.71618E−14
+4
+0.06100
+0
+0
+−0.52026E−5
+0
+0.28839E−7
+0
+−0.20230E−10
+0
+0.59253E−14
+5
+−5.62700
+0
+0
+−0.99438E−5
+0
+0.13874E−7
+0
+−0.55565E−11
+0
+0.82118E−15
+The imaging lens of Embodiment 2 satisfies Conditions (1)–(4) and (6) above, as set forth in Table 6 below.
+TABLE 6
+Condition No.
+Condition
+Value
+(1)
+−1.0 < f/Rg3r < 0.4
+0
+(2)
+0 < f/(ν3/f3) < 0.03
+0.0094
+(3)
+f3/f < 2
+1.971
+(4)
+0.35 < f1/f < 1.9
+0.707
+(6)
+0.35 < f1/f < 1.0
+0.707
+In Embodiment 2, the length Tb (shown in
+FIG. 2
+) equals the back focal length of the imaging lens when the thickness of the cover glass CG is set to zero with the image-side surface of the third lens element G
+3
+being planar. With the focal length f normalized to the value of one hundred millimeters in Embodiment 2, the back focal length of the imaging lens when the thickness of the cover glass CG is set to zero is 52.52 mm.
+FIGS. 4A–4C
+show the spherical aberration, astigmatism, and distortion, respectively, of the imaging lens according to Embodiment 2. In
+FIG. 4A
+, the spherical aberration is shown for wavelengths of 540 nm, 420 nm, and 680 nm. In
+FIG. 4B
+, the astigmatism is shown at these same three wavelengths for both the sagittal image surface S and the tangential image surface T. In
+FIG. 4C
+, the distortion is shown at 540 nm. The half-field angle ω for
+FIGS. 4B and 4C
+is 34.0°.
+As is clear from the lens data and aberration curves discussed above, in Embodiment 2 the various aberrations are favorably corrected, and performance capabilities that are suitable for a bright, compact, high performance imaging lens can be obtained.
+The invention being thus described, it will be obvious that the same may be varied in many ways. For instance, values such as the radius of curvature R of each of the lens elements, the surface spacing D, the refractive index N, as well as the Abbe number ν, are not limited to the examples indicated in each of the aforementioned embodiments, as other values can be adopted. Also, lens elements that act as lens components may variously be modified as lens components that include more than one lens element. Such variations are not to be regarded as a departure from the spirit and scope of the invention. Rather, the scope of the invention shall be defined as set forth in the following claims and their legal equivalents. All such modifications as would be obvious to one skilled in the art are intended to be included within the scope of the following claims.
+Claims (
+20
+)
+1. An imaging lens comprising, arranged along an optical axis in order from the object side:
+a first lens component having positive refractive power, having a convex surface on the object side near the optical axis, being made of plastic, and having at least one aspheric surface;
+a second lens component having a meniscus shape with a concave surface on the object side, being made of plastic, and having at least one aspheric surface;
+a third lens component having positive refractive power and a convex surface on the object side;
+wherein
+the following condition is satisfied:
+−1.0
+<f/Rg
+3
+r<
+0.4
+where
+f is the focal length of the imaging lens, and
+Rg3r is the radius of curvature of the image-side lens surface of the third lens component.
+2. The imaging lens of
+claim 1
+, wherein the third lens component is made of glass and the following condition is satisfied:
+0<
+f
+/(ν
+3
+/f
+3
+)<0.03
+where
+ν
+3
+is the Abbe number, at the d-line of 587.6 nm, of the third lens component, and
+f
+3
+is the focal length of the third lens component.
+3. The imaging lens of
+claim 2
+, wherein both surfaces of the second lens component are aspheric and the following condition is satisfied:
+f
+3
+/f<
+2.
+4. The imaging lens of
+claim 3
+, and further comprising a stop between the first lens component and the second lens component, and wherein the following condition is satisfied:
+1.0
+<f
+1
+/
+f<
+1.9
+where
+f
+1
+is the focal length of the first lens component.
+5. The imaging lens of
+claim 2
+, wherein the first lens component, the second lens component, and the third lens component are arranged in that order along the optical axis from the object side without any intervening lens element.
+6. The imaging lens of
+claim 5
+, wherein the imaging lens is formed of only three lens components.
+7. The imaging lens of
+claim 6
+, wherein the imaging lens is formed of only three lens elements.
+8. The imaging lens of
+claim 2
+, wherein each of the first, second, and third lens components consists of a lens element.
+9. The imaging lens of
+claim 1
+, wherein the first lens component, the second lens component, and the third lens component are arranged in that order along the optical axis from the object side without any intervening lens element.
+10. The imaging lens of
+claim 9
+, wherein the imaging lens is formed of only three lens components.
+11. The imaging lens of
+claim 10
+, wherein the imaging lens is formed of only three lens elements.
+12. The imaging lens of
+claim 1
+, wherein each of the first, second, and third lens components consists of a lens element.
+13. An imaging lens comprising, arranged along an optical axis in order from the object side:
+a first lens component having a convex surface on the object side near the optical axis;
+a second lens component having a meniscus shape and having a concave surface on the object side;
+a third lens component having positive refractive power, having a convex surface on the object side, and being made of glass;
+wherein
+the following conditions are satisfied:
+f
+3
+/f<
+2
+0.35
+<f
+1
+/
+f<
+1.9
+where
+f
+3
+is the focal length of the third lens component,
+f
+1
+is the focal length of the first lens component, and
+f is the focal length of the imaging lens.
+14. The imaging lens of
+claim 13
+, and further comprising a stop between the first lens component and the second lens component, and wherein the following condition is satisfied:
+1.0
+<f
+1
+/
+f<
+1.9.
+15. The imaging lens of
+claim 13
+, and further comprising a stop on the object side of the first lens component, and wherein the following condition is satisfied:
+0.35
+<f
+1
+/
+f<
+1.0.
+16. The imaging lens of
+claim 13
+, wherein the first lens component, the second lens component, and the third lens component are arranged in that order along the optical axis from the object side without any intervening lens element.
+17. The imaging lens of
+claim 16
+, wherein the imaging lens is formed of only three lens components.
+18. The imaging lens of
+claim 17
+, wherein the imaging lens is formed of only three lens elements.
+19. The imaging lens of
+claim 13
+, wherein each of the first, second, and third lens components consists of a lens element.
+20. An imaging lens comprising, arranged along an optical axis in order from the object side:
+a first lens component having positive refractive power, having a convex surface on the object side near the optical axis, being made of plastic, and having at least one aspheric surface;
+a second lens component having a meniscus shape with a concave surface on the object side, being made of plastic, and having at least one aspheric surface;
+a third lens component having positive refractive power, having a convex surface on the object side, and being made of glass;
+wherein
+the following conditions are satisfied:
+−1.0<
+f/Rg
+3
+r<
+0.4
+f
+3
+/
+f<
+2
+0.35
+<f
+1
+/
+f<
+1.9
+where
+f is the focal length of the imaging lens,
+Rg3r is the radius of curvature of the image-side lens surface of the third lens component,
+f
+3
+is the focal length of the third lens component, and
+f
+1
+is the focal length of the first lens component.
+US10/860,134
+2003-06-24
+2004-06-04
+Imaging lens including three lens components
+Expired - Lifetime
+US7072123B2
+(
+en
+)
+Applications Claiming Priority (2)
+Application Number
+Priority Date
+Filing Date
+Title
+JP2003179250A
+JP3770493B2
+(
+en
+)
+2003-06-24
+2003-06-24
+Imaging lens
+JP2003-179250
+2003-06-24
+Publications (2)
+Publication Number
+Publication Date
+US20040264003A1
+US20040264003A1
+              (
+en
+)
+2004-12-30
+US7072123B2
+true
+US7072123B2
+              (
+en
+)
+2006-07-04
+Family
+ID=33535055
+Family Applications (1)
+Application Number
+Title
+Priority Date
+Filing Date
+US10/860,134
+Expired - Lifetime
+US7072123B2
+(
+en
+)
+2003-06-24
+2004-06-04
+Imaging lens including three lens components
+Country Status (2)
+Country
+Link
+US
+(
+1
+)
+US7072123B2
+(
+en
+)
+JP
+(
+1
+)
+JP3770493B2
+(
+en
+)
+Cited By (1)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+US20080100925A1
+(
+en
+)
+*
+2004-12-24
+2008-05-01
+Sony Corporation
+Image Pickup Lens and Image Pickup Device
+Families Citing this family (24)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+TWI255361B
+(
+en
+)
+*
+2005-05-05
+2006-05-21
+Largan Precision Co Ltd
+Optical imaging lens array
+JP4804858B2
+(
+en
+)
+2005-09-29
+2011-11-02
+富士フイルム株式会社
+Single focus lens
+JP3816093B1
+(
+en
+)
+*
+2005-10-03
+2006-08-30
+マイルストーン株式会社
+Imaging lens
+JP3816095B1
+(
+en
+)
+*
+2005-12-16
+2006-08-30
+マイルストーン株式会社
+Imaging lens
+US7706086B2
+(
+en
+)
+2006-11-08
+2010-04-27
+Fujinon Corporation
+Imaging lens
+KR100843452B1
+(
+en
+)
+*
+2006-12-29
+2008-07-03
+삼성전기주식회사
+Optical system for motion sensing
+TWI428651B
+(
+en
+)
+*
+2011-01-26
+2014-03-01
+Largan Precision Co Ltd
+Optical lens assembly
+JP5861932B2
+(
+en
+)
+*
+2012-02-28
+2016-02-16
+株式会社オプトロジック
+Imaging lens
+KR102663749B1
+(
+en
+)
+2016-02-17
+2024-05-08
+삼성전자주식회사
+Optical lens assembly and apparatus having the same and method of forming an image
+CN108427183B
+(
+en
+)
+*
+2018-05-04
+2024-06-18
+浙江舜宇光学有限公司
+Projection lens
+CN111856706A
+(
+en
+)
+2019-04-30
+2020-10-30
+南昌欧菲精密光学制品有限公司
+Optical lens, imaging module and mobile terminal
+US12196917B2
+(
+en
+)
+2019-06-28
+2025-01-14
+Jiangxi Jingchao Optical Co., Ltd.
+Imaging lens, photographing module, and electronic device
+US11953756B2
+(
+en
+)
+2019-08-15
+2024-04-09
+Jiangxi Ofilm Optical Co., Ltd.
+Optical system, image capturing module and electronic device
+US12228705B2
+(
+en
+)
+2019-10-18
+2025-02-18
+Jiangxi Jingchao Optical Co., Ltd.
+Optical imaging system, image capturing apparatus and electronic apparatus
+US12461340B2
+(
+en
+)
+2019-11-04
+2025-11-04
+Jiangxi Jingchao Optical Co., Ltd.
+Optical system, image capturing apparatus and electronic apparatus
+WO2021102943A1
+(
+en
+)
+*
+2019-11-29
+2021-06-03
+南昌欧菲精密光学制品有限公司
+Optical system, camera module and electronic device
+US12085782B2
+(
+en
+)
+2020-03-16
+2024-09-10
+Jiangxi Jingchao Optical Co., Ltd.
+Optical system, camera module, and electronic device
+WO2021184164A1
+(
+en
+)
+2020-03-16
+2021-09-23
+江西晶超光学有限公司
+Optical system, camera module, and electronic device
+WO2021203277A1
+(
+en
+)
+2020-04-08
+2021-10-14
+江西晶超光学有限公司
+Optical system, image capturing module, and electronic device
+US12298479B2
+(
+en
+)
+2020-04-30
+2025-05-13
+Jiangxi Jingchao Optical Co., Ltd.
+Optical imaging system, image capturing module, and electronic device
+WO2022016451A1
+(
+en
+)
+2020-07-23
+2022-01-27
+欧菲光集团股份有限公司
+Optical system, image capture module, and electronic device
+US12242045B2
+(
+en
+)
+2020-10-23
+2025-03-04
+Ofilm Group Co., Ltd.
+Optical lens, camera module, and electronic device
+CN113741005B
+(
+en
+)
+2021-08-17
+2023-09-05
+江西晶超光学有限公司
+Optical system, imaging module and electronic equipment
+CN113866943B
+(
+en
+)
+2021-09-15
+2023-07-04
+江西晶超光学有限公司
+Optical system, image capturing module and electronic equipment
+Citations (10)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+JPH10301022A
+(
+en
+)
+1997-04-30
+1998-11-13
+Fuji Photo Optical Co Ltd
+Imaging lens
+US6259570B1
+(
+en
+)
+1998-10-21
+2001-07-10
+Fuji Photo Optical Co., Ltd.
+Image readout lens
+US6441971B2
+(
+en
+)
+1999-09-27
+2002-08-27
+Alex Ning
+Compact lens with external aperture stop
+US6490102B1
+(
+en
+)
+*
+2000-05-12
+2002-12-03
+Yeo-Chih Huang
+Hybrid lens system
+US6624953B2
+(
+en
+)
+*
+2001-03-27
+2003-09-23
+Fuji Photo Optical Co., Ltd.
+Image readout lens
+US20030210475A1
+(
+en
+)
+*
+2002-05-08
+2003-11-13
+Yoshikazu Shinohara
+Imaging lens
+US20040061953A1
+(
+en
+)
+2002-09-27
+2004-04-01
+Kenichi Sato
+Single focus lens
+US6747810B2
+(
+en
+)
+*
+2002-02-20
+2004-06-08
+Fuji Photo Optical Co., Ltd.
+Single focus lens having short overall length
+US20040150893A1
+(
+en
+)
+*
+2003-02-04
+2004-08-05
+Yoshikazu Shinohara
+Imaging lens
+US20050094292A1
+(
+en
+)
+*
+2003-11-04
+2005-05-05
+Eastman Kodak Company
+Three element optical system
+Family Cites Families (1)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+US61953A
+(
+en
+)
+*
+1867-02-12
+Improvement in harvesters
+2003
+2003-06-24
+JP
+JP2003179250A
+patent/JP3770493B2/en
+not_active
+Expired - Fee Related
+2004
+2004-06-04
+US
+US10/860,134
+patent/US7072123B2/en
+not_active
+Expired - Lifetime
+Patent Citations (11)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+JPH10301022A
+(
+en
+)
+1997-04-30
+1998-11-13
+Fuji Photo Optical Co Ltd
+Imaging lens
+US6259570B1
+(
+en
+)
+1998-10-21
+2001-07-10
+Fuji Photo Optical Co., Ltd.
+Image readout lens
+US6441971B2
+(
+en
+)
+1999-09-27
+2002-08-27
+Alex Ning
+Compact lens with external aperture stop
+US6490102B1
+(
+en
+)
+*
+2000-05-12
+2002-12-03
+Yeo-Chih Huang
+Hybrid lens system
+US6624953B2
+(
+en
+)
+*
+2001-03-27
+2003-09-23
+Fuji Photo Optical Co., Ltd.
+Image readout lens
+US6747810B2
+(
+en
+)
+*
+2002-02-20
+2004-06-08
+Fuji Photo Optical Co., Ltd.
+Single focus lens having short overall length
+US20030210475A1
+(
+en
+)
+*
+2002-05-08
+2003-11-13
+Yoshikazu Shinohara
+Imaging lens
+US20040061953A1
+(
+en
+)
+2002-09-27
+2004-04-01
+Kenichi Sato
+Single focus lens
+US6804067B2
+(
+en
+)
+*
+2002-09-27
+2004-10-12
+Fuji Photo Optical Co., Ltd.
+Single focus lens
+US20040150893A1
+(
+en
+)
+*
+2003-02-04
+2004-08-05
+Yoshikazu Shinohara
+Imaging lens
+US20050094292A1
+(
+en
+)
+*
+2003-11-04
+2005-05-05
+Eastman Kodak Company
+Three element optical system
+Cited By (3)
+* Cited by examiner, † Cited by third party
+Publication number
+Priority date
+Publication date
+Assignee
+Title
+US20080100925A1
+(
+en
+)
+*
+2004-12-24
+2008-05-01
+Sony Corporation
+Image Pickup Lens and Image Pickup Device
+US7423817B2
+(
+en
+)
+*
+2004-12-24
+2008-09-09
+Sony Corporation
+Image pickup lens and image pickup device
+US7710662B2
+(
+en
+)
+2004-12-24
+2010-05-04
+Sony Corporation
+Image pickup lens and image pickup device
+Also Published As
+Publication number
+Publication date
+JP3770493B2
+(
+en
+)
+2006-04-26
+JP2005017440A
+(
+en
+)
+2005-01-20
+US20040264003A1
+(
+en
+)
+2004-12-30
+Similar Documents
+Publication
+Publication Date
+Title
+US6961191B2
+(
+en
+)
+2005-11-01
+Single focus lens
+US20040264003A1
+(
+en
+)
+2004-12-30
+Imaging lens
+CN111308659B
+(
+en
+)
+2024-11-19
+Optical system, camera module and electronic device
+US6977779B2
+(
+en
+)
+2005-12-20
+Imaging lens
+US7561347B2
+(
+en
+)
+2009-07-14
+Subminiature optical system
+US7193793B2
+(
+en
+)
+2007-03-20
+Imaging lens
+US6930841B2
+(
+en
+)
+2005-08-16
+Single focus lens
+US6873474B2
+(
+en
+)
+2005-03-29
+Imaging lens
+CN112327458B
+(
+en
+)
+2025-04-11
+Optical systems, camera modules and electronic equipment
+US7099092B2
+(
+en
+)
+2006-08-29
+Single focus wide-angle lens
+CN111736300B
+(
+en
+)
+2025-05-09
+Optical systems, imaging modules and electronic equipment
+CN111239971A
+(
+en
+)
+2020-06-05
+Optical system, camera module and electronic device
+US7035024B2
+(
+en
+)
+2006-04-25
+Imaging lens
+JP2005345919A
+(
+en
+)
+2005-12-15
+Imaging lens
+CN112363302A
+(
+en
+)
+2021-02-12
+Optical system, camera module and electronic equipment
+US7180687B2
+(
+en
+)
+2007-02-20
+Single focus wide-angle lens
+US6876500B1
+(
+en
+)
+2005-04-05
+Single focus telescopic lens
+US7088528B2
+(
+en
+)
+2006-08-08
+Single focus lens including a front stop
+CN112987256A
+(
+en
+)
+2021-06-18
+Optical system, camera module and electronic equipment
+US20050073753A1
+(
+en
+)
+2005-04-07
+Single focus lens with particular optical distortion
+CN112965222B
+(
+en
+)
+2021-08-20
+Optical lens
+CN213690084U
+(
+en
+)
+2021-07-13
+Optical systems, camera modules and electronic equipment
+US6882483B1
+(
+en
+)
+2005-04-19
+Optical system with particular optical distortion
+CN113156612A
+(
+en
+)
+2021-07-23
+Optical system, image capturing module and electronic equipment
+US11333848B2
+(
+en
+)
+2022-05-17
+Four-piece optical lens system
+Legal Events
+Date
+Code
+Title
+Description
+2004-06-04
+AS
+Assignment
+Owner name
+:
+FUJI PHOTO OPTICAL CO., LTD., JAPAN
+Free format text
+:
+ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:NODA, TAKAYUKI;REEL/FRAME:015441/0902
+Effective date
+:
+20040601
+2004-11-23
+AS
+Assignment
+Owner name
+:
+FUJINON CORPORATION, JAPAN
+Free format text
+:
+CHANGE OF NAME OF ASSIGNEE;ASSIGNOR:FUJI PHOTO OPTICAL CO., LTD.;REEL/FRAME:016004/0014
+Effective date
+:
+20041001
+2005-11-01
+FEPP
+Fee payment procedure
+Free format text
+:
+PAYOR NUMBER ASSIGNED (ORIGINAL EVENT CODE: ASPN); ENTITY STATUS OF PATENT OWNER: LARGE ENTITY
+2006-06-14
+STCF
+Information on status: patent grant
+Free format text
+:
+PATENTED CASE
+2009-12-02
+FPAY
+Fee payment
+Year of fee payment
+:
+4
+2013-12-04
+FPAY
+Fee payment
+Year of fee payment
+:
+8
+2017-12-21
+MAFP
+Maintenance fee payment
+Free format text
+:
+PAYMENT OF MAINTENANCE FEE, 12TH YEAR, LARGE ENTITY (ORIGINAL EVENT CODE: M1553)
+Year of fee payment
+:
+12
+2018-09-26
+AS
+Assignment
+Owner name
+:
+FUJIFILM CORPORATION, JAPAN
+Free format text
+:
+CHANGE OF NAME;ASSIGNOR:FUJINON CORPORATION;REEL/FRAME:047155/0045
+Effective date
+:
+20100701
+2019-01-10
+AS
+Assignment
+Owner name
+:
+NANCHANG O-FILM OPTICAL-ELECTRONIC TECH CO., LTD., CHINA
+Free format text
+:
+ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:FUJIFILM CORPORATION;REEL/FRAME:048045/0443
+Effective date
+:
+20181227
+Owner name
+:
+NANCHANG O-FILM OPTICAL-ELECTRONIC TECH CO., LTD.,
+Free format text
+:
+ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:FUJIFILM CORPORATION;REEL/FRAME:048045/0443
+Effective date
+:
+20181227
+2020-04-17
+AS
+Assignment
+Owner name
+:
+TIANJIN OFILM OPTO ELECTRONICS CO., LTD., CHINA
+Free format text
+:
+ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:NANCHANG O-FILM OPTICAL-ELECTRONIC TECH CO., LTD.;REEL/FRAME:052431/0700
+Effective date
+:
+20200413
+if (window.help && window.help.service) {
+        helpApi = window.help.service.Lazy.create(0, {apiKey: 'AIzaSyDTEI_0tLX4varJ7bwK8aT-eOI5qr3BmyI', locale: 'en-US'});
+        window.requestedSurveys = new Set();
+        window.requestSurvey = function(triggerId) {
+          if (window.requestedSurveys.has(triggerId)) {
+            return;
+          }
+          window.requestedSurveys.add(triggerId);
+          helpApi.requestSurvey({
+            triggerId: triggerId,
+            enableTestingMode: false,
+            callback: (requestSurveyCallbackParam) => {
+              if (!requestSurveyCallbackParam.surveyData) {
+                return;
+              }
+              helpApi.presentSurvey({
+                productData: {
+                  productVersion: window.version,
+                  customData: {
+                    "experiments": "",
+                  },
+                },
+                surveyData: requestSurveyCallbackParam.surveyData,
+                colorScheme: 1,
+                customZIndex: 10000,
+              });
+            }
+          });
+        };
+
+        window.requestSurvey('YXTwAsvoW0kedxbuTdH0RArc9VhT');
+      }

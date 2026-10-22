@@ -1,0 +1,3 @@
+seed_0059 3 valid STOP samples {'initial_radius_mm': 21.812947069780776, 'delta_radius_mm': -0.1, 'first_lens_clear_diameter_mm': 50.0, 'fixed_CT_and_surface_prescription': True, 'scope': 'small STOP scan within first-opening50 alternative; no per-field/per-color refocus'}
+seed_0048 9 valid STOP samples {'initial_radius_mm': 21.680237076912537, 'delta_radius_mm': -0.18, 'first_lens_clear_diameter_mm': 50.0, 'fixed_CT_and_surface_prescription': True, 'scope': 'small STOP scan within first-opening50 alternative; no per-field/per-color refocus'}
+seed_0012 0 valid STOP samples None

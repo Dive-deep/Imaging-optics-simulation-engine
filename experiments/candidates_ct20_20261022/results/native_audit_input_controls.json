@@ -1,0 +1,38 @@
+{
+  "schema": "ct20-native-audit-input-contract-controls/1",
+  "passed": true,
+  "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_ct20_20261022/results/working_pool.json",
+  "source_sha256": "5abcadd4e4972802d3af94696a778bcfea3d9c4b3d3585cdf996c0b41a9be6e9",
+  "script_sha256": "85b2327806fbb0e72f96fc8f13591d6ed77973db1b244f144131023363058c66",
+  "checks": {
+    "live_working_pool_all_records": {
+      "passed": true,
+      "candidate_count": 21
+    },
+    "actual_CT_above20": {
+      "rejected": true,
+      "reason": "CT20_0039 actual CT outside (2,20] mm"
+    },
+    "actual_CT_equal2": {
+      "rejected": true,
+      "reason": "CT20_0039 actual CT outside (2,20] mm"
+    },
+    "missing_fresh_CT_gate": {
+      "rejected": true,
+      "reason": "'center_thickness_at_most20mm'"
+    },
+    "duplicate_parent": {
+      "rejected": true,
+      "reason": "Duplicate parent"
+    },
+    "truncated_pool": {
+      "rejected": true,
+      "reason": "Parent pool count mismatch"
+    },
+    "too_few_candidates": {
+      "rejected": true,
+      "reason": "At least 20 frozen CT20 candidates are required"
+    }
+  },
+  "scope": "Read-only selection input controls only; final optical audit awaits freeze"
+}

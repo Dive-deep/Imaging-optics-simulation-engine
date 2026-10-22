@@ -1,0 +1,1686 @@
+{
+  "seconds": 0.19859004020690918,
+  "sampling": "3rings x8arms initialroughscreen only",
+  "rows": [
+    {
+      "id": "seed_0001",
+      "rms_max": 13.88740390645413,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.35795494117622817,
+      "chief_G": 6.268514524387454,
+      "failed": 261,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "FDS18W",
+        "PMMA",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0002",
+      "rms_max": 36.43690985625389,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.3847492719225265,
+      "chief_G": 6.307132364446831,
+      "failed": 237,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "FDS18W",
+        "PMMA",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0003",
+      "rms_max": 8.55194480937034,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6082646666235964,
+      "chief_G": 6.269259552200022,
+      "failed": 192,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "FDS18W",
+        "PMMA",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0004",
+      "rms_max": 25.03502726915967,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7485182539449559,
+      "chief_G": 6.30939542632068,
+      "failed": 211,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "FDS18W",
+        "PMMA",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0005",
+      "rms_max": 8.52272432776519,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6809685727700385,
+      "chief_G": 6.28517206779504,
+      "failed": 178,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "FDS18W",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0006",
+      "rms_max": 24.736341811122756,
+      "throughput_min": 0.625,
+      "NA_min": 0.6561633566326216,
+      "chief_G": 6.272861652933676,
+      "failed": 193,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "FDS18W",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0007",
+      "rms_max": 10.779706996597014,
+      "throughput_min": 0.875,
+      "NA_min": 0.8577650183590033,
+      "chief_G": 6.287440856495069,
+      "failed": 102,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "FDS18W",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0008",
+      "rms_max": 8.264177878855836,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5779782420843854,
+      "chief_G": 6.275215992856072,
+      "failed": 192,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "FDS18W",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0009",
+      "rms_max": 8.77987591500773,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.653077010032872,
+      "chief_G": 6.2775530227867264,
+      "failed": 166,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "FDS18W"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0010",
+      "rms_max": 19.17023475742133,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6540098755229162,
+      "chief_G": 6.222719221347747,
+      "failed": 176,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "FDS18W"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0011",
+      "rms_max": 5.843680764107374,
+      "throughput_min": 0.875,
+      "NA_min": 0.7960848574708269,
+      "chief_G": 6.279880091408354,
+      "failed": 96,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "FDS18W"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0012",
+      "rms_max": 20.251740883579174,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.632527749538353,
+      "chief_G": 6.225970055154278,
+      "failed": 128,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "FDS18W"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0013",
+      "rms_max": 18.165611253737218,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.3600348045915696,
+      "chief_G": 6.257140831850053,
+      "failed": 276,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "FDS18W",
+        "PMMA",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0014",
+      "rms_max": 21.5168075101511,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.3798583272389598,
+      "chief_G": 6.3081639130738285,
+      "failed": 233,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "FDS18W",
+        "PMMA",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0015",
+      "rms_max": 14.930693309446173,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.6347220540186723,
+      "chief_G": 6.25923079459307,
+      "failed": 202,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "FDS18W",
+        "PMMA",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0016",
+      "rms_max": 21.878345279411615,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7200963844320681,
+      "chief_G": 6.310294055373287,
+      "failed": 204,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "FDS18W",
+        "PMMA",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0017",
+      "rms_max": 9.465426753949657,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6830165088277955,
+      "chief_G": 6.27768376133627,
+      "failed": 150,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "FDS18W",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0018",
+      "rms_max": 12.968099283248051,
+      "throughput_min": 0.625,
+      "NA_min": 0.6428757961099045,
+      "chief_G": 6.274146812711744,
+      "failed": 193,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "FDS18W",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0019",
+      "rms_max": 11.508719363549577,
+      "throughput_min": 0.7916666666666666,
+      "NA_min": 0.8639787705945257,
+      "chief_G": 6.285736272308341,
+      "failed": 102,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "FDS18W",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0020",
+      "rms_max": 7.155951012541917,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5693098864123112,
+      "chief_G": 6.276515337406234,
+      "failed": 192,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "FDS18W",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0021",
+      "rms_max": 5.961607442076097,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.6787784780407867,
+      "chief_G": 6.279539680246678,
+      "failed": 199,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0022",
+      "rms_max": 19.81179722561679,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6476788668298822,
+      "chief_G": 6.224588529943453,
+      "failed": 161,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0023",
+      "rms_max": 4.785027928429414,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5558972346327398,
+      "chief_G": 6.282236408193712,
+      "failed": 155,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0024",
+      "rms_max": 25.189452047593324,
+      "throughput_min": 0.7916666666666666,
+      "NA_min": 0.8523988615488052,
+      "chief_G": 6.227688200122326,
+      "failed": 107,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0025",
+      "rms_max": 11.546521824396908,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.3670775259118327,
+      "chief_G": 6.254145043175176,
+      "failed": 286,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "FDS18W",
+        "PC",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0026",
+      "rms_max": 31.14530434389219,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.383880503666188,
+      "chief_G": 6.3082969002768206,
+      "failed": 235,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "FDS18W",
+        "PC",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0027",
+      "rms_max": 15.609513969361977,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.6978117769956163,
+      "chief_G": 6.257860007710884,
+      "failed": 219,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "FDS18W",
+        "PC",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0028",
+      "rms_max": 28.619032614862395,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7402884895658572,
+      "chief_G": 6.310543457608233,
+      "failed": 209,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "FDS18W",
+        "PC",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0029",
+      "rms_max": 5.9729302607400845,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6750538003045367,
+      "chief_G": 6.27431501161464,
+      "failed": 156,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "FDS18W",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0030",
+      "rms_max": 19.73412869691293,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.6755783762734195,
+      "chief_G": 6.2819866727234555,
+      "failed": 200,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "FDS18W",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0031",
+      "rms_max": 6.783668858956472,
+      "throughput_min": 0.875,
+      "NA_min": 0.8376361363129167,
+      "chief_G": 6.279210021754076,
+      "failed": 96,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "FDS18W",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0032",
+      "rms_max": 11.924753460081511,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5841598610379316,
+      "chief_G": 6.2843532798767985,
+      "failed": 192,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "FDS18W",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0033",
+      "rms_max": 15.115112530277587,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.654453017061841,
+      "chief_G": 6.2811529901451815,
+      "failed": 175,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "PMMA",
+        "FDS18W"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0034",
+      "rms_max": 18.34694811863182,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6556621513466978,
+      "chief_G": 6.227172394930713,
+      "failed": 181,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "PMMA",
+        "FDS18W"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0035",
+      "rms_max": 6.02853535026321,
+      "throughput_min": 0.875,
+      "NA_min": 0.8136240509982109,
+      "chief_G": 6.283750027554716,
+      "failed": 96,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "PMMA",
+        "FDS18W"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0036",
+      "rms_max": 21.366847542768156,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6351090906339131,
+      "chief_G": 6.230000194880388,
+      "failed": 130,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "PMMA",
+        "FDS18W"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0037",
+      "rms_max": 11.434892115194272,
+      "throughput_min": 0.20833333333333331,
+      "NA_min": 0.3890798620393672,
+      "chief_G": 6.0369899767742545,
+      "failed": 300,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "FDS18W",
+        "PC",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0038",
+      "rms_max": 34.4213905179772,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.3615751640982633,
+      "chief_G": 6.31037393232902,
+      "failed": 261,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "FDS18W",
+        "PC",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0039",
+      "rms_max": 17.58079844148721,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.3220984957607173,
+      "chief_G": 6.164706394888912,
+      "failed": 278,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "FDS18W",
+        "PC",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0040",
+      "rms_max": 28.037758826616408,
+      "throughput_min": 0.4583333333333333,
+      "NA_min": 0.8263349073593407,
+      "chief_G": 6.313976870592686,
+      "failed": 223,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "FDS18W",
+        "PC",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0041",
+      "rms_max": 7.683409282207187,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.36127532531846623,
+      "chief_G": 6.250421155333485,
+      "failed": 248,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "FDS18W",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0042",
+      "rms_max": 15.593873064971898,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.6527055404697486,
+      "chief_G": 6.2830944838566065,
+      "failed": 197,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "FDS18W",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0043",
+      "rms_max": 5.496352758172729,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.6471365347316792,
+      "chief_G": 6.258284307291907,
+      "failed": 204,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "FDS18W",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0044",
+      "rms_max": 9.075604030887574,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5734927286751527,
+      "chief_G": 6.285429055437053,
+      "failed": 192,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "FDS18W",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0045",
+      "rms_max": 6.13063958068796,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.6901032667320722,
+      "chief_G": 6.371420024427148,
+      "failed": 211,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0046",
+      "rms_max": 26.684690940117978,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6596365199325063,
+      "chief_G": 6.234111578220964,
+      "failed": 187,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0047",
+      "rms_max": 9.944154311802071,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5573470013320032,
+      "chief_G": 6.314043432004076,
+      "failed": 170,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0048",
+      "rms_max": 25.974302270523765,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6364696666770783,
+      "chief_G": 6.236902467735853,
+      "failed": 139,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0049",
+      "rms_max": 10.903464907777133,
+      "throughput_min": 0.20833333333333331,
+      "NA_min": 0.40634716208732047,
+      "chief_G": 5.972310317616457,
+      "failed": 306,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "TAFD45",
+        "PMMA",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0050",
+      "rms_max": 32.886760470959075,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.37666927057296856,
+      "chief_G": 6.30749851194801,
+      "failed": 239,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "TAFD45",
+        "PMMA",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0051",
+      "rms_max": 13.931451664754258,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.33099608654395035,
+      "chief_G": 6.132551494967997,
+      "failed": 285,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "TAFD45",
+        "PMMA",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0052",
+      "rms_max": 16.443513996308518,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7556567907677054,
+      "chief_G": 6.3097634982537105,
+      "failed": 211,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "TAFD45",
+        "PMMA",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0053",
+      "rms_max": 6.063426189296519,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.39080786341027074,
+      "chief_G": 6.285166372461243,
+      "failed": 285,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "TAFD45",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0054",
+      "rms_max": 23.431173994108242,
+      "throughput_min": 0.625,
+      "NA_min": 0.665517210432387,
+      "chief_G": 6.272978864647768,
+      "failed": 193,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "TAFD45",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0055",
+      "rms_max": 4.494043162426924,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.3220584848249715,
+      "chief_G": 6.214454916878579,
+      "failed": 261,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "TAFD45",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0056",
+      "rms_max": 7.459149425053358,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5839494322117386,
+      "chief_G": 6.275353570053769,
+      "failed": 192,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "TAFD45",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0057",
+      "rms_max": 13.34363811443717,
+      "throughput_min": 0.625,
+      "NA_min": 0.9638503133771211,
+      "chief_G": 6.61817366135542,
+      "failed": 165,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "TAFD45"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0058",
+      "rms_max": 18.709200216274084,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6578885342805532,
+      "chief_G": 6.223242785964427,
+      "failed": 174,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "TAFD45"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0059",
+      "rms_max": 5.393552016108247,
+      "throughput_min": 0.8333333333333333,
+      "NA_min": 0.8606880882337533,
+      "chief_G": 6.688978037421331,
+      "failed": 69,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "TAFD45"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0060",
+      "rms_max": 27.078980897871258,
+      "throughput_min": 0.7916666666666666,
+      "NA_min": 0.883400210056841,
+      "chief_G": 6.226459821602784,
+      "failed": 117,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "TAFD45"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0061",
+      "rms_max": 3.7755402125346325,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.3819780845667979,
+      "chief_G": 6.297779420309771,
+      "failed": 288,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "TAFD45",
+        "PMMA",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0062",
+      "rms_max": 36.895012263937105,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.8724046196576117,
+      "chief_G": 6.308498083828836,
+      "failed": 219,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "TAFD45",
+        "PMMA",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0063",
+      "rms_max": 10.964092284437331,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.31949171369641827,
+      "chief_G": 6.298475242217593,
+      "failed": 283,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "TAFD45",
+        "PMMA",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0064",
+      "rms_max": 25.665261655899393,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7250281100239343,
+      "chief_G": 6.310628224451739,
+      "failed": 202,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "TAFD45",
+        "PMMA",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0065",
+      "rms_max": 8.02730823445513,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.38063929822547954,
+      "chief_G": 6.205225699679038,
+      "failed": 276,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "TAFD45",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0066",
+      "rms_max": 23.09460344776709,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.651991736060394,
+      "chief_G": 6.274272933988566,
+      "failed": 192,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "TAFD45",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0067",
+      "rms_max": 5.266566200209992,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.318789307161059,
+      "chief_G": 6.2083895674403715,
+      "failed": 258,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "TAFD45",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0068",
+      "rms_max": 6.531794786413653,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5749583283632691,
+      "chief_G": 6.276655019470986,
+      "failed": 192,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "TAFD45",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0069",
+      "rms_max": 3.739387467476732,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.4140473064088496,
+      "chief_G": 3.5472265275494594,
+      "failed": 288,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0070",
+      "rms_max": 17.737586114608426,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6515188399731628,
+      "chief_G": 6.225105403718585,
+      "failed": 161,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0071",
+      "rms_max": 9.857915388103892,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.672075270561,
+      "chief_G": 6.246129528957545,
+      "failed": 213,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0072",
+      "rms_max": 18.873431780827538,
+      "throughput_min": 0.875,
+      "NA_min": 0.8577000451053405,
+      "chief_G": 6.2281715086321086,
+      "failed": 103,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0073",
+      "rms_max": 14.9970619826791,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.36041711379394387,
+      "chief_G": 6.275608620529551,
+      "failed": 278,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "TAFD45",
+        "PC",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0074",
+      "rms_max": 54.365477404962455,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.3759766122951188,
+      "chief_G": 6.308659600869902,
+      "failed": 233,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "TAFD45",
+        "PC",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0075",
+      "rms_max": 8.955795476188447,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6292228076668981,
+      "chief_G": 6.276308756861207,
+      "failed": 192,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "TAFD45",
+        "PC",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0076",
+      "rms_max": 21.522957680447153,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7460085807931411,
+      "chief_G": 6.310906243022526,
+      "failed": 209,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "TAFD45",
+        "PC",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0077",
+      "rms_max": 6.297914593741902,
+      "throughput_min": 0.4583333333333333,
+      "NA_min": 0.8016180622299967,
+      "chief_G": 6.153257627473029,
+      "failed": 199,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "TAFD45",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0078",
+      "rms_max": 21.115849177987105,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.6841132005495225,
+      "chief_G": 6.282128618408299,
+      "failed": 198,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "TAFD45",
+        "PMMA"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0079",
+      "rms_max": 3.388811365219297,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5997380590907941,
+      "chief_G": 6.152117247058281,
+      "failed": 165,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "TAFD45",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0080",
+      "rms_max": 9.98086858914781,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5904704585523854,
+      "chief_G": 6.284487996632935,
+      "failed": 192,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "TAFD45",
+        "PMMA"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0081",
+      "rms_max": 5.732005760108147,
+      "throughput_min": 0.49999999999999994,
+      "NA_min": 0.7620287176403286,
+      "chief_G": 6.4755014442893035,
+      "failed": 213,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "PMMA",
+        "TAFD45"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0082",
+      "rms_max": 21.248075063750335,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6594972834715647,
+      "chief_G": 6.227599873370471,
+      "failed": 180,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "PMMA",
+        "TAFD45"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0083",
+      "rms_max": 3.212531276493798,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5547876210175885,
+      "chief_G": 6.44406892630969,
+      "failed": 166,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "PMMA",
+        "TAFD45"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0084",
+      "rms_max": 29.801071637470834,
+      "throughput_min": 0.7916666666666666,
+      "NA_min": 0.8900880640759418,
+      "chief_G": 6.230404805600326,
+      "failed": 121,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "PMMA",
+        "TAFD45"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0085",
+      "rms_max": 19.91455478490735,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.35773285712909847,
+      "chief_G": 6.2654346633383975,
+      "failed": 270,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "TAFD45",
+        "PC",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0086",
+      "rms_max": 14.931606283379429,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.364204700001261,
+      "chief_G": 6.31073492630744,
+      "failed": 261,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "TAFD45",
+        "PC",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0087",
+      "rms_max": 9.39775330200601,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6133479646751113,
+      "chief_G": 6.266362758710768,
+      "failed": 192,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "TAFD45",
+        "PC",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0088",
+      "rms_max": 18.951108961112382,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.8322810056441361,
+      "chief_G": 6.31435052158565,
+      "failed": 219,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "TAFD45",
+        "PC",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0089",
+      "rms_max": 5.719200147374105,
+      "throughput_min": 0.3333333333333333,
+      "NA_min": 0.37359780654610925,
+      "chief_G": 6.17035805201271,
+      "failed": 264,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "TAFD45",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0090",
+      "rms_max": 21.116745318750645,
+      "throughput_min": 0.625,
+      "NA_min": 0.6618828107319615,
+      "chief_G": 6.283223068328595,
+      "failed": 195,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "TAFD45",
+        "PC"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0091",
+      "rms_max": 11.009395502702686,
+      "throughput_min": 0.4583333333333333,
+      "NA_min": 0.7738539019671888,
+      "chief_G": 6.1876893982582395,
+      "failed": 228,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "TAFD45",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0092",
+      "rms_max": 8.09964266933717,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5793960930868316,
+      "chief_G": 6.285556626910707,
+      "failed": 192,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "TAFD45",
+        "PC"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0093",
+      "rms_max": 4.525914656566915,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7035219039512569,
+      "chief_G": 6.27657303927826,
+      "failed": 219,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0094",
+      "rms_max": 16.57115152330993,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6635333471119998,
+      "chief_G": 6.234509499655612,
+      "failed": 189,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0095",
+      "rms_max": 8.731269657972739,
+      "throughput_min": 0.625,
+      "NA_min": 0.5559541175973892,
+      "chief_G": 6.602442318554845,
+      "failed": 172,
+      "family": "negative_glass_positive_plastics",
+      "materials": [
+        "PC",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0096",
+      "rms_max": 24.491460916054372,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.6239055341231059,
+      "chief_G": 6.237277861779434,
+      "failed": 136,
+      "family": "positive_glass_mixed_plastics",
+      "materials": [
+        "PC",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0097",
+      "rms_max": 3.0367454870042,
+      "throughput_min": 0.49999999999999994,
+      "NA_min": 0.7502300198562927,
+      "chief_G": 5.836755212267211,
+      "failed": 209,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0098",
+      "rms_max": 2.5102668605984664,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5872637937862795,
+      "chief_G": 5.926779633142083,
+      "failed": 162,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0099",
+      "rms_max": 3.6690387960630613,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7557712162042243,
+      "chief_G": 5.831099056635681,
+      "failed": 207,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0100",
+      "rms_max": 1.7749966654089153,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5904540887801809,
+      "chief_G": 5.932194765430056,
+      "failed": 162,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0101",
+      "rms_max": 4.567951328021408,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7432165646613119,
+      "chief_G": 5.855391203438643,
+      "failed": 204,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0102",
+      "rms_max": 2.7651548967722506,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5875474059748029,
+      "chief_G": 5.913617730633231,
+      "failed": 162,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0103",
+      "rms_max": 5.086869199409721,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7474476595999344,
+      "chief_G": 5.855123621680035,
+      "failed": 202,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0104",
+      "rms_max": 1.6339553205175492,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5890217536507248,
+      "chief_G": 5.94322421579572,
+      "failed": 162,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0105",
+      "rms_max": 3.751646267802588,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7409810928018187,
+      "chief_G": 5.890832545002967,
+      "failed": 207,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0106",
+      "rms_max": 2.1819166511829966,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5927410226539411,
+      "chief_G": 5.77728022460382,
+      "failed": 165,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0107",
+      "rms_max": 3.072651947906316,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7472923569493509,
+      "chief_G": 5.86896226094003,
+      "failed": 207,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0108",
+      "rms_max": 1.855981552779223,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5964444586906149,
+      "chief_G": 5.771967951371597,
+      "failed": 165,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0109",
+      "rms_max": 5.330847410405017,
+      "throughput_min": 0.5416666666666666,
+      "NA_min": 0.7402057186106283,
+      "chief_G": 5.820747153928931,
+      "failed": 201,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0110",
+      "rms_max": 2.54193843638429,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5849287265353161,
+      "chief_G": 5.907127171982909,
+      "failed": 162,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "mode": "front_diameter50"
+    },
+    {
+      "id": "seed_0111",
+      "rms_max": 5.196062311041371,
+      "throughput_min": 0.5833333333333333,
+      "NA_min": 0.7437768700704435,
+      "chief_G": 5.818298577641257,
+      "failed": 198,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "epd50"
+    },
+    {
+      "id": "seed_0112",
+      "rms_max": 1.9766106618814163,
+      "throughput_min": 0.6666666666666666,
+      "NA_min": 0.5884019136842459,
+      "chief_G": 5.9013887459540495,
+      "failed": 162,
+      "family": "patent",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "mode": "front_diameter50"
+    }
+  ]
+}

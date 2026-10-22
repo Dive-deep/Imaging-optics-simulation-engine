@@ -1,0 +1,1229 @@
+{
+  "candidate_id": "C01",
+  "source_selection_sha256": "ec008e48d0b5156c793f9d04fb8224e8e91c28c3029479dcef9017c9caab3435",
+  "wave_source_sha256_before": "d41670fc7ac70944341a61701a5cb80c2c8aa0901882eb3fffd54b796d61cde3",
+  "wave_source_sha256_after": "d41670fc7ac70944341a61701a5cb80c2c8aa0901882eb3fffd54b796d61cde3",
+  "diagnostics": [
+    {
+      "field": 0.8,
+      "wavelength_nm": 588.0,
+      "rings": 16,
+      "arms": 48,
+      "rays": 817,
+      "valid_rays": 817,
+      "triangle_count": 1584,
+      "full_surface_projection_mm": 67.86749245130522,
+      "sampled_exit_projection_mm": 67.5691041568946,
+      "image_projection_mm": 69.92368732683308,
+      "plane_checks": [
+        {
+          "projection_mm": 67.5691041568946,
+          "reference_distance_mm": 2.354583169938479,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 1576,
+          "negative_triangles": 8,
+          "jacobian_min": -11.138511666432423,
+          "jacobian_max": 48.21006241926334,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.86749245130522,
+          "reference_distance_mm": 2.0561948755278507,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 1576,
+          "negative_triangles": 8,
+          "jacobian_min": -13.394334593157504,
+          "jacobian_max": 38.98333506078152,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.64370123049726,
+          "reference_distance_mm": 2.2799860963358185,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 1576,
+          "negative_triangles": 8,
+          "jacobian_min": -11.802866619325862,
+          "jacobian_max": 45.817546282834336,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.7182983040999,
+          "reference_distance_mm": 2.205389022733172,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 1576,
+          "negative_triangles": 8,
+          "jacobian_min": -12.400288758081008,
+          "jacobian_max": 43.48225301094379,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.79289537770256,
+          "reference_distance_mm": 2.1307919491305114,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 1576,
+          "negative_triangles": 8,
+          "jacobian_min": -12.930778082690331,
+          "jacobian_max": 41.20418260359254,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.96153468521767,
+          "reference_distance_mm": 1.962152641615404,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 1576,
+          "negative_triangles": 8,
+          "jacobian_min": -13.883348223426001,
+          "jacobian_max": 36.26512226657703,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 68.35396521354076,
+          "reference_distance_mm": 1.5697221132923147,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 1568,
+          "negative_triangles": 16,
+          "jacobian_min": -14.775843208268736,
+          "jacobian_max": 25.903804321033668,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 68.74639574186384,
+          "reference_distance_mm": 1.1772915849692396,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 1558,
+          "negative_triangles": 26,
+          "jacobian_min": -13.81599662094769,
+          "jacobian_max": 17.126108582633734,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 69.13882627018691,
+          "reference_distance_mm": 0.7848610566461645,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 1546,
+          "negative_triangles": 38,
+          "jacobian_min": -11.003808461465646,
+          "jacobian_max": 9.932035051378833,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 69.53125679851,
+          "reference_distance_mm": 0.3924305283230751,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 1528,
+          "negative_triangles": 56,
+          "jacobian_min": -6.339278729822664,
+          "jacobian_max": 4.363248734449933,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 69.92368732683308,
+          "reference_distance_mm": 0.0,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 835,
+          "negative_triangles": 749,
+          "jacobian_min": -0.8789188133974398,
+          "jacobian_max": 0.5617665288154663,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        }
+      ],
+      "physical_surface_xy_map_checks": [
+        {
+          "surface_index_1_based": 1,
+          "positive_triangles": 1584,
+          "negative_triangles": 0,
+          "jacobian_min": 303.0508739862001,
+          "jacobian_max": 620.1609281947708,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 2,
+          "positive_triangles": 1584,
+          "negative_triangles": 0,
+          "jacobian_min": 285.26692167974676,
+          "jacobian_max": 1849.1149312982984,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 3,
+          "positive_triangles": 1584,
+          "negative_triangles": 0,
+          "jacobian_min": 265.91960115347774,
+          "jacobian_max": 957.7506872842705,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 4,
+          "positive_triangles": 1584,
+          "negative_triangles": 0,
+          "jacobian_min": 93.64010017036922,
+          "jacobian_max": 964.7440885268402,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 5,
+          "positive_triangles": 1584,
+          "negative_triangles": 0,
+          "jacobian_min": 76.73899022750435,
+          "jacobian_max": 405.75517659055396,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 6,
+          "positive_triangles": 1576,
+          "negative_triangles": 8,
+          "jacobian_min": -10.021635399590062,
+          "jacobian_max": 75.61250768638232,
+          "fold_detected": true
+        }
+      ],
+      "output_direction_xy_map_check": {
+        "positive_triangles": 1584,
+        "negative_triangles": 0,
+        "jacobian_min": 0.31217922676850934,
+        "jacobian_max": 1.0030229268414057,
+        "fold_detected": false
+      }
+    },
+    {
+      "field": 0.8,
+      "wavelength_nm": 588.0,
+      "rings": 32,
+      "arms": 96,
+      "rays": 3169,
+      "valid_rays": 3169,
+      "triangle_count": 6240,
+      "full_surface_projection_mm": 67.86749245130522,
+      "sampled_exit_projection_mm": 67.5691041568946,
+      "image_projection_mm": 69.92368732683308,
+      "plane_checks": [
+        {
+          "projection_mm": 67.5691041568946,
+          "reference_distance_mm": 2.354583169938479,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 6226,
+          "negative_triangles": 14,
+          "jacobian_min": -11.193488146713447,
+          "jacobian_max": 43.66556683598973,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.86749245130522,
+          "reference_distance_mm": 2.0561948755278507,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 6216,
+          "negative_triangles": 24,
+          "jacobian_min": -13.137227471038548,
+          "jacobian_max": 35.24723258176296,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.64370123049726,
+          "reference_distance_mm": 2.2799860963358185,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 6224,
+          "negative_triangles": 16,
+          "jacobian_min": -11.771601384390689,
+          "jacobian_max": 41.48172219968111,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.7182983040999,
+          "reference_distance_mm": 2.205389022733172,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 6224,
+          "negative_triangles": 16,
+          "jacobian_min": -12.288262351005722,
+          "jacobian_max": 39.35071827854539,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.79289537770256,
+          "reference_distance_mm": 2.1307919491305114,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 6224,
+          "negative_triangles": 16,
+          "jacobian_min": -12.743471046549761,
+          "jacobian_max": 37.27255507256796,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.96153468521767,
+          "reference_distance_mm": 1.962152641615404,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 6212,
+          "negative_triangles": 28,
+          "jacobian_min": -13.546055935527113,
+          "jacobian_max": 32.769267733968924,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 68.35396521354076,
+          "reference_distance_mm": 1.5697221132923147,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 6178,
+          "negative_triangles": 62,
+          "jacobian_min": -14.197954212033157,
+          "jacobian_max": 23.335316430369513,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 68.74639574186384,
+          "reference_distance_mm": 1.1772915849692396,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 6138,
+          "negative_triangles": 102,
+          "jacobian_min": -13.149182976244134,
+          "jacobian_max": 15.428287642790085,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 69.13882627018691,
+          "reference_distance_mm": 0.7848610566461645,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 6098,
+          "negative_triangles": 142,
+          "jacobian_min": -10.399742228149492,
+          "jacobian_max": 8.961130596417775,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 69.53125679851,
+          "reference_distance_mm": 0.3924305283230751,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 6042,
+          "negative_triangles": 198,
+          "jacobian_min": -5.94963196774,
+          "jacobian_max": 3.940425665173218,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 69.92368732683308,
+          "reference_distance_mm": 0.0,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 3296,
+          "negative_triangles": 2944,
+          "jacobian_min": -0.821717565802118,
+          "jacobian_max": 0.5125450086391787,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        }
+      ],
+      "physical_surface_xy_map_checks": [
+        {
+          "surface_index_1_based": 1,
+          "positive_triangles": 6240,
+          "negative_triangles": 0,
+          "jacobian_min": 322.6481294508743,
+          "jacobian_max": 603.5758273864967,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 2,
+          "positive_triangles": 6240,
+          "negative_triangles": 0,
+          "jacobian_min": 285.30465339751424,
+          "jacobian_max": 1696.1703358128073,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 3,
+          "positive_triangles": 6240,
+          "negative_triangles": 0,
+          "jacobian_min": 266.0486448315113,
+          "jacobian_max": 887.9069384670258,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 4,
+          "positive_triangles": 6240,
+          "negative_triangles": 0,
+          "jacobian_min": 93.55240022555866,
+          "jacobian_max": 877.607870825362,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 5,
+          "positive_triangles": 6240,
+          "negative_triangles": 0,
+          "jacobian_min": 76.76537477792459,
+          "jacobian_max": 377.3613920520159,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 6,
+          "positive_triangles": 6226,
+          "negative_triangles": 14,
+          "jacobian_min": -9.98241755720658,
+          "jacobian_max": 68.99776975645025,
+          "fold_detected": true
+        }
+      ],
+      "output_direction_xy_map_check": {
+        "positive_triangles": 6240,
+        "negative_triangles": 0,
+        "jacobian_min": 0.3304199819625597,
+        "jacobian_max": 0.9634792611555363,
+        "fold_detected": false
+      }
+    },
+    {
+      "field": 0.8,
+      "wavelength_nm": 588.0,
+      "rings": 64,
+      "arms": 192,
+      "rays": 12481,
+      "valid_rays": 12481,
+      "triangle_count": 24768,
+      "full_surface_projection_mm": 67.86749245130522,
+      "sampled_exit_projection_mm": 67.5691041568946,
+      "image_projection_mm": 69.92368732683308,
+      "plane_checks": [
+        {
+          "projection_mm": 67.5691041568946,
+          "reference_distance_mm": 2.354583169938479,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 24738,
+          "negative_triangles": 30,
+          "jacobian_min": -10.839504454122363,
+          "jacobian_max": 41.71750197248953,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.86749245130522,
+          "reference_distance_mm": 2.0561948755278507,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 24688,
+          "negative_triangles": 80,
+          "jacobian_min": -12.691535091447973,
+          "jacobian_max": 33.6625999783442,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.64370123049726,
+          "reference_distance_mm": 2.2799860963358185,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 24738,
+          "negative_triangles": 30,
+          "jacobian_min": -11.390976641147443,
+          "jacobian_max": 39.62228002899496,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.7182983040999,
+          "reference_distance_mm": 2.205389022733172,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 24736,
+          "negative_triangles": 32,
+          "jacobian_min": -11.88347247643163,
+          "jacobian_max": 37.57807593231241,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.79289537770256,
+          "reference_distance_mm": 2.1307919491305114,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 24712,
+          "negative_triangles": 56,
+          "jacobian_min": -12.316991959878655,
+          "jacobian_max": 35.595094343183064,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 67.96153468521767,
+          "reference_distance_mm": 1.962152641615404,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 24652,
+          "negative_triangles": 116,
+          "jacobian_min": -13.079670079762167,
+          "jacobian_max": 31.298193693392278,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 68.35396521354076,
+          "reference_distance_mm": 1.5697221132923147,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 24518,
+          "negative_triangles": 250,
+          "jacobian_min": -13.687686368290112,
+          "jacobian_max": 22.296378661668175,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 68.74639574186384,
+          "reference_distance_mm": 1.1772915849692396,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 24380,
+          "negative_triangles": 388,
+          "jacobian_min": -12.663553319663304,
+          "jacobian_max": 14.721388811231973,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 69.13882627018691,
+          "reference_distance_mm": 0.7848610566461645,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 24222,
+          "negative_triangles": 546,
+          "jacobian_min": -10.00727093386936,
+          "jacobian_max": 8.53880272950311,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 69.53125679851,
+          "reference_distance_mm": 0.3924305283230751,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 24018,
+          "negative_triangles": 750,
+          "jacobian_min": -5.718839210911428,
+          "jacobian_max": 3.758220385826938,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        },
+        {
+          "projection_mm": 69.92368732683308,
+          "reference_distance_mm": 0.0,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 13033,
+          "negative_triangles": 11735,
+          "jacobian_min": -0.7935319387143299,
+          "jacobian_max": 0.4894706999382803,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.6885652682323032
+        }
+      ],
+      "physical_surface_xy_map_checks": [
+        {
+          "surface_index_1_based": 1,
+          "positive_triangles": 24768,
+          "negative_triangles": 0,
+          "jacobian_min": 330.7827587536126,
+          "jacobian_max": 596.8383267503931,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 2,
+          "positive_triangles": 24768,
+          "negative_triangles": 0,
+          "jacobian_min": 285.29751983983334,
+          "jacobian_max": 1630.7675443122937,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 3,
+          "positive_triangles": 24768,
+          "negative_triangles": 0,
+          "jacobian_min": 266.13610194106076,
+          "jacobian_max": 858.318184167738,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 4,
+          "positive_triangles": 24768,
+          "negative_triangles": 0,
+          "jacobian_min": 93.53841927504742,
+          "jacobian_max": 840.6076089409466,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 5,
+          "positive_triangles": 24768,
+          "negative_triangles": 0,
+          "jacobian_min": 76.78245828428722,
+          "jacobian_max": 365.2531032957199,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 6,
+          "positive_triangles": 24738,
+          "negative_triangles": 30,
+          "jacobian_min": -9.647511109478321,
+          "jacobian_max": 66.17829456512051,
+          "fold_detected": true
+        }
+      ],
+      "output_direction_xy_map_check": {
+        "positive_triangles": 24768,
+        "negative_triangles": 0,
+        "jacobian_min": 0.33843957227232396,
+        "jacobian_max": 0.942780688625599,
+        "fold_detected": false
+      }
+    },
+    {
+      "field": 1.0,
+      "wavelength_nm": 588.0,
+      "rings": 16,
+      "arms": 48,
+      "rays": 817,
+      "valid_rays": 817,
+      "triangle_count": 1584,
+      "full_surface_projection_mm": 67.92120814270035,
+      "sampled_exit_projection_mm": 67.82385047921191,
+      "image_projection_mm": 70.02841700883587,
+      "plane_checks": [
+        {
+          "projection_mm": 67.82385047921191,
+          "reference_distance_mm": 2.2045665296239605,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 1540,
+          "negative_triangles": 44,
+          "jacobian_min": -47.91638000668427,
+          "jacobian_max": 46.53263730520738,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 67.92120814270035,
+          "reference_distance_mm": 2.1072088661355224,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 1540,
+          "negative_triangles": 44,
+          "jacobian_min": -46.88451620138232,
+          "jacobian_max": 43.43520321449263,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 67.84818989508402,
+          "reference_distance_mm": 2.1802271137518545,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 1540,
+          "negative_triangles": 44,
+          "jacobian_min": -47.6714799769544,
+          "jacobian_max": 45.74915615508632,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 67.87252931095614,
+          "reference_distance_mm": 2.1558876978797343,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 1540,
+          "negative_triangles": 44,
+          "jacobian_min": -47.41786933282548,
+          "jacobian_max": 44.97175675659485,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 67.89686872682825,
+          "reference_distance_mm": 2.1315482820076284,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 1540,
+          "negative_triangles": 44,
+          "jacobian_min": -47.15554807430392,
+          "jacobian_max": 44.20043910972912,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 68.19127823414924,
+          "reference_distance_mm": 1.8371387746866361,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 1532,
+          "negative_triangles": 52,
+          "jacobian_min": -43.2925903573784,
+          "jacobian_max": 35.352285521170096,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 68.55870598908656,
+          "reference_distance_mm": 1.4697110197493117,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 1530,
+          "negative_triangles": 54,
+          "jacobian_min": -36.6837463463585,
+          "jacobian_max": 25.557898841486224,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 68.9261337440239,
+          "reference_distance_mm": 1.1022832648119731,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 1512,
+          "negative_triangles": 72,
+          "jacobian_min": -28.089847973620426,
+          "jacobian_max": 17.149477266156563,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 69.29356149896122,
+          "reference_distance_mm": 0.7348555098746488,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 1504,
+          "negative_triangles": 80,
+          "jacobian_min": -17.929114949586594,
+          "jacobian_max": 10.161204859551889,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 69.66098925389855,
+          "reference_distance_mm": 0.3674277549373244,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 1486,
+          "negative_triangles": 98,
+          "jacobian_min": -8.781788839979132,
+          "jacobian_max": 4.682543492918083,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 70.02841700883587,
+          "reference_distance_mm": 0.0,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 787,
+          "negative_triangles": 797,
+          "jacobian_min": -1.7299141828382045,
+          "jacobian_max": 9.602173314894191,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        }
+      ],
+      "physical_surface_xy_map_checks": [
+        {
+          "surface_index_1_based": 1,
+          "positive_triangles": 1584,
+          "negative_triangles": 0,
+          "jacobian_min": 258.3099871584619,
+          "jacobian_max": 643.7500515432159,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 2,
+          "positive_triangles": 1584,
+          "negative_triangles": 0,
+          "jacobian_min": 283.13525977829,
+          "jacobian_max": 1986.237864887158,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 3,
+          "positive_triangles": 1584,
+          "negative_triangles": 0,
+          "jacobian_min": 264.37011903590917,
+          "jacobian_max": 928.9183446479959,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 4,
+          "positive_triangles": 1584,
+          "negative_triangles": 0,
+          "jacobian_min": 91.7025993232644,
+          "jacobian_max": 929.325782966155,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 5,
+          "positive_triangles": 1584,
+          "negative_triangles": 0,
+          "jacobian_min": 22.788682594750824,
+          "jacobian_max": 425.87547833012326,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 6,
+          "positive_triangles": 1540,
+          "negative_triangles": 44,
+          "jacobian_min": -40.16290892818785,
+          "jacobian_max": 82.65114639024205,
+          "fold_detected": true
+        }
+      ],
+      "output_direction_xy_map_check": {
+        "positive_triangles": 1584,
+        "negative_triangles": 0,
+        "jacobian_min": 0.28321795918974296,
+        "jacobian_max": 1.5161589333469299,
+        "fold_detected": false
+      }
+    },
+    {
+      "field": 1.0,
+      "wavelength_nm": 588.0,
+      "rings": 32,
+      "arms": 96,
+      "rays": 3169,
+      "valid_rays": 3169,
+      "triangle_count": 6240,
+      "full_surface_projection_mm": 67.92120814270035,
+      "sampled_exit_projection_mm": 67.82522366308345,
+      "image_projection_mm": 70.02841700883587,
+      "plane_checks": [
+        {
+          "projection_mm": 67.82522366308345,
+          "reference_distance_mm": 2.2031933457524246,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 6072,
+          "negative_triangles": 168,
+          "jacobian_min": -44.47948914006293,
+          "jacobian_max": 42.00519217405404,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 67.92120814270035,
+          "reference_distance_mm": 2.1072088661355224,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 6072,
+          "negative_triangles": 168,
+          "jacobian_min": -43.51116524026207,
+          "jacobian_max": 39.25323508132134,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 67.84921978298767,
+          "reference_distance_mm": 2.179197225848199,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 6072,
+          "negative_triangles": 168,
+          "jacobian_min": -44.24905306242098,
+          "jacobian_max": 41.309218154228006,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 67.8732159028919,
+          "reference_distance_mm": 2.1552011059439735,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 6072,
+          "negative_triangles": 168,
+          "jacobian_min": -44.01085371993383,
+          "jacobian_max": 40.61856729882374,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 67.89721202279613,
+          "reference_distance_mm": 2.131204986039748,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 6072,
+          "negative_triangles": 168,
+          "jacobian_min": -43.764891112518065,
+          "jacobian_max": 39.93323960785789,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 68.19242255404218,
+          "reference_distance_mm": 1.835994454793692,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 6042,
+          "negative_triangles": 198,
+          "jacobian_min": -40.103716389672826,
+          "jacobian_max": 31.93761887732716,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 68.55962144500093,
+          "reference_distance_mm": 1.468795563834945,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 6012,
+          "negative_triangles": 228,
+          "jacobian_min": -33.910064193870255,
+          "jacobian_max": 23.116540625772515,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 68.92682033595966,
+          "reference_distance_mm": 1.1015966728762123,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 5978,
+          "negative_triangles": 262,
+          "jacobian_min": -25.89853255263271,
+          "jacobian_max": 15.541957419378505,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 69.2940192269184,
+          "reference_distance_mm": 0.7343977819174796,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 5938,
+          "negative_triangles": 302,
+          "jacobian_min": -16.46802336187776,
+          "jacobian_max": 9.238191543560427,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 69.66121811787714,
+          "reference_distance_mm": 0.3671988909587327,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 5888,
+          "negative_triangles": 352,
+          "jacobian_min": -8.022335897867617,
+          "jacobian_max": 4.224940285882388,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 70.02841700883587,
+          "reference_distance_mm": 0.0,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 3086,
+          "negative_triangles": 3154,
+          "jacobian_min": -1.5735475865192023,
+          "jacobian_max": 9.043339043547801,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        }
+      ],
+      "physical_surface_xy_map_checks": [
+        {
+          "surface_index_1_based": 1,
+          "positive_triangles": 6240,
+          "negative_triangles": 0,
+          "jacobian_min": 282.97287805804996,
+          "jacobian_max": 624.2094096554405,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 2,
+          "positive_triangles": 6240,
+          "negative_triangles": 0,
+          "jacobian_min": 283.1625969332178,
+          "jacobian_max": 1819.2369775097861,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 3,
+          "positive_triangles": 6240,
+          "negative_triangles": 0,
+          "jacobian_min": 264.4593873577671,
+          "jacobian_max": 862.9062045735465,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 4,
+          "positive_triangles": 6240,
+          "negative_triangles": 0,
+          "jacobian_min": 91.63504050464417,
+          "jacobian_max": 845.8135857799055,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 5,
+          "positive_triangles": 6240,
+          "negative_triangles": 0,
+          "jacobian_min": 21.224958792624896,
+          "jacobian_max": 395.99618275340447,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 6,
+          "positive_triangles": 6076,
+          "negative_triangles": 164,
+          "jacobian_min": -37.22467356303718,
+          "jacobian_max": 75.39870361633268,
+          "fold_detected": true
+        }
+      ],
+      "output_direction_xy_map_check": {
+        "positive_triangles": 6240,
+        "negative_triangles": 0,
+        "jacobian_min": 0.3041653164174759,
+        "jacobian_max": 1.4276615266380335,
+        "fold_detected": false
+      }
+    },
+    {
+      "field": 1.0,
+      "wavelength_nm": 588.0,
+      "rings": 64,
+      "arms": 192,
+      "rays": 12481,
+      "valid_rays": 12481,
+      "triangle_count": 24768,
+      "full_surface_projection_mm": 67.92120814270035,
+      "sampled_exit_projection_mm": 67.8253672794644,
+      "image_projection_mm": 70.02841700883587,
+      "plane_checks": [
+        {
+          "projection_mm": 67.8253672794644,
+          "reference_distance_mm": 2.2030497293714717,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 24134,
+          "negative_triangles": 634,
+          "jacobian_min": -42.5949560838412,
+          "jacobian_max": 40.13227493532641,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 67.92120814270035,
+          "reference_distance_mm": 2.1072088661355224,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 24106,
+          "negative_triangles": 662,
+          "jacobian_min": -41.66848315096086,
+          "jacobian_max": 37.49519606985205,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 67.84932749527339,
+          "reference_distance_mm": 2.179089513562488,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 24122,
+          "negative_triangles": 646,
+          "jacobian_min": -42.37446925991286,
+          "jacobian_max": 39.46531031085363,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 67.87328771108238,
+          "reference_distance_mm": 2.15512929775349,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 24114,
+          "negative_triangles": 654,
+          "jacobian_min": -42.14656149655462,
+          "jacobian_max": 38.803475625106685,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 67.89724792689137,
+          "reference_distance_mm": 2.131169081944506,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": false,
+          "positive_triangles": 24108,
+          "negative_triangles": 660,
+          "jacobian_min": -41.911232793558625,
+          "jacobian_max": 38.14677087811953,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 68.19254223435965,
+          "reference_distance_mm": 1.835874774476224,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 24014,
+          "negative_triangles": 754,
+          "jacobian_min": -38.4016455222396,
+          "jacobian_max": 30.474510019328438,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 68.5597171892549,
+          "reference_distance_mm": 1.4686998195809764,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 23898,
+          "negative_triangles": 870,
+          "jacobian_min": -32.465631292527384,
+          "jacobian_max": 22.052320263104683,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 68.92689214415014,
+          "reference_distance_mm": 1.1015248646857287,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 23762,
+          "negative_triangles": 1006,
+          "jacobian_min": -24.786913394543568,
+          "jacobian_max": 14.836843507016901,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 69.29406709904538,
+          "reference_distance_mm": 0.7343499097904953,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 23622,
+          "negative_triangles": 1146,
+          "jacobian_min": -15.756894283677056,
+          "jacobian_max": 8.824680516187202,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 69.66124205394063,
+          "reference_distance_mm": 0.36717495489524765,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 23438,
+          "negative_triangles": 1330,
+          "jacobian_min": -7.677622450594148,
+          "jacobian_max": 4.023931702880207,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        },
+        {
+          "projection_mm": 70.02841700883587,
+          "reference_distance_mm": 0.0,
+          "after_all_sampled_exit_points": true,
+          "full_surface_conservative_plane": true,
+          "positive_triangles": 12146,
+          "negative_triangles": 12622,
+          "jacobian_min": -1.5109370737837977,
+          "jacobian_max": 8.70546230867733,
+          "fold_detected": true,
+          "minimum_ray_boundary_cosine": 0.688018424190259
+        }
+      ],
+      "physical_surface_xy_map_checks": [
+        {
+          "surface_index_1_based": 1,
+          "positive_triangles": 24768,
+          "negative_triangles": 0,
+          "jacobian_min": 293.2178746208734,
+          "jacobian_max": 616.3304323041854,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 2,
+          "positive_triangles": 24768,
+          "negative_triangles": 0,
+          "jacobian_min": 283.1755865540193,
+          "jacobian_max": 1748.0117420176678,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 3,
+          "positive_triangles": 24768,
+          "negative_triangles": 0,
+          "jacobian_min": 264.56583429777817,
+          "jacobian_max": 835.1456195679339,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 4,
+          "positive_triangles": 24768,
+          "negative_triangles": 0,
+          "jacobian_min": 91.61711540189,
+          "jacobian_max": 810.4219821236278,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 5,
+          "positive_triangles": 24768,
+          "negative_triangles": 0,
+          "jacobian_min": 21.87956149293596,
+          "jacobian_max": 383.2066454358924,
+          "fold_detected": false
+        },
+        {
+          "surface_index_1_based": 6,
+          "positive_triangles": 24146,
+          "negative_triangles": 622,
+          "jacobian_min": -35.62984066893787,
+          "jacobian_max": 72.29592066106378,
+          "fold_detected": true
+        }
+      ],
+      "output_direction_xy_map_check": {
+        "positive_triangles": 24768,
+        "negative_triangles": 0,
+        "jacobian_min": 0.3139852020353143,
+        "jacobian_max": 1.3850043734711481,
+        "fold_detected": false
+      }
+    }
+  ],
+  "seconds": 1.2990002490000734,
+  "scope": "No optical prescriptions, frozen wave engine, or final wave results changed. Sampled-footprint planes are diagnostic only, not accepted physical recovery.",
+  "conclusion": "C01 0.8F/1F at 588 nm has persistent signed-Jacobian folds in the actual last-surface XY ray map and all tested posterior physical planes. Refining the STOP mesh or choosing a plane after only the sampled exit footprint does not restore a regular spatial map. The existing single-valued boundary profile correctly rejects these bundles. Output-direction-map regularity suggests a possible future momentum-chart approach but does not validate its phase/amplitude/Maslov physics. Preserve current guard failures and show separately labeled geometric MTF diagnostics."
+}

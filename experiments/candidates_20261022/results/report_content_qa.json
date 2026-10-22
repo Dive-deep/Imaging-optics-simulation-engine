@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "candidate_count": 24,
+  "pdf_page_count": 24,
+  "per_case_png_count": 24,
+  "field_panel_count": 96,
+  "RGB_geometric_or_scalar_curve_pairs": 288,
+  "all_summary_RI_spot_match_full_metrics": true,
+  "all_input_ids_preserved": true
+}

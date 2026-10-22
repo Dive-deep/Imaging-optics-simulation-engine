@@ -1,0 +1,664 @@
+{
+  "seconds": 32.001577547000124,
+  "source_review": [
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0011.json",
+      "seed_id": "seed_0011",
+      "score": 0.19964153508378235,
+      "mean_AUC": 0.27059703919720174,
+      "minimum_AUC": 0.12868603097036296,
+      "negative_OTF_points": 143,
+      "RI1_bare": 0.9447798173295064
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0012.json",
+      "seed_id": "seed_0012",
+      "score": 0.18811730873657462,
+      "mean_AUC": 0.23461188219360296,
+      "minimum_AUC": 0.14162273527954627,
+      "negative_OTF_points": 127,
+      "RI1_bare": 0.9293499778758786
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0015.json",
+      "seed_id": "seed_0015",
+      "score": 0.15545187732481877,
+      "mean_AUC": 0.17826769176716403,
+      "minimum_AUC": 0.1326360628824735,
+      "negative_OTF_points": 124,
+      "RI1_bare": 0.8982992107314589
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0016.json",
+      "seed_id": "seed_0016",
+      "score": 0.1668761529804343,
+      "mean_AUC": 0.1973267085528148,
+      "minimum_AUC": 0.13642559740805377,
+      "negative_OTF_points": 91,
+      "RI1_bare": 0.8613425143027286
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0020.json",
+      "seed_id": "seed_0020",
+      "score": 0.17091002329870258,
+      "mean_AUC": 0.23366053434677597,
+      "minimum_AUC": 0.10815951225062923,
+      "negative_OTF_points": 172,
+      "RI1_bare": 0.8562325572238283
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0032.json",
+      "seed_id": "seed_0032",
+      "score": 0.13850509288423019,
+      "mean_AUC": 0.15506725149010406,
+      "minimum_AUC": 0.12194293427835631,
+      "negative_OTF_points": 200,
+      "RI1_bare": 0.8957173077659569
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0036.json",
+      "seed_id": "seed_0036",
+      "score": 0.1892554812070516,
+      "mean_AUC": 0.20516501559015188,
+      "minimum_AUC": 0.1733459468239513,
+      "negative_OTF_points": 180,
+      "RI1_bare": 0.9694389500420431
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0039.json",
+      "seed_id": "seed_0039",
+      "score": 0.12870154597514893,
+      "mean_AUC": 0.1467415912371749,
+      "minimum_AUC": 0.110661500713123,
+      "negative_OTF_points": 138,
+      "RI1_bare": 0.8761571148541337
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0040.json",
+      "seed_id": "seed_0040",
+      "score": 0.11974163168249397,
+      "mean_AUC": 0.14164405056798296,
+      "minimum_AUC": 0.09783921279700496,
+      "negative_OTF_points": 208,
+      "RI1_bare": 0.8653410865326625
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0044.json",
+      "seed_id": "seed_0044",
+      "score": 0.1375341202764893,
+      "mean_AUC": 0.15552013218400607,
+      "minimum_AUC": 0.11954810836897253,
+      "negative_OTF_points": 203,
+      "RI1_bare": 0.878738654571627
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0047.json",
+      "seed_id": "seed_0047",
+      "score": 0.15972941345799696,
+      "mean_AUC": 0.17952960989981862,
+      "minimum_AUC": 0.13992921701617528,
+      "negative_OTF_points": 156,
+      "RI1_bare": 0.9470649409518372
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0048.json",
+      "seed_id": "seed_0048",
+      "score": 0.16225673595914442,
+      "mean_AUC": 0.1856681315756553,
+      "minimum_AUC": 0.13884534034263352,
+      "negative_OTF_points": 107,
+      "RI1_bare": 0.9619908107177765
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0051.json",
+      "seed_id": "seed_0051",
+      "score": 0.17239197291796254,
+      "mean_AUC": 0.21625661240388244,
+      "minimum_AUC": 0.12852733343204267,
+      "negative_OTF_points": 119,
+      "RI1_bare": 0.8798364013966743
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0052.json",
+      "seed_id": "seed_0052",
+      "score": 0.09255762142844638,
+      "mean_AUC": 0.1074603008231259,
+      "minimum_AUC": 0.07765494203376687,
+      "negative_OTF_points": 155,
+      "RI1_bare": 0.9684882162979858
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0056.json",
+      "seed_id": "seed_0056",
+      "score": 0.16103565774905526,
+      "mean_AUC": 0.2040945577749858,
+      "minimum_AUC": 0.1179767577231247,
+      "negative_OTF_points": 209,
+      "RI1_bare": 0.8956756758134106
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0059.json",
+      "seed_id": "seed_0059",
+      "score": 0.19527922943746617,
+      "mean_AUC": 0.24966099650810342,
+      "minimum_AUC": 0.14089746236682893,
+      "negative_OTF_points": 106,
+      "RI1_bare": 0.9661486318433041
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0063.json",
+      "seed_id": "seed_0063",
+      "score": 0.11045941025612341,
+      "mean_AUC": 0.13511988583673076,
+      "minimum_AUC": 0.08579893467551605,
+      "negative_OTF_points": 102,
+      "RI1_bare": 0.873988757393951
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0064.json",
+      "seed_id": "seed_0064",
+      "score": 0.14050290540118243,
+      "mean_AUC": 0.17180735939896966,
+      "minimum_AUC": 0.10919845140339524,
+      "negative_OTF_points": 152,
+      "RI1_bare": 0.84443242516936
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0068.json",
+      "seed_id": "seed_0068",
+      "score": 0.1547054365571485,
+      "mean_AUC": 0.1890889028803217,
+      "minimum_AUC": 0.12032197023397528,
+      "negative_OTF_points": 127,
+      "RI1_bare": 0.9010402805287778
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0071.json",
+      "seed_id": "seed_0071",
+      "score": 0.18089297049081685,
+      "mean_AUC": 0.22581187458858798,
+      "minimum_AUC": 0.1359740663930457,
+      "negative_OTF_points": 157,
+      "RI1_bare": 0.9166285054970099
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0072.json",
+      "seed_id": "seed_0072",
+      "score": 0.1773201620594122,
+      "mean_AUC": 0.2028565817729783,
+      "minimum_AUC": 0.15178374234584613,
+      "negative_OTF_points": 19,
+      "RI1_bare": 0.916884767872961
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0075.json",
+      "seed_id": "seed_0075",
+      "score": 0.1531030911494431,
+      "mean_AUC": 0.17258577784548898,
+      "minimum_AUC": 0.13362040445339723,
+      "negative_OTF_points": 151,
+      "RI1_bare": 0.8565929742500032
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0076.json",
+      "seed_id": "seed_0076",
+      "score": 0.13488089925727892,
+      "mean_AUC": 0.1533719660604205,
+      "minimum_AUC": 0.11638983245413734,
+      "negative_OTF_points": 150,
+      "RI1_bare": 0.9613330234101249
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0079.json",
+      "seed_id": "seed_0079",
+      "score": 0.15806070618114415,
+      "mean_AUC": 0.17766470138591034,
+      "minimum_AUC": 0.13845671097637796,
+      "negative_OTF_points": 76,
+      "RI1_bare": 0.9009483679810492
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0080.json",
+      "seed_id": "seed_0080",
+      "score": 0.13889004179565512,
+      "mean_AUC": 0.15878809247626688,
+      "minimum_AUC": 0.11899199111504333,
+      "negative_OTF_points": 194,
+      "RI1_bare": 0.9201055468302389
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0083.json",
+      "seed_id": "seed_0083",
+      "score": 0.17241872848569278,
+      "mean_AUC": 0.2174519370134272,
+      "minimum_AUC": 0.12738551995795838,
+      "negative_OTF_points": 117,
+      "RI1_bare": 0.9282341916590221
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0084.json",
+      "seed_id": "seed_0084",
+      "score": 0.1788932782330363,
+      "mean_AUC": 0.19990977691344541,
+      "minimum_AUC": 0.1578767795526272,
+      "negative_OTF_points": 178,
+      "RI1_bare": 0.990648555848937
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0087.json",
+      "seed_id": "seed_0087",
+      "score": 0.14588899289258453,
+      "mean_AUC": 0.16846860744778677,
+      "minimum_AUC": 0.12330937833738229,
+      "negative_OTF_points": 129,
+      "RI1_bare": 0.9258478769918403
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0088.json",
+      "seed_id": "seed_0088",
+      "score": 0.14357969137979962,
+      "mean_AUC": 0.16839353821695063,
+      "minimum_AUC": 0.1187658445426486,
+      "negative_OTF_points": 115,
+      "RI1_bare": 0.9065831632606695
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0091.json",
+      "seed_id": "seed_0091",
+      "score": 0.14184914170761712,
+      "mean_AUC": 0.1672292916143172,
+      "minimum_AUC": 0.11646899180091701,
+      "negative_OTF_points": 130,
+      "RI1_bare": 0.9308966498366257
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0092.json",
+      "seed_id": "seed_0092",
+      "score": 0.1411834248060607,
+      "mean_AUC": 0.1648346172978307,
+      "minimum_AUC": 0.11753223231429069,
+      "negative_OTF_points": 180,
+      "RI1_bare": 0.9212475220502679
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0095.json",
+      "seed_id": "seed_0095",
+      "score": 0.15552758336418246,
+      "mean_AUC": 0.1780609350070072,
+      "minimum_AUC": 0.13299423172135771,
+      "negative_OTF_points": 188,
+      "RI1_bare": 0.9488827948185418
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0096.json",
+      "seed_id": "seed_0096",
+      "score": 0.15109451252345946,
+      "mean_AUC": 0.17360205971505271,
+      "minimum_AUC": 0.12858696533186617,
+      "negative_OTF_points": 122,
+      "RI1_bare": 0.9721019056206222
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0098.json",
+      "seed_id": "seed_0098",
+      "score": 0.13335491610212225,
+      "mean_AUC": 0.15365471577058137,
+      "minimum_AUC": 0.11305511643366314,
+      "negative_OTF_points": 113,
+      "RI1_bare": 0.9061333494253354
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0100.json",
+      "seed_id": "seed_0100",
+      "score": 0.18611601142790207,
+      "mean_AUC": 0.23002687400113958,
+      "minimum_AUC": 0.14220514885466456,
+      "negative_OTF_points": 151,
+      "RI1_bare": 0.9402388152472928
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0102.json",
+      "seed_id": "seed_0102",
+      "score": 0.06760872912973254,
+      "mean_AUC": 0.0821001098697546,
+      "minimum_AUC": 0.05311734838971046,
+      "negative_OTF_points": 168,
+      "RI1_bare": 0.9370359054351367
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/qualified_round1/seed_0108.json",
+      "seed_id": "seed_0108",
+      "score": 0.19205987133053873,
+      "mean_AUC": 0.25371357575410625,
+      "minimum_AUC": 0.1304061669069712,
+      "negative_OTF_points": 206,
+      "RI1_bare": 0.962270733797036
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0011.json",
+      "seed_id": "seed_0011",
+      "score": 0.1956218046169105,
+      "mean_AUC": 0.2873500372279081,
+      "minimum_AUC": 0.10389357200591294,
+      "negative_OTF_points": 45,
+      "RI1_bare": 0.954929030459369
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0012.json",
+      "seed_id": "seed_0012",
+      "score": 0.19998829384259958,
+      "mean_AUC": 0.30598022912532014,
+      "minimum_AUC": 0.09399635855987906,
+      "negative_OTF_points": 64,
+      "RI1_bare": 0.9295991810402449
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0015.json",
+      "seed_id": "seed_0015",
+      "score": 0.15420748680453827,
+      "mean_AUC": 0.1784495747490687,
+      "minimum_AUC": 0.12996539886000785,
+      "negative_OTF_points": 126,
+      "RI1_bare": 0.8983158059160714
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0016.json",
+      "seed_id": "seed_0016",
+      "score": 0.1726015019500594,
+      "mean_AUC": 0.20195694256691588,
+      "minimum_AUC": 0.14324606133320295,
+      "negative_OTF_points": 114,
+      "RI1_bare": 0.8614038708922427
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0020.json",
+      "seed_id": "seed_0020",
+      "score": 0.16304227182693165,
+      "mean_AUC": 0.23632668293609269,
+      "minimum_AUC": 0.08975786071777059,
+      "negative_OTF_points": 124,
+      "RI1_bare": 0.8562006131821855
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0032.json",
+      "seed_id": "seed_0032",
+      "score": 0.14290985557207564,
+      "mean_AUC": 0.2022490589627946,
+      "minimum_AUC": 0.08357065218135669,
+      "negative_OTF_points": 50,
+      "RI1_bare": 0.9074075152482644
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0036.json",
+      "seed_id": "seed_0036",
+      "score": 0.20175317282059396,
+      "mean_AUC": 0.2651047617823834,
+      "minimum_AUC": 0.1384015838588045,
+      "negative_OTF_points": 35,
+      "RI1_bare": 0.9692390757756801
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0039.json",
+      "seed_id": "seed_0039",
+      "score": 0.13016363359273952,
+      "mean_AUC": 0.1481130952927466,
+      "minimum_AUC": 0.11221417189273244,
+      "negative_OTF_points": 135,
+      "RI1_bare": 0.876163124965906
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0040.json",
+      "seed_id": "seed_0040",
+      "score": 0.11927757319161217,
+      "mean_AUC": 0.1410498575717995,
+      "minimum_AUC": 0.09750528881142484,
+      "negative_OTF_points": 205,
+      "RI1_bare": 0.8652941575716256
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0044.json",
+      "seed_id": "seed_0044",
+      "score": 0.1392821673752254,
+      "mean_AUC": 0.19098776039996956,
+      "minimum_AUC": 0.08757657435048123,
+      "negative_OTF_points": 49,
+      "RI1_bare": 0.8807932196552454
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0047.json",
+      "seed_id": "seed_0047",
+      "score": 0.18191894029184202,
+      "mean_AUC": 0.27017961929494205,
+      "minimum_AUC": 0.09365826128874202,
+      "negative_OTF_points": 32,
+      "RI1_bare": 0.9457894689562586
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0048.json",
+      "seed_id": "seed_0048",
+      "score": 0.17169835717272258,
+      "mean_AUC": 0.24883251665750344,
+      "minimum_AUC": 0.09456419768794175,
+      "negative_OTF_points": 41,
+      "RI1_bare": 0.9538703240282057
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0051.json",
+      "seed_id": "seed_0051",
+      "score": 0.17264893088925615,
+      "mean_AUC": 0.21637178497112894,
+      "minimum_AUC": 0.12892607680738338,
+      "negative_OTF_points": 119,
+      "RI1_bare": 0.8798413247634365
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0052.json",
+      "seed_id": "seed_0052",
+      "score": 0.10280147410703971,
+      "mean_AUC": 0.1129220720899577,
+      "minimum_AUC": 0.09268087612412172,
+      "negative_OTF_points": 100,
+      "RI1_bare": 0.9684407066511508
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0056.json",
+      "seed_id": "seed_0056",
+      "score": 0.16446741678067855,
+      "mean_AUC": 0.22837391393223366,
+      "minimum_AUC": 0.10056091962912342,
+      "negative_OTF_points": 64,
+      "RI1_bare": 0.8914178153601238
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0059.json",
+      "seed_id": "seed_0059",
+      "score": 0.22552663375049486,
+      "mean_AUC": 0.3348836982109277,
+      "minimum_AUC": 0.11616956929006203,
+      "negative_OTF_points": 43,
+      "RI1_bare": 0.9724015586217271
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0063.json",
+      "seed_id": "seed_0063",
+      "score": 0.11355102060236655,
+      "mean_AUC": 0.13957458732459616,
+      "minimum_AUC": 0.08752745388013694,
+      "negative_OTF_points": 103,
+      "RI1_bare": 0.8740418498156455
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0064.json",
+      "seed_id": "seed_0064",
+      "score": 0.16505201331208713,
+      "mean_AUC": 0.1883590870478455,
+      "minimum_AUC": 0.14174493957632875,
+      "negative_OTF_points": 95,
+      "RI1_bare": 0.8565139329254305
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0068.json",
+      "seed_id": "seed_0068",
+      "score": 0.17928639827751192,
+      "mean_AUC": 0.21547482309212737,
+      "minimum_AUC": 0.1430979734628965,
+      "negative_OTF_points": 0,
+      "RI1_bare": 0.9131556325852569
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0071.json",
+      "seed_id": "seed_0071",
+      "score": 0.19202071086495692,
+      "mean_AUC": 0.2640152230894669,
+      "minimum_AUC": 0.12002619864044695,
+      "negative_OTF_points": 37,
+      "RI1_bare": 0.923888619471634
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0072.json",
+      "seed_id": "seed_0072",
+      "score": 0.16253872257524296,
+      "mean_AUC": 0.20535054874636732,
+      "minimum_AUC": 0.1197268964041186,
+      "negative_OTF_points": 128,
+      "RI1_bare": 0.9192664324988091
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0075.json",
+      "seed_id": "seed_0075",
+      "score": 0.1576982545726599,
+      "mean_AUC": 0.17483058116618932,
+      "minimum_AUC": 0.14056592797913048,
+      "negative_OTF_points": 115,
+      "RI1_bare": 0.8496345191167272
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0076.json",
+      "seed_id": "seed_0076",
+      "score": 0.13934117543924202,
+      "mean_AUC": 0.16163555758543618,
+      "minimum_AUC": 0.11704679329304787,
+      "negative_OTF_points": 57,
+      "RI1_bare": 0.9606435375420063
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0079.json",
+      "seed_id": "seed_0079",
+      "score": 0.17711953739122274,
+      "mean_AUC": 0.19326571929330957,
+      "minimum_AUC": 0.1609733554891359,
+      "negative_OTF_points": 56,
+      "RI1_bare": 0.9021773768058186
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0080.json",
+      "seed_id": "seed_0080",
+      "score": 0.15114148784724152,
+      "mean_AUC": 0.18110840807191755,
+      "minimum_AUC": 0.12117456762256551,
+      "negative_OTF_points": 15,
+      "RI1_bare": 0.921528323077981
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0083.json",
+      "seed_id": "seed_0083",
+      "score": 0.17317197822778396,
+      "mean_AUC": 0.21739379786404572,
+      "minimum_AUC": 0.12895015859152223,
+      "negative_OTF_points": 119,
+      "RI1_bare": 0.9282293071424964
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0084.json",
+      "seed_id": "seed_0084",
+      "score": 0.18930498698076437,
+      "mean_AUC": 0.27828895406021276,
+      "minimum_AUC": 0.10032101990131595,
+      "negative_OTF_points": 11,
+      "RI1_bare": 0.9889070232649895
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0087.json",
+      "seed_id": "seed_0087",
+      "score": 0.1643470359723107,
+      "mean_AUC": 0.2119736259887021,
+      "minimum_AUC": 0.11672044595591935,
+      "negative_OTF_points": 21,
+      "RI1_bare": 0.9414323129334511
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0088.json",
+      "seed_id": "seed_0088",
+      "score": 0.1419539270108234,
+      "mean_AUC": 0.1643450173527179,
+      "minimum_AUC": 0.11956283666892893,
+      "negative_OTF_points": 47,
+      "RI1_bare": 0.9014598167231657
+    },
+    {
+      "source": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/results/refined/seed_0091.json",
+      "seed_id": "seed_0091",
+      "score": 0.12789734582864903,
+      "mean_AUC": 0.1458952674466003,
+      "minimum_AUC": 0.10989942421069773,
+      "negative_OTF_points": 118,
+      "RI1_bare": 0.9365268080171384
+    }
+  ],
+  "tested_distinct_seed_count": 8,
+  "results": [
+    {
+      "seed_id": "seed_0059",
+      "improved_qualified_result": false,
+      "eligible_proposals": 0
+    },
+    {
+      "seed_id": "seed_0036",
+      "improved_qualified_result": false,
+      "eligible_proposals": 0
+    },
+    {
+      "seed_id": "seed_0012",
+      "improved_qualified_result": false,
+      "eligible_proposals": 0
+    },
+    {
+      "seed_id": "seed_0011",
+      "path": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/focus_similarity_best/seed_0011.json",
+      "delta_mm": -0.050000000000000044,
+      "scale": 1.0005739603790809,
+      "old_mean": 0.27059703919720174,
+      "new_mean": 0.2750803681849423,
+      "old_min": 0.12868603097036296,
+      "new_min": 0.16118978166656953,
+      "RI1_bare": 0.9449256646894981
+    },
+    {
+      "seed_id": "seed_0108",
+      "improved_qualified_result": false,
+      "eligible_proposals": 0
+    },
+    {
+      "seed_id": "seed_0071",
+      "improved_qualified_result": false,
+      "eligible_proposals": 0
+    },
+    {
+      "seed_id": "seed_0084",
+      "improved_qualified_result": false,
+      "eligible_proposals": 0
+    },
+    {
+      "seed_id": "seed_0100",
+      "path": "/workspace/Imaging-optics-simulation-engine/experiments/candidates_20261022/focus_similarity_best/seed_0100.json",
+      "delta_mm": -0.10000000000000003,
+      "scale": 0.9998458972837319,
+      "old_mean": 0.23002687400113958,
+      "new_mean": 0.26530289093386483,
+      "old_min": 0.14220514885466456,
+      "new_min": 0.1984408960034763,
+      "RI1_bare": 0.938937665528519
+    }
+  ],
+  "retention_rule": "Mean geometricMTFAUC improves>1e-4, minimumfield/axisAUC notlower>1e-5, RI1 deviation increases<=.002; allnumericconstraints, allRGBNA>=.7,13fieldallraytransmission pass. No per-color/fieldrefocus."
+}

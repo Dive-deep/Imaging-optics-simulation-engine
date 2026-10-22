@@ -1,0 +1,190 @@
+{
+  "schema": "independent-original-engine-ct20-final-candidates-ray-audit/1",
+  "input_files_sha256": {
+    "experiments/candidates_ct20_20261022/results/frozen_selection.json": "19a6f2e21fff64b2a36947426ffb42a75683617fb3fd41971f7fcf396464497d"
+  },
+  "frozen_sources_sha256": {
+    "src/sequential_optics/geometry.py": "784d7c22d318e9ee6a49338b4b88943dd0def9ff6ce320bc91c50fd5d39b9ff8",
+    "src/sequential_optics/models.py": "e35f64554349cd5837bed6b42337557f8a7e964d898828a60aeb35f2e2261682",
+    "src/sequential_optics/materials.py": "515b823bf74d59ad8b1c3278df0bb7667d32abf5acaed5042ba7c0f56481639f",
+    "experiments/candidates_ct20_20261022/model.py": "95e793be9560a3e28c682714dc83e84ffd21cb79dcfacff196b2a3acc5e651c7",
+    "experiments/candidates_ct20_20261022/native/raytrace.py": "1d474185a89240645db2f02c0d0fc2030195e523e9ed2a0463d62cc385de54cb",
+    "experiments/candidates_ct20_20261022/native/raytrace.c": "cc787749eb84e60e3caa6cb3dae292c179f27b6ea34a96897074007e59eb1b1a",
+    "experiments/candidates_ct20_20261022/native/_raytrace_kernel.so": "1a150c6660cae7ba8c61714f0c57abae74f7e8e2e82f25cc199326a49e3be4b0",
+    "experiments/candidates_ct20_20261022/native/audit_final_candidates.py": "85b2327806fbb0e72f96fc8f13591d6ed77973db1b244f144131023363058c66"
+  },
+  "script_sha256": "85b2327806fbb0e72f96fc8f13591d6ed77973db1b244f144131023363058c66",
+  "selection": "All 23 frozen distinct CT20 candidates, no refiltering or failed-case removal",
+  "candidate_design_sha256": {
+    "CT20_0039": "582ce4043501dd8236bf9624b9ed56b7acf79af20022610dbd29c500cabe4148",
+    "CT20_0040": "eb192c6ef012620fad0a8f10ee32b575926522bed291007efb03c43399ceb3a8",
+    "CT20_0025": "a2516169730cf1963f3dc0167e74502e5276a46b77e17e89364aa96c94b98880",
+    "CT20_0015": "4e2a2f2496d2611b2dcb28d963bb0136ce34e8b2a9e1ddf19f47f5c91a14c633",
+    "CT20_0016": "885fe7bfd1972708e16e7727a2b1066d20c20bed94953d1e121b732bcc927edb",
+    "CT20_0088": "8212658e26ee11ce0b3bac999862021bc359637d45dfaf3717ab9c2f73a7523b",
+    "CT20_0076": "d7e8563ad7de6716b5d59a39ac57d7fdead87f9b5c2406cc5e4ede2296fde86c",
+    "CT20_0064": "6795b60c537a02cf38ce454227ff821ae05e951009a86e36922c357dc6bc2e30",
+    "CT20_0051": "c1f4759c31dfe34d3267d43af9eb06e31f419d4984b0cf8e32b336c6fa2464af",
+    "CT20_0052": "2bf7fbb63241d1ee188cf92afb1af027b7da0efa3ea7e99a46b1251457ffd28e",
+    "CT20_0091": "b1cc1b2a641669ee94ba0fd4c39d66aa57407173fb1efccff35f8a9ddb0b8150",
+    "CT20_0092": "1aa9d3ba3c717c8a54b14139b73792e179c7db7b4141b12bbf5dd15c5e037a49",
+    "CT20_0079": "601cf808f44ad032684ac0d38bd1ffc7132ae7c0cf59243c33d4dbc3b2729cec",
+    "CT20_0080": "d2e64ef161708c7f9997eb3f906123030613091d2d051a4f927563918b62087a",
+    "CT20_0047": "54c37752c2e43b6618a8293ecc4255416f391e1fad6442ab969c5bb8a229ec4c",
+    "CT20_0048": "c4204447a1e5324042374001bb1dc981543258ba211619be288fdca85d351cf2",
+    "CT20_0036": "4ea3a110955588ca1958373fceb36e4465ab573350b2df553a521c80ab1897e2",
+    "CT20_0084": "4c2ece9539b34ab0e19afcce446d70116a9414f3f3c56e5bd797b43af78a52a9",
+    "CT20_0098": "e65d84984a8bff11aa3a2eaa178fed2575928b3386cb2bea19f48e04d072ede6",
+    "CT20_0102": "fc7ad5a2802ab127cff5c0a33e49c8f2f85551aaaa57e0865729af4b6dbd0e73",
+    "CT20_0072": "71c48e4ff5789ef1a51e53e8629527ebe2183fc52c3c5cf9eac0d42fb233979e",
+    "CT20_0011": "0b5aa5c54c52994937f6f2207ae5417da2bf097c6a0ece7fbaa012f4ecf25249",
+    "CT20_0059": "5872d4d93ddf2d2b78a37d703cc2cc3c727e595a7bd6b5b668053cae53739617"
+  },
+  "candidate_count": 23,
+  "minimum_candidate_count": 20,
+  "fields": [
+    0.0,
+    0.5,
+    0.8,
+    1.0
+  ],
+  "wavelengths_nm": [
+    486.0,
+    588.0,
+    656.0
+  ],
+  "base_sampling": "16rings48arms+chief+rim",
+  "selected_original_ray_indices": [
+    0,
+    145,
+    151,
+    157,
+    163,
+    169,
+    175,
+    181,
+    187,
+    529,
+    535,
+    541,
+    547,
+    553,
+    559,
+    565,
+    571,
+    769,
+    775,
+    781,
+    787,
+    793,
+    799,
+    805,
+    811
+  ],
+  "normalized_pupil_points": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.46770717334674267,
+      0.0
+    ],
+    [
+      0.33071891388307384,
+      0.3307189138830738
+    ],
+    [
+      2.863880463886723e-17,
+      0.46770717334674267
+    ],
+    [
+      -0.3307189138830738,
+      0.33071891388307384
+    ],
+    [
+      -0.46770717334674267,
+      5.727760927773446e-17
+    ],
+    [
+      -0.330718913883074,
+      -0.3307189138830736
+    ],
+    [
+      -8.59164139166017e-17,
+      -0.46770717334674267
+    ],
+    [
+      0.33071891388307373,
+      -0.3307189138830739
+    ],
+    [
+      0.8477912478906585,
+      0.0
+    ],
+    [
+      0.59947894041409,
+      0.5994789404140899
+    ],
+    [
+      5.191224190372176e-17,
+      0.8477912478906585
+    ],
+    [
+      -0.5994789404140899,
+      0.59947894041409
+    ],
+    [
+      -0.8477912478906585,
+      1.0382448380744352e-16
+    ],
+    [
+      -0.5994789404140902,
+      -0.5994789404140896
+    ],
+    [
+      -1.5573672571116527e-16,
+      -0.8477912478906585
+    ],
+    [
+      0.5994789404140898,
+      -0.5994789404140901
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.7071067811865476,
+      0.7071067811865475
+    ],
+    [
+      6.123233995736766e-17,
+      1.0
+    ],
+    [
+      -0.7071067811865475,
+      0.7071067811865476
+    ],
+    [
+      -1.0,
+      1.2246467991473532e-16
+    ],
+    [
+      -0.7071067811865479,
+      -0.7071067811865471
+    ],
+    [
+      -1.8369701987210297e-16,
+      -1.0
+    ],
+    [
+      0.7071067811865474,
+      -0.7071067811865477
+    ]
+  ],
+  "rays_per_candidate": 300,
+  "position_and_opl_abs_limit_mm": 1e-08,
+  "direction_abs_limit": 2e-10,
+  "scope": "Original v0.2.1 trace_ray versus native model trace. Every selected ray retained. Original validate_geometry radialinterval across commonclearapertures. No proof of wave/MTF convergence or untested-ray equivalence."
+}

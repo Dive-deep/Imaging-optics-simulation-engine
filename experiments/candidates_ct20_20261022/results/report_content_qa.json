@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "candidate_count": 23,
+  "pdf_page_count": 23,
+  "per_case_png_count": 23,
+  "field_panel_count": 92,
+  "scalar_panel_count": 64,
+  "geometric_diagnostic_panel_count": 28,
+  "RGB_geometric_or_scalar_curve_pairs": 276,
+  "all_summary_RI_spot_CT_match_full_metrics": true,
+  "all_actual_CT_and_metric_gates_pass": true,
+  "all_input_ids_and_embedded_records_preserved": true,
+  "all_distinct_eligible_parents_retained": true,
+  "presentation_order": "glass position, material order, source seed ID; no overall rank",
+  "13field_aperture_fit_rays_per_candidate": 31863,
+  "4field_metric_rays_per_candidate": 9804,
+  "candidates_file_sha256": "053a1d28d7f7b7cf0f1874a559830fb9a5f7957ef6bd13691787dae4093199bb",
+  "file_bytes": {
+    "candidate_report.html": 26457313,
+    "candidate_layouts_and_mtf.pdf": 1448977,
+    "candidate_contact_sheet.png": 1898606
+  }
+}

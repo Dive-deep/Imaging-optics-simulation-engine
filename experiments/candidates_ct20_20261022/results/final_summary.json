@@ -1,0 +1,162 @@
+{
+  "selected_count": 23,
+  "distinct_source_seeds": 23,
+  "material_order_count": 16,
+  "aperture_modes": {
+    "front_diameter50": 22,
+    "epd50": 1
+  },
+  "glass_position_counts": {
+    "1": 10,
+    "2": 4,
+    "3": 9
+  },
+  "EPD_mm": {
+    "minimum": 43.000474153825074,
+    "maximum": 50.0
+  },
+  "NA_588_onaxis": {
+    "minimum": 0.7061340138316375,
+    "maximum": 0.7636810595912292
+  },
+  "NA_allRGB_onaxis": {
+    "minimum": 0.7000361002586907,
+    "maximum": 0.7715564534728826
+  },
+  "vertex_BFL_mm": {
+    "minimum": 3.000343429160373,
+    "maximum": 7.70598619927555
+  },
+  "paraxial_BFL_588_mm": {
+    "minimum": 3.085424141995535,
+    "maximum": 8.686621975286354
+  },
+  "EFL_588_mm": {
+    "minimum": 29.648583219969453,
+    "maximum": 31.322316645101356
+  },
+  "center_thickness_mm": {
+    "minimum": 2.03175799273724,
+    "maximum": 19.999997036672667
+  },
+  "air_gap_mm": {
+    "minimum": 1.0040630077358326,
+    "maximum": 10.141534338894832
+  },
+  "stop_distance_mm": {
+    "minimum": 0.10579462862942757,
+    "maximum": 9.04002157527934
+  },
+  "TTL_first_vertex_to_image_mm": {
+    "minimum": 45.830163574362025,
+    "maximum": 70.16401601349035
+  },
+  "fullfield_chief_height_mm_by_wavelength": {
+    "486.0": {
+      "minimum": 6.30461577012621,
+      "maximum": 6.359829324228649
+    },
+    "588.0": {
+      "minimum": 6.3999999999999995,
+      "maximum": 6.400000000000001
+    },
+    "656.0": {
+      "minimum": 6.417015134692146,
+      "maximum": 6.438528568810125
+    }
+  },
+  "fullfield_RI_uncoated_RGB": {
+    "minimum": 0.8614038708922427,
+    "maximum": 1.0134216839512948
+  },
+  "fullfield_RI_uncoated_588": {
+    "minimum": 0.8615986780887364,
+    "maximum": 1.0127252980427677
+  },
+  "fullfield_distortion_588_percent": {
+    "minimum": -3.8716291587867047,
+    "maximum": 1.5550472589938913
+  },
+  "axis_spot_RGB_RMS_radius_mm": {
+    "minimum": 0.05409114445221963,
+    "maximum": 1.8471959683707224
+  },
+  "fullfield_spot_RGB_RMS_radius_mm": {
+    "minimum": 0.12231663714999744,
+    "maximum": 1.5621178150698003
+  },
+  "primary_wave_status_counts": {
+    "underresolved_quadrature": 200,
+    "conditional": 3,
+    "not_applicable": 73
+  },
+  "actual_fft_status_counts": {
+    "not_applicable": 22,
+    "underresolved": 17
+  },
+  "strict_pointwise_quadrature_pass_count": 3,
+  "primary_monochromatic_requested_pairs": 276,
+  "primary_monochromatic_computed_curve_pairs": 203,
+  "polychromatic_computed_curve_pairs": 64,
+  "geometric_monochromatic_curve_pairs": 276,
+  "geometric_polychromatic_curve_pairs": 92,
+  "actual_fft_requested_diagnostic_pairs": 46,
+  "actual_fft_recorded_diagnostic_pairs": 39,
+  "sampled_ray_count_4fields_RGB_metrics_per_candidate": 9804,
+  "sampled_ray_count_4fields_RGB_metrics_by_candidate": {
+    "CT20_0039": 9804,
+    "CT20_0040": 9804,
+    "CT20_0025": 9804,
+    "CT20_0015": 9804,
+    "CT20_0016": 9804,
+    "CT20_0088": 9804,
+    "CT20_0076": 9804,
+    "CT20_0064": 9804,
+    "CT20_0051": 9804,
+    "CT20_0052": 9804,
+    "CT20_0091": 9804,
+    "CT20_0092": 9804,
+    "CT20_0079": 9804,
+    "CT20_0080": 9804,
+    "CT20_0047": 9804,
+    "CT20_0048": 9804,
+    "CT20_0036": 9804,
+    "CT20_0084": 9804,
+    "CT20_0098": 9804,
+    "CT20_0102": 9804,
+    "CT20_0072": 9804,
+    "CT20_0011": 9804,
+    "CT20_0059": 9804
+  },
+  "sampled_ray_count_13fields_RGB_per_candidate": 31863,
+  "sampled_ray_count_13fields_RGB_aperture_fit_by_candidate": {
+    "CT20_0039": 31863,
+    "CT20_0040": 31863,
+    "CT20_0025": 31863,
+    "CT20_0015": 31863,
+    "CT20_0016": 31863,
+    "CT20_0088": 31863,
+    "CT20_0076": 31863,
+    "CT20_0064": 31863,
+    "CT20_0051": 31863,
+    "CT20_0052": 31863,
+    "CT20_0091": 31863,
+    "CT20_0092": 31863,
+    "CT20_0079": 31863,
+    "CT20_0080": 31863,
+    "CT20_0047": 31863,
+    "CT20_0048": 31863,
+    "CT20_0036": 31863,
+    "CT20_0084": 31863,
+    "CT20_0098": 31863,
+    "CT20_0102": 31863,
+    "CT20_0072": 31863,
+    "CT20_0011": 31863,
+    "CT20_0059": 31863
+  },
+  "each_lens_CT_strictly_over2_and_at_most20_mm": true,
+  "all_distinct_eligible_parents_retained": true,
+  "presentation_order": "glass position, material order, source seed ID; no overall rank",
+  "wave_seconds_sum_not_wallclock_benchmark": 678.4539346339998,
+  "validation_scope": "sampled optical feasibility and explicitly conditional scalar curves; no manufacturing/global-optimum/Zemax/cropped-sensor certification"
+}

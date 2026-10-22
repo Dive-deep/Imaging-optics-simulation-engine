@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "loading_method": "Playwright page.setContent of exact local HTML; file:// navigation is blocked by browser administrator policy",
+  "counts": {
+    "records": 24,
+    "summary": 24,
+    "images": 24,
+    "unique_ids": 24
+  },
+  "checks": [
+    "initial C01 with 24 candidates and loaded image",
+    "previous/next navigation",
+    "search selects C24",
+    "selected candidate JSON download",
+    "empty search disables navigation",
+    "strict EPD50 correctly has zero candidates",
+    "first-lens diameter50 filter has 24 candidates",
+    "24 unique embedded records, summaries and images; no JS errors or external network"
+  ],
+  "page_errors": [],
+  "external_network_requests": [],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1100
+    },
+    {
+      "width": 430,
+      "height": 900
+    }
+  ]
+}

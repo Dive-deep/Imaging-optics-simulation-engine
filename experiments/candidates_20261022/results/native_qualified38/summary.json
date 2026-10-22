@@ -1,0 +1,105 @@
+{
+  "schema": "independent-original-engine-ray-audit-summary/1",
+  "candidate_count": 38,
+  "total_rays": 11400,
+  "passed": true,
+  "failed_candidates": [],
+  "candidate_ids": [
+    "seed_0011",
+    "seed_0012",
+    "seed_0015",
+    "seed_0016",
+    "seed_0020",
+    "seed_0025",
+    "seed_0032",
+    "seed_0036",
+    "seed_0039",
+    "seed_0040",
+    "seed_0044",
+    "seed_0047",
+    "seed_0048",
+    "seed_0051",
+    "seed_0052",
+    "seed_0056",
+    "seed_0059",
+    "seed_0063",
+    "seed_0064",
+    "seed_0068",
+    "seed_0071",
+    "seed_0072",
+    "seed_0075",
+    "seed_0076",
+    "seed_0079",
+    "seed_0080",
+    "seed_0083",
+    "seed_0084",
+    "seed_0087",
+    "seed_0088",
+    "seed_0091",
+    "seed_0092",
+    "seed_0095",
+    "seed_0096",
+    "seed_0098",
+    "seed_0100",
+    "seed_0102",
+    "seed_0108"
+  ],
+  "original_interval_geometry_passed_candidates": 38,
+  "status_or_numeric_failure_count": 0,
+  "changed_sources": [],
+  "changed_inputs": [],
+  "seconds": 68.94576476800012,
+  "scope": "Original v0.2.1 trace_ray versus native model trace. Every selected ray retained. Original validate_geometry radialinterval across commonclearapertures. No proof of wave/MTF convergence or untested-ray equivalence.",
+  "max_position_difference_mm": 3.395150827145699e-11,
+  "max_position_difference_mm_source": {
+    "candidate_id": "seed_0036",
+    "wave_nm": 656.0,
+    "field_fraction": 0.8,
+    "selected_ray": 19,
+    "original_ray_index": 781,
+    "normalized_pupil_xy": [
+      6.123233995736766e-17,
+      1.0
+    ],
+    "maximum_absolute_difference": 3.395150827145699e-11
+  },
+  "max_direction_difference": 1.4840351170164467e-12,
+  "max_direction_difference_source": {
+    "candidate_id": "seed_0036",
+    "wave_nm": 656.0,
+    "field_fraction": 0.8,
+    "selected_ray": 19,
+    "original_ray_index": 781,
+    "normalized_pupil_xy": [
+      6.123233995736766e-17,
+      1.0
+    ],
+    "maximum_absolute_difference": 1.4840351170164467e-12
+  },
+  "max_opl_difference_mm": 7.013056801952189e-11,
+  "max_opl_difference_mm_source": {
+    "candidate_id": "seed_0072",
+    "wave_nm": 486.0,
+    "field_fraction": 1.0,
+    "selected_ray": 19,
+    "original_ray_index": 781,
+    "normalized_pupil_xy": [
+      6.123233995736766e-17,
+      1.0
+    ],
+    "maximum_absolute_difference": 7.013056801952189e-11
+  },
+  "max_image_xy_difference_mm": 4.551203858227382e-11,
+  "max_image_xy_difference_mm_source": {
+    "candidate_id": "seed_0036",
+    "wave_nm": 656.0,
+    "field_fraction": 0.8,
+    "selected_ray": 19,
+    "original_ray_index": 781,
+    "normalized_pupil_xy": [
+      6.123233995736766e-17,
+      1.0
+    ],
+    "maximum_absolute_difference": 4.551203858227382e-11
+  }
+}

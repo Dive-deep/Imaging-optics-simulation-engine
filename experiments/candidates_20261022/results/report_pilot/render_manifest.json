@@ -1,0 +1,16 @@
+{
+  "count": 1,
+  "candidate_ids": [
+    "pilot_0083"
+  ],
+  "files": [
+    "candidate_layouts_and_mtf.pdf",
+    "candidate_contact_sheet.png",
+    "candidate_report.html",
+    "report_summary.json"
+  ],
+  "rays": "Fresh traces from stored design; chief and marginal kept, failed traces marked.",
+  "MTF": "Saved values only; autocorrelation, actual FFT and geometric diagnostics named separately.",
+  "spot_plot_sampling": "8 rings x24 arms pluschief/rim for visual readability; summaryvaluesfromfullmetrics.",
+  "errors": []
+}

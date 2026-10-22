@@ -1,0 +1,145 @@
+{
+  "schema": "ct20-guarded-rescue-domain-controls/1",
+  "passed": true,
+  "guarded_script_sha256": "5c0964fadfde979db0fcec9cd39711ddbc0687c2e53694599d937e45d01e7175",
+  "base_script_sha256_unchanged": "901de3e48b2ef8ce29fa83f16e2ff65cf53a651fe55cb218e81a8bcd4c676d3d",
+  "control_script_sha256": "f790db6a6edaa57a049c5cf7e07cc1247b7ed724e38288f156deed048baf08f9",
+  "controls": [
+    "virtual clear never below physical clear",
+    "physical input deep-copy preserved",
+    "valid sphere expanded only to domain margin",
+    "valid physical radius inside margin retained",
+    "invalid actual domain preserved and rejected",
+    "planes/paraboloids/hyperboloids remain nominal1.25",
+    "native single-surface naive invalidity repaired only for valid physical domain",
+    "actual seed0075 coarse trace eliminates artificial domain failure",
+    "finite guarded residual uses unchanged physical geometry"
+  ],
+  "synthetic_metadata": {
+    "nominal_aperture_scale": 1.25,
+    "domain_relative_margin": 1e-08,
+    "physical_clear_radii_mm": [
+      9.0,
+      9.999999999,
+      10.1,
+      9.0,
+      9.0,
+      9.0
+    ],
+    "virtual_trace_clear_radii_mm": [
+      9.999999899999999,
+      9.999999999,
+      10.1,
+      11.25,
+      11.25,
+      11.25
+    ],
+    "effective_aperture_scales": [
+      1.1111110999999998,
+      1.0,
+      1.0,
+      1.25,
+      1.25,
+      1.25
+    ],
+    "finite_conic_domain_radii_mm": [
+      10.0,
+      10.0,
+      10.0,
+      null,
+      null,
+      null
+    ],
+    "domain_capped_surface_numbers": [
+      1,
+      2
+    ],
+    "physical_radius_retained_inside_margin_surface_numbers": [
+      2
+    ],
+    "invalid_actual_domain_surface_numbers": [
+      3
+    ],
+    "application": "trace-only cloned clear radii; geometry and footprint merit use physical design; final actual-clear retrace"
+  },
+  "synthetic_native_status": {
+    "physical_valid": [
+      0,
+      0
+    ],
+    "naive_1p25_invalid": [
+      3,
+      3
+    ],
+    "guarded": [
+      0,
+      0
+    ],
+    "physical_inside_margin": [
+      0,
+      0
+    ],
+    "physical_invalid_preserved": [
+      3,
+      3
+    ]
+  },
+  "real_case_source": "results/repair/seed_0075.json",
+  "real_case_sha256": "319602eefa574037c4bb57bf19a7bc1a7fc674945832e477bfc29649c650a0b8",
+  "real_case_virtual_metadata": {
+    "nominal_aperture_scale": 1.25,
+    "domain_relative_margin": 1e-08,
+    "physical_clear_radii_mm": [
+      25.0,
+      22.529336395621964,
+      22.61733104771451,
+      20.998945812557015,
+      18.869249141464635,
+      14.645132276537895
+    ],
+    "virtual_trace_clear_radii_mm": [
+      31.25,
+      28.161670494527456,
+      28.27166380964314,
+      26.248682265696267,
+      22.131743176473883,
+      18.30641534567237
+    ],
+    "effective_aperture_scales": [
+      1.25,
+      1.25,
+      1.25,
+      1.25,
+      1.1729000454946568,
+      1.25
+    ],
+    "finite_conic_domain_radii_mm": [
+      75.51199376245965,
+      574.0445927548054,
+      null,
+      null,
+      22.13174339779132,
+      null
+    ],
+    "domain_capped_surface_numbers": [
+      5
+    ],
+    "physical_radius_retained_inside_margin_surface_numbers": [],
+    "invalid_actual_domain_surface_numbers": [],
+    "application": "trace-only cloned clear radii; geometry and footprint merit use physical design; final actual-clear retrace"
+  },
+  "real_case_status_counts": {
+    "physical": {
+      "0": 300
+    },
+    "naive": {
+      "3": 300
+    },
+    "guarded": {
+      "0": 300
+    }
+  },
+  "real_case_merit_residual_length": 3604,
+  "seconds": 0.01294571700054803,
+  "scope": "Domain-control regression only, not optimization success or 13-field candidate qualification"
+}

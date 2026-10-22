@@ -1,0 +1,17 @@
+프로젝트 「결상 계산 Engine&DB」를 이어가자.
+
+저장소: https://github.com/Dive-deep/Imaging-optics-simulation-engine
+
+먼저 저장소 루트의 AGENTS.md, CODEX_START.md, HANDOFF.md, README.md와 docs/conversation_handoff_20261022_ko.md를 읽고, experiments/candidates_ct20_20261022/METHOD_KO.md, requirements.json, candidates.json, results/final_summary.json 및 검증 기록을 확인해줘. GitHub 연결만으로 이전 대화 원문이나 미업로드 파일이 자동 복원된다고 가정하지 마.
+
+유지할 결정:
+- 최신 기준은 각 렌즈의 축상 중심 두께 2 < CT ≤ 20 mm를 만족하는 서로 다른 부모의 후보 23개 전부다. 전체 순위나 단일 winner를 정하지 않았다. 첫 전면 clear diameter 50 mm 대안 22개와 EPD 50 mm 대안 1개를 구분해줘.
+- 무한 물체, ±12°, 588 nm chief 상고 6.4 mm, 공통 평면 상면, 3매 air-spaced, 플라스틱 2매와 구면 유리 1매, RGB 각각 축상 complete-rim NA≥0.7, BFL≥3 mm, air gap≥1 mm 조건을 유지해줘. 열해석은 이번 실험 범위가 아니다.
+- 재료 입력은 nd(d=587.5618 nm)/Vd다. PMMA 1.492/57.47, PC 1.586/32, FDS18W 1.94594/17.98, TAFD45 1.95375/32.32이며 승인된 normal-line/Cauchy3 근사를 사용한다. n(550 nm)나 제조사 실측 분산으로 다시 해석하지 마.
+- 현재 검증은 별도 FP64 native 커널과 원본 v0.2.1 엔진의 대조다. 과거 FP16·속도 최적화의 미업로드 파일은 현재 환경에서 복원되지 않았다. 과거 속도 benchmark를 재현했다고 주장하지 마.
+- 0.5% 조건을 평균 오차로 완화하지 마. 현재 scalar 적분의 128→256 격자 최악 주파수 변화 gate는 276개 field/파장 T/S 쌍 중 3개만 통과했고 상태는 underresolved_quadrature 200, conditional 3, not_applicable 73이다. 고NA 파동 정확도나 Zemax 동치가 검증된 것은 아니다. 회절 없는 기하 MTF 진단을 파동 성공 label로 바꾸지 마.
+- 현재 CT20 물리 검사는 23/23개, 새 광선 732,849개 실패 0이며 원본/native 대조 6,900개 상태·수치 실패 0이다. 원본 코어 복원 테스트 277개 통과 기록과 구분해줘. 실제 실행하지 않은 검사나 원격 업로드를 완료했다고 말하지 마.
+- 원본 src/와 tests/, 이전 candidates_20261022의 24개 실험, 모든 기존 결과·hash·ZIP을 보존해줘. 새 실행은 별도 경로에 기록하고 입력 hash가 바뀐 후보에 과거 성능을 재사용하지 마.
+- 후보 주변 DB·MySQL 테이블과 학습된 surrogate는 아직 없다. 다음 후보 작업은 내 지시에 따른 주변 설계 스캔과 검증된 성능 label 정의다.
+
+우선 현재 완료된 일과 미완료·미검증 사항을 짧게 복원해줘. 다음 구체적인 작업은 내가 이어서 지정할게.

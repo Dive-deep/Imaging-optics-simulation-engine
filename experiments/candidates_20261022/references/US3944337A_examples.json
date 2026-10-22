@@ -1,0 +1,467 @@
+{
+  "schema": "public-patent-reference-prescriptions/1",
+  "source_url": "https://patents.google.com/patent/US3944337A/en",
+  "source_title": "Three element objective lens with ellipsoidal, hyperbolic, and parabolic surfaces",
+  "retrieved_utc": "2026-10-22",
+  "source_N_D_wavelength_um": 0.5893,
+  "source_dispersion_lines_um": [
+    0.4861,
+    0.6563
+  ],
+  "convention": "Positive radius center right; patent explicitly K=-eccentricity^2, compatible with modern k. S1=1.8mm is diaphragm-to-front spacing, confirmed by visually inspecting patent drawing. BFL is not explicitly tabulated.",
+  "not_user_candidates": true,
+  "warnings": [
+    "Original polystyrene is not allowed userPC; substitution requires reoptimization.",
+    "Originalglass is not userFDS18W/TAFD45.",
+    "Originalaperture f/1.4..1.57 is far slower than requested EPD50 atf~30.11.",
+    "Userthicknessandairgapconstraints notallmet aftersimple scaling.",
+    "Noaspherictermsabove12exist intheseexamples; allA4..A12 zero.",
+    "Source refractive index uses sodiumD589.3nm, not user Fraunhofer d587.5618nm; do not silently reuse as same glass."
+  ],
+  "examples": [
+    {
+      "example": "I",
+      "focal_length_mm": 11.75,
+      "f_number": 1.57,
+      "half_field_deg": 16.94,
+      "glass_radius_mm": 9.0058,
+      "center_thicknesses_mm": [
+        3.5,
+        0.9,
+        2.8
+      ],
+      "air_gaps_mm": [
+        0.814,
+        0.975
+      ],
+      "stop_to_first_vertex_mm": 1.8,
+      "curvatures_per_mm": [
+        0.15632779,
+        -0.07215136,
+        -0.08858961,
+        0.23514772,
+        0.11103955228852516,
+        -0.11103955228852516
+      ],
+      "conic_constants": [
+        -0.84927155,
+        -17.36321211,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "radii_mm": [
+        6.39681530711846,
+        -13.859752608959832,
+        -11.288005444430786,
+        4.252645953785986,
+        9.0058,
+        -9.0058
+      ],
+      "A4_A6_A8_A10_A12": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "surface_types": [
+        "even_asphere",
+        "even_asphere",
+        "even_asphere",
+        "even_asphere",
+        "standard",
+        "standard"
+      ],
+      "entrance_pupil_diameter_from_f_number_mm": 7.484076433121019,
+      "original_materials": [
+        {
+          "name": "PMMA",
+          "N_D": 1.49168,
+          "V_D": 57.4
+        },
+        {
+          "name": "polystyrene",
+          "N_D": 1.59028,
+          "V_D": 30.9
+        },
+        {
+          "name": "unnamed_glass",
+          "N_D": 1.734,
+          "V_D": 51.0
+        }
+      ]
+    },
+    {
+      "example": "II",
+      "focal_length_mm": 12.0,
+      "f_number": 1.4,
+      "half_field_deg": 16.61,
+      "glass_radius_mm": 9.4018,
+      "center_thicknesses_mm": [
+        3.7,
+        0.8,
+        2.697
+      ],
+      "air_gaps_mm": [
+        0.825,
+        1.123
+      ],
+      "stop_to_first_vertex_mm": 1.8,
+      "curvatures_per_mm": [
+        0.15671005,
+        -0.07073345,
+        -0.08252031,
+        0.23303578,
+        0.10636261141483545,
+        -0.10636261141483545
+      ],
+      "conic_constants": [
+        -0.81198436,
+        -20.27948769,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "radii_mm": [
+        6.381211670853274,
+        -14.137582713694863,
+        -12.118228833604721,
+        4.291186529381883,
+        9.4018,
+        -9.4018
+      ],
+      "A4_A6_A8_A10_A12": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "surface_types": [
+        "even_asphere",
+        "even_asphere",
+        "even_asphere",
+        "even_asphere",
+        "standard",
+        "standard"
+      ],
+      "entrance_pupil_diameter_from_f_number_mm": 8.571428571428571,
+      "original_materials": [
+        {
+          "name": "PMMA",
+          "N_D": 1.49168,
+          "V_D": 57.4
+        },
+        {
+          "name": "polystyrene",
+          "N_D": 1.59028,
+          "V_D": 30.9
+        },
+        {
+          "name": "unnamed_glass",
+          "N_D": 1.734,
+          "V_D": 51.0
+        }
+      ]
+    },
+    {
+      "example": "III",
+      "focal_length_mm": 14.0,
+      "f_number": 1.4,
+      "half_field_deg": 14.34,
+      "glass_radius_mm": 10.134,
+      "center_thicknesses_mm": [
+        4.553,
+        0.9,
+        2.96
+      ],
+      "air_gaps_mm": [
+        1.204,
+        1.19
+      ],
+      "stop_to_first_vertex_mm": 1.8,
+      "curvatures_per_mm": [
+        0.13140514,
+        -0.06324239,
+        -0.08182546,
+        0.21013933,
+        0.09867771857114663,
+        -0.09867771857114663
+      ],
+      "conic_constants": [
+        -0.80160409,
+        -18.0153334,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "radii_mm": [
+        7.610052392166699,
+        -15.81217914123739,
+        -12.221135084361274,
+        4.758747446277667,
+        10.134,
+        -10.134
+      ],
+      "A4_A6_A8_A10_A12": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "surface_types": [
+        "even_asphere",
+        "even_asphere",
+        "even_asphere",
+        "even_asphere",
+        "standard",
+        "standard"
+      ],
+      "entrance_pupil_diameter_from_f_number_mm": 10.0,
+      "original_materials": [
+        {
+          "name": "PMMA",
+          "N_D": 1.49168,
+          "V_D": 57.4
+        },
+        {
+          "name": "polystyrene",
+          "N_D": 1.59028,
+          "V_D": 30.9
+        },
+        {
+          "name": "unnamed_glass",
+          "N_D": 1.734,
+          "V_D": 51.0
+        }
+      ]
+    },
+    {
+      "example": "IV",
+      "focal_length_mm": 12.01,
+      "f_number": 1.4,
+      "half_field_deg": 16.16,
+      "glass_radius_mm": 9.5029,
+      "center_thicknesses_mm": [
+        3.517,
+        0.9,
+        2.716
+      ],
+      "air_gaps_mm": [
+        0.825,
+        1.135
+      ],
+      "stop_to_first_vertex_mm": 1.8,
+      "curvatures_per_mm": [
+        0.15628953,
+        -0.06431991,
+        -0.0763708568810142,
+        0.22992535,
+        0.10523103473676457,
+        -0.10523103473676457
+      ],
+      "conic_constants": [
+        -0.75823196,
+        -25.72410942,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "radii_mm": [
+        6.398381260728086,
+        -15.5472854361892,
+        -13.094,
+        4.349237698235536,
+        9.5029,
+        -9.5029
+      ],
+      "A4_A6_A8_A10_A12": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "surface_types": [
+        "even_asphere",
+        "even_asphere",
+        "standard",
+        "even_asphere",
+        "standard",
+        "standard"
+      ],
+      "entrance_pupil_diameter_from_f_number_mm": 8.57857142857143,
+      "original_materials": [
+        {
+          "name": "PMMA",
+          "N_D": 1.49168,
+          "V_D": 57.4
+        },
+        {
+          "name": "polystyrene",
+          "N_D": 1.59028,
+          "V_D": 30.9
+        },
+        {
+          "name": "unnamed_glass",
+          "N_D": 1.734,
+          "V_D": 51.0
+        }
+      ]
+    }
+  ]
+}

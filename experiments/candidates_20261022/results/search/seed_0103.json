@@ -1,0 +1,442 @@
+{
+  "initial_seed": {
+    "seed_id": "seed_0103",
+    "materials": [
+      "PMMA",
+      "PC",
+      "TAFD45"
+    ],
+    "curvatures": [
+      0.04611159945073632,
+      -0.02081316746544772,
+      -0.02022012678699796,
+      0.05710125201307367,
+      0.04110773651387822,
+      -0.04110773651387822
+    ],
+    "conics": [
+      -0.81198436,
+      -20.27948769,
+      -1.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "asphere_sag_coefficients_mm": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "axial_distances_mm": [
+      23.483584807950024,
+      3.508264207939961,
+      2.4,
+      2.8177597935702954,
+      21.965194793948616,
+      6.2169215975842915
+    ],
+    "stop_distance_mm": 4.516444905099316,
+    "stop_radius_mm": 25.0,
+    "clear_radii_mm": [
+      26.21,
+      26.21,
+      24.0,
+      24.0,
+      19.5,
+      19.5
+    ],
+    "aperture_mode": "epd50",
+    "provenance": {
+      "method": "public_patent_prescription_scaling_material_substitution_and_aperture_growth",
+      "patent": "US3944337A",
+      "source_url": "https://patents.google.com/patent/US3944337A/en",
+      "example": "II",
+      "source_data_file": "references/US3944337A_examples.json",
+      "linear_scale": 2.509136058388509,
+      "scaled_patent_curvatures_before_ABCD_compensation_per_mm": [
+        0.06245578013838234,
+        -0.02819036048823455,
+        -0.032887937552895645,
+        0.09287490776792195,
+        0.042390133073591386,
+        -0.042390133073591386
+      ],
+      "element_curvature_factors_after_material_aperture_change": [
+        0.7383079572229749,
+        0.6148189364102482,
+        0.9697477581047725
+      ],
+      "ABCD_compensation_nfev": 100,
+      "material_changes": [
+        "original PMMA-like index to user PMMA nd/Vd",
+        "original polystyrene to user PC nd/Vd",
+        "original n1.734 V51 glass to user TAFD45"
+      ],
+      "conic_domain_perturbations": [],
+      "focal_target_mm": 30.109632700662107,
+      "paraxial_EFL_mm": 30.109627802686006,
+      "paraxial_BFL_mm": 6.2169215975842915,
+      "actual_image_gap_mm": 6.2169215975842915,
+      "first_order_matrix_reduced_y_nu": [
+        [
+          0.2064762021744319,
+          33.63602778148212
+        ],
+        [
+          -0.03321196816357831,
+          -0.5672260657374811
+        ]
+      ],
+      "minimum_sampled_material_and_air_axial_clearances_mm": [
+        2.3999999999999986,
+        1.2000000000000002,
+        2.4,
+        1.4923224466080782,
+        2.3999999999999986
+      ],
+      "clearance_radius_samples": 257,
+      "real_ray_qualified": false,
+      "limits": "The original patent is about f/1.4, not this aperture/NA. Material, aperture and clearance changes break original correction; full real-ray optimization is required."
+    }
+  },
+  "design": {
+    "seed_id": "seed_0103",
+    "materials": [
+      "PMMA",
+      "PC",
+      "TAFD45"
+    ],
+    "curvatures": [
+      0.04978859110040689,
+      -0.010973158745783173,
+      0.011566125991736143,
+      0.045067617374713945,
+      0.03867931948810576,
+      0.0001918337858630134
+    ],
+    "conics": [
+      -1.4788125943656938,
+      -16.131791548965587,
+      1.0640866985528745,
+      -1.8458532552165865,
+      0.0,
+      0.0
+    ],
+    "asphere_sag_coefficients_mm": [
+      [
+        6.677305875460279,
+        -0.9966430863708972,
+        0.13013708015520223,
+        -0.1157278553940764,
+        -0.156374477884369
+      ],
+      [
+        -0.8113649125206068,
+        0.5067199639948851,
+        0.3444506474193434,
+        0.03669205208621079,
+        -0.2980576838920599
+      ],
+      [
+        -2.391168376808573,
+        0.3505817612124381,
+        -0.6876020275870564,
+        -0.3846842127495763,
+        -0.13045138173570892
+      ],
+      [
+        8.703845987322586,
+        6.145951853445029,
+        -2.310597882442351,
+        -2.4567701229160517,
+        -2.557271602068182
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "axial_distances_mm": [
+      26.362664346377844,
+      3.095217062480652,
+      3.483123849406698,
+      3.5085051843752426,
+      10.850983789321145,
+      3.318895246841489
+    ],
+    "stop_distance_mm": 0.20130237216018965,
+    "stop_radius_mm": 25.0,
+    "clear_radii_mm": [
+      26.21,
+      26.21,
+      24.0,
+      24.0,
+      19.5,
+      19.5
+    ],
+    "aperture_mode": "epd50",
+    "provenance": {
+      "method": "public_patent_prescription_scaling_material_substitution_and_aperture_growth",
+      "patent": "US3944337A",
+      "source_url": "https://patents.google.com/patent/US3944337A/en",
+      "example": "II",
+      "source_data_file": "references/US3944337A_examples.json",
+      "linear_scale": 2.509136058388509,
+      "scaled_patent_curvatures_before_ABCD_compensation_per_mm": [
+        0.06245578013838234,
+        -0.02819036048823455,
+        -0.032887937552895645,
+        0.09287490776792195,
+        0.042390133073591386,
+        -0.042390133073591386
+      ],
+      "element_curvature_factors_after_material_aperture_change": [
+        0.7383079572229749,
+        0.6148189364102482,
+        0.9697477581047725
+      ],
+      "ABCD_compensation_nfev": 100,
+      "material_changes": [
+        "original PMMA-like index to user PMMA nd/Vd",
+        "original polystyrene to user PC nd/Vd",
+        "original n1.734 V51 glass to user TAFD45"
+      ],
+      "conic_domain_perturbations": [],
+      "focal_target_mm": 30.109632700662107,
+      "paraxial_EFL_mm": 30.109627802686006,
+      "paraxial_BFL_mm": 6.2169215975842915,
+      "actual_image_gap_mm": 6.2169215975842915,
+      "first_order_matrix_reduced_y_nu": [
+        [
+          0.2064762021744319,
+          33.63602778148212
+        ],
+        [
+          -0.03321196816357831,
+          -0.5672260657374811
+        ]
+      ],
+      "minimum_sampled_material_and_air_axial_clearances_mm": [
+        2.3999999999999986,
+        1.2000000000000002,
+        2.4,
+        1.4923224466080782,
+        2.3999999999999986
+      ],
+      "clearance_radius_samples": 257,
+      "real_ray_qualified": false,
+      "limits": "The original patent is about f/1.4, not this aperture/NA. Material, aperture and clearance changes break original correction; full real-ray optimization is required."
+    }
+  },
+  "optimization_log": [
+    {
+      "pupil_fraction": 0.45,
+      "cost": 0.024289283035053854,
+      "nfev": 100,
+      "actual_residual_calls": 2000,
+      "seconds": 3.7527248609999333,
+      "status": 0,
+      "message": "The maximum number of function evaluations is exceeded."
+    },
+    {
+      "pupil_fraction": 0.6,
+      "cost": 0.03679913380106577,
+      "nfev": 100,
+      "actual_residual_calls": 2000,
+      "seconds": 3.8551967319999676,
+      "status": 0,
+      "message": "The maximum number of function evaluations is exceeded."
+    },
+    {
+      "pupil_fraction": 0.72,
+      "cost": 0.057526302691136295,
+      "nfev": 100,
+      "actual_residual_calls": 2000,
+      "seconds": 3.8237396949998583,
+      "status": 0,
+      "message": "The maximum number of function evaluations is exceeded."
+    },
+    {
+      "pupil_fraction": 0.82,
+      "cost": 0.06313238167014126,
+      "nfev": 67,
+      "actual_residual_calls": 1442,
+      "seconds": 2.7211494369998945,
+      "status": 3,
+      "message": "`xtol` termination condition is satisfied."
+    },
+    {
+      "pupil_fraction": 0.9,
+      "cost": 0.09589506183477371,
+      "nfev": 51,
+      "actual_residual_calls": 801,
+      "seconds": 1.5206178469998122,
+      "status": 3,
+      "message": "`xtol` termination condition is satisfied."
+    },
+    {
+      "pupil_fraction": 0.96,
+      "cost": 125.15606881313268,
+      "nfev": 23,
+      "actual_residual_calls": 467,
+      "seconds": 0.9649755170003118,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied."
+    },
+    {
+      "pupil_fraction": 1.0,
+      "cost": 286.45287080264853,
+      "nfev": 18,
+      "actual_residual_calls": 240,
+      "seconds": 0.46476725599995916,
+      "status": 3,
+      "message": "`xtol` termination condition is satisfied."
+    }
+  ],
+  "total_seconds": 17.10463154600029,
+  "quick_metrics": {
+    "rms_mm": [
+      [
+        0.29221925265628956,
+        0.31403144035726516,
+        0.36300859882809833,
+        0.4410565361242438
+      ],
+      [
+        0.4406791514740738,
+        0.42471598943824673,
+        0.3760250147137593,
+        0.39475947346533174
+      ],
+      [
+        0.521781319494147,
+        0.4983902771211351,
+        0.4144613029681239,
+        0.4085663187463537
+      ]
+    ],
+    "valid_fraction": [
+      [
+        1.0,
+        1.0,
+        0.9479166666666667,
+        0.9479166666666667
+      ],
+      [
+        1.0,
+        1.0,
+        0.9479166666666667,
+        0.9479166666666667
+      ],
+      [
+        1.0,
+        1.0,
+        0.9479166666666667,
+        0.9479166666666667
+      ]
+    ],
+    "NA_rgb_axis": [
+      0.8841103567679185,
+      0.8736247960471137,
+      0.8692289549576651
+    ],
+    "chief_full_height_mm": [
+      6.3564601198750665,
+      6.397917565289838,
+      6.415024858688035
+    ],
+    "image_z_mm": 50.61938947880307,
+    "geometry": {
+      "minimum_conic_domains": [
+        1.0,
+        1.0,
+        0.8409527163452699,
+        1.0,
+        0.4311118702570602,
+        0.9999860067234182
+      ],
+      "minimum_adjacent_surface_separation_mm": [
+        2.0338582530409504,
+        3.0952170624806534,
+        3.483123849406695,
+        0.9349731633432015,
+        2.0090968632078816
+      ],
+      "stop_front_min_clearance_mm": 0.20130237216018965,
+      "image_back_min_clearance_mm": 3.282422720711301,
+      "center_thickness_mm": [
+        26.362664346377844,
+        3.483123849406698,
+        10.850983789321145
+      ],
+      "axis_air_gaps_mm": [
+        3.095217062480652,
+        3.5085051843752426
+      ]
+    },
+    "first_order": {
+      "efl_mm": 30.712283380885488,
+      "paraxial_bfl_mm": 5.018956181822612,
+      "matrix": [
+        [
+          0.16341852930890438,
+          28.88445009861458
+        ],
+        [
+          -0.0325602622116457,
+          0.36418594146943484
+        ]
+      ]
+    },
+    "failed_ray_count": 87
+  }
+}

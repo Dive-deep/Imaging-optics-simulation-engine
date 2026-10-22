@@ -1,0 +1,817 @@
+{
+  "qualified38": [
+    {
+      "id": "seed_0071",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "AUC": 0.22581187458858798,
+      "minAUC": 0.1359740663930457,
+      "RI1": 0.9166285054970099,
+      "RIdev": 0.08337149450299008,
+      "BFL": 3.6421325915918636,
+      "NA": 0.7085456277980476,
+      "negative": 157,
+      "polyspot_full": 0.12439684435889409,
+      "maxct": 27.6989205201074,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0071.json"
+    },
+    {
+      "id": "seed_0072",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "AUC": 0.2028565817729783,
+      "minAUC": 0.15178374234584613,
+      "RI1": 0.916884767872961,
+      "RIdev": 0.08311523212703897,
+      "BFL": 9.027529166583017,
+      "NA": 0.7053105274656187,
+      "negative": 19,
+      "polyspot_full": 0.16783391061886763,
+      "maxct": 23.112881386118215,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0072.json"
+    },
+    {
+      "id": "seed_0076",
+      "materials": [
+        "TAFD45",
+        "PC",
+        "PMMA"
+      ],
+      "AUC": 0.1533719660604205,
+      "minAUC": 0.11638983245413734,
+      "RI1": 0.9613330234101249,
+      "RIdev": 0.03866697658987506,
+      "BFL": 7.805347809664492,
+      "NA": 0.7046541101527071,
+      "negative": 150,
+      "polyspot_full": 0.20928166704342552,
+      "maxct": 21.805725168761526,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0076.json"
+    },
+    {
+      "id": "seed_0096",
+      "materials": [
+        "PC",
+        "PC",
+        "TAFD45"
+      ],
+      "AUC": 0.17360205971505271,
+      "minAUC": 0.12858696533186617,
+      "RI1": 0.9721019056206222,
+      "RIdev": 0.027898094379377847,
+      "BFL": 3.00033318338903,
+      "NA": 0.7034116947341352,
+      "negative": 122,
+      "polyspot_full": 0.17468846094210763,
+      "maxct": 26.894892886838065,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0096.json"
+    },
+    {
+      "id": "seed_0056",
+      "materials": [
+        "PMMA",
+        "TAFD45",
+        "PMMA"
+      ],
+      "AUC": 0.2040945577749858,
+      "minAUC": 0.1179767577231247,
+      "RI1": 0.8956756758134106,
+      "RIdev": 0.10432432418658943,
+      "BFL": 5.086667960330317,
+      "NA": 0.7099500439198365,
+      "negative": 209,
+      "polyspot_full": 0.15065665473262554,
+      "maxct": 30.764720661579215,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0056.json"
+    },
+    {
+      "id": "seed_0088",
+      "materials": [
+        "TAFD45",
+        "PC",
+        "PC"
+      ],
+      "AUC": 0.16839353821695063,
+      "minAUC": 0.1187658445426486,
+      "RI1": 0.9065831632606695,
+      "RIdev": 0.09341683673933054,
+      "BFL": 3.648938867812679,
+      "NA": 0.7119909041900371,
+      "negative": 115,
+      "polyspot_full": 0.19307409437921783,
+      "maxct": 29.472000217275646,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0088.json"
+    },
+    {
+      "id": "seed_0048",
+      "materials": [
+        "PC",
+        "PC",
+        "FDS18W"
+      ],
+      "AUC": 0.1856681315756553,
+      "minAUC": 0.13884534034263352,
+      "RI1": 0.9619908107177765,
+      "RIdev": 0.03800918928222352,
+      "BFL": 3.0001401837274093,
+      "NA": 0.7022971495272586,
+      "negative": 107,
+      "polyspot_full": 0.15878430949477712,
+      "maxct": 30.59445340684589,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0048.json"
+    },
+    {
+      "id": "seed_0047",
+      "materials": [
+        "PC",
+        "PC",
+        "FDS18W"
+      ],
+      "AUC": 0.17952960989981862,
+      "minAUC": 0.13992921701617528,
+      "RI1": 0.9470649409518372,
+      "RIdev": 0.05293505904816276,
+      "BFL": 3.0000685299430434,
+      "NA": 0.7019934420547685,
+      "negative": 156,
+      "polyspot_full": 0.16224442748978257,
+      "maxct": 21.741727560734063,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0047.json"
+    },
+    {
+      "id": "seed_0102",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "AUC": 0.0821001098697546,
+      "minAUC": 0.05311734838971046,
+      "RI1": 0.9370359054351367,
+      "RIdev": 0.0629640945648633,
+      "BFL": 6.288453141671049,
+      "NA": 0.7389959680250237,
+      "negative": 168,
+      "polyspot_full": 0.48396492464203644,
+      "maxct": 22.167234289916756,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0102.json"
+    },
+    {
+      "id": "seed_0083",
+      "materials": [
+        "PC",
+        "PMMA",
+        "TAFD45"
+      ],
+      "AUC": 0.2174519370134272,
+      "minAUC": 0.12738551995795838,
+      "RI1": 0.9282341916590221,
+      "RIdev": 0.0717658083409779,
+      "BFL": 3.000670252834734,
+      "NA": 0.707192977869868,
+      "negative": 117,
+      "polyspot_full": 0.4297305021397273,
+      "maxct": 33.937438396341626,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0083.json"
+    },
+    {
+      "id": "seed_0098",
+      "materials": [
+        "PMMA",
+        "PC",
+        "FDS18W"
+      ],
+      "AUC": 0.15365471577058137,
+      "minAUC": 0.11305511643366314,
+      "RI1": 0.9061333494253354,
+      "RIdev": 0.09386665057466459,
+      "BFL": 5.92322343774633,
+      "NA": 0.719531993443833,
+      "negative": 113,
+      "polyspot_full": 0.38764654452391434,
+      "maxct": 21.47967317038628,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0098.json"
+    },
+    {
+      "id": "seed_0040",
+      "materials": [
+        "FDS18W",
+        "PC",
+        "PC"
+      ],
+      "AUC": 0.14164405056798296,
+      "minAUC": 0.09783921279700496,
+      "RI1": 0.8653410865326625,
+      "RIdev": 0.1346589134673375,
+      "BFL": 5.727048522613503,
+      "NA": 0.7163280670486382,
+      "negative": 208,
+      "polyspot_full": 0.2047706265676461,
+      "maxct": 24.009177646338475,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0040.json"
+    },
+    {
+      "id": "seed_0039",
+      "materials": [
+        "FDS18W",
+        "PC",
+        "PC"
+      ],
+      "AUC": 0.1467415912371749,
+      "minAUC": 0.110661500713123,
+      "RI1": 0.8761571148541337,
+      "RIdev": 0.12384288514586628,
+      "BFL": 6.690701618127954,
+      "NA": 0.7155146935251353,
+      "negative": 138,
+      "polyspot_full": 0.20691864602544832,
+      "maxct": 23.186710195044572,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0039.json"
+    },
+    {
+      "id": "seed_0044",
+      "materials": [
+        "PC",
+        "FDS18W",
+        "PC"
+      ],
+      "AUC": 0.15552013218400607,
+      "minAUC": 0.11954810836897253,
+      "RI1": 0.878738654571627,
+      "RIdev": 0.12126134542837297,
+      "BFL": 5.510723234236879,
+      "NA": 0.7122923535322617,
+      "negative": 203,
+      "polyspot_full": 0.1939376111353192,
+      "maxct": 25.21646113079876,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0044.json"
+    },
+    {
+      "id": "seed_0025",
+      "materials": [
+        "FDS18W",
+        "PC",
+        "PMMA"
+      ],
+      "AUC": 0.07829329342625352,
+      "minAUC": 0.054496055088617726,
+      "RI1": 0.9846559182898441,
+      "RIdev": 0.015344081710155888,
+      "BFL": 6.8898229136107,
+      "NA": 0.761053702105664,
+      "negative": 165,
+      "polyspot_full": 0.5925686836440657,
+      "maxct": 16.409958399014794,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0025.json"
+    },
+    {
+      "id": "seed_0011",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "FDS18W"
+      ],
+      "AUC": 0.27059703919720174,
+      "minAUC": 0.12868603097036296,
+      "RI1": 0.9447798173295064,
+      "RIdev": 0.055220182670493556,
+      "BFL": 4.183944833716849,
+      "NA": 0.7048493414073664,
+      "negative": 143,
+      "polyspot_full": 0.12570864631627438,
+      "maxct": 26.298801102548357,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0011.json"
+    },
+    {
+      "id": "seed_0095",
+      "materials": [
+        "PC",
+        "PC",
+        "TAFD45"
+      ],
+      "AUC": 0.1780609350070072,
+      "minAUC": 0.13299423172135771,
+      "RI1": 0.9488827948185418,
+      "RIdev": 0.051117205181458236,
+      "BFL": 3.000317654816794,
+      "NA": 0.7025418723202549,
+      "negative": 188,
+      "polyspot_full": 0.16415026797658858,
+      "maxct": 25.30029142491,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0095.json"
+    },
+    {
+      "id": "seed_0059",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "TAFD45"
+      ],
+      "AUC": 0.24966099650810342,
+      "minAUC": 0.14089746236682893,
+      "RI1": 0.9661486318433041,
+      "RIdev": 0.03385136815669587,
+      "BFL": 3.0264921962592313,
+      "NA": 0.7062025682438879,
+      "negative": 106,
+      "polyspot_full": 0.11536990073390363,
+      "maxct": 25.718692016267624,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0059.json"
+    },
+    {
+      "id": "seed_0084",
+      "materials": [
+        "PC",
+        "PMMA",
+        "TAFD45"
+      ],
+      "AUC": 0.19990977691344541,
+      "minAUC": 0.1578767795526272,
+      "RI1": 0.990648555848937,
+      "RIdev": 0.009351444151063038,
+      "BFL": 3.0039261534973845,
+      "NA": 0.7040893411345065,
+      "negative": 178,
+      "polyspot_full": 0.13943140094916157,
+      "maxct": 26.471417382819883,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0084.json"
+    },
+    {
+      "id": "seed_0063",
+      "materials": [
+        "TAFD45",
+        "PMMA",
+        "PC"
+      ],
+      "AUC": 0.13511988583673076,
+      "minAUC": 0.08579893467551605,
+      "RI1": 0.873988757393951,
+      "RIdev": 0.126011242606049,
+      "BFL": 6.991604325392837,
+      "NA": 0.7062262310101102,
+      "negative": 102,
+      "polyspot_full": 0.2410513546256698,
+      "maxct": 26.126429819045043,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0063.json"
+    },
+    {
+      "id": "seed_0064",
+      "materials": [
+        "TAFD45",
+        "PMMA",
+        "PC"
+      ],
+      "AUC": 0.17180735939896966,
+      "minAUC": 0.10919845140339524,
+      "RI1": 0.84443242516936,
+      "RIdev": 0.15556757483064,
+      "BFL": 4.680261735917036,
+      "NA": 0.7223503786382529,
+      "negative": 152,
+      "polyspot_full": 0.15313188997364935,
+      "maxct": 29.04983072169322,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0064.json"
+    },
+    {
+      "id": "seed_0075",
+      "materials": [
+        "TAFD45",
+        "PC",
+        "PMMA"
+      ],
+      "AUC": 0.17258577784548898,
+      "minAUC": 0.13362040445339723,
+      "RI1": 0.8565929742500032,
+      "RIdev": 0.14340702574999675,
+      "BFL": 7.741618962494047,
+      "NA": 0.7059652896188054,
+      "negative": 151,
+      "polyspot_full": 0.17421105413311325,
+      "maxct": 31.270054347974003,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0075.json"
+    },
+    {
+      "id": "seed_0015",
+      "materials": [
+        "FDS18W",
+        "PMMA",
+        "PC"
+      ],
+      "AUC": 0.17826769176716403,
+      "minAUC": 0.1326360628824735,
+      "RI1": 0.8982992107314589,
+      "RIdev": 0.10170078926854109,
+      "BFL": 7.5345952063012245,
+      "NA": 0.710344384419879,
+      "negative": 124,
+      "polyspot_full": 0.17663741978230724,
+      "maxct": 17.664891003724524,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0015.json"
+    },
+    {
+      "id": "seed_0108",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "AUC": 0.25371357575410625,
+      "minAUC": 0.1304061669069712,
+      "RI1": 0.962270733797036,
+      "RIdev": 0.03772926620296402,
+      "BFL": 3.0010611767891553,
+      "NA": 0.7047258032310956,
+      "negative": 206,
+      "polyspot_full": 0.13361387506415479,
+      "maxct": 26.898268781764976,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0108.json"
+    },
+    {
+      "id": "seed_0032",
+      "materials": [
+        "PC",
+        "FDS18W",
+        "PMMA"
+      ],
+      "AUC": 0.15506725149010406,
+      "minAUC": 0.12194293427835631,
+      "RI1": 0.8957173077659569,
+      "RIdev": 0.10428269223404307,
+      "BFL": 6.110110296003364,
+      "NA": 0.7114313158035399,
+      "negative": 200,
+      "polyspot_full": 0.19136579917563515,
+      "maxct": 24.658925613484136,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0032.json"
+    },
+    {
+      "id": "seed_0012",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "FDS18W"
+      ],
+      "AUC": 0.23461188219360296,
+      "minAUC": 0.14162273527954627,
+      "RI1": 0.9293499778758786,
+      "RIdev": 0.07065002212412141,
+      "BFL": 3.00017048082992,
+      "NA": 0.7076781389730726,
+      "negative": 127,
+      "polyspot_full": 0.1197233780385122,
+      "maxct": 27.08224271578721,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0012.json"
+    },
+    {
+      "id": "seed_0087",
+      "materials": [
+        "TAFD45",
+        "PC",
+        "PC"
+      ],
+      "AUC": 0.16846860744778677,
+      "minAUC": 0.12330937833738229,
+      "RI1": 0.9258478769918403,
+      "RIdev": 0.07415212300815965,
+      "BFL": 4.133031139473516,
+      "NA": 0.7154023948274421,
+      "negative": 129,
+      "polyspot_full": 0.1864610314240488,
+      "maxct": 23.55383616277029,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0087.json"
+    },
+    {
+      "id": "seed_0020",
+      "materials": [
+        "PMMA",
+        "FDS18W",
+        "PC"
+      ],
+      "AUC": 0.23366053434677597,
+      "minAUC": 0.10815951225062923,
+      "RI1": 0.8562325572238283,
+      "RIdev": 0.1437674427761717,
+      "BFL": 6.037487298426848,
+      "NA": 0.7163063328844905,
+      "negative": 172,
+      "polyspot_full": 0.14752344326462116,
+      "maxct": 25.675838062249348,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0020.json"
+    },
+    {
+      "id": "seed_0068",
+      "materials": [
+        "PMMA",
+        "TAFD45",
+        "PC"
+      ],
+      "AUC": 0.1890889028803217,
+      "minAUC": 0.12032197023397528,
+      "RI1": 0.9010402805287778,
+      "RIdev": 0.09895971947122217,
+      "BFL": 4.644504764205645,
+      "NA": 0.7108228799441662,
+      "negative": 127,
+      "polyspot_full": 0.14779844157283273,
+      "maxct": 30.826716087252155,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0068.json"
+    },
+    {
+      "id": "seed_0080",
+      "materials": [
+        "PC",
+        "TAFD45",
+        "PMMA"
+      ],
+      "AUC": 0.15878809247626688,
+      "minAUC": 0.11899199111504333,
+      "RI1": 0.9201055468302389,
+      "RIdev": 0.07989445316976107,
+      "BFL": 5.535701725475797,
+      "NA": 0.7091625971435226,
+      "negative": 194,
+      "polyspot_full": 0.192816078300108,
+      "maxct": 27.68920634043446,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0080.json"
+    },
+    {
+      "id": "seed_0091",
+      "materials": [
+        "PC",
+        "TAFD45",
+        "PC"
+      ],
+      "AUC": 0.1672292916143172,
+      "minAUC": 0.11646899180091701,
+      "RI1": 0.9308966498366257,
+      "RIdev": 0.06910335016337432,
+      "BFL": 3.9281914720455835,
+      "NA": 0.7168860480218316,
+      "negative": 130,
+      "polyspot_full": 0.18909969849224342,
+      "maxct": 26.143300830286503,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0091.json"
+    },
+    {
+      "id": "seed_0016",
+      "materials": [
+        "FDS18W",
+        "PMMA",
+        "PC"
+      ],
+      "AUC": 0.1973267085528148,
+      "minAUC": 0.13642559740805377,
+      "RI1": 0.8613425143027286,
+      "RIdev": 0.13865748569727143,
+      "BFL": 6.754498720327528,
+      "NA": 0.7176989090852134,
+      "negative": 91,
+      "polyspot_full": 0.18510082201150427,
+      "maxct": 18.9611323544185,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0016.json"
+    },
+    {
+      "id": "seed_0100",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "AUC": 0.23002687400113958,
+      "minAUC": 0.14220514885466456,
+      "RI1": 0.9402388152472928,
+      "RIdev": 0.0597611847527072,
+      "BFL": 3.7736810104990863,
+      "NA": 0.705056120265763,
+      "negative": 151,
+      "polyspot_full": 0.14032016129301228,
+      "maxct": 27.214459802582308,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0100.json"
+    },
+    {
+      "id": "seed_0036",
+      "materials": [
+        "PC",
+        "PMMA",
+        "FDS18W"
+      ],
+      "AUC": 0.20516501559015188,
+      "minAUC": 0.1733459468239513,
+      "RI1": 0.9694389500420431,
+      "RIdev": 0.030561049957956943,
+      "BFL": 3.000346706224942,
+      "NA": 0.7030456019319236,
+      "negative": 180,
+      "polyspot_full": 0.14818589316833614,
+      "maxct": 22.994311781285667,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0036.json"
+    },
+    {
+      "id": "seed_0052",
+      "materials": [
+        "TAFD45",
+        "PMMA",
+        "PMMA"
+      ],
+      "AUC": 0.1074603008231259,
+      "minAUC": 0.07765494203376687,
+      "RI1": 0.9684882162979858,
+      "RIdev": 0.03151178370201424,
+      "BFL": 6.878744021119225,
+      "NA": 0.7002239318349379,
+      "negative": 155,
+      "polyspot_full": 0.23069683969516624,
+      "maxct": 22.092862044754362,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0052.json"
+    },
+    {
+      "id": "seed_0092",
+      "materials": [
+        "PC",
+        "TAFD45",
+        "PC"
+      ],
+      "AUC": 0.1648346172978307,
+      "minAUC": 0.11753223231429069,
+      "RI1": 0.9212475220502679,
+      "RIdev": 0.07875247794973206,
+      "BFL": 4.126937726548275,
+      "NA": 0.7076473872933966,
+      "negative": 180,
+      "polyspot_full": 0.17984039314076344,
+      "maxct": 31.731059265412473,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0092.json"
+    },
+    {
+      "id": "seed_0079",
+      "materials": [
+        "PC",
+        "TAFD45",
+        "PMMA"
+      ],
+      "AUC": 0.17766470138591034,
+      "minAUC": 0.13845671097637796,
+      "RI1": 0.9009483679810492,
+      "RIdev": 0.09905163201895084,
+      "BFL": 7.326535716536706,
+      "NA": 0.7066635456888567,
+      "negative": 76,
+      "polyspot_full": 0.18676581575336737,
+      "maxct": 29.796260492260767,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0079.json"
+    },
+    {
+      "id": "seed_0051",
+      "materials": [
+        "TAFD45",
+        "PMMA",
+        "PMMA"
+      ],
+      "AUC": 0.21625661240388244,
+      "minAUC": 0.12852733343204267,
+      "RI1": 0.8798364013966743,
+      "RIdev": 0.1201635986033257,
+      "BFL": 7.657054399092792,
+      "NA": 0.7113711428081335,
+      "negative": 119,
+      "polyspot_full": 0.14833520380546708,
+      "maxct": 21.27556555171954,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0051.json"
+    }
+  ],
+  "pareto3axes": [
+    {
+      "id": "seed_0011",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "FDS18W"
+      ],
+      "AUC": 0.27059703919720174,
+      "minAUC": 0.12868603097036296,
+      "RI1": 0.9447798173295064,
+      "RIdev": 0.055220182670493556,
+      "BFL": 4.183944833716849,
+      "NA": 0.7048493414073664,
+      "negative": 143,
+      "polyspot_full": 0.12570864631627438,
+      "maxct": 26.298801102548357,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0011.json"
+    },
+    {
+      "id": "seed_0059",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "TAFD45"
+      ],
+      "AUC": 0.24966099650810342,
+      "minAUC": 0.14089746236682893,
+      "RI1": 0.9661486318433041,
+      "RIdev": 0.03385136815669587,
+      "BFL": 3.0264921962592313,
+      "NA": 0.7062025682438879,
+      "negative": 106,
+      "polyspot_full": 0.11536990073390363,
+      "maxct": 25.718692016267624,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0059.json"
+    },
+    {
+      "id": "seed_0084",
+      "materials": [
+        "PC",
+        "PMMA",
+        "TAFD45"
+      ],
+      "AUC": 0.19990977691344541,
+      "minAUC": 0.1578767795526272,
+      "RI1": 0.990648555848937,
+      "RIdev": 0.009351444151063038,
+      "BFL": 3.0039261534973845,
+      "NA": 0.7040893411345065,
+      "negative": 178,
+      "polyspot_full": 0.13943140094916157,
+      "maxct": 26.471417382819883,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0084.json"
+    },
+    {
+      "id": "seed_0108",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "AUC": 0.25371357575410625,
+      "minAUC": 0.1304061669069712,
+      "RI1": 0.962270733797036,
+      "RIdev": 0.03772926620296402,
+      "BFL": 3.0010611767891553,
+      "NA": 0.7047258032310956,
+      "negative": 206,
+      "polyspot_full": 0.13361387506415479,
+      "maxct": 26.898268781764976,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0108.json"
+    },
+    {
+      "id": "seed_0012",
+      "materials": [
+        "PMMA",
+        "PMMA",
+        "FDS18W"
+      ],
+      "AUC": 0.23461188219360296,
+      "minAUC": 0.14162273527954627,
+      "RI1": 0.9293499778758786,
+      "RIdev": 0.07065002212412141,
+      "BFL": 3.00017048082992,
+      "NA": 0.7076781389730726,
+      "negative": 127,
+      "polyspot_full": 0.1197233780385122,
+      "maxct": 27.08224271578721,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0012.json"
+    },
+    {
+      "id": "seed_0100",
+      "materials": [
+        "PMMA",
+        "PC",
+        "TAFD45"
+      ],
+      "AUC": 0.23002687400113958,
+      "minAUC": 0.14220514885466456,
+      "RI1": 0.9402388152472928,
+      "RIdev": 0.0597611847527072,
+      "BFL": 3.7736810104990863,
+      "NA": 0.705056120265763,
+      "negative": 151,
+      "polyspot_full": 0.14032016129301228,
+      "maxct": 27.214459802582308,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0100.json"
+    },
+    {
+      "id": "seed_0036",
+      "materials": [
+        "PC",
+        "PMMA",
+        "FDS18W"
+      ],
+      "AUC": 0.20516501559015188,
+      "minAUC": 0.1733459468239513,
+      "RI1": 0.9694389500420431,
+      "RIdev": 0.030561049957956943,
+      "BFL": 3.000346706224942,
+      "NA": 0.7030456019319236,
+      "negative": 180,
+      "polyspot_full": 0.14818589316833614,
+      "maxct": 22.994311781285667,
+      "path": "experiments/candidates_20261022/results/qualified_round1/seed_0036.json"
+    }
+  ],
+  "score": "0.5*(meanAUC+minAUC), only geometricproxy; RI plotted separately"
+}

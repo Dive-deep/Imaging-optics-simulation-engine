@@ -1,0 +1,62 @@
+{
+  "object": "infinity",
+  "half_fov_deg": 12.0,
+  "full_image_size_mm": 12.8,
+  "target_full_field_chief_height_mm": 6.4,
+  "wavelengths_nm": [
+    486.0,
+    588.0,
+    656.0
+  ],
+  "wavelength_power_weights": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "element_count": 3,
+  "plastic_count": 2,
+  "glass_count": 1,
+  "no_cement": true,
+  "allowed_materials": {
+    "PMMA": [
+      1.492,
+      57.47
+    ],
+    "PC": [
+      1.586,
+      32.0
+    ],
+    "FDS18W": [
+      1.94594,
+      17.98
+    ],
+    "TAFD45": [
+      1.95375,
+      32.32
+    ]
+  },
+  "dispersion": "user nd/Vd normal-line, Cauchy3 with PgF=.6438-.001682Vd, no catalog overwrite",
+  "image_space_NA_minimum": 0.7,
+  "vertex_BFL_mm_minimum": 3.0,
+  "center_thickness_mm_strict_minimum": 2.0,
+  "axis_gap_mm_minimum": 1.0,
+  "preferred_stop": "object side, before first lens, less than EFL away",
+  "aperture_alternatives": [
+    "EPD=50mm",
+    "first_lens_clear_diameter=50mm; EPD independently reported"
+  ],
+  "plastic_surfaces": [
+    "standard",
+    "even_asphere k+A4+A6+A8+A10+A12"
+  ],
+  "glass_surfaces": [
+    "standard spherical k=0 no aspheres"
+  ],
+  "thermal_analysis": false,
+  "database_creation_requested": false,
+  "baseline_git_commit": "e347d56b238f86cedd239921335245f85163b806",
+  "previous_optimized_workspace_available": false,
+  "previous_history_restored_from_git": "v0.2.1 only; prior local optimization files not in this clone",
+  "sample_target": "at least20initialcandidates; not20certifiedglobaloptima",
+  "scalar_FFT_high_NA_status": "conditional; no Zemax/vector-equivalence claim"
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "independent-original-engine-ct20-final-candidates-ray-audit-summary/1",
+  "candidate_count": 23,
+  "total_rays": 6900,
+  "passed": true,
+  "failed_candidates": [],
+  "candidate_ids": [
+    "CT20_0039",
+    "CT20_0040",
+    "CT20_0025",
+    "CT20_0015",
+    "CT20_0016",
+    "CT20_0088",
+    "CT20_0076",
+    "CT20_0064",
+    "CT20_0051",
+    "CT20_0052",
+    "CT20_0091",
+    "CT20_0092",
+    "CT20_0079",
+    "CT20_0080",
+    "CT20_0047",
+    "CT20_0048",
+    "CT20_0036",
+    "CT20_0084",
+    "CT20_0098",
+    "CT20_0102",
+    "CT20_0072",
+    "CT20_0011",
+    "CT20_0059"
+  ],
+  "original_interval_geometry_passed_candidates": 23,
+  "status_or_numeric_failure_count": 0,
+  "changed_sources": [],
+  "changed_inputs": [],
+  "seconds": 21.76947302499957,
+  "scope": "Original v0.2.1 trace_ray versus native model trace. Every selected ray retained. Original validate_geometry radialinterval across commonclearapertures. No proof of wave/MTF convergence or untested-ray equivalence.",
+  "max_position_difference_mm": 2.795275122480234e-11,
+  "max_position_difference_mm_source": {
+    "candidate_id": "CT20_0072",
+    "wave_nm": 588.0,
+    "field_fraction": 1.0,
+    "selected_ray": 11,
+    "original_ray_index": 541,
+    "normalized_pupil_xy": [
+      5.191224190372176e-17,
+      0.8477912478906585
+    ],
+    "maximum_absolute_difference": 2.795275122480234e-11
+  },
+  "max_direction_difference": 1.6394940960395843e-12,
+  "max_direction_difference_source": {
+    "candidate_id": "CT20_0072",
+    "wave_nm": 486.0,
+    "field_fraction": 0.8,
+    "selected_ray": 19,
+    "original_ray_index": 781,
+    "normalized_pupil_xy": [
+      6.123233995736766e-17,
+      1.0
+    ],
+    "maximum_absolute_difference": 1.6394940960395843e-12
+  },
+  "max_opl_difference_mm": 6.993161605350906e-11,
+  "max_opl_difference_mm_source": {
+    "candidate_id": "CT20_0092",
+    "wave_nm": 486.0,
+    "field_fraction": 1.0,
+    "selected_ray": 23,
+    "original_ray_index": 805,
+    "normalized_pupil_xy": [
+      -1.8369701987210297e-16,
+      -1.0
+    ],
+    "maximum_absolute_difference": 6.993161605350906e-11
+  },
+  "max_image_xy_difference_mm": 3.9832137588291516e-11,
+  "max_image_xy_difference_mm_source": {
+    "candidate_id": "CT20_0072",
+    "wave_nm": 486.0,
+    "field_fraction": 0.8,
+    "selected_ray": 19,
+    "original_ray_index": 781,
+    "normalized_pupil_xy": [
+      6.123233995736766e-17,
+      1.0
+    ],
+    "maximum_absolute_difference": 3.9832137588291516e-11
+  }
+}

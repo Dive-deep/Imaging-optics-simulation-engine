@@ -1,0 +1,14 @@
+{
+  "cases": 408,
+  "status_counts": {
+    "1": 51,
+    "0": 353,
+    "2": 4
+  },
+  "status_mismatches": [],
+  "max_position_difference_mm": 2.6124880037059484e-11,
+  "max_direction_difference": 1.0788592241794959e-13,
+  "max_opl_difference_mm": 4.8544279707130045e-11,
+  "seconds": 0.5247162969999408,
+  "passed": true
+}

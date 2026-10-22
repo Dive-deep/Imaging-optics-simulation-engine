@@ -1,0 +1,11 @@
+{
+  "schema": "initial-seed-contract-validation/1",
+  "count": 112,
+  "checks_passed": "All112 finite shapes/dimensions,explicit CT>2/gap>=1/image_gap>=3,exactly2plastic+1glass,glassk/A=0,stopdistance<30.11",
+  "paraxial_BFL_below3_ids": [
+    "seed_0069"
+  ],
+  "real_ray_performance_qualified": false,
+  "seed_sha256": "3707a970fa99459a0578fdae524e9695290e9a908a2bd6129dba0ca938a56b08",
+  "generator_sha256": "da2076be90adf313cdfe21489f5ec33c50f731a89fa80a473fb6954bf4ef526d"
+}

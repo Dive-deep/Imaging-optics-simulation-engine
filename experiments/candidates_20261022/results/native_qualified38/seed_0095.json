@@ -1,0 +1,90 @@
+{
+  "candidate_id": "seed_0095",
+  "source_file": "experiments/candidates_20261022/results/qualified_round1/seed_0095.json",
+  "source_sha256": "7512e08a19b20c65c52a7e65721c888f2c6ee0a971b738caa87281cf0365056d",
+  "passed": true,
+  "geometry_passed": true,
+  "original_valid_rays": 300,
+  "native_valid_rays": 300,
+  "ray_count": 300,
+  "failures": [],
+  "max_position_difference_mm": 2.426503442620742e-11,
+  "max_direction_difference": 2.297051437949449e-13,
+  "max_opl_difference_mm": 5.45981038158061e-11,
+  "max_image_xy_difference_mm": 8.274270157926367e-12,
+  "worst_points": {
+    "max_position_difference_mm": {
+      "wave_nm": 656.0,
+      "field_fraction": 0.5,
+      "selected_ray": 3,
+      "original_ray_index": 157,
+      "normalized_pupil_xy": [
+        2.863880463886723e-17,
+        0.46770717334674267
+      ],
+      "maximum_absolute_difference": 2.426503442620742e-11
+    },
+    "max_opl_difference_mm": {
+      "wave_nm": 486.0,
+      "field_fraction": 1.0,
+      "selected_ray": 17,
+      "original_ray_index": 769,
+      "normalized_pupil_xy": [
+        1.0,
+        0.0
+      ],
+      "maximum_absolute_difference": 5.45981038158061e-11
+    },
+    "max_direction_difference": {
+      "wave_nm": 486.0,
+      "field_fraction": 1.0,
+      "selected_ray": 17,
+      "original_ray_index": 769,
+      "normalized_pupil_xy": [
+        1.0,
+        0.0
+      ],
+      "maximum_absolute_difference": 2.297051437949449e-13
+    },
+    "max_image_xy_difference_mm": {
+      "wave_nm": 486.0,
+      "field_fraction": 0.8,
+      "selected_ray": 19,
+      "original_ray_index": 781,
+      "normalized_pupil_xy": [
+        6.123233995736766e-17,
+        1.0
+      ],
+      "maximum_absolute_difference": 8.274270157926367e-12
+    }
+  },
+  "rim_NA_comparison": {
+    "486.0": {
+      "original_min": 0.722371535152978,
+      "native_min": 0.7223715351529688,
+      "sampled_rim_count": 8
+    },
+    "588.0": {
+      "original_min": 0.7082159620213352,
+      "native_min": 0.7082159620213291,
+      "sampled_rim_count": 8
+    },
+    "656.0": {
+      "original_min": 0.7025418723202622,
+      "native_min": 0.7025418723202551,
+      "sampled_rim_count": 8
+    }
+  },
+  "geometry_original_interval": {
+    "status": "valid",
+    "method": "radial interval separation on common clear apertures",
+    "pair_interval_counts": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "seconds": 1.6431091320000633
+}

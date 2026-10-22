@@ -1,0 +1,125 @@
+{
+  "schema": "ct20-selection-physics-statistics/1",
+  "input_file_sha256": "19a6f2e21fff64b2a36947426ffb42a75683617fb3fd41971f7fcf396464497d",
+  "candidate_count": 23,
+  "independent_audit_passed": true,
+  "fresh_dense_ray_count": 732849,
+  "fresh_failed_ray_count": 0,
+  "axis_center_thickness_mm": {
+    "minimum": 2.03175799273724,
+    "maximum": 19.999997036672667
+  },
+  "axis_air_gap_mm": {
+    "minimum": 1.0040630077358326,
+    "maximum": 10.141534338894832
+  },
+  "EPD_mm": {
+    "minimum": 43.000474153825074,
+    "maximum": 50.0
+  },
+  "first_front_clear_diameter_mm": {
+    "minimum": 50.0,
+    "maximum": 53.19918085911474
+  },
+  "NA588_axis_complete_rim_minimum": {
+    "minimum": 0.7061340138316375,
+    "maximum": 0.7636810595912292
+  },
+  "NA_allRGB_axis_complete_rim_minimum": {
+    "minimum": 0.7000361002586907,
+    "maximum": 0.7715564534728826
+  },
+  "vertex_BFL_mm": {
+    "minimum": 3.000343429160373,
+    "maximum": 7.70598619927555
+  },
+  "paraxial_BFL588_mm": {
+    "minimum": 3.085424141995535,
+    "maximum": 8.686621975286354
+  },
+  "EFL588_mm": {
+    "minimum": 29.648583219969453,
+    "maximum": 31.322316645101356
+  },
+  "RI_RGB_weighted_edge_geometric": {
+    "minimum": 0.8607214876481242,
+    "maximum": 1.03750413522895
+  },
+  "RI_RGB_weighted_edge_uncoated": {
+    "minimum": 0.8614038708922427,
+    "maximum": 1.0134216839512948
+  },
+  "fullfield_chief_height_RGB_mm": {
+    "486": {
+      "minimum": 6.30461577012621,
+      "maximum": 6.359829324228649
+    },
+    "588": {
+      "minimum": 6.3999999999999995,
+      "maximum": 6.400000000000001
+    },
+    "656": {
+      "minimum": 6.417015134692146,
+      "maximum": 6.438528568810125
+    }
+  },
+  "maximum_588nm_height_absolute_error_mm": 8.881784197001252e-16,
+  "poly_rms_radius_um": {
+    "0.0": {
+      "minimum": 54.09114445221963,
+      "maximum": 1847.1959683707223
+    },
+    "0.5": {
+      "minimum": 65.580188402292,
+      "maximum": 1801.6763219781262
+    },
+    "0.8": {
+      "minimum": 91.92866010562193,
+      "maximum": 1690.6745961124175
+    },
+    "1.0": {
+      "minimum": 122.31663714999743,
+      "maximum": 1562.1178150698004
+    }
+  },
+  "fullfield_588nm_tangential_opposite_rim_cone_NA": {
+    "minimum": 0.6636254388709759,
+    "maximum": 0.7782300366805435
+  },
+  "fullfield_588nm_distortion_percent_paraxial_EFL": {
+    "minimum": -3.8716291587867047,
+    "maximum": 1.5550472589938913
+  },
+  "geometry4097_minimum_adjacent_separation_mm": 1.0040630077358328,
+  "maximum_export_native_row_error": 6.938893903907228e-18,
+  "maximum_stored_vs_fresh_metric_difference": 0.0,
+  "glass_position_counts": {
+    "1": 10,
+    "2": 4,
+    "3": 9
+  },
+  "material_order_counts": {
+    "FDS18W/PC/PC": 2,
+    "FDS18W/PC/PMMA": 1,
+    "FDS18W/PMMA/PC": 2,
+    "TAFD45/PC/PC": 1,
+    "TAFD45/PC/PMMA": 1,
+    "TAFD45/PMMA/PC": 1,
+    "TAFD45/PMMA/PMMA": 2,
+    "PC/TAFD45/PC": 2,
+    "PC/TAFD45/PMMA": 2,
+    "PC/PC/FDS18W": 2,
+    "PC/PMMA/FDS18W": 1,
+    "PC/PMMA/TAFD45": 1,
+    "PMMA/PC/FDS18W": 2,
+    "PMMA/PC/TAFD45": 1,
+    "PMMA/PMMA/FDS18W": 1,
+    "PMMA/PMMA/TAFD45": 1
+  },
+  "qualifying_aperture_mode_counts": {
+    "front_diameter50": 22,
+    "epd50": 1
+  },
+  "all_evaluations_fixed_image_plane_RGB": true,
+  "no_overall_rank_or_winner": true
+}

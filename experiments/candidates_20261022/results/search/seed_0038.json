@@ -1,0 +1,420 @@
+{
+  "initial_seed": {
+    "seed_id": "seed_0038",
+    "materials": [
+      "FDS18W",
+      "PC",
+      "PC"
+    ],
+    "curvatures": [
+      0.01134487620095677,
+      -0.024107861927033136,
+      0.014635762734716118,
+      -0.008970306192245363,
+      -0.02302517204051401,
+      0.012398169560276773
+    ],
+    "conics": [
+      0.0,
+      0.0,
+      -2.0,
+      -2.0,
+      -2.0,
+      -2.0
+    ],
+    "asphere_sag_coefficients_mm": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "axial_distances_mm": [
+      15.181474664498367,
+      1.2,
+      9.046721309459068,
+      4.3041807901575035,
+      2.4,
+      12.547959019352641
+    ],
+    "stop_distance_mm": 2.25,
+    "stop_radius_mm": 25.0,
+    "clear_radii_mm": [
+      25.72825226375755,
+      25.72825226375755,
+      24.0,
+      24.0,
+      22.0,
+      22.0
+    ],
+    "aperture_mode": "epd50",
+    "provenance": {
+      "method": "analytic_thin_power_then_exact_reduced_ABCD_compensation",
+      "family": "positive_glass_mixed_plastics",
+      "bending_variant": 1,
+      "thin_initial_element_powers_per_mm": [
+        0.04,
+        0.022,
+        -0.022
+      ],
+      "fitted_thin_element_powers_per_mm": [
+        0.033536163104790774,
+        0.01383315639119943,
+        -0.0207580781780634
+      ],
+      "focal_target_mm": 30.109632700662107,
+      "paraxial_EFL_mm": 30.109611967980957,
+      "paraxial_BFL_mm": 12.547959019352641,
+      "actual_image_gap_mm": 12.547959019352641,
+      "first_order_matrix_reduced_y_nu": [
+        [
+          0.41674263463429356,
+          17.318434005637393
+        ],
+        [
+          -0.033211985629818676,
+          1.019383147698826
+        ]
+      ],
+      "minimum_sampled_material_and_air_axial_clearances_mm": [
+        2.4000000000000004,
+        1.2,
+        2.3999999999999995,
+        1.2000000000000002,
+        2.4
+      ],
+      "clearance_radius_samples": 257,
+      "fit_nfev": 80,
+      "fit_success": false,
+      "real_ray_qualified": false,
+      "limits": "Only paraxial power and sampled nonintersection prepared. No claim of NA, image-height, throughput, RGB correction or MTF feasibility."
+    }
+  },
+  "design": {
+    "seed_id": "seed_0038",
+    "materials": [
+      "FDS18W",
+      "PC",
+      "PC"
+    ],
+    "curvatures": [
+      0.025382962714788,
+      0.006316047831928915,
+      0.033583170755543935,
+      0.013913768026955254,
+      -0.011457913810724567,
+      -0.010054015551962479
+    ],
+    "conics": [
+      0.0,
+      0.0,
+      -1.8247181856433579,
+      -11.341601000119454,
+      -2.341319161252726,
+      -12.42519977755244
+    ],
+    "asphere_sag_coefficients_mm": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        6.628562013919595,
+        -4.01637039555961,
+        -2.604076305820162,
+        -2.277187341714675,
+        -1.775374897895365
+      ],
+      [
+        -0.0360497963601155,
+        -2.6392477643732146,
+        -0.8078102567899846,
+        -1.178509833367924,
+        -1.3935398778512174
+      ],
+      [
+        9.806871327495516,
+        0.8319073370440307,
+        -0.043959129853302636,
+        -0.9039028712271159,
+        -7.168008134435346
+      ],
+      [
+        11.494272155834246,
+        -5.594776246942743,
+        0.4096201821822392,
+        14.032087862448229,
+        -6.886094915930863
+      ]
+    ],
+    "axial_distances_mm": [
+      7.65723875922481,
+      1.0226769053870428,
+      11.452663127661854,
+      4.754749587758938,
+      12.693806931433382,
+      4.790619567878612
+    ],
+    "stop_distance_mm": 0.10017456969421136,
+    "stop_radius_mm": 25.0,
+    "clear_radii_mm": [
+      25.72825226375755,
+      25.72825226375755,
+      24.0,
+      24.0,
+      22.0,
+      22.0
+    ],
+    "aperture_mode": "epd50",
+    "provenance": {
+      "method": "analytic_thin_power_then_exact_reduced_ABCD_compensation",
+      "family": "positive_glass_mixed_plastics",
+      "bending_variant": 1,
+      "thin_initial_element_powers_per_mm": [
+        0.04,
+        0.022,
+        -0.022
+      ],
+      "fitted_thin_element_powers_per_mm": [
+        0.033536163104790774,
+        0.01383315639119943,
+        -0.0207580781780634
+      ],
+      "focal_target_mm": 30.109632700662107,
+      "paraxial_EFL_mm": 30.109611967980957,
+      "paraxial_BFL_mm": 12.547959019352641,
+      "actual_image_gap_mm": 12.547959019352641,
+      "first_order_matrix_reduced_y_nu": [
+        [
+          0.41674263463429356,
+          17.318434005637393
+        ],
+        [
+          -0.033211985629818676,
+          1.019383147698826
+        ]
+      ],
+      "minimum_sampled_material_and_air_axial_clearances_mm": [
+        2.4000000000000004,
+        1.2,
+        2.3999999999999995,
+        1.2000000000000002,
+        2.4
+      ],
+      "clearance_radius_samples": 257,
+      "fit_nfev": 80,
+      "fit_success": false,
+      "real_ray_qualified": false,
+      "limits": "Only paraxial power and sampled nonintersection prepared. No claim of NA, image-height, throughput, RGB correction or MTF feasibility."
+    }
+  },
+  "optimization_log": [
+    {
+      "pupil_fraction": 0.45,
+      "cost": 0.04676828615725934,
+      "nfev": 100,
+      "actual_residual_calls": 2025,
+      "seconds": 4.357238341000084,
+      "status": 0,
+      "message": "The maximum number of function evaluations is exceeded."
+    },
+    {
+      "pupil_fraction": 0.6,
+      "cost": 0.051837397512117085,
+      "nfev": 62,
+      "actual_residual_calls": 1337,
+      "seconds": 4.142939655999953,
+      "status": 3,
+      "message": "`xtol` termination condition is satisfied."
+    },
+    {
+      "pupil_fraction": 0.72,
+      "cost": 0.08522710691884916,
+      "nfev": 40,
+      "actual_residual_calls": 815,
+      "seconds": 2.3883246469999904,
+      "status": 3,
+      "message": "`xtol` termination condition is satisfied."
+    },
+    {
+      "pupil_fraction": 0.82,
+      "cost": 0.14134097973852666,
+      "nfev": 21,
+      "actual_residual_calls": 471,
+      "seconds": 1.019542496999975,
+      "status": 3,
+      "message": "`xtol` termination condition is satisfied."
+    },
+    {
+      "pupil_fraction": 0.9,
+      "cost": 0.24324073731633844,
+      "nfev": 27,
+      "actual_residual_calls": 427,
+      "seconds": 0.9247254560000329,
+      "status": 3,
+      "message": "`xtol` termination condition is satisfied."
+    },
+    {
+      "pupil_fraction": 0.96,
+      "cost": 6.7122802109818815,
+      "nfev": 18,
+      "actual_residual_calls": 462,
+      "seconds": 0.9921478670000852,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied."
+    },
+    {
+      "pupil_fraction": 1.0,
+      "cost": 157.8713918009444,
+      "nfev": 22,
+      "actual_residual_calls": 577,
+      "seconds": 1.2728898010000194,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied."
+    }
+  ],
+  "total_seconds": 15.09920074799993,
+  "quick_metrics": {
+    "rms_mm": [
+      [
+        0.4256343767029977,
+        0.3588560383165406,
+        0.5288785782974034,
+        0.8326403467952782
+      ],
+      [
+        0.7544408332731767,
+        0.6022661382157902,
+        0.3968746498920324,
+        0.3863858949490098
+      ],
+      [
+        0.9412931237092913,
+        0.7936820485154521,
+        0.5445447892786921,
+        0.38324952829824077
+      ]
+    ],
+    "valid_fraction": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.96875
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.96875
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.96875
+      ]
+    ],
+    "NA_rgb_axis": [
+      0.8418115105214877,
+      0.82478047552307,
+      0.8174839336688191
+    ],
+    "chief_full_height_mm": [
+      6.3602021616671705,
+      6.398787448026717,
+      6.41434651539938
+    ],
+    "image_z_mm": 42.371754879344635,
+    "geometry": {
+      "minimum_conic_domains": [
+        0.5735135925738437,
+        0.9735934666220463,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "minimum_adjacent_surface_separation_mm": [
+        0.20039239303507728,
+        1.0226769053870433,
+        3.7398385732750166,
+        3.4683801356739825,
+        12.693806931433386
+      ],
+      "stop_front_min_clearance_mm": 0.10017456969421136,
+      "image_back_min_clearance_mm": 0.08975259291908877,
+      "center_thickness_mm": [
+        7.65723875922481,
+        11.452663127661854,
+        12.693806931433382
+      ],
+      "axis_air_gaps_mm": [
+        1.0226769053870428,
+        4.754749587758938
+      ]
+    },
+    "first_order": {
+      "efl_mm": 34.20381470950917,
+      "paraxial_bfl_mm": 8.798878680114706,
+      "matrix": [
+        [
+          0.2572484605837982,
+          25.573770869132698
+        ],
+        [
+          -0.029236505006618025,
+          0.9808117777416567
+        ]
+      ]
+    },
+    "failed_ray_count": 54
+  }
+}

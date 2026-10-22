@@ -1,0 +1,50 @@
+{
+  "retrieved_date": "2026-10-22",
+  "sources": [
+    {
+      "title": "US3944337A",
+      "url": "https://patents.google.com/patent/US3944337A/en",
+      "use": "full patent + drawing + numerical prescriptions"
+    },
+    {
+      "title": "US7072123B2",
+      "url": "https://patents.google.com/patent/US7072123B2/en",
+      "use": "architecture only; incompatible A2/odd terms in original"
+    },
+    {
+      "title": "US4892398A",
+      "url": "https://patents.google.com/patent/US4892398A/en",
+      "use": "architecture only; slow rear-stop system"
+    },
+    {
+      "title": "Ansys Even Asphere",
+      "url": "https://ansyshelp.ansys.com/public/Views/Secured/Zemax/v25101/en/OpticStudio_User_Guide/OpticStudio_Help/topics/Even_Asphere.html",
+      "use": "official model definition"
+    },
+    {
+      "title": "Ansys Relative Illumination",
+      "url": "https://ansyshelp.ansys.com/public/Views/Secured/Zemax/v25101/en/OpticStudio_User_Guide/OpticStudio_Help/topics/Relative_Illumination.html",
+      "use": "official projected-pupil definition"
+    },
+    {
+      "title": "Johnson & Sasian 2020",
+      "url": "https://doi.org/10.1364/AO.392303",
+      "use": "public abstract only; full paper not accessed"
+    },
+    {
+      "title": "Ansys FFT vs Huygens PSF",
+      "url": "https://optics.ansys.com/hc/en-us/articles/42661795535251-What-is-the-difference-between-the-FFT-and-Huygens-PSF",
+      "use": "official applicability conditions"
+    },
+    {
+      "title": "Ansys FFT MTF",
+      "url": "https://ansyshelp.ansys.com/public/Views/Secured/Zemax/v26102/en/OpticStudio_User_Guide/OpticStudio_Help/topics/FFT_MTF.html",
+      "use": "official sampling/aliasing limitations"
+    },
+    {
+      "title": "Ansys Optimizing for MTF",
+      "url": "https://ansyshelp.ansys.com/public/Views/Secured/Zemax/v251/en/OpticStudio_User_Guide/OpticStudio_Help/topics/Optimizing_for_MTF.html",
+      "use": "official rough-design strategy"
+    }
+  ]
+}

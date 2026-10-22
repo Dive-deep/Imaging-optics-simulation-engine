@@ -1,0 +1,98 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head xmlns:dita2html="http://dita-ot.sourceforge.net/ns/200801/dita2html" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:table="http://dita-ot.sourceforge.net/ns/201007/dita-ot/table" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:an="http://www.w3.org/1999/xhtml" xmlns:x="http://www.w3.org/1999/xhtml">
+<meta charset="UTF-8"/><meta name="copyright" content="(C) Copyright 2025"/><meta name="generator" content="DITA-OT"/><meta name="pub_desc" content="PLEASE PROVIDE DOCUMENT DESCRIPTION"/>
+<meta name="internal_version" content="25.1.01"/>
+<meta name="productVersion" content="2025 R1.01"/>
+<meta name="fam_icon" content="fam_optical"/>
+<meta name="product_id" content="OpticStudio"/>
+<meta name="prodnamefull" content="OpticStudio"/>
+<meta name="item_order" content="1"/>
+<meta name="physicstype" content="Optical"/>
+<meta name="manualtitleabbrev" content="Documentation"/>
+<meta name="manualTitle" content="Ansys Zemax OpticStudio User Guide"/>
+<meta name="help_format" content="documentation"/>
+
+<meta name="language" content="en"/><meta name="book_id" content="OpticStudio_Help"/>
+<meta name="date" content="2025-02-12T09:06:53.93-05:00"/>
+<meta name="build_type" content="internet"/>
+<meta name="PATH2PROJ" content="../../"/>
+<link rel="stylesheet" type="text/css" href="../../../css/ansys_doc.css"/><title>Relative Illumination</title><meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="SWJYL-98T6H-7NTD3-KDQUB-SZE82",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"SWJYL-98T6H-7NTD3-KDQUB-SZE82";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="ljql7kixzcoem2wzpgrq-f-96ed6cf88-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"738343","ak.ai":parseInt("613886",10),"ak.ol":"0","ak.cr":9,"ak.ipv":4,"ak.proto":"h2","ak.rid":"52b6e8c9","ak.r":44386,"ak.a2":n,"ak.m":"","ak.n":"essl","ak.cport":50010,"ak.gh":"23.192.164.70","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1792637347","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==JZW9L7yFefheaCP8tMXGXauxiidZ9ACffzdYncL1ACk3TaWd7kTc52psOerAJ29whYMqnPYCPPCvHwy9XLtOpsXkTWUJoP+RkHGmlqi+0mPO+zF1gTHKlYXWxvCh/oeoIAS2iVlwXJLQbLs8MeovRRsSttHcVszxVg/6adriJ0YuXYmLGQlwCPbNXo+Rg2Nd7zeEKikNKh4UmYOQBShUjOTRIPBjThLsKKs4PpfZ3Ev9SKigcYwLbS44sufzFY6RRCw+HTsAK94oT7qRqpjFYZjfVOxvPh7H7VQ9KOdXuZ9LhUd74RqA4QEKk1tdArZUxbA4HAX4iBgRV7/EG9XUIcnGT5/OSxi4kJW4MEuQtr7JFuo1ikfnVNRUXKw/M2reUovPxIj7ZEwBWk4bYtHyr0MlHKBCsrjDwnvqprQjY2c=","ak.pv":"59","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body xmlns:dita2html="http://dita-ot.sourceforge.net/ns/200801/dita2html" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:table="http://dita-ot.sourceforge.net/ns/201007/dita-ot/table" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:an="http://www.w3.org/1999/xhtml" xmlns:x="http://www.w3.org/1999/xhtml" id="Relative_Illumination" class="mainbody">
+
+
+<div><div class="top-bar"><div class="left"><ul class="menu" style="height:3rem"><li class="left"><img id="toc_toggle" class="fileicon" src="../../../../media/f6_file_icon.svg" alt="icon" height="40" width="44"/></li><li class="left show-for-medium product_nav"/><li class="left show-for-medium book_nav"><a class="book_link" href="../../index.html"><u id="manual_Title"> </u></a></li><li id="page_language" class="show-for-large"/></ul></div><div class="right"><ul class="menu" style="height:3rem"><li><form id="search" action="../../../../search.html"><ul class="menu" style="height:3rem"><li><div class="search_small"><div class="cell searchBarItems search-input"><input id="user_query" type="text" name="query" placeholder="search ANSYS help"/><input id="version" type="hidden" name="v" value="25.1.01"/></div></div></li><li><a class="search_button"><input type="image" class="small-input" src="../../../../media/f6_search_icon.svg" alt="search" style="padding-bottom:.3rem"/></a></li></ul></form></li><li class="hide-for-small-only"><a accesskey="p" class="back_button" href="../../OpticStudio_Help/topics/Extended_Diffraction_Image_Analysis.html"><img type="image" class="small-input" src="../../../../media/f6_back.svg" alt="back"/></a></li><li class="hide-for-small-only"><a accesskey="p" class="fwd_button" href="../../OpticStudio_Help/topics/IMA_and_BIM_File_Viewer.html"><img type="image" class="small-input" src="../../../../media/f6_fwd.svg" alt="forward"/></a></li></ul></div></div><article class="main-content"><div class="grid-x"><div id="big_toc" class="medium-3 medium-pull-9 large-2 large-pull-10 cell" data-sticky-container=""><div class="docs-nav-container" data-sticky-on="small" data-sticky="" data-margin-top="3" style="max-width:100%"><div class="docs-nav" id="docs-menu"><div class="big_toc_container"><div class="grid-x" style="border-bottom:1px solid #b8b8b8"><div class="cell left small-6 left" style="margin-top:.4rem"><span><a href="../../index.html">
+												Contents 
+											</a></span></div><div class="cell small-6 text-right"><img id="killtoc" type="image" class="button small" src="../../../../media/killtoc.svg" alt="close"/><img id="extoc" type="image" class="button small hide-for-small-only" alt="expand"/></div></div><div id="call_big_toc"> </div></div></div></div></div><div id="doc_page" class="cell small-12 medium-9 large-10" style="padding:0 1rem 0 1rem"><nav class="small-12 grid-x hide-for-small-only"><div class="small-10 cell usernavheader text-left" style="padding-left:0rem"> <a class="link" href="../../OpticStudio_Help/topics/The_Analyze_Tab_sequential_ui_mode.html">The Analyze Tab (sequential ui mode)</a> &raquo; <a class="link" href="../../OpticStudio_Help/topics/Image_Quality_Group.html">Image Quality Group</a> &raquo; <a class="link" href="../../OpticStudio_Help/topics/Extended_Scene_Analysis.html">Extended Scene Analysis</a> &raquo; Relative Illumination</div><div class="small-2 cell usernavheader text-right"><span><a class="print_page">Print page</a></span></div></nav><div class="small-12 cell" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Relative Illumination</h1>
+   <div class="body conbody">
+		<p class="p"/>
+      <p class="p">The Relative Illumination analysis computes the relative illumination as a function of radial field coordinate for a uniform Lambertian scene. This feature also computes the Effective F/#.</p>
+      <figure class="fig fignone">
+         <br/><img class="image" src="images/Relative%20Illumination.png"/><br/>
+      </figure>
+      <p class="p">
+         <strong class="ph b">Ray Density</strong> The number of Rays on one side of an array of rays used to integrate the illumination of the exit pupil. A value of 10 will trace about 10 x 10 x pi / 4 or 78 rays. Higher ray densities yield more accurate results at the expense of longer computation times. The Ray Density minimum value is 5.</p>
+      <p class="p">
+         <strong class="ph b">Field Density</strong> The number of points along the radial field coordinate to compute the relative illumination for. Larger field densities yield smoother curves.</p>
+      <p class="p">
+         <strong class="ph b">Use Polarization</strong> If checked, polarization is considered. See " <a class="xref" href="Polarization_System_Explorer.html">
+            <span class="ph">Polarization (system explorer)</span>
+         </a>" for information on defining the polarization state and how polarization is used by analysis features.</p>
+      <p class="p">
+         <strong class="ph b">Remove <a class="xref" href="Vignetting_Factors.html">Vignetting Factors</a>
+         </strong>If checked, vignetting factors are automatically removed. See "Comment about vignetting factors" in the description of "FFT MTF vs. Field".</p>
+      <p class="p">
+         <strong class="ph b">Wavelength</strong> Selects the wavelength for computation. Relative illumination is a monochromatic entity.</p>
+      <p class="p">
+         <strong class="ph b">Scan Type </strong>Choose +y, +x, -y, or -x field scan direction.</p>
+      <p class="p">
+         <strong class="ph b">Log Scale</strong> If checked, a logarithmic rather than linear scale will be shown.</p>
+      <p class="p">
+         <strong class="ph b">Discussion</strong>
+      </p>
+      <p class="p">This feature computes the relative illumination (RI) as a function of radial y field coordinate. RI is defined as the intensity of illumination per unit area of image surface normalized to the illumination at the point in the field that has maximum illumination (which may not be on axis). The computation considers <a class="xref" href="Apodization.html">apodization</a>, vignetting, apertures, aberrations of both the image and pupil, variations in F/#, chromatic aberrations, image surface shape, angle of incidence, and optionally, polarization effects assuming unpolarized light. The method is based upon one described in M. Rimmer, "Relative illumination calculations", Proc. SPIE Vol. 655, p99 (1986). The published method was extended to include apodization, transmission, polarization, and non-planar image surface effects. The computation method assumes the following are all true:</p>
+      <ol class="ol">
+         <li class="li">The object scene is plane, uniform, and Lambertian.</li>
+         <li class="li">The image surface is a reasonably good conjugate (that is, an image) of the object surface, so that rays coming from small patches of light on the object surface are imaged to patches of light on the image surface. Aberrations are fine, but the rays should be reasonably localized on the image surface.</li>
+         <li class="li">The exit pupil is not too close to the image surface. This condition will be satisfied if the F/# is larger than about 0.1 and the ray aberrations are small compared to the exit pupil distance.</li>
+         <li class="li">The cosine space aberrations are not so severe as to form caustics in angle space. A caustic in angle space means that rays in different parts of the entrance pupil have the same angle in image space. To check this, use the "Direction Cosines" option on the spot diagram feature (See the "Standard Spot Diagram" analysis).</li>
+      </ol>
+      <p class="p">The relative illumination is computed by integration of the effective area of the exit pupil as seen from the image point(s). The integration is carried out in direction cosine space using a uniform grid in image cosine space.</p>
+      <p class="p">Note that the RI computation will not in general yield a cosine-fourth curve, because the so-called cosine-fourth "law" is actually an approximation based upon a thin, slow, aberration free lens with the stop at the lens. For more general lenses, including telecentric, aberrated, or vignetted lenses, the RI can be computed using an integration of the projected solid angle or effective area of the exit pupil as seen from the image location, and this computation will not yield a simple cosine-fourth curve. If a system violates the assumptions of the computation an error message will be displayed and the RI will not be computed.</p>
+      <p class="p">
+         <strong class="ph b">Effective F/#</strong>
+      </p>
+      <p class="p">The text listing of the relative illumination data also includes data for the Effective F/#. The Effective F/# is the F/# required for a perfect optical system with 100% transmission and a circular exit pupil to have the same image illumination as the system being evaluated. The Effective F/# is computed by:</p>
+      <figure class="fig equation fignone DoNotUpdate" id="Relative_Illumination__eq_Relative_Illumination_1"><div class="desc figdesc">
+               <img class="image" src="images/eq_Relative_Illumination_1.svg"/>
+            </div>
+            
+            
+         </figure>
+      <p class="p">where A is the area of the projected solid angle of the pupil in cosine space weighted for system transmission. The Effective F/# is a useful metric for comparing the brightness of the image formed by different optical systems, because it accounts for RI and is independent of the aperture shape. For more information, see "F-Number and the radiometry of image forming optical systems with non-circular aperture stops," R. Siew, Proc. of SPIE Vol. 5867 (2005).</p>
+      <p class="p">
+         <strong class="ph b">Next:</strong>
+      </p>
+      <ul class="ul">
+         <li class="li">
+            <a class="xref" href="IMA_and_BIM_File_Viewer.html">IMA and BIM File Viewer</a>
+         </li>
+      </ul>
+   </div>
+<nav role="navigation" class="related-links"/></div><div><nav><div class="grid-x dirnav"><div class="small-6 cell usernavheader aergrgrgerg text-left" role="previous">&laquo; <a class="link" href="../../OpticStudio_Help/topics/Extended_Diffraction_Image_Analysis.html">Extended Diffraction Image Analysis</a></div><div class="small-6 cell usernavheader text-right" role="next"><a class="link" href="../../OpticStudio_Help/topics/IMA_and_BIM_File_Viewer.html">IMA and BIM File Viewer</a> &raquo;</div></div></nav><footer class="corp_foot"><p class="legalfooter" align="center"><small><i>Contains proprietary and confidential information of ANSYS, Inc. and its subsidiaries and affiliates.</i></small></p><p class="legalfooter" align="center"><small><i> Release 2025 R1.01 - &copy; ANSYS, Inc. All rights reserved</i></small></p></footer></div></div></div></article></div><footer role="contentinfo"><footer>
+<script type="text/javascript" src="../../../css/js/vendor/jquery.js"> </script>
+<script type="text/javascript" src="../../../css/js/foundation.min.js"> </script>
+<script type="text/javascript" src="../../../css/ansys_doc_manuals.js"> </script>
+
+<script type="text/javascript" src="../../../css/ansys_doc_global.js"> </script>
+<script>
+						$(document).foundation();
+						init_dita();
+						</script>
+</footer></footer></body>
+</html>

@@ -1,0 +1,1556 @@
+{
+  "schema": "frozen-selection-independent-physics-audit/1",
+  "passed": true,
+  "candidate_count": 24,
+  "distinct_parent_count": 24,
+  "fresh_dense_ray_count": 764712,
+  "fresh_failed_ray_count": 0,
+  "global_failures": [],
+  "candidates": [
+    {
+      "candidate_id": "C01",
+      "source_seed_id": "seed_0059",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "700c5399a157d1963ecacd707ca4ee9a1557256cc77b24bc71db6d44178ec649",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 0.0,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 69.73637123393453
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7219429821328094,
+        0.7117567275552239,
+        0.7075029105960262
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.3430805948795985,
+        6.4,
+        6.423856730426444
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.056919405120401834,
+        0.0,
+        0.023856730426443207
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.66340021218959,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 3.007635363551697,
+      "paraxial_BFL588_mm": 3.1359556483604507,
+      "minimum_adjacent_surface_separations4097_mm": [
+        18.1480706726908,
+        2.128381874307106,
+        12.18429257573915,
+        1.020198115151672,
+        18.190788049326514
+      ],
+      "minimum_conic_domains": [
+        0.5235448277687013,
+        1.0,
+        1.0,
+        1.0,
+        0.9385203068633715,
+        0.9755391095523472
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.9739153553499441,
+      "RI_RGB_weighted_edge_uncoated": 0.9724015586217271,
+      "independent_recomputed_selection_score": 0.2404984362980132
+    },
+    {
+      "candidate_id": "C02",
+      "source_seed_id": "seed_0100",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "7e961e1f7c263233322b9d055c3af4e8f6bcaa4a27db1d9f2ea884560386e9f4",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 0.0,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 63.46381223893121
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7178426842144995,
+        0.7087703843790596,
+        0.705056120265763
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.333664071098825,
+        6.400000000000003,
+        6.4272446687433265
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.06633592890117512,
+        2.6645352591003757e-15,
+        0.027244668743326095
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.44071673565545,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 3.673114886276666,
+      "paraxial_BFL588_mm": 3.589772847475325,
+      "minimum_adjacent_surface_separations4097_mm": [
+        12.93668734304843,
+        1.775752797211112,
+        3.6137928817534437,
+        2.958955217493976,
+        18.81763655721518
+      ],
+      "minimum_conic_domains": [
+        0.9692351110463271,
+        1.0,
+        0.986582030025519,
+        0.5834730129327954,
+        0.5382151585725161,
+        0.9981547679161717
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.9522578921563272,
+      "RI_RGB_weighted_edge_uncoated": 0.938937665528519,
+      "independent_recomputed_selection_score": 0.22329250934383918
+    },
+    {
+      "candidate_id": "C03",
+      "source_seed_id": "seed_0011",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "3481acb1e1adcdab676a8c4d28db483c398f81cccbbd06004413db5a8e357021",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 3.469446951953614e-18,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 64.67556109954184
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7176662865621724,
+        0.7086464400929307,
+        0.7048493414073661
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.348415660114636,
+        6.400000000000002,
+        6.421777117530656
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.05158433988536437,
+        1.7763568394002505e-15,
+        0.021777117530655588
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.38330283557735,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 4.1363175542607085,
+      "paraxial_BFL588_mm": 4.433966327486509,
+      "minimum_adjacent_surface_separations4097_mm": [
+        16.412065297614586,
+        2.149280564553134,
+        10.593669311083424,
+        1.0007564960210047,
+        12.725320798734565
+      ],
+      "minimum_conic_domains": [
+        0.395247379172896,
+        1.0,
+        1.0,
+        1.0,
+        0.9962512554853055,
+        0.9951512292585679
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": true,
+      "RI_RGB_weighted_edge_geometric": 0.9422843034447386,
+      "RI_RGB_weighted_edge_uncoated": 0.9449256646894981,
+      "independent_recomputed_selection_score": 0.21575554974996775
+    },
+    {
+      "candidate_id": "C04",
+      "source_seed_id": "seed_0036",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "073a59cb98cc00d4fac36fdead8896311fb56c65a86e7ec5d10f9d1e50ce608d",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 0.0,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 69.60671896061052
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7202317590406927,
+        0.7071113112770566,
+        0.7017721291973887
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.31065264793824,
+        6.3999999999999995,
+        6.436412990828504
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.08934735206176025,
+        -8.881784197001252e-16,
+        0.03641299082850402
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.698061991721374,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 3.031333791466444,
+      "paraxial_BFL588_mm": 3.3219742773060186,
+      "minimum_adjacent_surface_separations4097_mm": [
+        17.955452695369488,
+        2.378165037334689,
+        7.737018993433381,
+        2.6199429355595143,
+        22.36642963863569
+      ],
+      "minimum_conic_domains": [
+        0.6731841459892629,
+        1.0,
+        1.0,
+        0.28405009215653076,
+        0.9328733896600454,
+        0.9937313807848357
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": true,
+      "RI_RGB_weighted_edge_geometric": 0.9719631832845365,
+      "RI_RGB_weighted_edge_uncoated": 0.9692390757756801,
+      "independent_recomputed_selection_score": 0.20673325955687183
+    },
+    {
+      "candidate_id": "C05",
+      "source_seed_id": "seed_0084",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "64a0e55fca3da1c8f4f1bf1e96bf78e90c329ba6ada93fb7d4a03a6fb9066403",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 3.469446951953614e-18,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 75.64402377713631
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7181292567360641,
+        0.7077061571106559,
+        0.703439366725261
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.318832365367769,
+        6.4,
+        6.4333815197127855
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.08116763463223098,
+        0.0,
+        0.033381519712785135
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.95937551960043,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 3.0361073281667474,
+      "paraxial_BFL588_mm": 3.014000349083768,
+      "minimum_adjacent_surface_separations4097_mm": [
+        21.938716458717426,
+        3.713580968748424,
+        6.564922807821834,
+        4.144828370682674,
+        25.613670993898644
+      ],
+      "minimum_conic_domains": [
+        0.5952495077570809,
+        1.0,
+        1.0,
+        0.7115727271153609,
+        0.7592474454767941,
+        0.9952810475916973
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.9938410148416723,
+      "RI_RGB_weighted_edge_uncoated": 0.9889070232649895,
+      "independent_recomputed_selection_score": 0.2043285362129014
+    },
+    {
+      "candidate_id": "C06",
+      "source_seed_id": "seed_0012",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "905bff37ba8329593cfe66b9ef3e0d37dbf3abb160d06adb0ae25295e977ea9d",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 0.0,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 59.26334628344685
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7233228589666595,
+        0.7127647352745213,
+        0.7083960330811649
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.336762926418978,
+        6.4,
+        6.4259616480562896
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.06323707358102215,
+        0.0,
+        0.0259616480562892
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.20013630644865,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 3.039623223410505,
+      "paraxial_BFL588_mm": 3.019366349732221,
+      "minimum_adjacent_surface_separations4097_mm": [
+        13.800744146148032,
+        4.907798135120618,
+        8.069178723412337,
+        2.8298912646345826,
+        11.829237458530134
+      ],
+      "minimum_conic_domains": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9263025619656936,
+        0.983480467261234
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.9329173492832176,
+      "RI_RGB_weighted_edge_uncoated": 0.9295991810402449,
+      "independent_recomputed_selection_score": 0.20358647615920497
+    },
+    {
+      "candidate_id": "C07",
+      "source_seed_id": "seed_0108",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "0380b760c4947687114f4e38a9a2dfbd53f48b76a5adc026d5fa57eb68717511",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 1.734723475976807e-18,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 64.92654750757359
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7178733353266507,
+        0.708209119700726,
+        0.7042491591409296
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.325549333101286,
+        6.4,
+        6.430521732027434
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.0744506668987146,
+        0.0,
+        0.03052173202743358
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.396339444179034,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 3.0230539446618687,
+      "paraxial_BFL588_mm": 3.049518349011307,
+      "minimum_adjacent_surface_separations4097_mm": [
+        10.922407463945238,
+        1.0199687844527823,
+        3.285396013017209,
+        2.1861351804859,
+        23.350261547469287
+      ],
+      "minimum_conic_domains": [
+        1.0,
+        1.0,
+        0.9350609479872881,
+        0.5671067840881636,
+        0.42403851497676137,
+        0.9999431826700594
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.9948330144845753,
+      "RI_RGB_weighted_edge_uncoated": 0.971218983743536,
+      "independent_recomputed_selection_score": 0.19820932293301868
+    },
+    {
+      "candidate_id": "C08",
+      "source_seed_id": "seed_0071",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "4c7b757c3aa4a974d5161ef00802ae47c41b44cc54362e3d8ac9e2acf57f4e12",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 3.469446951953614e-18,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 62.15586441803015
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7294763740737527,
+        0.7191132176981936,
+        0.7148576698820787
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.329297395037077,
+        6.4,
+        6.428814126775662
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.07070260496292313,
+        0.0,
+        0.02881412677566164
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.421583400773066,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 3.6615690431097314,
+      "paraxial_BFL588_mm": 4.089315164904118,
+      "minimum_adjacent_surface_separations4097_mm": [
+        1.2734273652863415,
+        1.0487617848195256,
+        26.149230309743537,
+        1.0200695340534836,
+        12.46858427008315
+      ],
+      "minimum_conic_domains": [
+        0.6952714640411344,
+        1.0,
+        1.0,
+        0.852468501628099,
+        0.9499731776593767,
+        0.9929235964592464
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": true,
+      "RI_RGB_weighted_edge_geometric": 0.92851030474319,
+      "RI_RGB_weighted_edge_uncoated": 0.923888619471634,
+      "independent_recomputed_selection_score": 0.18739176817776743
+    },
+    {
+      "candidate_id": "C09",
+      "source_seed_id": "seed_0047",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "9bdd9680b63b1e9a0488f9d4085a20f86f405403cd18a9a8c26dbae8f36e5b4f",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 0.0,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 66.13489962293731
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7240177352994923,
+        0.7081799899315085,
+        0.701853840054213
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.305175611929832,
+        6.4,
+        6.438346877324915
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.09482438807016802,
+        0.0,
+        0.03834687732491471
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.37251223491045,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 3.030993887442834,
+      "paraxial_BFL588_mm": 3.1015025569262398,
+      "minimum_adjacent_surface_separations4097_mm": [
+        14.90657485087,
+        2.4577581886875777,
+        16.618733528124093,
+        1.021156061829295,
+        16.062101856406024
+      ],
+      "minimum_conic_domains": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9747100705300146,
+        0.9964990645404853
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.9458075484394798,
+      "RI_RGB_weighted_edge_uncoated": 0.9457894689562586,
+      "independent_recomputed_selection_score": 0.1860184433315267
+    },
+    {
+      "candidate_id": "C10",
+      "source_seed_id": "seed_0096",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "55deaa3b23ff865c06fbe6e5dd01a6f9daf0aefbfa8056ca5a988480d0e3874c",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 3.469446951953614e-18,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 65.68613370749912
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.724419584768679,
+        0.7132423840325695,
+        0.7087060173717654
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.319649610326793,
+        6.4,
+        6.432615237113015
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.08035038967320762,
+        0.0,
+        0.032615237113014395
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.84980692694923,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 3.003773329444956,
+      "paraxial_BFL588_mm": 3.481782216455465,
+      "minimum_adjacent_surface_separations4097_mm": [
+        16.999685301516376,
+        1.7545286579914752,
+        9.544941222032033,
+        3.964797491765438,
+        19.27011706683463
+      ],
+      "minimum_conic_domains": [
+        0.458404319960928,
+        1.0,
+        1.0,
+        0.998241406231287,
+        0.814409187661958,
+        0.9987053507960855
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": true,
+      "RI_RGB_weighted_edge_geometric": 0.980663349036334,
+      "RI_RGB_weighted_edge_uncoated": 0.9750227257988151,
+      "independent_recomputed_selection_score": 0.1826554676563931
+    },
+    {
+      "candidate_id": "C11",
+      "source_seed_id": "seed_0095",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "130602689e3316b3ea4015de61a2be58b1560ee0146a80de545cd149c04dd8a5",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 0.0,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 70.4438798598446
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7241253525981288,
+        0.7097019684990239,
+        0.7039212791566861
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.310097790550199,
+        6.4,
+        6.436500105370954
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.08990220944980098,
+        0.0,
+        0.03650010537095394
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.540461410762276,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 3.0135293608116918,
+      "paraxial_BFL588_mm": 3.0349394571371002,
+      "minimum_adjacent_surface_separations4097_mm": [
+        19.946665963377413,
+        2.5810870975871225,
+        19.031270991440326,
+        1.019413998184902,
+        13.681237888149491
+      ],
+      "minimum_conic_domains": [
+        0.47530653052383764,
+        1.0,
+        1.0,
+        1.0,
+        0.926083242255527,
+        0.9833508055594272
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.9493201568463346,
+      "RI_RGB_weighted_edge_uncoated": 0.9479813784839123,
+      "independent_recomputed_selection_score": 0.1803546992854681
+    },
+    {
+      "candidate_id": "C12",
+      "source_seed_id": "seed_0048",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "dc78cbd4a72168a0430a3e6a860694145a64c4acee3b59ab3a27a85067bf0c67",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 0.0,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 67.04417640623357
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7255274646656187,
+        0.7090692646469038,
+        0.7025138314576214
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.29290221009853,
+        6.4,
+        6.44311678223843
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.10709778990147001,
+        0.0,
+        0.04311678223842996
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.50554542381432,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 3.021274925836089,
+      "paraxial_BFL588_mm": 3.077323130171348,
+      "minimum_adjacent_surface_separations4097_mm": [
+        22.104730261755883,
+        2.562060711817267,
+        9.730933302226358,
+        1.0196257399370197,
+        18.21943480890318
+      ],
+      "minimum_conic_domains": [
+        0.501121629149928,
+        1.0,
+        1.0,
+        0.7430350258317748,
+        0.9014589070148652,
+        0.9941390725609873
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.9568863110652172,
+      "RI_RGB_weighted_edge_uncoated": 0.9538703240282057,
+      "independent_recomputed_selection_score": 0.1755927700767302
+    },
+    {
+      "candidate_id": "C13",
+      "source_seed_id": "seed_0068",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "636ec94285f15f39e68da7b5e7acde5a29364be9ba7ce8316cfe46d30f6692a6",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 0.0,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 63.69461637605117
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7329017523195133,
+        0.7230771600268395,
+        0.7190564086461544
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.331213615462867,
+        6.4,
+        6.428196317850918
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.06878638453713304,
+        0.0,
+        0.028196317850917474
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.2000000278482,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 4.324155028440362,
+      "paraxial_BFL588_mm": 4.344061972446643,
+      "minimum_adjacent_surface_separations4097_mm": [
+        18.00803875320335,
+        5.585038472507826,
+        17.160978195536437,
+        1.0205512812065844,
+        2.4940526068902553
+      ],
+      "minimum_conic_domains": [
+        1.0,
+        1.0,
+        0.8750697291079569,
+        0.9880268241480933,
+        0.9983568771535328,
+        0.9642739503066979
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": true,
+      "RI_RGB_weighted_edge_geometric": 0.9142820705220019,
+      "RI_RGB_weighted_edge_uncoated": 0.9131556325852569,
+      "independent_recomputed_selection_score": 0.16481299138674926
+    },
+    {
+      "candidate_id": "C14",
+      "source_seed_id": "seed_0083",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "1f6814869e47026b18c48c97aa0d93bee0d98aab96e816be9d316ddd5d4f29e5",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 3.469446951953614e-18,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 65.54197431393399
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7181916451609792,
+        0.7103857215887808,
+        0.7071278331136581
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.3403758266567625,
+        6.400506802257689,
+        6.42567967958088
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.059624173343237885,
+        0.000506802257688399,
+        0.0256796795808798
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        true,
+        true
+      ],
+      "EPD_mm": 43.549017589978604,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 3.0006702480837983,
+      "paraxial_BFL588_mm": 3.2378963350960013,
+      "minimum_adjacent_surface_separations4097_mm": [
+        6.673255768303363,
+        1.6677264915870715,
+        22.616747121136235,
+        5.104177941062673,
+        13.156626966048188
+      ],
+      "minimum_conic_domains": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9703046123996876,
+        0.9998249684710963
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.930776081500998,
+      "RI_RGB_weighted_edge_uncoated": 0.9282293071424964,
+      "independent_recomputed_selection_score": 0.16407366894066042
+    },
+    {
+      "candidate_id": "C15",
+      "source_seed_id": "seed_0072",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "568909855eaff37639903eb59e094d862b9cea417ca7f416e4f3185c1c5667fe",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 3.469446951953614e-18,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 55.64228100092638
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7186050359752997,
+        0.7091704594764314,
+        0.7053105274656187
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.33929840147182,
+        6.399990058195155,
+        6.424951714682469
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.06070159852818069,
+        -9.941804845148283e-06,
+        0.024951714682468484
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.203132478906,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 9.027529166583017,
+      "paraxial_BFL588_mm": 9.617752166951613,
+      "minimum_adjacent_surface_separations4097_mm": [
+        5.5023133310647925,
+        1.0002970003749958,
+        4.705630544410219,
+        2.3754086480087757,
+        5.461583714086057
+      ],
+      "minimum_conic_domains": [
+        0.2343747679920879,
+        1.0,
+        1.0,
+        0.8228802829403876,
+        0.7835853735758666,
+        0.9311087698229324
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": true,
+      "RI_RGB_weighted_edge_geometric": 0.9272296919187962,
+      "RI_RGB_weighted_edge_uncoated": 0.916884767872961,
+      "independent_recomputed_selection_score": 0.16164863797036572
+    },
+    {
+      "candidate_id": "C16",
+      "source_seed_id": "seed_0087",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "a0634c781559c49ba124acb4c39af73d065385598a7e9be2ff85a84d12d4874f",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 0.0,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 63.35028931679231
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.729727822970135,
+        0.7191898660973512,
+        0.7148471091623634
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.3125485962277645,
+        6.4,
+        6.4354098810943405
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.08745140377223581,
+        0.0,
+        0.03540988109434018
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.20000003636983,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 4.139083768597193,
+      "paraxial_BFL588_mm": 4.386573542600763,
+      "minimum_adjacent_surface_separations4097_mm": [
+        1.123039787202596,
+        1.1891221623522883,
+        21.940396150148377,
+        5.3950617355882855,
+        19.420266921370573
+      ],
+      "minimum_conic_domains": [
+        0.7369064877274669,
+        0.9569939914381684,
+        1.0,
+        1.0,
+        0.9052468039735073,
+        1.0
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.9405203307459987,
+      "RI_RGB_weighted_edge_uncoated": 0.9414323129334511,
+      "independent_recomputed_selection_score": 0.15923043220895175
+    },
+    {
+      "candidate_id": "C17",
+      "source_seed_id": "seed_0079",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "0983967de5dcd797be276ef46a40a5d3db9343085240752328a1b77febe214b6",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 6.938893903907228e-18,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 64.79775039221994
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7230033106584931,
+        0.7141327838336812,
+        0.7104115384771399
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.3449179586099715,
+        6.4,
+        6.42329765585732
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.05508204139002881,
+        0.0,
+        0.02329765585731991
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.3382740239654,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 7.29741981454503,
+      "paraxial_BFL588_mm": 7.681663955977364,
+      "minimum_adjacent_surface_separations4097_mm": [
+        12.937763804434638,
+        1.6692628889151173,
+        7.151161595671557,
+        1.679265604491654,
+        22.453157884083318
+      ],
+      "minimum_conic_domains": [
+        1.0,
+        1.0,
+        0.9876936919073783,
+        0.9864872419157841,
+        0.18020959264854042,
+        1.0
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.9043293026533707,
+      "RI_RGB_weighted_edge_uncoated": 0.9021773768058186,
+      "independent_recomputed_selection_score": 0.15589311797309474
+    },
+    {
+      "candidate_id": "C18",
+      "source_seed_id": "seed_0092",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "ad39d33964a58c677cebb72a6f90f5939d7fa70cdeedc9a91a7687c76192bf18",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 2.168404344971009e-19,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 68.63813201690212
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7215256175756765,
+        0.7097580001140504,
+        0.7049834011659498
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.309448352255344,
+        6.4,
+        6.436741050555195
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.09055164774465663,
+        0.0,
+        0.03674105055519483
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.21598513927798,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 4.074498812813566,
+      "paraxial_BFL588_mm": 4.037839025877657,
+      "minimum_adjacent_surface_separations4097_mm": [
+        25.637109720803412,
+        4.798427077024151,
+        19.28312691371878,
+        1.0198837296692034,
+        4.017081062614903
+      ],
+      "minimum_conic_domains": [
+        0.8803503721524033,
+        0.996824956598524,
+        0.7720457234778826,
+        0.9807072594265474,
+        0.9990402602567662,
+        1.0
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.9252832377123696,
+      "RI_RGB_weighted_edge_uncoated": 0.9228776156909398,
+      "independent_recomputed_selection_score": 0.15143697102526624
+    },
+    {
+      "candidate_id": "C19",
+      "source_seed_id": "seed_0051",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "5e330004f3e1fe10984f1947b67dfed490c8e61aa1f463f06cf9d797b21ae0b6",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 1.0842021724855044e-19,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 55.32524522551938
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.722365789240663,
+        0.7146379233800694,
+        0.7113718120032487
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.359158651928553,
+        6.4,
+        6.417299662219473
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.04084134807144757,
+        0.0,
+        0.017299662219472545
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.200000200000005,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 7.656649884732347,
+      "paraxial_BFL588_mm": 7.547373963096544,
+      "minimum_adjacent_surface_separations4097_mm": [
+        2.0695880188527673,
+        1.0234807355610989,
+        4.784182779665747,
+        6.952147383690384,
+        15.952268863970609
+      ],
+      "minimum_conic_domains": [
+        0.9994331414949927,
+        0.9994274752272094,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": true,
+      "RI_RGB_weighted_edge_geometric": 0.8761249011504326,
+      "RI_RGB_weighted_edge_uncoated": 0.8798413247634365,
+      "independent_recomputed_selection_score": 0.15135383289648985
+    },
+    {
+      "candidate_id": "C20",
+      "source_seed_id": "seed_0056",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "2110f4d8790d8394a8d69cc5f84d69ce1297c317fc924a6ab7982481b49c4e55",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 3.469446951953614e-18,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 64.73963686701782
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7247496038934113,
+        0.7149784821638088,
+        0.7109593645741593
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.331458223383737,
+        6.4,
+        6.428185047297705
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.06854177661626348,
+        0.0,
+        0.02818504729770499
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.2082327057544,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 5.1778430612552,
+      "paraxial_BFL588_mm": 5.16429471341877,
+      "minimum_adjacent_surface_separations4097_mm": [
+        17.639031674343034,
+        4.852308500793875,
+        18.661999627233676,
+        1.0244882040495273,
+        1.7597340652934657
+      ],
+      "minimum_conic_domains": [
+        0.8999699396813107,
+        1.0,
+        0.8992819223927294,
+        0.9954749276470501,
+        0.9961606931741276,
+        0.9879282366406074
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.8918178608908668,
+      "RI_RGB_weighted_edge_uncoated": 0.8914178153601238,
+      "independent_recomputed_selection_score": 0.1501031700510205
+    },
+    {
+      "candidate_id": "C21",
+      "source_seed_id": "seed_0020",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "ddcaca38b2cbf34c46103ba101d3dfca8e35aec794790ac3c7f9a2a4f13ad83a",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 0.0,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 57.609686817044185
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7310155371654716,
+        0.7205776300994859,
+        0.7163063328844905
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.327633631483403,
+        6.4000295336661575,
+        6.429523487724351
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.07236636851659739,
+        2.9533666157099958e-05,
+        0.029523487724350872
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        true,
+        true
+      ],
+      "EPD_mm": 43.20000009454278,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 6.037487298426848,
+      "paraxial_BFL588_mm": 5.942639590673736,
+      "minimum_adjacent_surface_separations4097_mm": [
+        8.526346516970056,
+        2.1016346263355743,
+        20.41129313521049,
+        1.0000638816808305,
+        0.45186767113137516
+      ],
+      "minimum_conic_domains": [
+        0.7349827234402433,
+        1.0,
+        0.9980513101715116,
+        0.9993755150230617,
+        1.0,
+        1.0
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": true,
+      "RI_RGB_weighted_edge_geometric": 0.8613189608292741,
+      "RI_RGB_weighted_edge_uncoated": 0.8562325572238283,
+      "independent_recomputed_selection_score": 0.14751826481427435
+    },
+    {
+      "candidate_id": "C22",
+      "source_seed_id": "seed_0016",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "885fe7bfd1972708e16e7727a2b1066d20c20bed94953d1e121b732bcc927edb",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 0.0,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 53.5222668863242
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7313927628936556,
+        0.7213285525068358,
+        0.7171603097384432
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.349978308542694,
+        6.400000000000001,
+        6.420671187982682
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.050021691457306616,
+        8.881784197001252e-16,
+        0.02067118798268197
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.238539655846296,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 6.750594629388385,
+      "paraxial_BFL588_mm": 7.245785152837963,
+      "minimum_adjacent_surface_separations4097_mm": [
+        3.6020469057800737,
+        1.0040630077358328,
+        3.5861037010958565,
+        4.491365786443371,
+        16.058726841932522
+      ],
+      "minimum_conic_domains": [
+        0.9974721727023366,
+        0.9997794373498889,
+        0.48596381336208316,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.8607214876481242,
+      "RI_RGB_weighted_edge_uncoated": 0.8614038708922427,
+      "independent_recomputed_selection_score": 0.14382355779649136
+    },
+    {
+      "candidate_id": "C23",
+      "source_seed_id": "seed_0080",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "8955d4fc35228ae04566e7e5665106d82ac0662fce1d21bc800b210670532070",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 3.469446951953614e-18,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 64.78537738614652
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7224925412025122,
+        0.7121199411124844,
+        0.7078746295885213
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.319565489349904,
+        6.4,
+        6.432755091790449
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.08043451065009677,
+        0.0,
+        0.03275509179044889
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        false,
+        true
+      ],
+      "EPD_mm": 43.20001073648845,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 5.681606765630238,
+      "paraxial_BFL588_mm": 5.703498131152452,
+      "minimum_adjacent_surface_separations4097_mm": [
+        22.11599127259521,
+        5.233383510611294,
+        18.229401323063293,
+        1.7396477126836558,
+        1.2516871507294391
+      ],
+      "minimum_conic_domains": [
+        0.9318555437987945,
+        0.9998809379879373,
+        0.8624839637333854,
+        0.9902038171269053,
+        1.0,
+        1.0
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": false,
+      "RI_RGB_weighted_edge_geometric": 0.921897622913868,
+      "RI_RGB_weighted_edge_uncoated": 0.921528323077981,
+      "independent_recomputed_selection_score": 0.13751695266167202
+    },
+    {
+      "candidate_id": "C24",
+      "source_seed_id": "seed_0015",
+      "passed": true,
+      "failures": [],
+      "design_sha256": "689cbd15f3f0effcb8783877b15a1e95651f5c9b4ba53238a9f71fd79c1a5eb6",
+      "export_roundtrip": {
+        "passed": true,
+        "failures": [],
+        "maximum_native_row_difference": 5.421010862427522e-20,
+        "surface_count": 6,
+        "reconstructed_image_plane_z_mm": 57.26712097582334
+      },
+      "fresh_dense_ray_count": 31863,
+      "fresh_failed_ray_count": 0,
+      "fresh_native_status_counts": {
+        "0": 31863
+      },
+      "NA_rgb_axis_complete_rim_minimum": [
+        0.7259205687699847,
+        0.7148641280421492,
+        0.710344384419879
+      ],
+      "fullfield_chief_height_RGB_mm": [
+        6.336250749230815,
+        6.400019339382854,
+        6.426102270677971
+      ],
+      "fullfield_chief_height_RGB_minus6p4_mm": [
+        -0.06374925076918547,
+        1.9339382853367226e-05,
+        0.02610227067797055
+      ],
+      "RGB_chief_beyond6p4_on_positive_field": [
+        false,
+        true,
+        true
+      ],
+      "EPD_mm": 43.200132248668965,
+      "first_front_clear_diameter_mm": 50.0,
+      "vertex_BFL_mm": 7.5345952063012245,
+      "paraxial_BFL588_mm": 7.936953670439413,
+      "minimum_adjacent_surface_separations4097_mm": [
+        4.775129165125323,
+        1.101031930889997,
+        6.246527920889797,
+        7.804999046612622,
+        13.705617755984655
+      ],
+      "minimum_conic_domains": [
+        0.9998832897429769,
+        0.9946041612563467,
+        0.7193094359517052,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "maximum_stored_vs_fresh_metric_difference": 0.0,
+      "aperture_fit_accepted": true,
+      "aperture_fit_applied": true,
+      "RI_RGB_weighted_edge_geometric": 0.895461523828559,
+      "RI_RGB_weighted_edge_uncoated": 0.8982992107314589,
+      "independent_recomputed_selection_score": 0.13458984289615256
+    }
+  ],
+  "input_path": "experiments/candidates_20261022/results/frozen_selection.json",
+  "input_file_sha256": "ec008e48d0b5156c793f9d04fb8224e8e91c28c3029479dcef9017c9caab3435",
+  "definitions": {
+    "NA_acceptance": "onaxis_complete_rim_minimum_allRGB;notfullfieldNAguarantee",
+    "image_height": "588nm6.4mmwith0.001mmnumericproximity;RGBheightsreportednotforcedequal;nodetectorcropping",
+    "RI": "conditionalchiefmappinguniformradiance;uncoatedscalarFresneloptional;notexactfullPSFdetectorirradiance",
+    "geometry": "4097radialsamplesnotcontinuousmathematicalextremumproof",
+    "ranking": "declaredgeometricMTFAUC+RIheuristic;notglobaloptimumorconvergedwaveMTFrank"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schema": "independent-original-engine-final24-ray-audit/1",
+  "input_files_sha256": {
+    "experiments/candidates_20261022/results/frozen_selection.json": "ec008e48d0b5156c793f9d04fb8224e8e91c28c3029479dcef9017c9caab3435"
+  },
+  "frozen_sources_sha256": {
+    "src/sequential_optics/geometry.py": "784d7c22d318e9ee6a49338b4b88943dd0def9ff6ce320bc91c50fd5d39b9ff8",
+    "src/sequential_optics/models.py": "e35f64554349cd5837bed6b42337557f8a7e964d898828a60aeb35f2e2261682",
+    "src/sequential_optics/materials.py": "515b823bf74d59ad8b1c3278df0bb7667d32abf5acaed5042ba7c0f56481639f",
+    "experiments/candidates_20261022/model.py": "95e793be9560a3e28c682714dc83e84ffd21cb79dcfacff196b2a3acc5e651c7",
+    "experiments/candidates_20261022/native/raytrace.py": "1d474185a89240645db2f02c0d0fc2030195e523e9ed2a0463d62cc385de54cb",
+    "experiments/candidates_20261022/native/raytrace.c": "cc787749eb84e60e3caa6cb3dae292c179f27b6ea34a96897074007e59eb1b1a",
+    "experiments/candidates_20261022/native/_raytrace_kernel.so": "1a150c6660cae7ba8c61714f0c57abae74f7e8e2e82f25cc199326a49e3be4b0"
+  },
+  "script_sha256": "265b4e81b76491a531061b02419c47452e1d0213a9d86e996ad52b3c81224f3f",
+  "selection": "All24 frozen candidates, no refiltering or failed-case removal",
+  "candidate_design_sha256": {
+    "C01": "700c5399a157d1963ecacd707ca4ee9a1557256cc77b24bc71db6d44178ec649",
+    "C02": "7e961e1f7c263233322b9d055c3af4e8f6bcaa4a27db1d9f2ea884560386e9f4",
+    "C03": "3481acb1e1adcdab676a8c4d28db483c398f81cccbbd06004413db5a8e357021",
+    "C04": "073a59cb98cc00d4fac36fdead8896311fb56c65a86e7ec5d10f9d1e50ce608d",
+    "C05": "64a0e55fca3da1c8f4f1bf1e96bf78e90c329ba6ada93fb7d4a03a6fb9066403",
+    "C06": "905bff37ba8329593cfe66b9ef3e0d37dbf3abb160d06adb0ae25295e977ea9d",
+    "C07": "0380b760c4947687114f4e38a9a2dfbd53f48b76a5adc026d5fa57eb68717511",
+    "C08": "4c7b757c3aa4a974d5161ef00802ae47c41b44cc54362e3d8ac9e2acf57f4e12",
+    "C09": "9bdd9680b63b1e9a0488f9d4085a20f86f405403cd18a9a8c26dbae8f36e5b4f",
+    "C10": "55deaa3b23ff865c06fbe6e5dd01a6f9daf0aefbfa8056ca5a988480d0e3874c",
+    "C11": "130602689e3316b3ea4015de61a2be58b1560ee0146a80de545cd149c04dd8a5",
+    "C12": "dc78cbd4a72168a0430a3e6a860694145a64c4acee3b59ab3a27a85067bf0c67",
+    "C13": "636ec94285f15f39e68da7b5e7acde5a29364be9ba7ce8316cfe46d30f6692a6",
+    "C14": "1f6814869e47026b18c48c97aa0d93bee0d98aab96e816be9d316ddd5d4f29e5",
+    "C15": "568909855eaff37639903eb59e094d862b9cea417ca7f416e4f3185c1c5667fe",
+    "C16": "a0634c781559c49ba124acb4c39af73d065385598a7e9be2ff85a84d12d4874f",
+    "C17": "0983967de5dcd797be276ef46a40a5d3db9343085240752328a1b77febe214b6",
+    "C18": "ad39d33964a58c677cebb72a6f90f5939d7fa70cdeedc9a91a7687c76192bf18",
+    "C19": "5e330004f3e1fe10984f1947b67dfed490c8e61aa1f463f06cf9d797b21ae0b6",
+    "C20": "2110f4d8790d8394a8d69cc5f84d69ce1297c317fc924a6ab7982481b49c4e55",
+    "C21": "ddcaca38b2cbf34c46103ba101d3dfca8e35aec794790ac3c7f9a2a4f13ad83a",
+    "C22": "885fe7bfd1972708e16e7727a2b1066d20c20bed94953d1e121b732bcc927edb",
+    "C23": "8955d4fc35228ae04566e7e5665106d82ac0662fce1d21bc800b210670532070",
+    "C24": "689cbd15f3f0effcb8783877b15a1e95651f5c9b4ba53238a9f71fd79c1a5eb6"
+  },
+  "candidate_count": 24,
+  "fields": [
+    0.0,
+    0.5,
+    0.8,
+    1.0
+  ],
+  "wavelengths_nm": [
+    486.0,
+    588.0,
+    656.0
+  ],
+  "base_sampling": "16rings48arms+chief+rim",
+  "selected_original_ray_indices": [
+    0,
+    145,
+    151,
+    157,
+    163,
+    169,
+    175,
+    181,
+    187,
+    529,
+    535,
+    541,
+    547,
+    553,
+    559,
+    565,
+    571,
+    769,
+    775,
+    781,
+    787,
+    793,
+    799,
+    805,
+    811
+  ],
+  "normalized_pupil_points": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.46770717334674267,
+      0.0
+    ],
+    [
+      0.33071891388307384,
+      0.3307189138830738
+    ],
+    [
+      2.863880463886723e-17,
+      0.46770717334674267
+    ],
+    [
+      -0.3307189138830738,
+      0.33071891388307384
+    ],
+    [
+      -0.46770717334674267,
+      5.727760927773446e-17
+    ],
+    [
+      -0.330718913883074,
+      -0.3307189138830736
+    ],
+    [
+      -8.59164139166017e-17,
+      -0.46770717334674267
+    ],
+    [
+      0.33071891388307373,
+      -0.3307189138830739
+    ],
+    [
+      0.8477912478906585,
+      0.0
+    ],
+    [
+      0.59947894041409,
+      0.5994789404140899
+    ],
+    [
+      5.191224190372176e-17,
+      0.8477912478906585
+    ],
+    [
+      -0.5994789404140899,
+      0.59947894041409
+    ],
+    [
+      -0.8477912478906585,
+      1.0382448380744352e-16
+    ],
+    [
+      -0.5994789404140902,
+      -0.5994789404140896
+    ],
+    [
+      -1.5573672571116527e-16,
+      -0.8477912478906585
+    ],
+    [
+      0.5994789404140898,
+      -0.5994789404140901
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.7071067811865476,
+      0.7071067811865475
+    ],
+    [
+      6.123233995736766e-17,
+      1.0
+    ],
+    [
+      -0.7071067811865475,
+      0.7071067811865476
+    ],
+    [
+      -1.0,
+      1.2246467991473532e-16
+    ],
+    [
+      -0.7071067811865479,
+      -0.7071067811865471
+    ],
+    [
+      -1.8369701987210297e-16,
+      -1.0
+    ],
+    [
+      0.7071067811865474,
+      -0.7071067811865477
+    ]
+  ],
+  "rays_per_candidate": 300,
+  "position_and_opl_abs_limit_mm": 1e-08,
+  "direction_abs_limit": 2e-10,
+  "scope": "Original v0.2.1 trace_ray versus native model trace. Every selected ray retained. Original validate_geometry radialinterval across commonclearapertures. No proof of wave/MTF convergence or untested-ray equivalence."
+}

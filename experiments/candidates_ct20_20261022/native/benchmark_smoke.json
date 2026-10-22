@@ -1,0 +1,14 @@
+{
+  "ray_count": 399,
+  "new_trace_design_median_seconds": 0.0015154579999716589,
+  "new_trace_design_min_seconds": 0.0011404859999402106,
+  "new_trace_design_max_seconds": 0.006250486999988425,
+  "old_scalar_reference_once_seconds": 1.3654856840000775,
+  "valid": 240,
+  "status_counts": {
+    "0": 240,
+    "1": 17,
+    "2": 142
+  },
+  "note": "Isolated light399-ray3fieldonewavelength smoke; old once directintersect/refract includesPythonobjects; notendtoendbenchmark."
+}

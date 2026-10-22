@@ -13,3 +13,9 @@ result.json
 /results/demo/
 /results/fix_c_G_only_cli.json
 /audit_round2/input/optical_engine/results/demo/
+
+# Candidate experiments: retain source, inputs, results, and final reports.
+# Native binaries are rebuilt locally; individual PNGs are embedded in HTML/PDF.
+/experiments/**/native/*.so
+/experiments/**/reports/plots/
+/experiments/**/*.tmp

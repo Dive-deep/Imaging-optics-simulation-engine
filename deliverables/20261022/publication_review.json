@@ -1,0 +1,14 @@
+{
+  "read_only_review": "independent candidate_native_kernel agent",
+  "credential_scan_text_files": 694,
+  "high_confidence_secret_findings": 0,
+  "files_over50MiB": 0,
+  "files_over100MiB": 0,
+  "excluded_from_git": [
+    "experiments/**/native/*.so",
+    "**/__pycache__/**",
+    "experiments/**/reports/plots/**"
+  ],
+  "preserved_raw_reference_whitespace": true,
+  "historical_absolute_provenance_paths": "Preserved as generation-time evidence; rerunning provenance resolution elsewhere may require prefix mapping. Frozen candidate loading and tracing verified independently."
+}
