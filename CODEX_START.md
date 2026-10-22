@@ -12,7 +12,7 @@
 
 주 파동 MTF의 field/파장별 T/S 276쌍 중 200쌍은 `underresolved_quadrature`, 3쌍은 `conditional`, 73쌍은 `not_applicable`이다. 주 경로는 scalar pupil autocorrelation 적분이며 별도 actual FFT 진단과 구별한다. 기하 MTF 대체 표시에는 회절이 없고 파동 실패 상태를 유지한다. 이 후보군은 고NA 파동 정확도가 인증된 설계나 확정 surrogate 학습 label이 아니다. 후보 주변 DB 생성이나 MySQL 저장도 수행하지 않았다.
 
-전체 23개를 [HTML](experiments/candidates_ct20_20261022/reports/candidate_report.html), [PDF](experiments/candidates_ct20_20261022/reports/candidate_layouts_and_mtf.pdf), [전체 단면 모음](experiments/candidates_ct20_20261022/reports/candidate_contact_sheet.png)에서 확인한다. 최종 전달 묶음 경로는 [CT20 후보 23개 ZIP](https://github.com/Dive-deep/Imaging-optics-simulation-engine/releases/download/candidates-ct20-20261022/optics_initial_candidates_ct20_23_20261022.zip)이다. 아래 이전 24개 캠페인과 [기존 ZIP, 약 27 MB](https://github.com/Dive-deep/Imaging-optics-simulation-engine/releases/download/candidates-ct20-20261022/optics_initial_candidates_24_20261022.zip)은 그대로 보존한다.
+전체 23개를 [HTML](experiments/candidates_ct20_20261022/reports/candidate_report.html), [PDF](experiments/candidates_ct20_20261022/reports/candidate_layouts_and_mtf.pdf), [전체 단면 모음](experiments/candidates_ct20_20261022/reports/candidate_contact_sheet.png)에서 확인한다. 최종 전달 묶음 경로는 [CT20 후보 23개 ZIP](https://github.com/Dive-deep/Imaging-optics-simulation-engine/raw/refs/heads/main/deliverables/20261022/optics_initial_candidates_ct20_23_20261022.zip)이다. 아래 이전 24개 캠페인과 [기존 ZIP, 약 27 MB](https://github.com/Dive-deep/Imaging-optics-simulation-engine/raw/refs/heads/main/deliverables/20261022/optics_initial_candidates_24_20261022.zip)은 그대로 보존한다.
 
 ## 이전 작업: 2026-10-22 고NA 3매 초기 후보 24개
 

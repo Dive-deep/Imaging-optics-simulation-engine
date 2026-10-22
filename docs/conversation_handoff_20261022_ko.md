@@ -101,7 +101,7 @@
 - [전체 23개 HTML](../experiments/candidates_ct20_20261022/reports/candidate_report.html), [PDF](../experiments/candidates_ct20_20261022/reports/candidate_layouts_and_mtf.pdf), [전체 단면 모음](../experiments/candidates_ct20_20261022/reports/candidate_contact_sheet.png): 오프라인 탐색·출력용 자료.
 - [이전 24개 방법과 결과](../experiments/candidates_20261022/METHOD_KO.md): 이전 세대 기록. CT20로 덮어쓰지 않음.
 
-인계 작성 시점의 로컬 전달 ZIP은 다음과 같다. GitHub 전달 위치는 release tag `candidates-ct20-20261022`의 [최신 CT20 23개 ZIP](https://github.com/Dive-deep/Imaging-optics-simulation-engine/releases/download/candidates-ct20-20261022/optics_initial_candidates_ct20_23_20261022.zip)과 [이전 24개 ZIP](https://github.com/Dive-deep/Imaging-optics-simulation-engine/releases/download/candidates-ct20-20261022/optics_initial_candidates_24_20261022.zip)으로 정했다. 업로드 완료 여부는 실제 원격 commit과 release asset에서 확인하며 로컬 생성이나 링크 지정만으로 완료됐다고 말하지 않는다. 전달 목록은 [deliverables/20261022/README.md](../deliverables/20261022/README.md)를 확인한다.
+인계 작성 시점의 로컬 전달 ZIP은 다음과 같다. GitHub 전달 위치는 저장소 `deliverables/20261022/`의 [최신 CT20 23개 ZIP](https://github.com/Dive-deep/Imaging-optics-simulation-engine/raw/refs/heads/main/deliverables/20261022/optics_initial_candidates_ct20_23_20261022.zip)과 [이전 24개 ZIP](https://github.com/Dive-deep/Imaging-optics-simulation-engine/raw/refs/heads/main/deliverables/20261022/optics_initial_candidates_24_20261022.zip)으로 정했다. 업로드 완료 여부는 실제 원격 commit과 ZIP blob에서 확인하며 로컬 생성이나 링크 지정만으로 완료됐다고 말하지 않는다. 전달 목록은 [deliverables/20261022/README.md](../deliverables/20261022/README.md)를 확인한다.
 
 | 묶음 | 로컬 파일 | 크기 | SHA-256 |
 |---|---|---:|---|

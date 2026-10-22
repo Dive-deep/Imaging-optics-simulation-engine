@@ -2,9 +2,9 @@
 
 최신 작업은 **CT20 후보 23개 전체**다. 이전 후보 24개는 두께 상한을 적용하기 전의 보존 자료다.
 
-- [CT20 후보 23개 ZIP](https://github.com/Dive-deep/Imaging-optics-simulation-engine/releases/download/candidates-ct20-20261022/optics_initial_candidates_ct20_23_20261022.zip)
-- [이전 후보 24개 ZIP](https://github.com/Dive-deep/Imaging-optics-simulation-engine/releases/download/candidates-ct20-20261022/optics_initial_candidates_24_20261022.zip)
-- [파일 크기·SHA256·다운로드 URL](release_assets.json)
+- [CT20 후보 23개 ZIP](https://github.com/Dive-deep/Imaging-optics-simulation-engine/raw/refs/heads/main/deliverables/20261022/optics_initial_candidates_ct20_23_20261022.zip)
+- [이전 후보 24개 ZIP](https://github.com/Dive-deep/Imaging-optics-simulation-engine/raw/refs/heads/main/deliverables/20261022/optics_initial_candidates_24_20261022.zip)
+- [파일 크기·SHA256·다운로드 URL](archive_assets.json)
 
 두 ZIP은 생성 당시의 스냅샷을 바이트 변경 없이 보존한다. ZIP 내부 문서의 당시 GitHub 업로드 상태나 `/workspace/outputs` 경로는 역사적 기록이며, 이후 GitHub 이전 상황은 최신 main 브랜치의 [인계 문서](../../docs/conversation_handoff_20261022_ko.md)와 [새 대화 프롬프트](../../docs/new_chat_prompt_ko.txt)를 따른다.
 
